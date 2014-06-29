@@ -13,8 +13,11 @@ build/
 develop-eggs/
 dist/
 eggs/
+include/
 lib/
+local/
 lib64/
+man/
 parts/
 sdist/
 var/
@@ -52,3 +55,8 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+*.pyc
+*.~
+*.sqlite3
+.DS_Store
+.env

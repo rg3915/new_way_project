@@ -1,0 +1,108 @@
+\documentclass{standalone}
+\usepackage{tikz-er2}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shadows}
+
+\begin{document}
+
+
+\tikzstyle{every entity} = [fill=blue!20]
+\tikzstyle{every attribute} = [fill=yellow!20,node distance=2cm]
+\tikzstyle{every relationship} = [fill=red!20]
+\tikzstyle{every edge} = [link]
+\tikzstyle{every isa} = [top color=white, bottom color=green!20, 
+                         draw=green!50!black!100, drop shadow]
+\begin{tikzpicture}[node distance=3cm]
+	%Interessado
+	\node[weak entity] (interessado) {Interessado};
+%	\node[attribute] (idinteressado) [above right of=interessado] {\key{id}} edge (interessado);
+%	\node[attribute] (nome) [above of=interessado] {nome} edge (interessado);
+%	\node[attribute] (sobrenome) [above left of=interessado] {sobrenome} edge (interessado);
+%	\node[attribute] (dataNasc) [below left of=interessado] {dataNasc} edge (interessado);
+%	\node[attribute] (email) [below of=interessado] {email} edge (interessado);
+%	\node[attribute] (CPF) [below right of=interessado] {CPF} edge (interessado);
+%	\node[attribute] (endereco) [left=1cm of interessado] {endereco} edge (interessado);
+%	\node[attribute] (rua) [above of=endereco] {endereco} edge (endereco);
+%	\node[attribute] (bairro) [above left of=endereco] {bairro} edge (endereco);
+%	\node[attribute] (cidade) [left=.5cm of endereco] {cidade} edge (endereco);
+%	\node[attribute] (UF) [below left of=endereco] {UF} edge (endereco);
+%	\node[attribute] (CEP) [below of=endereco] {CEP} edge (endereco);
+	\node[ident relationship] (faz) [right of=interessado] {faz} edge node[auto,swap] {1} (interessado);
+	
+	%Pedido
+	\node[entity] (pedido) [right of=faz] {Pedido} edge node[auto,swap] {n} (faz);
+%	\node[attribute] (dataPedido) [above right of=pedido,node distance=3cm] {dataPedido} edge (pedido);
+%	\node[attribute] (idPedido) [above of=pedido] {\key{idPedido}} edge (pedido);
+	\node[relationship] (tem) [right of=pedido] {tem} edge node[auto,swap] {1} (pedido);
+%	\node[attribute] (idFK) [below left of=pedido] {\key{idInteressado}} edge (pedido);
+%	\node[attribute] (idVeiculoFK) [below right of=pedido] {\key{idVeiculo}} edge (pedido);
+%	\node[attribute] (idQuiosqueFK) [below=1.5cm of pedido] {\key{idQuiosque}} edge (pedido);
+%	\node[attribute] (status) [above left of=pedido] {status} edge (pedido);
+
+	%Veiculo
+	\node[entity] (veiculo) [right of=tem] {Veiculo} edge node[auto,swap] {1} (tem);
+%	\node[attribute] (idVeiculo) [above left of=veiculo] {\key{idVeiculo}} edge (veiculo);
+%	\node[attribute] (idModeloFK) [above right of=veiculo] {\key{idModelo}} edge (veiculo);
+%	\node[attribute] (idKitFK) [below left of=veiculo] {\key{idKit}} edge (veiculo);
+%	\node[attribute] (idConcessionariaFK) [below right of=veiculo] {\key{idConcessionaria}} edge (veiculo);
+%	\node[attribute] (veiculoOutros) [above of=veiculo] {...} edge (veiculo);
+
+	%Kit
+	\node[ident relationship] (possui1) [below of=veiculo] {possui} edge node[auto,swap] {1} (veiculo);
+	\node[weak entity] (kit) [below of=possui1] {Kit} edge node[auto,swap] {1} (possui1);
+%	\node[attribute] (idKit) [below of=kit] {\key{idKit}} edge (kit);
+%	\node[attribute] (Kit) [left=.5cm of kit] {Kit} edge (kit);
+%	\node[multi attribute] (Acessorio) [right=.5cm of kit] {Acess\'orios} edge (kit);
+
+	%Acessorio
+	\node[ident relationship] (possui) [right of=kit] {possui} edge node[auto,swap] {1} (kit);
+	\node[weak entity] (acessorio) [below of=possui] {Acessorio} edge node[auto,swap] {(1,5)} (possui);
+	%\node[multi attribute] (idAcessorio) [right of=acessorio,node distance=3cm] {\key{idAcessorio}} edge (acessorio);
+%	%\node[attribute] (Acessorio) [below right of=acessorio] {Acessorio} edge (acessorio);
+
+	%Modelo
+	\node[relationship] (tem1) [right of=veiculo] {tem} edge node[auto,swap] {n} (veiculo);
+	\node[entity] (modelo) [right of=tem1] {Modelo} edge node[auto,swap] {1} (tem1);
+%	\node[attribute] (idModelo) [right of=modelo, node distance=2.5cm] {\key{idModelo}} edge (modelo);
+%	\node[attribute] (Modelo) [below of=modelo, node distance=2.5cm] {Modelo} edge (modelo);
+%	\node[attribute] (idMarcaFK) [below right of=modelo] {\key{idMarca}} edge (modelo);
+
+	%Marca
+	\node[relationship] (tem2) [above of=modelo] {tem} edge node[auto,swap] {n} (modelo);
+	\node[entity] (marca) [above=1cm of tem2] {Marca} edge node[auto,swap] {1} (tem2);
+%	\node[attribute] (idMarca) [right of=marca, node distance=2.5cm] {\key{idMarca}} edge (marca);
+%	\node[attribute] (Marca) [below right of=marca] {Marca} edge (marca);
+
+	%Concessionaria
+	\node[relationship] (tem3) [above of=veiculo] {tem} edge node[auto,swap] {n} (veiculo);
+	\node[entity] (concessionaria) [above=1cm of tem3] {Concessionaria} edge node[auto,swap] {1} (tem3);
+%	\node[attribute] [above right of=concessionaria] {Concessionaria} edge (concessionaria);
+%	\node[attribute] [above of=concessionaria] {\key{idConcessionaria}} edge (concessionaria);
+
+	%Quiosque
+	\node[relationship] (tem4) [below of=pedido] {faz} edge node[auto,swap] {n} (pedido);
+	\node[entity] (quiosque) [below=1cm of tem4] {Quiosque} edge node[auto,swap] {1} (tem4);
+%	\node[attribute] [above right of=quiosque] {Quiosque} edge (quiosque);
+%	\node[attribute] [above of=quiosque] {\key{idQuiosque}} edge (quiosque);
+%	\node[attribute] (local) [above left of=quiosque] {local} edge (quiosque);
+%	\node[attribute] (cidade) [above left of=local] {cidade} edge (local);
+%	\node[attribute] (UF) [left of=local] {UF} edge (local);
+
+	%Estabelecimento
+	\node[relationship] (tem6) [below of=quiosque] {est\'a no} edge node[auto,swap] {n} (quiosque);
+	\node[entity] (estabelecimento) [below=1cm of tem6] {Estabelecimento} edge node[auto,swap] {1} (tem6);
+
+	%Usuario
+	\node[relationship] (tem5) [above=2cm of pedido] {representa} edge	 node[auto,swap] {n} (pedido);
+	\node[entity] (usuario) [above of=tem5] {Usuario} edge node[auto,swap] {1} (tem5);
+	% \node[attribute] [left=1cm of usuario] {\key{idUsuario}} edge (usuario);
+	% \node[attribute] [right=1cm of usuario] {Usuario} edge (usuario);
+	\node[multi attribute] [above=1cm of usuario] {Tipo} edge (usuario);
+	% \node[isa] (usu) [below=2cm of usuario] {} edge (usuario);
+	% \node[entity] (usuarioAdmin) [below left = 2 cm of usu] {Admin} edge (usu);
+	% \node[entity] (usuarioVendedor) [below of=usu] {BackOffice} edge (usu);
+	% \node[entity] (usuarioInteressado) [below right = 2 cm of usu] {Vendedor} edge (usu);
+
+\end{tikzpicture}
+
+\end{document}

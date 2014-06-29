@@ -1,0 +1,122 @@
+TABLE Interessado
+	id
+	nome
+	sobrenome
+	cpf
+	data_nasc
+	email
+	tel
+	cel
+	endereco
+	complemento
+	bairro
+	cidade
+	uf
+	cep
+
+TABLE Usuario
+	id
+	nome
+	sobrenome
+	cpf
+	data_nasc
+	email
+	tel
+	cel
+	endereco
+	complemento
+	bairro
+	cidade
+	uf
+	cep
+	tipo_usuario_id
+	concessionaria_id
+	recebe_comissao
+	valor_comissao
+
+TABLE TipoUsuario
+	id
+	tipo_usuario
+
+TABLE Quiosque
+	id
+	quiosque
+	estabelecimento_id
+
+TABLE Estabelecimento
+	id
+	nome_estabelecimento
+	endereco
+	bairro
+	cidade
+	uf
+	cep
+
+TABLE Concessionaria
+	id
+	concessionaria
+	endereco
+	bairro
+	cidade
+	uf
+	cep
+	fone1
+	fone2
+	fone3
+
+TABLE ConcessionariaDetalhes
+	id
+	concessionaria_id
+	veiculo_id
+	quantidade_veiculo
+
+TABLE Acessorio
+	id
+	acessorio
+	preco_acessorio
+
+TABLE Kit
+	id
+	kit
+
+TABLE KitDetalhes
+	id
+	kit_id
+	acessorio_id
+	quantidade_acessorio	
+
+TABLE Marca
+	id
+	marca
+
+TABLE Modelo
+	id
+	modelo
+	marca_id
+
+TABLE Veiculo
+	id
+	modelo_id
+	veiculo
+	cor
+	ano_fabricacao
+	potencia_motor
+	tipo_combustivel
+	tipo_cambio
+	freio
+	roda
+	desempenho
+	porta_malas
+	preco
+	kit_fabrica_id
+
+TABLE Pedido
+	id
+	data_pedido
+	interessado_id
+	usuario_id
+	veiculo_id
+	kit_opcional_id
+	concessionaria_id
+	quiosque_id
+	status

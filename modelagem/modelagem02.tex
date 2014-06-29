@@ -1,0 +1,79 @@
+\documentclass{standalone}
+\usepackage{tikz-er2}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shadows}
+
+\begin{document}
+
+
+\tikzstyle{every entity} = [fill=blue!20]
+\tikzstyle{every attribute} = [fill=yellow!20,node distance=2cm]
+\tikzstyle{every relationship} = [fill=red!20]
+\tikzstyle{every edge} = [link]
+\tikzstyle{every isa} = [top color=white, bottom color=green!20, 
+                         draw=green!50!black!100, drop shadow]
+\tikzstyle{every edge} = [link]
+\begin{tikzpicture}[node distance=3cm]
+	%Interessado
+	\node[weak entity] (interessado) {Interessado};
+	\node[ident relationship] (faz) [right of=interessado] {faz} edge node[auto,swap] {1} (interessado);
+	
+	%Pedido
+	\node[entity] (pedido) [right of=faz] {Pedido} edge node[auto,swap] {n} (faz);
+	\node[relationship] (tem) [right=2cm of pedido] {tem} edge node[auto,swap] {1} (pedido);
+
+	%Veiculo
+	\node[entity] (veiculo) [right=4cm of tem] {Veiculo} edge node[auto,swap] {1} (tem);
+
+	%Kit
+	\node[ident relationship] (possui1) [below=1cm of veiculo] {possui} edge node[auto,swap] {1} (veiculo);
+	\node[weak entity] (kit) [below=1cm of possui1] {Kit} edge node[auto,swap] {1} (possui1);
+
+	%Kit_Detalhes
+	\node[relationship] (possui11) [below=1cm of kit] {possui} edge node[auto,swap] {1} (kit);
+	\node[entity] (kit_det) [right=1cm of possui11] {Kit Det.} edge node[auto,swap] {n} (possui11);
+
+	%Acessorio
+	\node[ident relationship] (possui) [right of=kit_det] {possui} edge node[auto,swap] {1} (kit_det);
+	\node[weak entity] (acessorio) [below of=possui] {Acessorio} edge node[auto,swap] {(1,5)} (possui);
+
+	%Modelo
+	\node[relationship] (tem1) [right of=veiculo] {tem} edge node[auto,swap] {n} (veiculo);
+	\node[entity] (modelo) [right of=tem1] {Modelo} edge node[auto,swap] {1} (tem1);
+
+	%Marca
+	\node[relationship] (tem2) [above of=modelo] {tem} edge node[auto,swap] {n} (modelo);
+	\node[entity] (marca) [above=1cm of tem2] {Marca} edge node[auto,swap] {1} (tem2);
+
+	%Concessionaria_Detalhes
+	\node[relationship] (tem31) [above of=veiculo] {tem} edge node[auto,swap] {1} (veiculo);
+	\node[entity] (concessionaria_det) [above=1cm of tem31] {Concessionaria Det.} edge node[auto,swap] {n} (tem31);
+
+	%Concessionaria
+	\node[relationship] (tem3) [left=1cm of concessionaria_det] {tem} edge node[auto,swap] {n} (concessionaria_det);
+	\node[entity] (concessionaria) [above=1cm of tem3] {Concessionaria} edge node[auto,swap] {1} (tem3);
+
+	%Quiosque
+	\node[relationship] (tem4) [below of=pedido] {no} edge node[auto,swap] {n} (pedido);
+	\node[entity] (quiosque) [below=1cm of tem4] {Quiosque} edge node[auto,swap] {1} (tem4);
+
+	%Estabelecimento
+	\node[relationship] (tem6) [below of=quiosque] {est\'a no} edge node[auto,swap] {n} (quiosque);
+	\node[entity] (estabelecimento) [below=1cm of tem6] {Estabelecimento} edge node[auto,swap] {1} (tem6);
+
+	%Usuario
+	\node[relationship] (tem5) [above=2cm of pedido] {representa} edge	 node[auto,swap] {n} (pedido);
+	\node[entity] (usuario) [above of=tem5] {Usuario} edge node[auto,swap] {1} (tem5);
+	\node[multi attribute] [above=1cm of usuario] {Tipo} edge (usuario);
+
+	%Pedido - Concessionaria
+	\node[relationship] (tem11) [above right=3cm of pedido] {para} edge	 node[auto,swap] {n} (pedido);
+	\draw[link] (tem11) |- node[pos=0.9,auto,swap] {1} (concessionaria);
+
+	%Pedido - Kit
+	\node[ident relationship] (tem22) [below right=3cm of pedido] {tem} edge	 node[auto,swap] {1} (pedido);
+	\draw[link] (tem22) |- node[auto,swap] {n} (kit);
+
+\end{tikzpicture}
+
+\end{document}
