@@ -5,7 +5,9 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns(
-    'new_way.core.views',
-    url(r'^$', 'home', name='home'),
+    '',
+    url(r'^$', 'new_way.core.views.home', name='home'),
+    url(r'^inscricao/$',
+        'new_way.inscricao.views.inscricao', name='inscricao'),
     url(r'^admin/', include(admin.site.urls)),
 )
