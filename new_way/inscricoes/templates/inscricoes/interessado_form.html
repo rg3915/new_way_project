@@ -1,0 +1,66 @@
+<h1>Formulário de inscrição</h1>
+<form action="." method="POST">
+	{% csrf_token %}
+	<p>
+		<label for"{{ form.firstname.id_for_label }}">{{form.firstname.label}}</label>
+		{{ form.firstname }}
+		{{ form.firstname.errors }}
+	</p>
+	<p>
+		<label for"{{ form.lastname.id_for_label }}">{{form.lastname.label}}</label>
+		{{ form.lastname }}
+		{{ form.lastname.errors }}
+	</p>
+	<p>
+		<label for"{{ form.cpf.id_for_label }}">{{form.cpf.label}}</label>
+		{{ form.cpf }}
+		{{ form.cpf.errors }}
+	</p>
+	<p>
+		<label for"{{ form.dateofbirth.id_for_label }}">{{form.dateofbirth.label}}</label>
+		{{ form.dateofbirth }}
+		{{ form.dateofbirth.errors }}
+	</p>
+	<p>
+		<label for"{{ form.email.id_for_label }}">{{form.email.label}}</label>
+		{{ form.email }}
+		{{ form.email.errors }}
+	</p>
+	<p>
+		<label for"{{ form.phone.id_for_label }}">{{form.phone.label}}</label>
+		{{ form.phone }}
+		{{ form.phone.errrors }}
+	</p>
+	<p>
+		<label for"{{ form.cell.id_for_label }}">{{form.cell.label}}</label>
+		{{ form.cell }}
+		{{ form.cell.errrors }}
+	</p>
+	<p>
+		<label for"{{ form.address.id_for_label }}">{{form.address.label}}</label>
+		{{ form.address }}
+		{{ form.address.errors }}
+	</p>
+	<p>
+		<label for"{{ form.district.id_for_label }}">{{form.district.label}}</label>
+		{{ form.district }}
+		{{ form.district.errors }}
+	</p>
+	<p>
+		<label for"{{ form.city.id_for_label }}">{{form.city.label}}</label>
+		{{ form.city }}
+		{{ form.city.errors }}
+	</p>
+	<p>
+		<label for"{{ form.state.id_for_label }}">{{form.state.label}}</label>
+		{{ form.state }}
+		{{ form.state.errors }}
+	</p>
+	<p>
+		<label for"{{ form.cep.id_for_label }}">{{form.cep.label}}</label>
+		{{ form.cep }}
+		{{ form.cep.errors }}
+	</p>
+	<input type="submit" value="Enviar!" class="button" />
+
+</form>
