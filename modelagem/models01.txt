@@ -13,6 +13,24 @@ TABLE Interessado
 	cidade
 	uf
 	cep
+	criado_em
+
+TABLE Subscription
+	id
+	firstname
+	lastname
+	cpf
+	date_of_birth
+	email
+	phone
+	cell
+	address
+	complement
+	district
+	city
+	uf
+	cep
+	created_at
 
 TABLE Usuario
 	id
