@@ -20,7 +20,7 @@ class SubscribeTest(TestCase):
     def test_html(self):
         'Html must contain input controls.'
         self.assertContains(self.resp, '<form')
-        self.assertContains(self.resp, '<input', 15)
+        self.assertContains(self.resp, '<input', 14)
         self.assertContains(self.resp, 'type="text"', 12)
         self.assertContains(self.resp, 'type="email"')
         self.assertContains(self.resp, 'type="submit"')
@@ -33,10 +33,3 @@ class SubscribeTest(TestCase):
         'Context must have the subscriptio form.'
         form = self.resp.context['form']
         self.assertIsInstance(form, SubscriptionForm)
-
-    def test_form_has_fields(self):
-        'Form must have 14 fields.'
-        form = self.resp.context['form']
-        self.assertItemsEqual(
-            ['firstname', 'lastname', 'email', 'cpf', 'date_of_birth', 'phone', 'cell', 'address', 'complement',
-                'district', 'city', 'state', 'cep'], form.fields)
