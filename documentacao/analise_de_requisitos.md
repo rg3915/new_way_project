@@ -52,7 +52,7 @@ templates/
 		acessorio.html
 
 	forms/
-
+		subscription_form.html
 		veiculo_form.html
 
 

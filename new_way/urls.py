@@ -7,6 +7,7 @@ admin.autodiscover()
 urlpatterns = patterns(
     '',
     url(r'^$', 'new_way.core.views.home', name='home'),
-    url(r'^inscricao/$', 'new_way.inscricoes.views.inscricao', name='inscricao'),
+    url(r'^inscricao/$', 'new_way.subscriptions.views.inscricao',
+        name='subscriptions'),
     url(r'^admin/', include(admin.site.urls)),
 )

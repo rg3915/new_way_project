@@ -20,7 +20,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'new_way.core',
-    'new_way.inscricoes',
+    'new_way.subscriptions',
 )
 
 MIDDLEWARE_CLASSES = (
