@@ -1,3 +1,8 @@
-body {
-	color: #8DBACD;
+html, body {
+	margin-top: 50px;
+	color: #5a5a5a;
+}
+
+.initial-p {
+	padding-top: 25px;
 }

@@ -1,8 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
+
+<div class="container">
 	<h1>Por favor cadastre-se preenchendo os campos abaixo</h1>
-	<form action="." method="POST">
+	<form class="form-horizontal" action="." method="POST">
 		{% csrf_token %}
 		<p>
 			<label for"{{ form.firstname.id_for_label }}">{{form.firstname.label}}</label>
@@ -71,5 +73,6 @@
 		</p>
 		<input type="submit" value="Cadastrar" class="button" />
 	</form>
+</div>
 
 {% endblock content %}
