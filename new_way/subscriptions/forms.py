@@ -11,7 +11,7 @@ class SubscriptionForm(forms.Form):
     email = forms.EmailField(label=_('Email'))
     phone = forms.CharField(label=_('Telefone'))
     cell = forms.CharField(label=_('Celular'))
-    address = forms.CharField(label=_('Endereco'))
+    address = forms.CharField(label=_(u'Endereço'))
     complement = forms.CharField(label=_('Complemento'))
     district = forms.CharField(label=_('Bairro'))
     city = forms.CharField(label=_('Cidade'))
