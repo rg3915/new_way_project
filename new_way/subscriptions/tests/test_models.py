@@ -9,7 +9,6 @@ class SubscriptionTest(TestCase):
         self.obj = Subscription(
             firstname='Regis',
             lastname='Santos',
-            # CPF válido: 33322211169, 55566678963
             cpf='11122233396',
             date_of_birth='1979-05-31',
             email='rg3915@yahoo.com.br',
@@ -22,6 +21,7 @@ class SubscriptionTest(TestCase):
             uf='SP',
             cep='04696-000'
         )
+        # CPF válido: 33322211169, 55566678963
 
     def test_create(self):
         """
