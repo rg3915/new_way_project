@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.shortcuts import render
-from new_way.inscricoes.forms import InscricoesForm
+from new_way.subscriptions.forms import SubscriptionsForm
 
-def inscricao(request):
-	return render(request, 'inscricoes/interessado_form.html', {'form': InscricoesForm()})
+
+def subscribe(request):
+    return render(request, 'subscriptions/subscription_form.html', {'form': SubscriptionsForm()})
