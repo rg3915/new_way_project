@@ -5,7 +5,7 @@ CREATE TABLE "subscriptions_subscription" (
 	"firstname" varchar(100) NOT NULL,
 	"lastname" varchar(100) NOT NULL,
 	"cpf" varchar(11) NOT NULL UNIQUE,
-	"date_of_birth" datetime NOT NULL,
+	"date_of_birth" date NOT NULL,
 	"email" varchar(75) NOT NULL,
 	"phone" varchar(20) NOT NULL,
 	"cell" varchar(20) NOT NULL,
