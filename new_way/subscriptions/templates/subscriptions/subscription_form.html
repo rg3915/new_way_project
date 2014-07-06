@@ -1,4 +1,4 @@
-<h1>Formulário de inscrição</h1>
+<h1>Por favor cadastre-se preenchendo os campos abaixo</h1>
 <form action="." method="POST">
 	{% csrf_token %}
 	<p>
@@ -17,9 +17,9 @@
 		{{ form.cpf.errors }}
 	</p>
 	<p>
-		<label for"{{ form.dateofbirth.id_for_label }}">{{form.dateofbirth.label}}</label>
-		{{ form.dateofbirth }}
-		{{ form.dateofbirth.errors }}
+		<label for"{{ form.date_of_birth.id_for_label }}">{{form.date_of_birth.label}}</label>
+		{{ form.date_of_birth }}
+		{{ form.date_of_birth.errors }}
 	</p>
 	<p>
 		<label for"{{ form.email.id_for_label }}">{{form.email.label}}</label>
@@ -45,6 +45,11 @@
 		<label for"{{ form.district.id_for_label }}">{{form.district.label}}</label>
 		{{ form.district }}
 		{{ form.district.errors }}
+	</p>
+	<p>
+		<label for"{{ form.complement.id_for_label }}">{{form.complement.label}}</label>
+		{{ form.complement }}
+		{{ form.complement.errors }}
 	</p>
 	<p>
 		<label for"{{ form.city.id_for_label }}">{{form.city.label}}</label>

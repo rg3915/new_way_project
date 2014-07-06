@@ -3,7 +3,7 @@ from django import forms
 from django.utils.translation import ugettext as _
 
 
-class SubscriptionsForm(forms.Form):
+class SubscriptionForm(forms.Form):
     firstname = forms.CharField(label=_('Nome'))
     lastname = forms.CharField(label=_('Sobrenome'))
     cpf = forms.CharField(label=_('CPF'))
@@ -11,10 +11,10 @@ class SubscriptionsForm(forms.Form):
     email = forms.EmailField(label=_('Email'))
     phone = forms.CharField(label=_('Telefone'))
     cell = forms.CharField(label=_('Celular'))
-    address = forms.CharField(label=_('Endereço'))
+    address = forms.CharField(label=_('Endereco'))
     complement = forms.CharField(label=_('Complemento'))
     district = forms.CharField(label=_('Bairro'))
     city = forms.CharField(label=_('Cidade'))
     state = forms.CharField(label=_('UF'))
     cep = forms.CharField(label=_('CEP'))
-    created_at = forms.DateTimeField(label=_('criado em'), auto_now_add=True)
+    #created_at = forms.DateTimeField(label=_('criado em'), auto_now_add=True)
