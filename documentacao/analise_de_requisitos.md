@@ -25,52 +25,29 @@ Funcionalidades
 Itens do projeto
 ----------------
 
-templates/
+- templates/
+	- base.html
+	- index.html
+	- listas/
+		- veiculo_lista.html
+		- marca_lista.html
+		- kit_lista.html
+		- acessorio_lista.html
+		- concessionaria_lista.html
+	- detalhes/
+		- veiculo.html
+		- kit.html
+		- acessorio.html
+	- forms/
+		- subscription_form.html
+		- veiculo_form.html
 
-	base.html
+- static/{css, img, js}
 
-	index.html
-
-	listas/
-
-		veiculo_lista.html
-
-		marca_lista.html
-
-		kit_lista.html
-
-		acessorio_lista.html
-
-		concessionaria_lista.html
-
-	detalhes/
-
-		veiculo.html
-
-		kit.html
-
-		acessorio.html
-
-	forms/
-		subscription_form.html
-		veiculo_form.html
-
-
-static/
-
-	css
-
-	img
-
-	js
-
-admin
-
-	lista de tabelas
-
-		lista de registros
-
-			detalhes do registro
+- admin
+	- lista de tabelas
+		- lista de registros
+			- detalhes do registro
 
 LISTAR TODAS AS TABELAS DO ADMIN.
 
