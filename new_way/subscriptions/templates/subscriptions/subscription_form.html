@@ -6,6 +6,7 @@
 	<h1>Por favor cadastre-se preenchendo os campos abaixo</h1>
 	<form class="form-horizontal" action="." method="POST">
 		{% csrf_token %}
+		<div class="form-group">
 		<p>
 			<label for"{{ form.firstname.id_for_label }}">{{form.firstname.label}}</label>
 			{{ form.firstname }}
@@ -71,7 +72,12 @@
 			{{ form.cep }}
 			{{ form.cep.errors }}
 		</p>
-		<input type="submit" value="Cadastrar" class="button" />
+		</div>
+		<div class="form-group">
+			<div class="col-lg-offset-2 col-sm-10">
+				<button type="submit" class="btn btn-primary">Cadastrar</button>
+			</div>
+		</div>
 	</form>
 </div>
 
