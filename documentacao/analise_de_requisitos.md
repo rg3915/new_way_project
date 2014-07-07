@@ -55,6 +55,7 @@ Cenários
 --------
 
 Cenário 01
+^^^^^^^^^^
 
 Dado que temos um interessado, quando ele acessa o endereço ``/inscricao/`` ele vê a página de inscrição e a página possui **um formulário**, e o formulário possui **14 campos** e os campos são:
 
@@ -64,7 +65,14 @@ firstname, lastname, cpf, date_of_birth, email, phone, cell, address, complement
 
 e o formulário possui **um botão** para inscrever.
 
+Cenário 02
+^^^^^^^^^^
 
+Dado que um interessado acesso ``/inscricao/``
+
+Quando ele preenche o formulário e seus dados estão corretos e ele clica em Cadastrar
+
+Então o sistema salva sua inscrição e o redireciona para a página de sucesso.
 
 Outros
 ------
