@@ -68,11 +68,22 @@ e o formulário possui **um botão** para inscrever.
 Cenário 02
 ^^^^^^^^^^
 
-Dado que um interessado acesso ``/inscricao/``
+Dado que um interessado acessa ``/inscricao/``
 
 Quando ele preenche o formulário e seus dados estão corretos e ele clica em Cadastrar
 
 Então o sistema salva sua inscrição e o redireciona para a página de sucesso.
+
+Cenário 03
+^^^^^^^^^^
+
+Dado que um interessado acessa ``/inscricao/``
+
+Quando ele preenche o formulário e seus dados estão incorretos e ele clica em Cadastrar
+
+Então o sistema não salva sua inscrição e exibe a própria página do formulário e indica os campos com erro.
+
+
 
 Outros
 ------
