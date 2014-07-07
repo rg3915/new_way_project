@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.test import TestCase
 from new_way.subscriptions.forms import SubscriptionForm
+from new_way.subscriptions.models import Subscription
 
 
 class SubscribeTest(TestCase):
@@ -33,3 +34,32 @@ class SubscribeTest(TestCase):
         'Context must have the subscriptio form.'
         form = self.resp.context['form']
         self.assertIsInstance(form, SubscriptionForm)
+
+
+class SubscribePostTest(TestCase):
+
+    def setUp(self):
+        data = dict(
+            firstname='Regis',
+            lastname='Santos',
+            cpf='11122233396',
+            date_of_birth='1979-05-31',
+            email='rg3915@yahoo.com.br',
+            phone='11-2600-2500',
+            cell='11-98700-0000',
+            address=u'Avenida Engenheiro Eusébio Stevaux, 100',
+            complement='Bloco A',
+            district='Jurubatuba',
+            city=u'São Paulo',
+            uf='SP',
+            cep='04696-000'
+        )
+        self.resp = self.client.post('/inscricao/', data)
+
+    def test_post(self):
+        'Valid POST should redirect to /inscricao/1/'
+        self.assertEqual(302, self.resp.status_code)
+
+    def test_save(self):
+        'Valid POST must be saved.'
+        self.assertTrue(Subscription.objects.exists())
