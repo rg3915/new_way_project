@@ -54,8 +54,7 @@ LISTAR TODAS AS TABELAS DO ADMIN.
 Cenários
 --------
 
-Cenário 01
-^^^^^^^^^^
+**Cenário 01**
 
 Dado que temos um interessado, quando ele acessa o endereço ``/inscricao/`` ele vê a página de inscrição e a página possui **um formulário**, e o formulário possui **14 campos** e os campos são:
 
@@ -65,8 +64,7 @@ firstname, lastname, cpf, date_of_birth, email, phone, cell, address, complement
 
 e o formulário possui **um botão** para inscrever.
 
-Cenário 02
-^^^^^^^^^^
+**Cenário 02**
 
 Dado que um interessado acessa ``/inscricao/``
 
@@ -74,8 +72,7 @@ Quando ele preenche o formulário e seus dados estão corretos e ele clica em Ca
 
 Então o sistema salva sua inscrição e o redireciona para a página de sucesso.
 
-Cenário 03
-^^^^^^^^^^
+**Cenário 03**
 
 Dado que um interessado acessa ``/inscricao/``
 
