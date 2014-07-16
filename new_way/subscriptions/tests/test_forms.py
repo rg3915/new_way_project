@@ -10,4 +10,4 @@ class SubscribeTest(TestCase):
         form = SubscriptionForm()
         self.assertItemsEqual(
             ['firstname', 'lastname', 'email', 'cpf', 'date_of_birth', 'phone', 'cell', 'address', 'complement',
-                'district', 'city', 'state', 'cep'], form.fields)
+                'district', 'city', 'uf', 'cep'], form.fields)

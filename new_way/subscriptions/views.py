@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from django.http import HttpResponseRedirect
+from django.http import HttpResponse
 from django.shortcuts import render
+from django.shortcuts import get_object_or_404
 from new_way.subscriptions.forms import SubscriptionForm
 from new_way.subscriptions.models import Subscription
 
@@ -39,3 +41,10 @@ def create(request):
 
 	obj = form.save()
 	return HttpResponseRedirect('/inscricao/%d/' % obj.pk)
+
+# def detail(request, pk):
+# 	return HttpResponse()
+def detail(request, pk):
+	Subscription = get_object_or_404(SubscriptionForm, pk=pk)
+	return render(request, 'subscriptions/subscription_detail.html',
+		{'Subscription': subscription})
