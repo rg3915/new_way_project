@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+	<p>Parábens {{ subscription.firstname }},</p>
+	<p>sua inscrição foi realizada em
+	{{ subscription.created_at|date:"d/m/Y"}}.</p>
+	<p>Em breve, entramos em contato pelo
+	{% if subscription.phone %}
+		telefone {{subscription.phone }}
+		{% else %}
+		e-mail {{ subscription.email }}
+	{% endif %}.</p>
+{% endblock content %}
