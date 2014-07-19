@@ -21,7 +21,7 @@ class SubscriptionTest(TestCase):
             district='Jurubatuba',
             city=u'São Paulo',
             uf='SP',
-            cep='04696-000'
+            cep='04696000'
         )
         # CPF válido: 33322211169, 55566678963
 
@@ -45,7 +45,7 @@ class SubscriptionTest(TestCase):
 class SubscriptionUniqueTest(TestCase):
 
     def setUp(self):
-        'Create a first entry to force the collision'
+        # Create a first entry to force the collision
         Subscription.objects.create(
             firstname='Regis',
             lastname='Santos',
@@ -59,7 +59,7 @@ class SubscriptionUniqueTest(TestCase):
             district='Jurubatuba',
             city=u'São Paulo',
             uf='SP',
-            cep='04696-000'
+            cep='04696000'
         )
 
     def test_cpf_unique(self):
@@ -77,7 +77,7 @@ class SubscriptionUniqueTest(TestCase):
             district='Jurubatuba',
             city=u'São Paulo',
             uf='SP',
-            cep='04696-000'
+            cep='04696000'
         )
         self.assertRaises(IntegrityError, s.save)
 
@@ -96,6 +96,6 @@ class SubscriptionUniqueTest(TestCase):
             district='Jurubatuba',
             city=u'São Paulo',
             uf='SP',
-            cep='04696-000'
+            cep='04696000'
         )
         self.assertRaises(IntegrityError, s.save)

@@ -14,12 +14,12 @@ class DetailTest(TestCase):
             email='rg3915@yahoo.com.br',
             phone='11-2600-2500',
             cell='11-98700-0000',
-            address='Avenida Engenheiro Eusébio Stevaux, 100',
+            address=u'Avenida Engenheiro Eusébio Stevaux, 100',
             complement='Bloco A',
             district='Jurubatuba',
-            city='São Paulo',
+            city=u'São Paulo',
             uf='SP',
-            cep='04696-000')
+            cep='04696000')
         self.resp = self.client.get('/inscricao/%d/' % s.pk)
 
     def test_get(self):
