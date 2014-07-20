@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
 from django.contrib import admin
+from new_way.subscriptions.models import Subscription
 
-# Register your models here.
+admin.site.register(Subscription)

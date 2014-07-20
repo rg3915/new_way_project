@@ -25,4 +25,4 @@ class Subscription(models.Model):
         verbose_name_plural = _(u'inscrições')
 
     def __unicode__(self):
-        return self.lastname
+        return self.lastname + ', ' + self.firstname
