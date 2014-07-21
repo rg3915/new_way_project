@@ -39,7 +39,7 @@ class SubscriptionTest(TestCase):
         self.assertIsInstance(self.obj.created_at, datetime)
 
     def test_unicode(self):
-        self.assertEqual(u'Santos', unicode(self.obj))
+        self.assertEqual(u'Santos, Regis', unicode(self.obj))
 
 
 class SubscriptionUniqueTest(TestCase):
