@@ -3,5 +3,5 @@ South==0.8.4
 Unipath==1.0
 argparse==1.2.1
 dj-database-url==0.3.0
+pytz==2014.4
 wsgiref==0.1.2
-#django-cep==1.0.9
