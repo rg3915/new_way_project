@@ -10,7 +10,7 @@ class SubscriptionTest(TestCase):
     def setUp(self):
         self.obj = Subscription(
             firstname='Regis',
-            lastname='Santos',
+            lastname='da Silva',
             cpf='11122233396',
             date_of_birth='1979-05-31',
             email='rg3915@yahoo.com.br',
@@ -39,7 +39,7 @@ class SubscriptionTest(TestCase):
         self.assertIsInstance(self.obj.created_at, datetime)
 
     def test_unicode(self):
-        self.assertEqual(u'Santos, Regis', unicode(self.obj))
+        self.assertEqual(u'da Silva, Regis', unicode(self.obj))
 
 
 class SubscriptionUniqueTest(TestCase):
@@ -48,7 +48,7 @@ class SubscriptionUniqueTest(TestCase):
         # Create a first entry to force the collision
         Subscription.objects.create(
             firstname='Regis',
-            lastname='Santos',
+            lastname='da Silva',
             cpf='11122233396',
             date_of_birth='1979-05-31',
             email='rg3915@yahoo.com.br',
@@ -66,7 +66,7 @@ class SubscriptionUniqueTest(TestCase):
         'CPF must be unique'
         s = Subscription(
             firstname='Regis',
-            lastname='Santos',
+            lastname='da Silva',
             cpf='11122233396',
             date_of_birth='1979-05-31',
             email='regis@yahoo.com.br',
@@ -85,7 +85,7 @@ class SubscriptionUniqueTest(TestCase):
         'Email must be unique'
         s = Subscription(
             firstname='Regis',
-            lastname='Santos',
+            lastname='da Silva',
             cpf='33322211169',
             date_of_birth='1979-05-31',
             email='rg3915@yahoo.com.br',

@@ -42,7 +42,7 @@ class SubscribePostTest(TestCase):
     def setUp(self):
         data = dict(
             firstname='Regis',
-            lastname='Santos',
+            lastname='da Silva',
             cpf='11122233396',
             date_of_birth='1979-05-31',
             email='rg3915@yahoo.com.br',
@@ -70,7 +70,7 @@ class SubscribeInvalidPostTest(TestCase):
 
     def setUp(self):
         data = dict(firstname='Regis',
-                    lastname='Santos',
+                    lastname='da Silva',
                     cpf='000000000012',
                     date_of_birth='1979-05-31',
                     email='rg3915@yahoo.com.br',

@@ -9,7 +9,7 @@ class DetailTest(TestCase):
     def setUp(self):
         s = Subscription.objects.create(
             firstname='Regis',
-            lastname='Santos',
+            lastname='da Silva',
             cpf='11122233396',
             date_of_birth='1979-05-31',
             email='rg3915@yahoo.com.br',
