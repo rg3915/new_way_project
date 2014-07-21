@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.test import TestCase
+from django.core.urlresolvers import reverse as r
 """
 Usando um assert por método de test.
 Teste de Request e Response.
@@ -13,7 +14,7 @@ class HomeTest(TestCase):
         Nome especial de método do Python, roda sempre antes de cada teste.
         Armazena a resposta da requisição.
         """
-        self.resp = self.client.get('/')
+        self.resp = self.client.get(r('core:home'))
 
     def test_get(self):
         """

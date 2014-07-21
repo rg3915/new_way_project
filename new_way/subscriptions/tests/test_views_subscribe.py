@@ -2,12 +2,13 @@
 from django.test import TestCase
 from new_way.subscriptions.forms import SubscriptionForm
 from new_way.subscriptions.models import Subscription
+from django.core.urlresolvers import reverse as r
 
 
 class SubscribeTest(TestCase):
 
     def setUp(self):
-        self.resp = self.client.get('/inscricao/')
+        self.resp = self.client.get(r('subscriptions:subscribe'))
 
     def test_get(self):
         'GET /inscricao/ retorna status code 200.'
@@ -54,7 +55,7 @@ class SubscribePostTest(TestCase):
             uf='SP',
             cep='04696000'
         )
-        self.resp = self.client.post('/inscricao/', data)
+        self.resp = self.client.post(r('subscriptions:subscribe'), data)
 
     def test_post(self):
         'Valid POST should redirect to /inscricao/1/'
@@ -81,7 +82,7 @@ class SubscribeInvalidPostTest(TestCase):
                     city=u'São Paulo',
                     uf='SP',
                     cep='04696000')
-        self.resp = self.client.post('/inscricao/', data)
+        self.resp = self.client.post(r('subscriptions:subscribe'), data)
 
     def test_post(self):
         'Invalid POST should not redirect.'
