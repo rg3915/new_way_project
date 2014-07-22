@@ -22,6 +22,11 @@ class SubscribeTest(TestCase):
         form = self.make_validated_form(lastname='DA SILVA')
         self.assertEqual('Da Silva', form.cleaned_data['lastname'])
 
+    def test_must_inform_email_or_phones(self):
+        'Email and Phone are optional, but one must be informed.'
+        form = self.make_validated_form(email='', phone='', cell='')
+        self.assertItemsEqual(['__all__'], form.errors)
+
     def make_validated_form(self, **kwargs):
         data = dict(
             firstname='Regis',
