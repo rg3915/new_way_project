@@ -1,7 +1,7 @@
 New Way Project
 ===============
 
-Este é um projeto de Desenvolvimento Web criado para a disciplina Projeto Integrador do SENAC em 2014.
+Este é um projeto de Desenvolvimento Web criado para fins acadêmicos.
 
 # Objetivo
 
