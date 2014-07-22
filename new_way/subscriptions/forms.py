@@ -2,6 +2,7 @@
 from django import forms
 from new_way.subscriptions.models import Subscription
 from django.utils.translation import ugettext as _
+from django.template.defaultfilters import title
 
 
 class SubscriptionForm(forms.ModelForm):
@@ -10,13 +11,7 @@ class SubscriptionForm(forms.ModelForm):
         model = Subscription
 
     def clean_firstname(self):
-        firstname = self.cleaned_data['firstname']
-        words = map(lambda w: w.capitalize(), firstname.split())
-        capitalized_name = ' '.join(words)
-        return capitalized_name
+        return title(self.cleaned_data['firstname'])
 
     def clean_lastname(self):
-        lastname = self.cleaned_data['lastname']
-        words = map(lambda w: w.capitalize(), lastname.split())
-        capitalized_name = ' '.join(words)
-        return capitalized_name
+        return title(self.cleaned_data['lastname'])

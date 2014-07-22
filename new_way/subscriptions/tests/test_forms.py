@@ -17,10 +17,10 @@ class SubscribeTest(TestCase):
         form = self.make_validated_form(firstname='REGIS')
         self.assertEqual('Regis', form.cleaned_data['firstname'])
 
-    # def test_lastname_must_be_capitalized(self):
-    #     'Lastname must be capitalized.'
-    #     form = self.make_validated_form(lastname='da SILVA')
-    #     self.assertEqual('da Silva', form.cleaned_data['lastname'])
+    def test_lastname_must_be_capitalized(self):
+        'Lastname must be capitalized.'
+        form = self.make_validated_form(lastname='DA SILVA')
+        self.assertEqual('Da Silva', form.cleaned_data['lastname'])
 
     def make_validated_form(self, **kwargs):
         data = dict(
