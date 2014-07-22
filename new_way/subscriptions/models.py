@@ -12,7 +12,7 @@ class Subscription(models.Model):
     phone = models.CharField(_('telefone'), max_length=14)
     cell = models.CharField(_('celular'), max_length=14)
     address = models.CharField(_(u'endereço'), max_length=150)
-    complement = models.CharField(_('complemento'), max_length=100)
+    complement = models.CharField(_('complemento'), max_length=100, blank=True)
     district = models.CharField(_('bairro'), max_length=100)
     city = models.CharField(_('cidade'), max_length=100)
     uf = models.CharField(_('UF'), max_length=100)
