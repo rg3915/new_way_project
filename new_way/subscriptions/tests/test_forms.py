@@ -21,3 +21,24 @@ class SubscribeTest(TestCase):
     #     'Lastname must be capitalized.'
     #     form = self.make_validated_form(lastname='da SILVA')
     #     self.assertEqual('da Silva', form.cleaned_data['lastname'])
+
+    def make_validated_form(self, **kwargs):
+        data = dict(
+            firstname='Regis',
+            lastname='da Silva',
+            cpf='11122233396',
+            date_of_birth='1979-05-31',
+            email='rg3915@yahoo.com.br',
+            phone='11-2600-2500',
+            cell='11-98700-0000',
+            address=u'Avenida Engenheiro Eusébio Stevaux, 100',
+            complement='Bloco A',
+            district='Jurubatuba',
+            city=u'São Paulo',
+            uf='SP',
+            cep='04696000'
+        )
+        data.update(kwargs)
+        form = SubscriptionForm(data)
+        form.is_valid()
+        return form
