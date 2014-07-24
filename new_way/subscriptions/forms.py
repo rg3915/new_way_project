@@ -12,10 +12,18 @@ class SubscriptionForm(forms.ModelForm):
         model = Subscription
 
     def clean_firstname(self):
-        return title(self.cleaned_data['firstname'])
+        exclude = ['da', 'das', 'de', 'do', 'dos', 'e', ]
+        name = self.cleaned_data['firstname']
+        words = map(lambda w: w.capitalize()
+                    if w not in exclude else w, name.split())
+        return ' '.join(words)
 
     def clean_lastname(self):
-        return title(self.cleaned_data['lastname'])
+        exclude = ['da', 'das', 'de', 'do', 'dos', 'e', ]
+        name = self.cleaned_data['lastname']
+        words = map(lambda w: w.capitalize()
+                    if w not in exclude else w, name.split())
+        return ' '.join(words)
 
     def clean(self):
         super(SubscriptionForm, self).clean()
