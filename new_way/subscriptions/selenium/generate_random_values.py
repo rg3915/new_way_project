@@ -18,11 +18,13 @@ def generate_date():
 
 
 def generate_phone():
-    return random.randint(0000000000, 9999999999)
+    number = random.randint(0000000000, 9999999999)
+    return '(' + str(number)[:2] + ') ' + str(number)[2:6] + '-' + str(number)[6:]
 
 
 def generate_cell():
-    return random.randint(0000000000, 9999999999)
+    number = random.randint(00000000000, 99999999999)
+    return '(' + str(number)[:2] + ') 9' + str(number)[2:6] + '-' + str(number)[6:]
 
 
 def generate_cep():
