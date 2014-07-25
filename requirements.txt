@@ -4,4 +4,5 @@ Unipath==1.0
 argparse==1.2.1
 dj-database-url==0.3.0
 pytz==2014.4
+selenium==2.42.1
 wsgiref==0.1.2
