@@ -1,0 +1,167 @@
+\documentclass{standalone}
+\usepackage{tikz-uml}
+\usetikzlibrary{positioning}
+
+\begin{document}
+
+
+\begin{tikzpicture}
+
+\umlclass[x=-5, y=0, fill=green!50!cyan]{Subscription - Interessado}{
+	id \\
+	firstname (nome) \\
+	lastname (sobrenome) \\
+	cpf \\
+	date\_of\_birth (data\_nasc) \\
+	email \\
+	phone (tel) \\
+	cell \\
+	address (endereco) \\
+	complement \\
+	district (bairro) \\
+	city (cidade) \\
+	uf \\
+	cep \\
+	created\_at (criado\_em) \\
+}{}
+
+\umlclass[x=5, y=10, fill=green!25]{User - Usuario}{
+	id \\
+	firstname (nome) \\
+	lastname (sobrenome) \\
+	cpf \\
+	date\_of\_birth (data\_nasc) \\
+	email \\
+	phone (tel) \\
+	cell \\
+	address (endereco) \\
+	complement \\
+	district (bairro) \\
+	city (cidade) \\
+	uf \\
+	cep \\
+	created\_at (criado\_em) \\
+	\color{blue}{usertype\_id} \\
+	\color{blue}{dealership\_id} \\
+	\color{blue}{receive\_commission (recebe\_comissao)} \\
+	\color{blue}{value\_commission (valor\_comissao)} \\
+}{}
+
+\umlclass[x=-3, y=10, fill=green!25]{UserType - TipoUsuario}{
+	id \\
+	usertype (tipo\_usuario) \\
+}{}
+
+\umlclass[x=5, y=-5, fill=purple!25]{Kiosk - Quiosque}{
+	id \\
+	kiosk \\
+	store\_id \\
+}{}
+
+\umlclass[x=5, y=-10, fill=purple!25]{Store - Estabelecimento}{
+	id \\
+	store \\
+	address \\
+	district \\
+	city \\
+	uf \\
+	cep \\
+}{}
+
+\umlclass[x=12, y=10]{Dealership - Concessionaria}{
+	id \\
+	dealership \\
+	address \\
+	district \\
+	city \\
+	uf \\
+	cep \\
+	phone1 \\
+	phone2 \\
+	phone3 \\
+}{}
+
+\umlclass[x=20, y=5]{DealershipDet - ConcessionariaDet}{
+	id \\
+	dealership\_id \\
+	vehicle\_id \\
+	quantity\_vehicle \\
+}{}
+
+\umlclass[x=12, y=-7]{Kit}{
+	id \\
+	kit \\
+}{}
+
+\umlclass[x=18, y=-7]{KitDet}{
+	id \\
+	kit\_id \\
+	accessory\_id \\
+	quantity\_accessory	 \\
+}{}
+
+\umlclass[x=18, y=-11]{Accessory - Acessorio}{
+	id \\
+	accessory \\
+	price\_accessory \\
+}{}
+
+\umlclass[x=12, y=0, fill=cyan!50]{Vehicle - Veiculo}{
+	id \\
+	model\_id \\
+	vehicle \\
+	color \\
+	year\_of\_manufacture \\
+	engine\_power (potencia\_motor) \\
+	fueltype (tipo\_combustivel) \\
+	transmissiontype (tipo\_cambio) \\
+	wheel (freio) \\
+	tire (roda) \\
+	performance (desempenho) \\
+	trunk (porta\_malas) \\
+	price (preco) \\
+	kit\_fabric\_id (kit\_fabrica\_id) \\
+}{}
+
+\umlclass[x=20, y=0, fill=cyan!25]{Model}{
+	id \\
+	model \\
+	mark\_id \\
+}{}
+
+\umlclass[x=24, y=0, fill=cyan!25]{Mark}{
+	id \\
+	mark \\
+}{}
+
+\umlclass[x=5, y=0, fill=orange!25!yellow]{Ordered - Pedido}{
+	id \\
+	date\_of\_ordered (data\_pedido) \\
+	subscription\_id (interessado\_id) \\
+	user\_id \\
+	vehicle\_id \\
+	kit\_optional\_id \\
+	dealership\_id \\
+	kiosk\_id \\
+	status \\
+}{}
+
+\umlassoc{Subscription - Interessado}{Ordered - Pedido}
+\umlassoc{User - Usuario}{Ordered - Pedido}
+\umlassoc{User - Usuario}{UserType - TipoUsuario}
+\umlassoc{Kiosk - Quiosque}{Ordered - Pedido}
+\umlassoc{Kiosk - Quiosque}{Store - Estabelecimento}
+\umlassoc{Dealership - Concessionaria}{Ordered - Pedido}
+\umlassoc[geometry=-|]{Dealership - Concessionaria}{DealershipDet - ConcessionariaDet}
+\umlassoc{Vehicle - Veiculo}{Ordered - Pedido}
+\umlassoc[geometry=|-]{Vehicle - Veiculo}{DealershipDet - ConcessionariaDet}
+\umlassoc{Vehicle - Veiculo}{Kit}
+\umlassoc{Kit}{KitDet}
+\umlassoc{KitDet}{Accessory - Acessorio}
+\umlassoc{Kit}{Ordered - Pedido}
+\umlassoc{Vehicle - Veiculo}{Model}
+\umlassoc{Model}{Mark}
+
+\end{tikzpicture}
+
+\end{document}
