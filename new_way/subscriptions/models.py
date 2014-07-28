@@ -16,7 +16,7 @@ class Subscription(models.Model):
     district = models.CharField(_('bairro'), max_length=100)
     city = models.CharField(_('cidade'), max_length=100)
     uf = models.CharField(_('UF'), max_length=100)
-    cep = models.CharField(_('CEP'), max_length=8)
+    cep = models.CharField(_('CEP'), max_length=9)
     created_at = models.DateTimeField(_('criado em'), auto_now_add=True)
 
     class Meta:
