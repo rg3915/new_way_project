@@ -11,8 +11,7 @@ Desenvolver uma aplicação web que faça pesquisa de veículos e gere um pedido
 
 | ![Python](fig/python100.png) | ![Django](fig/django100.png) | ![SQLite](fig/sqlite100.png) | ![MySQL](fig/mysql100.png)  |
 |------------------------------|------------------------------|------------------------------|-----------------------------|
-| [Python][2] [(en)][3] | [Django][0]                  | [SQLite3][5]                 | [MySQL][6]                  |
-
+| [Python][2] [(en)][3] 	   | [Django][0]                  | [SQLite3][5]                 | [MySQL][6]                  |
 
 # Convenções
 
@@ -24,7 +23,37 @@ Desenvolver uma aplicação web que faça pesquisa de veículos e gere um pedido
 
 **Templates**: usar a mesma convenção. Ex: *veiculo_lista.html, veiculo_form.html*.
 
-### Referências:
+# Como instalar
+
+É recomendável usar o virtualenv e ativar o ambiente
+
+	`$ virtualenv new_way_project`
+	`$ cd new_way_project`
+	`$ source bin/activate`
+
+Clone o repositório
+
+	`$ git clone git@github.com:rg3915/new_way_project.git`
+
+Instale as libs necessárias (repare na linha a seguir que o virtualenv está ativado).
+
+	`(new_way_project)$ pip install -r requirements.txt`
+
+Crie o banco de dados
+
+	`$ python manage.py syncdb`
+
+Rode o server
+
+	`$ python manage.py runserver`
+
+Abra um navegador e acesse http://127.0.0.1:8000/ o famoso http://localhost:8000/
+
+# Rode os testes
+
+python manage.py test new_way.subscriptions
+
+## Referências:
 
 [Django Project][0]
 
