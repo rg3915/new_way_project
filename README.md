@@ -27,31 +27,31 @@ Desenvolver uma aplicação web que faça pesquisa de veículos e gere um pedido
 
 É recomendável usar o virtualenv e ativar o ambiente
 
-	`$ virtualenv new_way_project`
-	`$ cd new_way_project`
-	`$ source bin/activate`
+	$ virtualenv new_way_project
+	$ cd new_way_project
+	$ source bin/activate
 
 Clone o repositório
 
-	`$ git clone git@github.com:rg3915/new_way_project.git`
+	$ git clone git@github.com:rg3915/new_way_project.git
 
 Instale as libs necessárias (repare na linha a seguir que o virtualenv está ativado).
 
-	`(new_way_project)$ pip install -r requirements.txt`
+	(new_way_project)$ pip install -r requirements.txt
 
 Crie o banco de dados
 
-	`$ python manage.py syncdb`
+	$ python manage.py syncdb
 
 Rode o server
 
-	`$ python manage.py runserver`
+	$ python manage.py runserver
 
-Abra um navegador e acesse http://127.0.0.1:8000/ o famoso http://localhost:8000/
+Abra um navegador e acesse http://127.0.0.1:8000/
 
 # Rode os testes
 
-python manage.py test new_way.subscriptions
+	$ python manage.py test new_way.subscriptions
 
 ## Referências:
 
