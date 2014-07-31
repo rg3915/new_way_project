@@ -151,14 +151,14 @@
 \umlassoc{User - Usuario}{UserType - TipoUsuario}
 \umlassoc{Kiosk - Quiosque}{Ordered - Pedido}
 \umlassoc{Kiosk - Quiosque}{Store - Estabelecimento}
-\umlassoc{Dealership - Concessionaria}{Ordered - Pedido}
+\draw (Dealership - Concessionaria) to[out=-90, in=90] (Ordered - Pedido);
 \umlassoc[geometry=-|]{Dealership - Concessionaria}{DealershipDet - ConcessionariaDet}
 \umlassoc{Vehicle - Veiculo}{Ordered - Pedido}
 \umlassoc[geometry=|-]{Vehicle - Veiculo}{DealershipDet - ConcessionariaDet}
 \umlassoc{Vehicle - Veiculo}{Kit}
 \umlassoc{Kit}{KitDet}
 \umlassoc{KitDet}{Accessory - Acessorio}
-\umlassoc{Kit}{Ordered - Pedido}
+\draw (Kit) to[out=180, in=-45] (Ordered - Pedido);
 \umlassoc{Vehicle - Veiculo}{Model}
 \umlassoc{Model}{Mark}
 
