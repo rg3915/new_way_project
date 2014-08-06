@@ -2,18 +2,18 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from generate_random_values import *
-from list_firstname import get_firstname
-from list_lastname import get_lastname
 from list_cep import get_cep
 from list_email import get_email
 from cep import Correios
+import names
 
 # chrome = webdriver.Chrome(executable_path='/home/rg3915/Downloads/chromedriver')
 ffox = webdriver.Firefox()
 ffox.get('http://localhost:8000/inscricao/')
 
-nome = get_firstname()
-email = nome.lower() + get_email()
+fname = names.get_first_name()
+lname = names.get_last_name()
+email = fname.lower() + get_email()
 
 ncep = get_cep()
 c = Correios()
@@ -21,10 +21,10 @@ r = c.consulta(ncep, primeiro=True)
 
 # pegar o campo de busca onde podemos digitar algum termo
 campo_busca = ffox.find_element_by_id('id_firstname')
-campo_busca.send_keys(nome)
+campo_busca.send_keys(fname)
 
 campo_busca = ffox.find_element_by_id('id_lastname')
-campo_busca.send_keys(get_lastname())
+campo_busca.send_keys(lname)
 
 campo_busca = ffox.find_element_by_id('id_cpf')
 campo_busca.send_keys(str(generate_cpf()))
