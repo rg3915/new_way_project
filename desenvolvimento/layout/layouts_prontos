@@ -1,0 +1,98 @@
+base.html - OK
+	menu: New Way, Home, Carros, Concessionárias, Cadastre-se, Monte seu Carro, Quem Somos, Fale Conosco, Login
+	rodapé:
+		Acessórios, Carros, Marcas, Modelos
+		Concessionárias, Quiosques, Quem Somos, Fale Conosco
+		Cadastre-se, Monte seu Carro
+		+ Logo New Way by 2 Many Peoples C 2014 . all righs reserved. cc github           Topo
+
+
+index.html
+	http://startbootstrap.com/templates/full-slider.html
+	http://startbootstrap.com/templates/landing-page/
+	carousel multi item
+	http://bootstrap-tutorial.bootstraptor.com/post/53267372726/creating-a-carousel
+
+more site http://designmodo.github.io/startup-demo/
+
+videos showcase
+	https://www.youtube.com/watch?v=ZelqaUQ8q80
+	https://www.youtube.com/watch?v=c55Q1HNYTM8
+	https://www.youtube.com/watch?v=a8PQLBOOCQs
+	https://www.youtube.com/watch?v=UPTpT6ksQcg
+
+
+login.html - OK
+	http://getbootstrap.com/examples/signin/
+
+portifolio.html - OK
+	http://startbootstrap.com/templates/2-col-portfolio.html
+
+veiculo_item.html - OK
+	http://startbootstrap.com/templates/portfolio-item.html
+
+pesquisa.html
+	
+
+tabela_preco.html - OK
+	http://startbootstrap.com/templates/modern-business/pricing.html
+
+
+veiculo_lista.html - OK
+	1 col portfolio
+	http://startbootstrap.com/1-col-portfolio
+
+concessionaria_lista.html - OK
+	http://getbootstrap.com/examples/jumbotron-narrow/
+
+acessorio_lista.html - OK
+	http://startbootstrap.com/3-col-portfolio
+
+contato.html - OK
+	http://startbootstrap.com/templates/modern-business/contact
+
+admin_site.html
+
+admin_pedido.html
+	tabela
+
+marcas_lista.html - OK
+	5 col portfolio
+	http://g1.globo.com/carros/a-z/
+		Audi
+		BMW
+		Chevrolet
+		Chrysler
+		Citroën
+		Dodge
+		Fiat
+		Ford
+		Honda
+		Hyundai
+		JAC Motors
+		Jaguar
+		Jeep
+		Land-Rover
+		Mercedes-Benz
+		Mini
+		Mitsubishi
+		Nissan
+		Peugeout
+		Porsche
+		Renault
+		Suzuki
+		Toyota
+		Volkswagen
+		Volvo
+
+Lista de itens do site
+	https://br.workana.com/p/layout-de-ecommerce-em-bootstrap
+
+kits
+
+	http://www.chevrolet.com.br/carros/agile.html
+
+Mais detalhes de cada carro
+	http://www.chevrolet.com.br/carros/cruze-sport-6.html
+
+Veja a sequencia de montar carro na Chevrolet
