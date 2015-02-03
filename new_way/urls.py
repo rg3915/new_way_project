@@ -1,12 +1,11 @@
-# -*- coding: utf-8 -*-
 from django.conf.urls import patterns, include, url
+from new_way.core.views import *
 from django.contrib import admin
 
-admin.autodiscover()
-
 urlpatterns = patterns(
-    '',
-    url(r'^inscricao/', include('new_way.subscriptions.urls', namespace='subscriptions')),
+    'new_way.core.views',
+    url(r'^$', 'home', name='home'),
+    url(r'^customer/add', CustomerForm.as_view(), name='customer_form'),
+    url(r'^profile/add', 'user_profile', name='userprofile_form'),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'', include('new_way.core.urls', namespace='core')),
 )

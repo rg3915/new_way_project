@@ -1,0 +1,22 @@
+Crie o seguinte model usando Abstract Base Class.
+
+TimeStampModel - Abstract
+	created_at
+	modified_at
+
+Person(TimeStampModel) - Abstract
+	Customer
+	Employee
+
+Address - One-to-many (FK)
+
+Brand
+
+
+
+https://launchpad.net/ubuntu/utopic/i386/python3-pydot/1.0.28-1
+
+pip uninstall pyparsing
+pip install -Iv https://pypi.python.org/packages/source/p/pyparsing/pyparsing-1.5.7.tar.gz#md5=9be0fcdcc595199c646ab317c1d9a709
+pip install pydot
+pip freeze > requirements.txt
