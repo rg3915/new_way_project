@@ -5,7 +5,9 @@ from django.contrib import admin
 urlpatterns = patterns(
     'new_way.core.views',
     url(r'^$', 'home', name='home'),
-    url(r'^customer/add', CustomerForm.as_view(), name='customer_form'),
-    url(r'^profile/add', 'user_profile', name='userprofile_form'),
-    url(r'^admin/', include(admin.site.urls)),
+
+    # url(r'^download/$', 'download', name='download'),
+    # url(r'^about/$', 'about', name='about'),
+    # url(r'^contact/$', 'contact', name='contact'),
+    url(r'^admin/', include(admin.site.urls), name='admin'),
 )

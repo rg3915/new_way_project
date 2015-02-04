@@ -1,0 +1,54 @@
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    {% load bootstrap3 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+
+{% block extrastyle %}{% endblock %}
+
+  <link rel="icon" href="{{ STATIC_URL }}img/cart.png">
+
+  <link href="{{ STATIC_URL }}font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="{{ STATIC_URL }}css/base.css" rel="stylesheet">
+    {% block title %}
+        <title>New Way</title>
+    {% endblock title %}
+
+  <style>
+    body {
+      padding-top: 70px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  {% block menu %}{% endblock menu %}
+
+  <div class="container">
+    {% block content %}
+
+    {% endblock content %}
+  </div>
+
+{% block footer %}{% endblock footer %}
+
+  {% block javascript %}
+    <!-- Latest JQuery -->
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <script src="{{ STATIC_URL }}js/jquery.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
+    <script src="{{ STATIC_URL }}js/bootstrap.js"></script>
+  {% endblock javascript %}
+
+</body>
+</html>

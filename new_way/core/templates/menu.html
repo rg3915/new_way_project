@@ -1,0 +1,49 @@
+<!-- Menu -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{% url 'home' %}">New Way</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="{% url 'home' %}"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li><a href="#"><span class="fa fa-car"></span> Carros</a></li>
+        <li><a href="#"><span class="fa fa-cogs"></span> Monte seu Carro</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Concessionárias</a></li>
+        <!-- <li><a href="#"><span class="fa fa-users"></span> Quem Somos</a></li> -->
+        <li><a href="#"><span class="fa fa-comment"></span> Fale Conosco</a></li>
+        <!-- Cadastrar -->
+<!--         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Cadastrar <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Cadastro de Pessoas</li>
+            <li><a href="#">Pessoa</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Cadastro de Carros</li>
+            <li><a href="#">Carro</a></li>
+          </ul>
+ -->
+        <!-- to resolve NoReverseMatch for 'admin' -->
+        <!-- <li><a href="{% url 'admin:index' %}"><span class="glyphicon glyphicon-cog"></span> Admin</a></li>
+        </li> -->
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li><a href="#"><span class="glyphicon glyphicon-search"></span> Buscar</a></li> -->
+        <!-- <li><a href="#"><span class="glyphicon glyphicon-download-alt"></span> Download</a></li> -->
+        <!-- <li><a href="#"><span class="glyphicon glyphicon-exclamation-sign"></span> Sobre</a></li> -->
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Cadastre-se</a></li>
+        <form class="navbar-form navbar-right">
+          <button class="btn btn-success">Login</button>
+        </form>
+      </ul>
+
+    </div>
+  </div>
+</div>
+

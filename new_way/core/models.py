@@ -46,13 +46,8 @@ class Customer(Person):
         pass
 
 
-class UserProfile(models.Model):
+class Employee(Person):
     user = models.OneToOneField(User)
-
-User.profile = property(lambda u: UserProfile.objects.get_or_create(user=u)[0])
-
-
-class Employee(UserProfile):
     occupation = models.ForeignKey(
         "Occupation", verbose_name='cargo', related_name='employee_occupation')
     dealership = models.ForeignKey(
@@ -67,6 +62,8 @@ class Employee(UserProfile):
 
     def __str__(self):
         pass
+
+User.profile = property(lambda u: UserProfile.objects.get_or_create(user=u)[0])
 
 
 class Occupation(models.Model):

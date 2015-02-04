@@ -1,0 +1,62 @@
+html, body {
+	margin-top: 25px;
+	height:100%;
+}
+
+.initial-p {
+	padding-top: 25px;
+}
+
+.portfolio-item {
+	margin-bottom: 25px;
+}
+
+.letter-white {
+	color: #999;
+}
+
+.footer-back {
+	background: url(../../static/img/rodape01.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.ratings {
+  color: #d17581;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.center {
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+p.center {
+	text-align: center;
+}
+
+@media (min-width: 1200px) {
+	.col-md-25 {
+	  position: relative;
+	  min-height: 1px;
+	  padding-right: 15px;
+	  padding-left: 15px;
+	}
+}
+
+@media (min-width: 992px) {
+.col-md-25 {
+    float: left;}
+  .col-md-25 {
+    width: 19.2%;
+  }
+
+

@@ -86,57 +86,59 @@ class CustomerUniqueTest(TestCase):
         self.assertRaises(IntegrityError, s.save)
 
 
-# class EmployeeTest(TestCase):
+class EmployeeTest(TestCase):
 
-#     def setUp(self):
-#         self.address = Address.objects.create(
-#             address=u'Avenida Engenheiro Eusébio Stevaux',
-#             address_number=100,
-#             complement='Bloco A',
-#             district='Jurubatuba',
-#             city=u'São Paulo',
-#             uf='SP',
-#             cep='04696000'
-#         )
-#         self.occupation = Occupation.objects.create(
-#             occupation='Vendedor'
-#         )
-#         self.dealership = Dealership.objects.create(
-#             dealership='Caoa',
-#             address=self.address,
-#             phone1='1234-0000',
-#             phone2='1234-0001',
-#             phone3='1234-0002'
-#         )
-#         self.obj = Employee(
-#             first_name=u'José',
-#             last_name='Aciole',
-#             cpf='55566678963',
-#             birthday='1981-03-01',
-#             email='aciole@example.com',
-#             phone='11-2800-2500',
-#             cell='11-98800-0000',
-#             address=self.address,
-#             occupation=self.occupation,
-#             dealership=self.dealership,
-#             comissioned='True',
-#             comission=180.5
-#         )
+    def setUp(self):
+        self.address = Address.objects.create(
+            address=u'Avenida Engenheiro Eusébio Stevaux',
+            address_number=100,
+            complement='Bloco A',
+            district='Jurubatuba',
+            city=u'São Paulo',
+            uf='SP',
+            cep='04696000'
+        )
+        self.occupation = Occupation.objects.create(
+            occupation='Vendedor'
+        )
+        self.dealership = Dealership.objects.create(
+            dealership='Caoa',
+            address=self.address,
+            phone1='1234-0000',
+            phone2='1234-0001',
+            phone3='1234-0002'
+        )
+        self.obj = Employee(
+            first_name=u'José',
+            last_name='Aciole',
+            cpf='55566678963',
+            birthday='1981-03-01',
+            email='aciole@example.com',
+            phone='11-2800-2500',
+            cell='11-98800-0000',
+            address=self.address,
+            user_id=1,
+            occupation=self.occupation,
+            dealership=self.dealership,
+            comissioned='True',
+            comission=180.5
+        )
 
-#     def test_create(self):
-#         """
-#         Employee must have first_name, last_name, cpf, birthday, email,
-#         phone, cell, address, complement, district, city, uf, cep
-#         """
-#         self.obj.save()
-#         self.assertEqual(1, self.obj.pk)
+    def test_create(self):
+        """
+        Employee must have first_name, last_name, cpf, birthday, email,
+        phone, cell, address, complement, district, city, uf, cep
+        """
+        self.obj.save()
+        self.assertEqual(1, self.obj.pk)
 
-#     def test_has_created_at(self):
-#         'Employee must have automatic created_at'
-#         self.obj.save()
-#         self.assertIsInstance(self.obj.created_at, datetime)
+    def test_has_created_at(self):
+        'Employee must have automatic created_at'
+        self.obj.save()
+        self.assertIsInstance(self.obj.created_at, datetime)
 
 # TODO: Dealership and DealershipDetail test...
+
 
 class MakeTest(TestCase):
 

@@ -1,22 +1,79 @@
-Crie o seguinte model usando Abstract Base Class.
-
-TimeStampModel - Abstract
-	created_at
-	modified_at
-
-Person(TimeStampModel) - Abstract
-	Customer
-	Employee
-
-Address - One-to-many (FK)
-
-Brand
-
-
-
-https://launchpad.net/ubuntu/utopic/i386/python3-pydot/1.0.28-1
-
 pip uninstall pyparsing
 pip install -Iv https://pypi.python.org/packages/source/p/pyparsing/pyparsing-1.5.7.tar.gz#md5=9be0fcdcc595199c646ab317c1d9a709
 pip install pydot
 pip freeze > requirements.txt
+---------------------------------------------------------------------------------
+# models
+
+TimeStampedModel
+Person
+Customer
+Employee
+Occupation
+Address
+Dealership
+DealershipDetail
+Make
+Model
+Vehicle
+Accessory
+Kit
+KitDetail
+Store
+Kiosk
+Ordered
+
+17 models
+
+---------------------------------------------------------------------------------
+# templates
+
+	public	admin	create (public)	list (public)	update (public)	delete (public)
+TimeStampedModel	no	no	no	no	auto	no
+Person	no	no	no	no	no	no
+Customer	yes	yes	yes	no	yes	no
+Employee	no	yes	no	no	no	no
+Occupation	no	yes	no	no	no	no
+Address	yes	yes	yes *	no	yes	no
+Dealership	no	yes	no	yes	no	no
+DealershipDetail	no	yes	no	no	no	no
+Make	yes	yes	no	yes	no	no
+Model	yes	yes	no	yes	no	no
+Vehicle	yes	yes	no	yes	no	no
+Accessory	yes	yes	no	yes	no	no
+Kit	yes	yes	yes	yes	no	no
+KitDetail	yes	yes	yes	yes (logged)	yes (logged)	yes (logged)
+Store	yes	yes	no	yes	no	no
+Kiosk	no	yes	no	yes	no	no
+Ordered	yes	yes	yes	yes (logged)	yes (logged)	no
+
+
+15 templates basics
+
+
+about.html
+base.html
+base_initial.html
+contact.html
+download.html
+footer.html
+index.html
+login.html
+menu.html
+pagination.html
+core/dealership/dealership_list.html
+core/kiosk/kiosk_list.html
+core/ordered/ordered_create_form.html
+core/ordered/ordered_list.html
+core/person/customer_create_form.html
+core/store/store_list.html
+core/vehicle/accessory_list.html
+core/vehicle/kit_create_form.html
+core/vehicle/kit_detail.html
+core/vehicle/kit_list.html
+core/vehicle/make_list.html
+core/vehicle/model_list.html
+core/vehicle/vehicle_detail.html
+core/vehicle/vehicle_list.html
+
+22 templates

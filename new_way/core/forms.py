@@ -1,16 +1,9 @@
 from django import forms
-from .models import UserProfile, Person, Customer, Employee, Occupation, Dealership
-
-
-class UserProfileForm(forms.ModelForm):
-
-    class Meta:
-        model = UserProfile
-        fields = '__all__'
+from .models import Customer
 
 
 class CustomerForm(forms.ModelForm):
 
     class Meta:
-        model = Person
+        model = Customer
         fields = '__all__'
