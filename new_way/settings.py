@@ -67,8 +67,8 @@ USE_THOUSAND_SEPARATOR = True
 STATIC_ROOT = BASE_DIR.child('staticfiles')
 STATIC_URL = '/static/'
 
-# TEMPLATE_DIRS = (
-#     BASE_DIR.child('templates_admin'),
-# )
+TEMPLATE_DIRS = (
+    BASE_DIR.child('templates_admin'),
+)
 
 AUTH_PROFILE_MODULE = 'core.UserProfile'

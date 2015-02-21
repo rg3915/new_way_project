@@ -1,5 +1,11 @@
+/* {% static "css/signin.css" %} */
+/* background: url("img/signin_background.jpg") no-repeat center center fixed; */
+
+/* background: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/cool-car-wallpapers-7-2014-hd.jpg") no-repeat center center fixed; */
+/* background: url("{% static "img/signin_background.jpg" %}") no-repeat center center fixed; */
 body {
-  background: url("https://www.djangoproject.com/s/img/desktops/djangodesktop-1024x768.jpg") no-repeat center center fixed;
+
+  background: url("../img/signin_background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

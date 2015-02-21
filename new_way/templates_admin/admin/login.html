@@ -1,6 +1,7 @@
 {% extends "base_initial.html" %}
 {% load i18n admin_static %}
 {% load bootstrap3 %}
+{% load staticfiles %}
 
 {% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "css/signin.css" %}" />{% endblock %}
 
@@ -10,7 +11,7 @@
     <title>Login</title>
 {% endblock title %}
 
-
+{% load staticfiles %}
     <!-- Bootstrap core CSS -->
     <!-- <link href="static/css/bootstrap.min.css" rel="stylesheet"> -->
 
@@ -38,7 +39,7 @@
 <div class="full">
   <div class="container">
 
-  <form class="form-signin jumbotron" action="{{ app_path }}" method="POST" id="login-form">
+  <form class="form-signin" action="{{ app_path }}" method="POST" id="login-form">
     {% csrf_token %}
     <h2 class="form-signin-heading">Login</h2>
 
@@ -47,7 +48,12 @@
       Os campos originais são:
       {{ form.username }}
       {{ form.password }} -->
-      {% bootstrap_form form %}
+      <!-- {% bootstrap_form form %} -->
+      <input type="text" name="username" class="form-control" placeholder="Usuário" required autofocus>
+      <input type="password" name="password" class="form-control" placeholder="Senha" required>
+      <label class="checkbox">
+      <!-- <input type="checkbox" value="remember-me"> Lembrar-me -->
+      </label>
       {% buttons %}
         <button class="btn btn-lg btn-primary btn-block" type="submit">{% trans 'Log in' %}</button>
       {% endbuttons %}
@@ -69,19 +75,3 @@
 </div>
 
 {% endblock %}
-
-<!-- login -->
-<!--    <div class="container">
-
-      <form class="form-signin" role="form">
-        <input type="email" class="form-control" placeholder="Email" required autofocus>
-        <input type="password" class="form-control" placeholder="Senha" required>
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me"> Lembrar-me
-        </label>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
-      </form>
-
-    </div> -->
-<!-- /container -->
-
