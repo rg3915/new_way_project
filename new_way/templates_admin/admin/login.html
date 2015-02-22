@@ -1,9 +1,10 @@
 {% extends "base_initial.html" %}
 {% load i18n admin_static %}
-{% load bootstrap3 %}
-{% load staticfiles %}
 
-{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "css/signin.css" %}" />{% endblock %}
+{% block extrastyle %}
+  {{ block.super }}
+  <link rel="stylesheet" type="text/css" href="{% static "css/signin.css" %}" />
+{% endblock %}
 
 {% block bodyclass %}{{ block.super }} login{% endblock %}
 
@@ -11,14 +12,11 @@
     <title>Login</title>
 {% endblock title %}
 
-{% load staticfiles %}
     <!-- Bootstrap core CSS -->
     <!-- <link href="static/css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
     <!-- <link href="static/css/signin.css" rel="stylesheet"> -->
-
-  <body class="full">
 
 {% block content %}
 
@@ -36,27 +34,22 @@
 {% endfor %}
 {% endif %}
 
-<div class="full">
   <div class="container">
 
-  <form class="form-signin" action="{{ app_path }}" method="POST" id="login-form">
+  <form class="form-signin" action="{{ app_path }}" method="POST" role="form" id="login-form">
     {% csrf_token %}
     <h2 class="form-signin-heading">Login</h2>
 
     <div>
-      <!-- Usei django-bootstrap para renderizar todos os campos de uma vez
-      Os campos originais são:
-      {{ form.username }}
-      {{ form.password }} -->
-      <!-- {% bootstrap_form form %} -->
-      <input type="text" name="username" class="form-control" placeholder="Usuário" required autofocus>
+      <!-- Os campos originais são: -->
+      <!-- {{ form.username }} -->
+      <!-- {{ form.password }} -->
+      <input type="text" id="username" name="username" class="form-control" placeholder="Usuário" required autofocus>
       <input type="password" name="password" class="form-control" placeholder="Senha" required>
       <label class="checkbox">
       <!-- <input type="checkbox" value="remember-me"> Lembrar-me -->
       </label>
-      {% buttons %}
         <button class="btn btn-lg btn-primary btn-block" type="submit">{% trans 'Log in' %}</button>
-      {% endbuttons %}
     </div>
 
     {% url 'admin_password_reset' as password_reset_url %}
@@ -69,9 +62,8 @@
   </form>
 
     <script type="text/javascript">
-    document.getElementById('id_username').focus()
+    document.getElementById('username').focus()
     </script>
   </div>
-</div>
 
 {% endblock %}

@@ -122,25 +122,25 @@ class DealershipDetail(models.Model):
         return self.dealership  # unicode(self.dealership)
 
 
-class Make(models.Model):
-    make = models.CharField(_('marca'), max_length=50, unique=True)
+class Brand(models.Model):
+    brand = models.CharField(_('marca'), max_length=50, unique=True)
 
     class Meta:
-        ordering = ['make']
+        ordering = ['brand']
         verbose_name = u'marca'
         verbose_name_plural = u'marcas'
 
     def __str__(self):
-        return self.make
+        return self.brand
 
 
-class Model(models.Model):
-    model = models.CharField(_('modelo'), max_length=50, unique=True)
-    make = models.ForeignKey(
-        "Make", verbose_name=u'marca', related_name='model_make')
+class Modell(models.Model):
+    modell = models.CharField(_('modelo'), max_length=50, unique=True)
+    brand = models.ForeignKey(
+        "Brand", verbose_name=u'marca', related_name='model_brand')
 
     class Meta:
-        ordering = ['model']
+        ordering = ['modell']
         verbose_name = u'modelo'
         verbose_name_plural = u'modelos'
 
@@ -149,8 +149,8 @@ class Model(models.Model):
 
 
 class Vehicle(models.Model):
-    model = models.ForeignKey(
-        "Model", verbose_name=u'modelo', related_name='vehicle_model')
+    modell = models.ForeignKey(
+        "Modell", verbose_name=u'modelo', related_name='vehicle_model')
     vehicle = models.CharField(_('veículo'), max_length=50, unique=True)
     color = models.CharField(_('cor'), max_length=50)
     year_of_manufacture = models.PositiveIntegerField(_(u'ano de fabricação'))

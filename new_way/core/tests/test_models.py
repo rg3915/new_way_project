@@ -2,7 +2,7 @@ from django.test import TestCase
 from django.db import IntegrityError
 from datetime import datetime
 from new_way.core.models import Customer, Employee, Occupation, Address, \
-    Dealership, Make, Model, Vehicle, Accessory, Kit, KitDetail, \
+    Dealership, Brand, Modell, Vehicle, Accessory, Kit, KitDetail, \
     Ordered, Kiosk, Store
 
 
@@ -140,26 +140,26 @@ class EmployeeTest(TestCase):
 # TODO: Dealership and DealershipDetail test...
 
 
-class MakeTest(TestCase):
+class BrandTest(TestCase):
 
     def setUp(self):
-        self.make = Make.objects.create(
-            make='BMW'
+        self.brand = Brand.objects.create(
+            brand='BMW'
         )
 
     def test_create(self):
-        self.assertEqual(1, self.make.pk)
+        self.assertEqual(1, self.brand.pk)
 
 
-class ModelTest(TestCase):
+class ModellTest(TestCase):
 
     def setUp(self):
-        self.make = Make.objects.create(
-            make='BMW'
+        self.brand = Brand.objects.create(
+            brand='BMW'
         )
-        self.obj = Model(
-            make=self.make,
-            model='X6 M'
+        self.obj = Modell(
+            brand=self.brand,
+            modell='X6 M'
         )
 
     def test_create(self):
@@ -170,18 +170,18 @@ class ModelTest(TestCase):
 class VehicleTest(TestCase):
 
     def setUp(self):
-        self.make = Make.objects.create(
-            make='BMW'
+        self.brand = Brand.objects.create(
+            brand='BMW'
         )
-        self.model = Model.objects.create(
-            make=self.make,
-            model='X6 M'
+        self.modell = Modell.objects.create(
+            brand=self.brand,
+            modell='X6 M'
         )
         self.kit = Kit.objects.create(
             kit='video'
         )
         self.obj = Vehicle(
-            model=self.model,
+            modell=self.modell,
             vehicle='X6 M sDrive 35i RWD 4dr Sports Activity Coupe',
             color='black',
             year_of_manufacture=2015,
