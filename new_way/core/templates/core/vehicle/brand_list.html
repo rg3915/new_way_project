@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+	
+    <div class="page-header">
+        <h2>Marcas</h2>
+    </div>
+
+	<div class="row">
+        {% for brand in object_list %}
+        	<div class="col-md-25 portfolio-item">
+            <a href="#">
+                <img class="img-responsive center" src="{{ STATIC_URL }}img/marcas/audi.png">
+                <p class="center">{{ brand.brand }}</p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+
+
+{% endblock content %}

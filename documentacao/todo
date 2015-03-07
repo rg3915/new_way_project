@@ -13,7 +13,7 @@ Occupation
 Address
 Dealership
 DealershipDetail
-Make
+Brand
 Model
 Vehicle
 Accessory
@@ -37,7 +37,7 @@ Occupation	no	yes	no	no	no	no
 Address	yes	yes	yes *	no	yes	no
 Dealership	no	yes	no	yes	no	no
 DealershipDetail	no	yes	no	no	no	no
-Make	yes	yes	no	yes	no	no
+Brand	yes	yes	no	yes	no	no
 Model	yes	yes	no	yes	no	no
 Vehicle	yes	yes	no	yes	no	no
 Accessory	yes	yes	no	yes	no	no
@@ -71,7 +71,7 @@ core/vehicle/accessory_list.html
 core/vehicle/kit_create_form.html
 core/vehicle/kit_detail.html
 core/vehicle/kit_list.html
-core/vehicle/make_list.html
+core/vehicle/brand_list.html
 core/vehicle/model_list.html
 core/vehicle/vehicle_detail.html
 core/vehicle/vehicle_list.html
