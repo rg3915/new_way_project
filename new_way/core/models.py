@@ -42,9 +42,6 @@ class Customer(Person):
         verbose_name = _(u'cliente')
         verbose_name_plural = _(u'clientes')
 
-    def __str__(self):
-        pass
-
 
 class Employee(Person):
     user = models.OneToOneField(User)
@@ -60,8 +57,6 @@ class Employee(Person):
         verbose_name = _(u'funcionário')
         verbose_name_plural = _(u'funcionários')
 
-    def __str__(self):
-        pass
 
 User.profile = property(lambda u: UserProfile.objects.get_or_create(user=u)[0])
 

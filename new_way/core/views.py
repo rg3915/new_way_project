@@ -18,6 +18,10 @@ class CustomerForm(CreateView):
     success_url = reverse_lazy('home')  # 'customer_list'
 
 
+class CustomerList(ListView):
+    template_name = 'core/person/customer_list.html'
+    model = Customer
+
 # @login_required
 # def user_profile(request):
 #     if request.method == 'POST':

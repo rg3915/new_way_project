@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	<h1>Interessados</h1>
+
+	<table class="table table-striped">
+
+		<thead>
+		<tr>
+			<th>Nome</th>
+			<th>CPF</th>
+			<th>email</th>
+		</tr>
+		</thead>
+
+	{% for i in object_list %}
+	
+		<tr>
+						<td>{{ i.first_name }} {{ i.last_name }}</td>
+						<td>{{ i.cpf }}</td>
+						<td>{{ i.email }}</td>
+					</tr>			
+
+	{% endfor %}
+
+	</table>
+
+{% endblock content %}
