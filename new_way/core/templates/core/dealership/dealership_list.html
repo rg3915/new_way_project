@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+	
+    <div class="jumbotron">
+        <h2>Escolha uma concessionária</h2>
+    </div>
+
+    <div class="row">
+
+		{% for dealership in dealership_list %}
+	        <div class="col-lg-6">
+	            <h4>{{ dealership.dealership }}</h4>
+	            <p>Endereço: {{ address.address }}</p>
+	            <p>Telefone: {{ dealership.phone1 }}, {{ dealership.phone2 }}, {{ dealership.phone3 }}</p>
+	            <p>Site: <a href="{{ dealership.site }}" target="_blank">{{ dealership.site }}</a></p>
+	        </div>
+		{% endfor %}
+
+    </div>
+
+    <br>
+
+{% endblock content %}

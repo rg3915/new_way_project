@@ -7,4 +7,5 @@ django-extensions==1.5.0
 names==0.3.0
 pytz==2014.10
 selenium==2.44.0
+simplejson==3.6.5
 six==1.9.0

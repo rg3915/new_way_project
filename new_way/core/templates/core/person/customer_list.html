@@ -14,13 +14,13 @@
 		</tr>
 		</thead>
 
-	{% for i in object_list %}
+	{% for customer in object_list %}
 	
 		<tr>
-						<td>{{ i.first_name }} {{ i.last_name }}</td>
-						<td>{{ i.cpf }}</td>
-						<td>{{ i.email }}</td>
-					</tr>			
+			<td>{{ customer.first_name }} {{ customer.last_name }}</td>
+			<td>{{ customer.cpf }}</td>
+			<td>{{ customer.email }}</td>
+		</tr>			
 
 	{% endfor %}
 

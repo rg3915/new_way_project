@@ -87,7 +87,7 @@ class Address(models.Model):
         verbose_name_plural = u"endereços"
 
     def __str__(self):
-        return self.cep
+        return self.cep + ", " + self.address + ", " + str(self.address_number)
 
 
 class Dealership(models.Model):

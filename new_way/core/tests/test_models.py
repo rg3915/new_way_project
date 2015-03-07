@@ -104,6 +104,7 @@ class EmployeeTest(TestCase):
         self.dealership = Dealership.objects.create(
             dealership='Caoa',
             address=self.address,
+            site='www.google.com',
             phone1='1234-0000',
             phone2='1234-0001',
             phone3='1234-0002'

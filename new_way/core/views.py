@@ -4,7 +4,7 @@ from django.core.context_processors import csrf
 from django.core.urlresolvers import reverse_lazy
 from django.contrib.auth.decorators import login_required
 from django.views.generic import CreateView, TemplateView, ListView, DetailView
-from .models import Customer
+from .models import Customer, Dealership, Address
 from .forms import CustomerForm
 
 
@@ -21,6 +21,30 @@ class CustomerForm(CreateView):
 class CustomerList(ListView):
     template_name = 'core/person/customer_list.html'
     model = Customer
+
+
+class DealershipList(ListView):
+    template_name = 'core/dealership/dealership_list.html'
+    model = Dealership
+
+    def get_context_data(self, **kwargs):
+        id_address = Address.objects.get(pk=self.kwargs['pk'])
+        address = Dealership.objects.filter(address=id_address)
+        context = super(DealershipList, self).get_context_data(**kwargs)
+        context['address'] = address
+        return context
+
+'''
+    def get_context_data(self, **kwargs):
+        Objvenda = Sale.objects.get(pk=self.kwargs['pk'])
+        ItensVenda = SaleDetail.objects.all().filter(sale=Objvenda)
+        context = super(SaleDetailView, self).get_context_data(**kwargs)
+        context['count'] = ItensVenda.count()
+        context['Sale'] = Objvenda
+        context['Itens'] = ItensVenda
+        return context
+'''
+
 
 # @login_required
 # def user_profile(request):
