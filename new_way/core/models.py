@@ -94,9 +94,13 @@ class Dealership(models.Model):
     dealership = models.CharField(_(u'concessionária'), max_length=50)
     address = models.ForeignKey(
         "Address", verbose_name=u'endereço', related_name='dealership_address')
-    phone1 = models.CharField(_('telefone 1'), max_length=15, blank=True)
-    phone2 = models.CharField(_('telefone 2'), max_length=15, blank=True)
-    phone3 = models.CharField(_('telefone 3'), max_length=15, blank=True)
+    site = models.CharField(_('site'), max_length=100, null=True, blank=True)
+    phone1 = models.CharField(
+        _('telefone 1'), max_length=15, null=True, blank=True)
+    phone2 = models.CharField(
+        _('telefone 2'), max_length=15, null=True, blank=True)
+    phone3 = models.CharField(
+        _('telefone 3'), max_length=15, null=True, blank=True)
 
     class Meta:
         verbose_name = _(u'concessionária')
