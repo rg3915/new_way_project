@@ -4,26 +4,44 @@
 
 	<h1>Interessados</h1>
 
-	<table class="table table-striped">
+<div class="panel-body">
+    <div class="dataTable_wrapper">
 
-		<thead>
-		<tr>
-			<th>Nome</th>
-			<th>CPF</th>
-			<th>email</th>
-		</tr>
-		</thead>
+		<table class="table table-striped" id="dataTables-example">
 
-	{% for customer in object_list %}
-	
-		<tr>
-			<td>{{ customer.first_name }} {{ customer.last_name }}</td>
-			<td>{{ customer.cpf }}</td>
-			<td>{{ customer.email }}</td>
-		</tr>			
+			<thead>
+			<tr>
+				<th>Nome</th>
+				<th>CPF</th>
+				<th>email</th>
+			</tr>
+			</thead>
 
-	{% endfor %}
+			<tbody>
+				{% for customer in object_list %}
+					<tr>
+						<td>{{ customer.first_name }} {{ customer.last_name }}</td>
+						<td>{{ customer.cpf }}</td>
+						<td>{{ customer.email }}</td>
+					</tr>			
+				{% endfor %}
+			</tbody>
 
-	</table>
+		</table>
+
+	</div>
+</div>
 
 {% endblock content %}
+
+{% block myscript %}
+  
+    <script>
+	    $(document).ready(function() {
+	        $('#dataTables-example').DataTable({
+                responsive: true
+	        });
+	    });
+    </script>
+
+{% endblock myscript %}
