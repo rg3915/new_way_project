@@ -4,7 +4,7 @@ from django.core.context_processors import csrf
 from django.core.urlresolvers import reverse_lazy
 from django.contrib.auth.decorators import login_required
 from django.views.generic import CreateView, TemplateView, ListView, DetailView
-from .models import Customer, Dealership, Address, Brand
+from .models import Customer, Dealership, Address, Brand, Modell
 from .forms import CustomerForm
 
 
@@ -21,6 +21,11 @@ class CustomerForm(CreateView):
 class BrandList(ListView):
     template_name = 'core/vehicle/brand_list.html'
     model = Brand
+
+
+class ModelList(ListView):
+    template_name = 'core/vehicle/model_list.html'
+    model = Modell
 
 
 class DealershipList(ListView):
