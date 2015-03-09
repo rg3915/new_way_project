@@ -18,11 +18,6 @@ class CustomerForm(CreateView):
     success_url = reverse_lazy('home')  # 'customer_list'
 
 
-class CustomerList(ListView):
-    template_name = 'core/person/customer_list.html'
-    model = Customer
-
-
 class BrandList(ListView):
     template_name = 'core/vehicle/brand_list.html'
     model = Brand
@@ -31,14 +26,14 @@ class BrandList(ListView):
 class DealershipList(ListView):
     template_name = 'core/dealership/dealership_list.html'
     model = Dealership
-
+'''
     def get_context_data(self, **kwargs):
         id_address = Address.objects.get(pk=self.kwargs['pk'])
         address = Dealership.objects.filter(address=id_address)
         context = super(DealershipList, self).get_context_data(**kwargs)
         context['address'] = address
         return context
-
+'''
 '''
     def get_context_data(self, **kwargs):
         Objvenda = Sale.objects.get(pk=self.kwargs['pk'])

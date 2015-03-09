@@ -6,7 +6,6 @@ urlpatterns = patterns(
     'new_way.core.views',
     url(r'^$', 'home', name='home'),
 
-    url(r'^customers/$', CustomerList.as_view(), name='customer_list'),
     url(r'^brands/$', BrandList.as_view(), name='brand_list'),
     url(r'^dealerships/$', DealershipList.as_view(), name='dealership_list'),
     # url(r'^about/$', 'about', name='about'),

@@ -4,111 +4,120 @@
 
 \begin{document}
 
+\definecolor{waterblue}{RGB}{67,188,182}
+\definecolor{goldenyellow}{RGB}{249,229,9}
+\definecolor{sunorange}{RGB}{249,133,32}
+\definecolor{softgreen}{RGB}{139,221,145}
 
-\begin{tikzpicture}
+\begin{tikzpicture}[>=latex]
 
-\umlclass[x=-5, y=0, fill=green!50!cyan]{Subscription - Interessado}{
+\umlclass[x=3, y=15, fill=blue!50]{User}{}
+
+\umlclass[x=-15, y=15, fill=green!50]{TimeStampedModel}{
+	created\_at \\
+	modified\_at \\
+}
+
+\umlclass[x=-5, y=10, fill=green!50!cyan]{Person}{
 	id \\
-	firstname (nome) \\
-	lastname (sobrenome) \\
+	first\_name \\
+	last\_name \\
 	cpf \\
-	date\_of\_birth (data\_nasc) \\
+	birthday \\
 	email \\
-	phone (tel) \\
+	phone \\
 	cell \\
-	address (endereco) \\
-	complement \\
-	district (bairro) \\
-	city (cidade) \\
-	uf \\
-	cep \\
-	created\_at (criado\_em) \\
-}{}
+	\color{blue}{address\_id} \\
+}{\emph{TimeStampedModel}}
 
-\umlclass[x=5, y=10, fill=green!25]{User - Usuario}{
-	id \\
-	firstname (nome) \\
-	lastname (sobrenome) \\
-	cpf \\
-	date\_of\_birth (data\_nasc) \\
-	email \\
-	phone (tel) \\
-	cell \\
-	address (endereco) \\
-	complement \\
-	district (bairro) \\
-	city (cidade) \\
-	uf \\
-	cep \\
-	created\_at (criado\_em) \\
-	\color{blue}{usertype\_id} \\
+\umlclass[x=-3, y=-2, fill=green!25]{Customer}{}{
+	\emph{Person} \\
+	\emph{Interessado} \\
+}
+
+
+\umlclass[x=3, y=10, fill=green!25]{Employee}{
+	\color{blue}{user} \\
+	\color{blue}{occupation\_id} \\
 	\color{blue}{dealership\_id} \\
-	\color{blue}{receive\_commission (recebe\_comissao)} \\
-	\color{blue}{value\_commission (valor\_comissao)} \\
-}{}
+	comissioned (b) \\
+	commission (d) \\
+}{
+	\emph{Person} \\
+	\emph{Funcionário} \\
+}
 
-\umlclass[x=-3, y=10, fill=green!25]{UserType - TipoUsuario}{
+
+\umlclass[x=10, y=15, fill=green!25]{Occupation}{
 	id \\
-	usertype (tipo\_usuario) \\
+	occupation \\
+}
+
+\umlclass[x=-10, y=0, fill=yellow!75]{Address}{
+	address \\
+	address\_number \\
+	complement \\
+	district \\
+	city \\
+	uf \\
+	cep \\
 }{}
 
-\umlclass[x=5, y=-5, fill=purple!25]{Kiosk - Quiosque}{
+\umlclass[x=5, y=-5, fill=purple!25]{Kiosk}{
 	id \\
 	kiosk \\
-	store\_id \\
+	\color{blue}{store\_id} \\
 }{}
 
-\umlclass[x=5, y=-10, fill=purple!25]{Store - Estabelecimento}{
+
+\umlclass[x=5, y=-10, fill=purple!25]{Store}{
 	id \\
 	store \\
-	address \\
-	district \\
-	city \\
-	uf \\
-	cep \\
-}{}
+	\color{blue}{address\_id} \\
+}{\emph{Estabelecimento}}
 
-\umlclass[x=12, y=10]{Dealership - Concessionaria}{
+
+\umlclass[x=12, y=10]{Dealership}{
 	id \\
 	dealership \\
-	address \\
-	district \\
-	city \\
-	uf \\
-	cep \\
+	\color{blue}{address\_id} \\
+	site \\
 	phone1 \\
 	phone2 \\
 	phone3 \\
-}{}
+}{\emph{Concessionaria}}
 
-\umlclass[x=20, y=5]{DealershipDet - ConcessionariaDet}{
+
+\umlclass[x=20, y=5]{DealershipDetail}{
 	id \\
-	dealership\_id \\
-	vehicle\_id \\
+	\color{blue}{dealership\_id} \\
+	\color{blue}{vehicle\_id} \\
 	quantity\_vehicle \\
 }{}
+
 
 \umlclass[x=12, y=-7]{Kit}{
 	id \\
 	kit \\
 }{}
 
-\umlclass[x=18, y=-7]{KitDet}{
+\umlclass[x=18, y=-7]{KitDetail}{
 	id \\
-	kit\_id \\
-	accessory\_id \\
+	\color{blue}{kit\_id} \\
+	\color{blue}{accessory\_id} \\
 	quantity\_accessory	 \\
 }{}
 
-\umlclass[x=18, y=-11]{Accessory - Acessorio}{
+
+\umlclass[x=18, y=-11]{Accessory}{
 	id \\
 	accessory \\
 	price\_accessory \\
-}{}
+}{\emph{Acessorio}}
 
-\umlclass[x=12, y=0, fill=cyan!50]{Vehicle - Veiculo}{
+\umlclass[x=12, y=0, fill=cyan!50]{Vehicle}{
 	id \\
-	model\_id \\
+	\color{blue}{modell\_id} \\
 	vehicle \\
 	color \\
 	year\_of\_manufacture \\
@@ -119,48 +128,63 @@
 	tire (roda) \\
 	performance (desempenho) \\
 	trunk (porta\_malas) \\
-	price (preco) \\
-	kit\_fabric\_id (kit\_fabrica\_id) \\
-}{}
+	price \\
+	\color{blue}{kit\_fabric\_id} \\
+}{\emph{Veiculo}}
 
-\umlclass[x=20, y=0, fill=cyan!25]{Model}{
+
+\umlclass[x=20, y=0, fill=cyan!25]{Modell}{
 	id \\
-	model \\
-	mark\_id \\
+	modell \\
+	\color{blue}{brand\_id} \\
 }{}
 
-\umlclass[x=24, y=0, fill=cyan!25]{Mark}{
+
+\umlclass[x=24, y=0, fill=cyan!25]{Brand}{
 	id \\
-	mark \\
+	brand \\
 }{}
 
-\umlclass[x=5, y=0, fill=orange!25!yellow]{Ordered - Pedido}{
+\umlclass[x=5, y=0, fill=orange!25!yellow]{Ordered}{
 	id \\
-	date\_of\_ordered (data\_pedido) \\
-	subscription\_id (interessado\_id) \\
-	user\_id \\
-	vehicle\_id \\
-	kit\_optional\_id \\
-	dealership\_id \\
-	kiosk\_id \\
-	status \\
-}{}
+    \color{blue}{customer\_id} \\
+    \color{blue}{employee\_id} \\
+    \color{blue}{vehicle\_id} \\
+    \color{blue}{kit\_optional\_id} \\
+    \color{blue}{dealership\_id} \\
+    \color{blue}{kiosk\_id} \\
+    status \\
+}{
+	\emph{Pedido} \\
+	\emph{TimeStampedModel} \\
+}
 
-\umlassoc{Subscription - Interessado}{Ordered - Pedido}
-\umlassoc{User - Usuario}{Ordered - Pedido}
-\umlassoc{User - Usuario}{UserType - TipoUsuario}
-\umlassoc{Kiosk - Quiosque}{Ordered - Pedido}
-\umlassoc{Kiosk - Quiosque}{Store - Estabelecimento}
-\draw (Dealership - Concessionaria) to[out=-90, in=90] (Ordered - Pedido);
-\umlassoc[geometry=-|]{Dealership - Concessionaria}{DealershipDet - ConcessionariaDet}
-\umlassoc{Vehicle - Veiculo}{Ordered - Pedido}
-\umlassoc[geometry=|-]{Vehicle - Veiculo}{DealershipDet - ConcessionariaDet}
-\umlassoc{Vehicle - Veiculo}{Kit}
-\umlassoc{Kit}{KitDet}
-\umlassoc{KitDet}{Accessory - Acessorio}
-\draw (Kit) to[out=180, in=-45] (Ordered - Pedido);
-\umlassoc{Vehicle - Veiculo}{Model}
-\umlassoc{Model}{Mark}
+
+\draw[<-] (TimeStampedModel) to[out=0, in=180] node{abstract inheritance} (Person);
+\draw[->] (Customer) to[out=90, in=-90] node{abstract inheritance} (Person);
+\draw (Person) to[out=210, in=90] (Address);
+\draw (Employee) to node[left]{OneToOne} (User);
+\draw[->] (Employee) to node[above]{abstract inheritance} (Person);
+\draw (Employee) to[out=45, in=180] (Occupation);
+\draw (Employee) to (Dealership);
+\draw (Kiosk) to (Store);
+\draw (Store) to[out=180, in=-90] (Address);
+\draw (Dealership) to[out=200, in=0] (Address);
+\draw (DealershipDetail) to[out=180, in=0] (Dealership);
+\draw (DealershipDetail) to[out=180, in=0] (Vehicle);
+\draw (KitDetail) to (Kit);
+\draw (KitDetail) to (Accessory);
+\draw (Vehicle) to (Modell);
+\draw (Vehicle) to (Kit);
+\draw (Modell) to (Brand);
+\draw[->] (Ordered) to[out=135, in=-90] node{abstract inheritance} (TimeStampedModel);
+\draw (Ordered) to[out=180, in=0] (Customer);
+\draw (Ordered) to[out=90, in=-90] (Employee);
+\draw (Ordered) to (Vehicle);
+\draw (Ordered) to[out=-45, in=180] (Kit);
+\draw (Ordered) to[out=45, in=-90] (Dealership);
+\draw (Ordered) to (Kiosk);
+% \umlassoc{Customer (Person)}{Ordered (TimeStampedModel)}
 
 \end{tikzpicture}
 
