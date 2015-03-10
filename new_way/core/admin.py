@@ -53,7 +53,7 @@ class StoreAdmin(admin.ModelAdmin):
     ordering = ['store']
     list_display = ('store', 'phone', 'city', 'uf')
     search_fields = ('store',)
-    list_filter = ('city', 'uf')
+    list_filter = ('uf',)
 
 
 class KioskAdmin(admin.ModelAdmin):

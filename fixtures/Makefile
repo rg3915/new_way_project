@@ -34,7 +34,13 @@ dealership:
 load_dealership:
 	python ../manage.py loaddata fixtures/concessionarias.csv.json
 
+store:
+	python csv2json.py fixtures/estabelecimentos.csv core.Store
+
+load_store:
+	python ../manage.py loaddata fixtures/estabelecimentos.csv.json
+
 clear_json:
 	rm fixtures/*.json
 
-load_fixtures: brand load_brand modell load_modell kit load_kit vehicle load_vehicle address load_address dealership load_dealership clear_json
+load_fixtures: brand load_brand modell load_modell kit load_kit vehicle load_vehicle address load_address dealership load_dealership store load_store clear_json
