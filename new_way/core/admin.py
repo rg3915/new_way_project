@@ -51,9 +51,9 @@ class VehicleAdmin(admin.ModelAdmin):
 class StoreAdmin(admin.ModelAdmin):
 
     ordering = ['store']
-    list_display = ('store', 'address')
+    list_display = ('store', 'phone', 'city', 'uf')
     search_fields = ('store',)
-    # list_filter = ('city',)
+    list_filter = ('city', 'uf')
 
 
 class KioskAdmin(admin.ModelAdmin):

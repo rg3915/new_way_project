@@ -249,19 +249,11 @@ class KitDetailTest(TestCase):
 class StoreTest(TestCase):
 
     def setUp(self):
-        self.address = Address.objects.create(
-            address=u'Avenida Engenheiro Eusébio Stevaux',
-            address_number=100,
-            complement='Bloco A',
-            district='Jurubatuba',
-            city=u'São Paulo',
-            uf='SP',
-            cep='04696000'
-        )
-
         self.obj = Store(
             store='Caoa',
-            address=self.address,
+            phone='(11) 1234-5678',
+            city=u'São Paulo',
+            uf='SP',
         )
 
     def test_create(self):

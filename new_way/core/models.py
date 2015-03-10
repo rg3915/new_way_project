@@ -206,7 +206,9 @@ class KitDetail(models.Model):
 
 class Store(models.Model):
     store = models.CharField(_(u'estabelecimento'), max_length=50)
-    address = models.ForeignKey("Address", verbose_name='endereço')
+    phone = models.CharField(_('telefone'), max_length=15, blank=True)
+    city = models.CharField(_('cidade'), max_length=80, blank=True)
+    uf = models.CharField(_('UF'), max_length=2, choices=uf_list)
 
     class Meta:
         ordering = ['store']
