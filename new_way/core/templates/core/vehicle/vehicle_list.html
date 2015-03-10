@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+	
+    <div class="page-header">
+        <h2>Carros</h2>
+    </div>
+
+	<div>
+	    {% if object_list %}
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Carro</th>
+						<th>Modelo</th>
+						<th>Cor</th>
+						<th>Ano</th>
+						<th>Potência</th>
+						<th>Combustível</th>
+						<th>Câmbio</th>
+						<th>Freio</th>
+						<th>Roda</th>
+						<th>Desempenho</th>
+						<th>Porta-malas</th>
+						<th>A partir de</th>
+					</tr>
+				</thead>
+				<tbody>
+			    	{% for vehicle in object_list %}
+			    		<tr>
+							<td>{{ vehicle.vehicle }}</td>
+							<td>{{ vehicle.modell }}</td>
+							<td>{{ vehicle.color }}</td>
+							<td>{{ vehicle.year_of_manufacture }}</td>
+							<td>{{ vehicle.engine_power }}</td>
+							<td>{{ vehicle.get_fueltype_display }}</td>
+							<td>{{ vehicle.get_transmissiontype_display }}</td>
+							<td>{{ vehicle.wheel }}</td>
+							<td>{{ vehicle.tire }}</td>
+							<td>{{ vehicle.performance }}</td>
+							<td>{{ vehicle.trunk }}</td>
+							<td>{{ vehicle.price }}</td>
+			    		</tr>
+			    	{% endfor %}
+				</tbody>
+			</table>
+	    {% else %}
+	        <p class="alert alert-warning">Sem itens na lista.</p>
+	    {% endif %}
+	</div>
+
+{% endblock content %}
+

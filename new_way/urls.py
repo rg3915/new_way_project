@@ -8,6 +8,7 @@ urlpatterns = patterns(
 
     url(r'^brands/$', BrandList.as_view(), name='brand_list'),
     url(r'^models/$', ModelList.as_view(), name='model_list'),
+    url(r'^vehicles/$', VehicleList.as_view(), name='vehicle_list'),
     url(r'^dealerships/$', DealershipList.as_view(), name='dealership_list'),
     # url(r'^about/$', 'about', name='about'),
     # url(r'^contact/$', 'contact', name='contact'),

@@ -144,7 +144,7 @@ class Modell(models.Model):
         verbose_name_plural = u'modelos'
 
     def __str__(self):
-        return self.model
+        return self.modell
 
 
 class Vehicle(models.Model):
