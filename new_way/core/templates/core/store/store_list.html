@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+	
+    <div class="page-header">
+        <h2>Escolha um estabelecimento</h2>
+    </div>
+
+	<div>
+	    {% if object_list %}
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Estabelecimento</th>
+						<th>Cidade</th>
+						<th>UF</th>
+						<th class="text-center">Telefone</th>
+					</tr>
+				</thead>
+				<tbody>
+			    	{% for store in object_list %}
+			    		<tr>
+			    			<td>{{ store.store }}</td>
+			    			<td>{{ store.city }}</td>
+			    			<td>{{ store.get_uf_display }}</td>
+			    			{% if store.phone %}
+			    				<td class="text-center">{{ store.phone }}</td>
+			    			{% else %}
+			    				<td class="text-center">---</td>
+			    			{% endif %}
+			    		</tr>
+			    	{% endfor %}
+				</tbody>
+			</table>
+	    {% else %}
+	        <p class="alert alert-warning">Sem itens na lista.</p>
+	    {% endif %}
+	</div>
+
+{% endblock content %}
