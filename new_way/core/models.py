@@ -32,7 +32,7 @@ class Person(TimeStampedModel):
         ordering = ['first_name']
 
     def __str__(self):
-        return u"%s %s".join([self.first_name, self.last_name])
+        return self.first_name + " " + self.last_name
     full_name = property(__str__)
 
 
