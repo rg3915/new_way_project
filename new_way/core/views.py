@@ -27,6 +27,17 @@ class ModelList(ListView):
     template_name = 'core/vehicle/model_list.html'
     model = Modell
 
+    def get_context_data(self, **kwargs):
+        context = super(ModelList, self).get_context_data(**kwargs)
+        return context
+
+    def get_queryset(self):
+        models = Modell.objects.all()
+        var_get_search = self.request.GET.get('search_box')
+        if var_get_search is not None:
+            models = models.filter(modell__icontains=var_get_search)
+        return models
+
 
 class VehicleList(ListView):
     template_name = 'core/vehicle/vehicle_list.html'
@@ -37,10 +48,15 @@ class DealershipList(ListView):
     template_name = 'core/dealership/dealership_list.html'
     model = Dealership
 
+# todo search
+
 
 class StoreList(ListView):
     template_name = 'core/store/store_list.html'
     model = Store
+
+# todo search
+
 
 # @login_required
 # def user_profile(request):
