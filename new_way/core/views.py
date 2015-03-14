@@ -12,7 +12,7 @@ def home(request):
     return render(request, 'index.html')
 
 
-class CustomerForm(CreateView):
+class CustomerCreate(CreateView):
     template_name = 'core/person/customer_create_form.html'
     form_class = CustomerForm
     success_url = reverse_lazy('home')  # 'customer_list'
@@ -55,8 +55,18 @@ class DealershipList(ListView):
 class StoreList(ListView):
     template_name = 'core/store/store_list.html'
     model = Store
+    paginate_by = 10
 
-# todo search
+    def get_context_data(self, **kwargs):
+        context = super(StoreList, self).get_context_data(**kwargs)
+        return context
+
+    def get_queryset(self):
+        stores = Store.objects.all()
+        var_get_search = self.request.GET.get('search_box')
+        if var_get_search is not None:
+            stores = stores.filter(store__icontains=var_get_search)
+        return stores
 
 
 # @login_required

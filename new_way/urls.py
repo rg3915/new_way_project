@@ -11,6 +11,8 @@ urlpatterns = patterns(
     url(r'^vehicles/$', VehicleList.as_view(), name='vehicle_list'),
     url(r'^dealerships/$', DealershipList.as_view(), name='dealership_list'),
     url(r'^stores/$', StoreList.as_view(), name='store_list'),
+
+    url(r'^customer/add/$', CustomerCreate.as_view(), name='customer_add'),
     # url(r'^about/$', 'about', name='about'),
     # url(r'^contact/$', 'contact', name='contact'),
     url(r'^admin/', include(admin.site.urls), name='admin'),
