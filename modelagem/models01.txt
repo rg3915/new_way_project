@@ -1,140 +1,125 @@
-TABLE Interessado
-	id
-	nome
-	sobrenome
-	cpf
-	data_nasc
-	email
-	tel
-	cel
-	endereco
-	complemento
-	bairro
-	cidade
-	uf
-	cep
-	criado_em
+TABLE Person(TimeStampedModel)
+    first_name - nome
+    last_name - sobrenome
+    cpf - CPF
+    birthday - data de nascimento
+    email - email
+    phone - telefone
+    cell - celular
+    address - Address (FK)
 
-TABLE Subscription
-	id
-	firstname
-	lastname
-	cpf
-	date_of_birth
-	email
-	phone
-	cell
-	address
-	complement
-	district
-	city
-	uf
-	cep
-	created_at
 
-TABLE Usuario
-	id
-	nome
-	sobrenome
-	cpf
-	data_nasc
-	email
-	tel
-	cel
-	endereco
-	complemento
-	bairro
-	cidade
-	uf
-	cep
-	tipo_usuario_id
-	concessionaria_id
-	recebe_comissao
-	valor_comissao
+TABLE Customer(Person)
+    first_name - nome
+    last_name - sobrenome
+    cpf - CPF
+    birthday - data de nascimento
+    email - email
+    phone - telefone
+    cell - celular
+    address - Address (FK)
 
-TABLE TipoUsuario
-	id
-	tipo_usuario
+TABLE Employee(Person)
+    first_name - nome
+    last_name - sobrenome
+    cpf - CPF
+    birthday - data de nascimento
+    email - email
+    phone - telefone
+    cell - celular
+    address - Address (FK)
+    user - OneToOneField(User)
+    occupation - Occupation (FK)
+    dealership - Dealership (FK)
+    comissioned - comissionado
+    comission - comissão
 
-TABLE Quiosque
-	id
-	quiosque
-	estabelecimento_id
 
-TABLE Estabelecimento
-	id
-	nome_estabelecimento
-	endereco
-	bairro
-	cidade
-	uf
-	cep
+TABLE Occupation
+    occupation - cargo
 
-TABLE Concessionaria
-	id
-	concessionaria
-	endereco
-	bairro
-	cidade
-	uf
-	cep
-	fone1
-	fone2
-	fone3
 
-TABLE ConcessionariaDetalhes
-	id
-	concessionaria_id
-	veiculo_id
-	quantidade_veiculo
+TABLE Address
+    address - endereço
+    address_number - número
+    complement - complemento
+    district - bairro
+    city - cidade
+    uf - UF
+    cep - CEP
 
-TABLE Acessorio
-	id
-	acessorio
-	preco_acessorio
+
+TABLE Dealership
+    dealership - concessionária
+    address - Address (FK)
+    site - site
+    phone1 - telefone 1
+    phone2 - telefone 2
+    phone3 - telefone 3
+
+
+TABLE DealershipDetail
+    dealership - Dealership (FK)
+    vehicle - Vehicle (FK)
+    quantity_vehicle - quantidade
+
+
+TABLE Brand
+    brand - marca
+
+
+TABLE Modell
+    modell - modelo
+    brand - Brand (FK)
+
+
+TABLE Vehicle
+    modell - Modell (FK)
+    vehicle - veículo
+    color - cor
+    year_of_manufacture - ano de fabricação
+    engine_power - potência do motor
+    fueltype - tipo de combustível
+    transmissiontype - tipo de câmbio
+    wheel - freio
+    tire - roda
+    performance - desempenho
+    trunk - porta malas
+    price - preço
+    kit_fabric - Kit (FK)
+
+
+TABLE Accessory
+    accessory - accessório
+    price_accessory - preço
+
 
 TABLE Kit
-	id
-	kit
+    kit - kit
 
-TABLE KitDetalhes
-	id
-	kit_id
-	acessorio_id
-	quantidade_acessorio	
+TABLE KitDetail
+    kit - Kit (FK)
+    accessory - Accessory (FK)
+    quantity_accessory - quantidade
 
-TABLE Marca
-	id
-	marca
 
-TABLE Modelo
-	id
-	modelo
-	marca_id
+TABLE Store
+    store - estabelecimento
+    phone - telefone
+    city - cidade
+    uf - UF
 
-TABLE Veiculo
-	id
-	modelo_id
-	veiculo
-	cor
-	ano_fabricacao
-	potencia_motor
-	tipo_combustivel
-	tipo_cambio
-	freio
-	roda
-	desempenho
-	porta_malas
-	preco
-	kit_fabrica_id
 
-TABLE Pedido
-	id
-	data_pedido
-	interessado_id
-	usuario_id
-	veiculo_id
-	kit_opcional_id
-	concessionaria_id
-	quiosque_id
-	status
+TABLE Kiosk
+    kiosk - quiosque
+    store - Store (FK)
+
+
+TABLE Ordered(TimeStampedModel):
+    customer - Customer (FK)
+    employee - Employee (FK)
+    vehicle - Vehicle (FK)
+    kit_optional - Kit (FK)
+    dealership - Dealership (FK)
+    kiosk - Kiosk (FK)
+    status - status
