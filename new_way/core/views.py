@@ -26,6 +26,7 @@ class BrandList(ListView):
 class ModelList(ListView):
     template_name = 'core/vehicle/model_list.html'
     model = Modell
+    paginate_by = 8
 
     def get_context_data(self, **kwargs):
         context = super(ModelList, self).get_context_data(**kwargs)
