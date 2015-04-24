@@ -33,7 +33,7 @@ Desenvolver uma aplicação web que faça pesquisa de veículos e gere um pedido
 
 Clone o repositório
 
-	$ git clone git@github.com:rg3915/new_way_project.git
+	$ git clone https://github.com/rg3915/new_way_project.git
 
 Instale as libs necessárias (repare na linha a seguir que o virtualenv está ativado).
 
