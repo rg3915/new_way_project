@@ -249,4 +249,4 @@ class Ordered(TimeStampedModel):
         verbose_name_plural = u'pedidos'
 
     def __str__(self):
-        return self.id
+        return str(self.id)
