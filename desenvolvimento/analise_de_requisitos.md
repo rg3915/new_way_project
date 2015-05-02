@@ -19,7 +19,9 @@ Funcionalidades
 - Relatórios
 	- Pedido de compra
 	- Veículos mais consultados por faixa de idade
+	- Veículos mais consultados por sexo
 	- Veículos mais consultados por região
+	- Concessionárias que mais venderam
 	- Veículos mais vendidos por mês ou por semestre
 
 Itens do projeto
