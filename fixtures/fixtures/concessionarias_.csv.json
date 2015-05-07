@@ -1,0 +1,110 @@
+[
+    {
+        "model": "core.Dealership",
+        "fields": {
+            "dealership": "Auto Green",
+            "phone2": "(11) 1681-9170",
+            "complement": "",
+            "uf": "SP",
+            "address": "Rua Coelho Lisboa",
+            "phone3": "(11) 2055-1367",
+            "district": "Tatuap\u00e9",
+            "city": "S\u00e3o Paulo",
+            "address_number": 574,
+            "site": "http://www.greenautomoveis.com.br/",
+            "cep": "03323-040",
+            "phone1": "(11) 7522-3631"
+        },
+        "pk": 1
+    },
+    {
+        "model": "core.Dealership",
+        "fields": {
+            "dealership": "Biscayne",
+            "phone2": "(11) 4158-1979",
+            "complement": "",
+            "uf": "SP",
+            "address": "Av. Indian\u00f3polis",
+            "phone3": "(11) 4563-0780",
+            "district": "Indian\u00f3polis",
+            "city": "S\u00e3o Paulo",
+            "address_number": 100,
+            "site": "http://www.biscayne.com.br",
+            "cep": "04062-000",
+            "phone1": "(11) 9611-9796"
+        },
+        "pk": 2
+    },
+    {
+        "model": "core.Dealership",
+        "fields": {
+            "dealership": "Caltabiano",
+            "phone2": "(11) 7237-8194",
+            "complement": "",
+            "uf": "SP",
+            "address": "Av. Pacaemb\u00fa",
+            "phone3": "(11) 9053-0131",
+            "district": "Barra Funda",
+            "city": "S\u00e3o Paulo",
+            "address_number": 380,
+            "site": "http://www.caltabiano.com.br",
+            "cep": "01155-000",
+            "phone1": "(11) 7201-9247"
+        },
+        "pk": 3
+    },
+    {
+        "model": "core.Dealership",
+        "fields": {
+            "dealership": "Caraig\u00e1",
+            "phone2": "(11) 2495-5671",
+            "complement": "",
+            "uf": "SP",
+            "address": "Av. Ulisses Reis de Matos",
+            "phone3": "(11) 8299-0334",
+            "district": "Morumbi",
+            "city": "S\u00e3o Paulo",
+            "address_number": 100,
+            "site": "http://www.caraiga.com.br",
+            "cep": "00568-602",
+            "phone1": "(11) 9559-5934"
+        },
+        "pk": 4
+    },
+    {
+        "model": "core.Dealership",
+        "fields": {
+            "dealership": "Itavema",
+            "phone2": "(11) 5710-6474",
+            "complement": "",
+            "uf": "SP",
+            "address": "Av. Moreira Guimar\u00e3es",
+            "phone3": "(11) 5978-7070",
+            "district": "Moema",
+            "city": "S\u00e3o Paulo",
+            "address_number": 367,
+            "site": "http://www.itavema.com.br",
+            "cep": "04074-030",
+            "phone1": "(11) 4143-2009"
+        },
+        "pk": 5
+    },
+    {
+        "model": "core.Dealership",
+        "fields": {
+            "dealership": "Santa Luiza",
+            "phone2": "(11) 1343-6036",
+            "complement": "",
+            "uf": "SP",
+            "address": "Rua Padre Machado",
+            "phone3": "(11) 6737-4899",
+            "district": "Vila Mariana",
+            "city": "S\u00e3o Paulo",
+            "address_number": 68,
+            "site": "http://www.santaluiza.com.br",
+            "cep": "04127-001",
+            "phone1": "(11) 7730-2797"
+        },
+        "pk": 6
+    }
+]

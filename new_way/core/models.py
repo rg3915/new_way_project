@@ -6,6 +6,35 @@ from django.contrib.auth.models import User
 from .applib.lists import gender_list, treatment_list, type_address_list, uf_list, \
     type_phone_list, fueltype_list, transmissiontype_list, status_list
 
+'''
+# only for Python 2.7
+gender_list = [('M', 'masculino'), ('F', 'feminino')]
+
+uf_list = (
+    ('RJ', 'Rio de Janeiro'),
+    ('SP', u'São Paulo'),
+)
+
+fueltype_list = (
+    ('g', 'gasolina'),
+    ('a', 'álcool'),
+    ('d', 'diesel'),
+    ('f', 'flex'),
+    ('e', 'elétrico'),
+)
+
+transmissiontype_list = (
+    ('a', 'automático'),
+    ('m', 'manual'),
+)
+
+status_list = (
+    ('c', 'cancelado'),
+    ('p', 'pendente'),
+    ('a', 'aprovado'),
+)
+'''
+
 
 class TimeStampedModel(models.Model):
     created_at = models.DateTimeField(
@@ -17,7 +46,22 @@ class TimeStampedModel(models.Model):
         abstract = True
 
 
-class Person(TimeStampedModel):
+class Address(models.Model):
+    address = models.CharField(_(u'endereço'), max_length=80)
+    address_number = models.PositiveIntegerField(_(u'número'))
+    complement = models.CharField(
+        _('complemento'), max_length=80, blank=True, null=True)
+    district = models.CharField(_('bairro'), max_length=80)
+    city = models.CharField(_('cidade'), max_length=80)
+    uf = models.CharField(_('UF'), max_length=2, choices=uf_list)
+    cep = models.CharField(_('CEP'), max_length=9)
+
+    class Meta:
+        abstract = True
+
+
+class Person(TimeStampedModel, Address):
+    gender = models.CharField(_(u'gênero'), max_length=1, choices=gender_list)
     first_name = models.CharField(_('nome'), max_length=100)
     last_name = models.CharField(_('sobrenome'), max_length=100)
     cpf = models.CharField(_('CPF'), max_length=11, unique=True)
@@ -25,7 +69,6 @@ class Person(TimeStampedModel):
     email = models.EmailField(_('email'), blank=True)
     phone = models.CharField(_('telefone'), max_length=15, blank=True)
     cell = models.CharField(_('celular'), max_length=15, blank=True)
-    address = models.ForeignKey("Address", verbose_name='endereço')
 
     class Meta:
         abstract = True
@@ -72,28 +115,8 @@ class Occupation(models.Model):
         return self.occupation
 
 
-class Address(models.Model):
-    address = models.CharField(_(u'endereço'), max_length=80)
-    address_number = models.PositiveIntegerField(_(u'número'))
-    complement = models.CharField(
-        _('complemento'), max_length=80, blank=True)
-    district = models.CharField(_('bairro'), max_length=80)
-    city = models.CharField(_('cidade'), max_length=80)
-    uf = models.CharField(_('UF'), max_length=2, choices=uf_list)
-    cep = models.CharField(_('CEP'), max_length=9)
-
-    class Meta:
-        verbose_name = u"endereço"
-        verbose_name_plural = u"endereços"
-
-    def __str__(self):
-        return self.cep + ", " + self.address + ", " + str(self.address_number)
-
-
-class Dealership(models.Model):
+class Dealership(Address):
     dealership = models.CharField(_(u'concessionária'), max_length=50)
-    address = models.ForeignKey(
-        "Address", verbose_name=u'endereço', related_name='dealership_address')
     site = models.CharField(_('site'), max_length=100, null=True, blank=True)
     phone1 = models.CharField(
         _('telefone 1'), max_length=15, null=True, blank=True)

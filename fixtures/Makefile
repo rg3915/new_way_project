@@ -1,3 +1,9 @@
+occupation:
+	python csv2json.py fixtures/cargos_.csv core.Occupation
+
+load_occupation:
+	python ../manage.py loaddata fixtures/cargos_.csv.json
+
 brand:
 	python csv2json.py fixtures/marcas.csv core.Brand
 
@@ -22,17 +28,11 @@ vehicle:
 load_vehicle:
 	python ../manage.py loaddata fixtures/veiculos.csv.json
 
-address:
-	python csv2json.py fixtures/enderecos.csv core.Address
-
-load_address:
-	python ../manage.py loaddata fixtures/enderecos.csv.json
-
 dealership:
-	python csv2json.py fixtures/concessionarias.csv core.Dealership
+	python csv2json.py fixtures/concessionarias_.csv core.Dealership
 
 load_dealership:
-	python ../manage.py loaddata fixtures/concessionarias.csv.json
+	python ../manage.py loaddata fixtures/concessionarias_.csv.json
 
 store:
 	python csv2json.py fixtures/estabelecimentos.csv core.Store
@@ -40,7 +40,28 @@ store:
 load_store:
 	python ../manage.py loaddata fixtures/estabelecimentos.csv.json
 
+customer:
+	python gen_customers_csv.py
+	python csv2json.py fixtures/clientes.csv core.Customer
+
+load_customer:
+	python ../manage.py loaddata fixtures/clientes.csv.json
+
+employee:
+	python gen_employees_csv.py
+	python csv2json.py fixtures/funcionarios.csv core.Employee
+
+load_employee:
+	python ../manage.py loaddata fixtures/funcionarios.csv.json
+
+users:
+	python gen_users_csv.py
+	python csv2json.py fixtures/usuarios.csv auth.User
+
+load_users:
+	python ../manage.py loaddata fixtures/usuarios.csv.json
+
 clear_json:
 	rm fixtures/*.json
 
-load_fixtures: brand load_brand modell load_modell kit load_kit vehicle load_vehicle address load_address dealership load_dealership store load_store clear_json
+load_fixtures: dealership load_dealership occupation load_occupation users load_users employee load_employee

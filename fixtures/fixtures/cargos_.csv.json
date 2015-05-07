@@ -1,0 +1,30 @@
+[
+    {
+        "model": "core.Occupation",
+        "pk": 1,
+        "fields": {
+            "occupation": "Diretor"
+        }
+    },
+    {
+        "model": "core.Occupation",
+        "pk": 2,
+        "fields": {
+            "occupation": "Gerente"
+        }
+    },
+    {
+        "model": "core.Occupation",
+        "pk": 3,
+        "fields": {
+            "occupation": "Vendedor"
+        }
+    },
+    {
+        "model": "core.Occupation",
+        "pk": 4,
+        "fields": {
+            "occupation": "Atendente"
+        }
+    }
+]

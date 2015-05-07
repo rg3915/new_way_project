@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Customer, Employee, Occupation, Address, Dealership, Brand, Modell, Vehicle, \
+from .models import Customer, Employee, Occupation, Dealership, Brand, Modell, Vehicle, \
     Accessory, Kit, Store, Kiosk, Ordered
 
 
@@ -7,9 +7,10 @@ class CustomerAdmin(admin.ModelAdmin):
 
     """Customize the look of the auto-generated admin for the Customer model"""
     ordering = ['first_name']
-    list_display = ('__str__', 'cpf', 'email', 'phone', 'cell', 'created_at')
+    list_display = ('__str__', 'cpf', 'email', 'phone', 'cell', 'birthday')
     date_hierarchy = 'created_at'
     search_fields = ('first_name', 'last_name', 'cpf')
+    list_filter = ('gender', 'city')
 
 
 class EmployeeAdmin(admin.ModelAdmin):
@@ -77,7 +78,6 @@ class OrderedAdmin(admin.ModelAdmin):
 admin.site.register(Customer, CustomerAdmin)
 admin.site.register(Employee, EmployeeAdmin)
 admin.site.register(Occupation)
-admin.site.register(Address)
 admin.site.register(Dealership, DealershipAdmin)
 admin.site.register(Brand)
 admin.site.register(Modell, ModellAdmin)
