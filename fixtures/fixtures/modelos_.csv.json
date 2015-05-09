@@ -1,0 +1,74 @@
+[
+    {
+        "pk": 1,
+        "fields": {
+            "modell": "Palio",
+            "brand": 7
+        },
+        "model": "core.Modell"
+    },
+    {
+        "pk": 2,
+        "fields": {
+            "modell": "Fiesta",
+            "brand": 8
+        },
+        "model": "core.Modell"
+    },
+    {
+        "pk": 3,
+        "fields": {
+            "modell": "Ecosport",
+            "brand": 8
+        },
+        "model": "core.Modell"
+    },
+    {
+        "pk": 4,
+        "fields": {
+            "modell": "Civic",
+            "brand": 9
+        },
+        "model": "core.Modell"
+    },
+    {
+        "pk": 5,
+        "fields": {
+            "modell": "Fit",
+            "brand": 9
+        },
+        "model": "core.Modell"
+    },
+    {
+        "pk": 6,
+        "fields": {
+            "modell": "HB20",
+            "brand": 10
+        },
+        "model": "core.Modell"
+    },
+    {
+        "pk": 7,
+        "fields": {
+            "modell": "Corolla",
+            "brand": 23
+        },
+        "model": "core.Modell"
+    },
+    {
+        "pk": 8,
+        "fields": {
+            "modell": "Fox",
+            "brand": 24
+        },
+        "model": "core.Modell"
+    },
+    {
+        "pk": 9,
+        "fields": {
+            "modell": "Golf",
+            "brand": 24
+        },
+        "model": "core.Modell"
+    }
+]

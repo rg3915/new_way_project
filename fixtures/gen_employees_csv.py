@@ -47,10 +47,24 @@ with io.open('fixtures/funcionarios.csv', 'wt') as f:
         city = address_list[n]['city']
         uf = address_list[n]['uf']
         cep = address_list[n]['cep']
-        occupation = random.randint(1, 4)
+
+        ''' define a quantidade de funcionarios por cargo a partir dos criterios a seguir '''
+        if i % 21 == 0:
+            occupation = 1
+        elif i % 13 == 0:
+            occupation = 2
+        else:
+            occupation = random.randint(3, 4)
+
+        ''' somente vendedor é comissionado '''
+        if occupation == 3:
+            comissioned = True
+            comission = 0.01
+        else:
+            comissioned = False
+            comission = 0
+
         dealership = random.randint(1, 6)
-        comissioned = random.choice([True, False])
-        comission = 0.01
         date = datetime.datetime.now().isoformat(" ") + "+00"
         person_list.append(
             (i + 1, user, g, first_name, last_name, cpf, birthday, email, phone, cell, address, address_number, district, city, uf, cep, occupation, dealership, comissioned, comission, date, date))

@@ -1,0 +1,211 @@
+[
+    {
+        "fields": {
+            "kit_fabric": 1,
+            "year_of_manufacture": 2015,
+            "transmissiontype": "m",
+            "tire": "",
+            "trunk": "",
+            "performance": "",
+            "modell": 4,
+            "color": "Branco",
+            "vehicle": "Honda Civic 1.8 LXS",
+            "fueltype": "f",
+            "engine_power": "1.8",
+            "price": 64900,
+            "wheel": "ABS"
+        },
+        "pk": 1,
+        "model": "core.Vehicle"
+    },
+    {
+        "fields": {
+            "kit_fabric": 1,
+            "year_of_manufacture": 2015,
+            "transmissiontype": "m",
+            "tire": "",
+            "trunk": "",
+            "performance": "",
+            "modell": 4,
+            "color": "Cinza",
+            "vehicle": "Honda Civic 1.4 LXS",
+            "fueltype": "f",
+            "engine_power": "1.4",
+            "price": 52600,
+            "wheel": "ABS"
+        },
+        "pk": 2,
+        "model": "core.Vehicle"
+    },
+    {
+        "fields": {
+            "kit_fabric": 1,
+            "year_of_manufacture": 2015,
+            "transmissiontype": "a",
+            "tire": "",
+            "trunk": "",
+            "performance": "",
+            "modell": 6,
+            "color": "Branco",
+            "vehicle": "Hyundai HB20 1.6 Comfort Plus",
+            "fueltype": "f",
+            "engine_power": "1.6",
+            "price": 44780,
+            "wheel": "ABS"
+        },
+        "pk": 3,
+        "model": "core.Vehicle"
+    },
+    {
+        "fields": {
+            "kit_fabric": 1,
+            "year_of_manufacture": 2015,
+            "transmissiontype": "a",
+            "tire": "",
+            "trunk": "",
+            "performance": "",
+            "modell": 6,
+            "color": "Branco",
+            "vehicle": "Hyundai HB20 1.0 Comfort Plus",
+            "fueltype": "f",
+            "engine_power": "1.0",
+            "price": 32500,
+            "wheel": "ABS"
+        },
+        "pk": 4,
+        "model": "core.Vehicle"
+    },
+    {
+        "fields": {
+            "kit_fabric": 1,
+            "year_of_manufacture": 2015,
+            "transmissiontype": "a",
+            "tire": "",
+            "trunk": "",
+            "performance": "",
+            "modell": 2,
+            "color": "Cinza",
+            "vehicle": "Fiesta",
+            "fueltype": "f",
+            "engine_power": "1.0",
+            "price": 18000,
+            "wheel": "ABS"
+        },
+        "pk": 5,
+        "model": "core.Vehicle"
+    },
+    {
+        "fields": {
+            "kit_fabric": 1,
+            "year_of_manufacture": 2015,
+            "transmissiontype": "a",
+            "tire": "",
+            "trunk": "",
+            "performance": "",
+            "modell": 3,
+            "color": "Vermelho",
+            "vehicle": "Ecosport",
+            "fueltype": "f",
+            "engine_power": "1.0",
+            "price": 32000,
+            "wheel": "ABS"
+        },
+        "pk": 6,
+        "model": "core.Vehicle"
+    },
+    {
+        "fields": {
+            "kit_fabric": 1,
+            "year_of_manufacture": 2015,
+            "transmissiontype": "a",
+            "tire": "",
+            "trunk": "",
+            "performance": "",
+            "modell": 5,
+            "color": "Amarelo",
+            "vehicle": "Fit",
+            "fueltype": "f",
+            "engine_power": "1.0",
+            "price": 20000,
+            "wheel": "ABS"
+        },
+        "pk": 7,
+        "model": "core.Vehicle"
+    },
+    {
+        "fields": {
+            "kit_fabric": 1,
+            "year_of_manufacture": 2015,
+            "transmissiontype": "a",
+            "tire": "",
+            "trunk": "",
+            "performance": "",
+            "modell": 7,
+            "color": "Cinza",
+            "vehicle": "Corolla",
+            "fueltype": "f",
+            "engine_power": "1.0",
+            "price": 45000,
+            "wheel": "ABS"
+        },
+        "pk": 8,
+        "model": "core.Vehicle"
+    },
+    {
+        "fields": {
+            "kit_fabric": 1,
+            "year_of_manufacture": 2015,
+            "transmissiontype": "a",
+            "tire": "",
+            "trunk": "",
+            "performance": "",
+            "modell": 8,
+            "color": "Azul",
+            "vehicle": "Fox",
+            "fueltype": "f",
+            "engine_power": "1.0",
+            "price": 31000,
+            "wheel": "ABS"
+        },
+        "pk": 9,
+        "model": "core.Vehicle"
+    },
+    {
+        "fields": {
+            "kit_fabric": 1,
+            "year_of_manufacture": 2015,
+            "transmissiontype": "a",
+            "tire": "",
+            "trunk": "",
+            "performance": "",
+            "modell": 9,
+            "color": "Preto",
+            "vehicle": "Golf",
+            "fueltype": "f",
+            "engine_power": "1.0",
+            "price": 21000,
+            "wheel": "ABS"
+        },
+        "pk": 10,
+        "model": "core.Vehicle"
+    },
+    {
+        "fields": {
+            "kit_fabric": 1,
+            "year_of_manufacture": 2015,
+            "transmissiontype": "a",
+            "tire": "",
+            "trunk": "",
+            "performance": "",
+            "modell": 1,
+            "color": "Preto",
+            "vehicle": "Palio",
+            "fueltype": "f",
+            "engine_power": "1.0",
+            "price": 20000,
+            "wheel": "ABS"
+        },
+        "pk": 11,
+        "model": "core.Vehicle"
+    }
+]

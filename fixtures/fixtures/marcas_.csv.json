@@ -1,0 +1,177 @@
+[
+    {
+        "model": "core.Brand",
+        "pk": 1,
+        "fields": {
+            "brand": "Audi"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 2,
+        "fields": {
+            "brand": "BMW"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 3,
+        "fields": {
+            "brand": "Chevrolet"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 4,
+        "fields": {
+            "brand": "Chrysler"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 5,
+        "fields": {
+            "brand": "Citroen"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 6,
+        "fields": {
+            "brand": "Dodge"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 7,
+        "fields": {
+            "brand": "Fiat"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 8,
+        "fields": {
+            "brand": "Ford"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 9,
+        "fields": {
+            "brand": "Honda"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 10,
+        "fields": {
+            "brand": "Hyundai"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 11,
+        "fields": {
+            "brand": "JAC Motors"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 12,
+        "fields": {
+            "brand": "Jaguar"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 13,
+        "fields": {
+            "brand": "Jeep"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 14,
+        "fields": {
+            "brand": "Land-Rover"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 15,
+        "fields": {
+            "brand": "Mercedez"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 16,
+        "fields": {
+            "brand": "Mini"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 17,
+        "fields": {
+            "brand": "Mitsubishi"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 18,
+        "fields": {
+            "brand": "Nissan"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 19,
+        "fields": {
+            "brand": "Peugeot"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 20,
+        "fields": {
+            "brand": "Porsche"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 21,
+        "fields": {
+            "brand": "Renault"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 22,
+        "fields": {
+            "brand": "Suzuki"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 23,
+        "fields": {
+            "brand": "Toyota"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 24,
+        "fields": {
+            "brand": "Volkswagen"
+        }
+    },
+    {
+        "model": "core.Brand",
+        "pk": 25,
+        "fields": {
+            "brand": "Volvo"
+        }
+    }
+]
