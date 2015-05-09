@@ -5,7 +5,7 @@
 
 Critérios para definir quantidade de artefatos
 
-* GP
+* GP -> 3 artefatos
 	* PR - plano de risco
 	* APF
 	* cronograma
