@@ -31,6 +31,11 @@ class DealershipAdmin(admin.ModelAdmin):
     # list_filter = ('city',)
 
 
+class BrandAdmin(admin.ModelAdmin):
+    ordering = ['brand']
+    list_display = ('brand', 'photo')
+
+
 class ModellAdmin(admin.ModelAdmin):
 
     ordering = ['modell']
@@ -43,7 +48,7 @@ class VehicleAdmin(admin.ModelAdmin):
 
     ordering = ['vehicle']
     list_display = (
-        'vehicle', 'color', 'year_of_manufacture', 'price', 'kit_fabric')
+        'vehicle', 'photo_vehicle', 'color', 'year_of_manufacture', 'price', 'kit_fabric')
     search_fields = ('vehicle',)
     list_filter = (
         'modell', 'color', 'year_of_manufacture', 'fueltype', 'transmissiontype')
@@ -61,8 +66,7 @@ class KioskAdmin(admin.ModelAdmin):
 
     ordering = ['kiosk']
     list_display = ('kiosk', 'store')
-    search_fields = ('kiosk', 'store')
-    list_filter = ('store',)
+    search_fields = ('kiosk',)
 
 
 class OrderedAdmin(admin.ModelAdmin):
@@ -79,7 +83,7 @@ admin.site.register(Customer, CustomerAdmin)
 admin.site.register(Employee, EmployeeAdmin)
 admin.site.register(Occupation)
 admin.site.register(Dealership, DealershipAdmin)
-admin.site.register(Brand)
+admin.site.register(Brand, BrandAdmin)
 admin.site.register(Modell, ModellAdmin)
 admin.site.register(Vehicle, VehicleAdmin)
 admin.site.register(Accessory)

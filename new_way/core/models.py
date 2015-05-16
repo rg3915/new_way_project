@@ -146,6 +146,7 @@ class DealershipDetail(models.Model):
 
 class Brand(models.Model):
     brand = models.CharField(_('marca'), max_length=50, unique=True)
+    photo = models.ImageField(upload_to='brands')
 
     class Meta:
         ordering = ['brand']
@@ -183,12 +184,22 @@ class Vehicle(models.Model):
     transmissiontype = models.CharField(
         _(u'tipo de câmbio'), max_length=1, choices=transmissiontype_list)
     wheel = models.CharField(_('freio'), max_length=30)
-    tire = models.CharField(_('roda'), max_length=30)
-    performance = models.CharField(_('desempenho'), max_length=30)
-    trunk = models.CharField(_('porta malas'), max_length=30)
+    tire = models.CharField(_('roda'), max_length=30, default='-')
+    performance = models.CharField(_('desempenho'), max_length=30, default='-')
+    trunk = models.CharField(_('porta malas'), max_length=30, default='-')
     price = models.DecimalField(_(u'preço'), max_digits=8, decimal_places=2)
     kit_fabric = models.ForeignKey(
         "Kit", verbose_name=u'kit de fábrica', related_name='vehicle_kit')
+    photo_vehicle = models.ImageField(
+        upload_to='vehicles', default='vehicles/car_700x300.jpg')
+
+    class Meta:
+        ordering = ['vehicle']
+        verbose_name = u'veículo'
+        verbose_name_plural = u'veículos'
+
+    def __str__(self):
+        return self.vehicle
 
 
 class Accessory(models.Model):
@@ -245,7 +256,7 @@ class Store(models.Model):
 class Kiosk(models.Model):
     kiosk = models.CharField(_(u'quiosque'), max_length=50)
     store = models.ForeignKey(
-        "Store", verbose_name='quiosque', related_name='kiosk_store')
+        "Store", verbose_name='estabelecimento', related_name='kiosk_store')
 
     class Meta:
         ordering = ['kiosk']

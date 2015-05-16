@@ -67,6 +67,9 @@ USE_THOUSAND_SEPARATOR = True
 STATIC_ROOT = BASE_DIR.child('staticfiles')
 STATIC_URL = '/static/'
 
+MEDIA_ROOT = BASE_DIR.child('media')
+MEDIA_URL = '/media/'
+
 TEMPLATE_DIRS = (
     BASE_DIR.child('templates_admin'),
 )

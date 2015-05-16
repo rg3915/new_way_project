@@ -7,10 +7,60 @@
     </div>
 
 	<div>
+
+    <div class="container initial-p">
 	    {% if object_list %}
-			<table class="table table-striped">
+			{% for vehicle in object_list %}
+
+        <div class="row">
+
+            <div class="col-lg-7 col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="{{ vehicle.photo_vehicle.url }}" alt="" width="700px">
+                </a>
+                <div class="ratings">
+                	<p></p>
+                    <!-- <p class="pull-right">45 reviews</p> -->
+                    <!-- <p>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+                        4.0 stars
+                    </p> -->
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-2">
+                <h3>{{ vehicle.vehicle }}</h3>
+                <h4>{{ vehicle.engine_power }}</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et.</p>
+                <a class="btn btn-primary" href="#">Monte seu carro <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+
+            <div class="col-lg-2 col-md-2">
+                <p>A partir de</p>
+                <h4>R$ {{ vehicle.price }}</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At illum ea non incidunt illo minima omnis tenetur nisi ad atque voluptate facere deleniti aspernatur doloremque accusamus quasi, odit eum explicabo.</p>
+            </div>
+
+        </div>
+
+        {% endfor %}
+        {% else %}
+	        <p class="alert alert-warning">Sem itens na lista.</p>
+	    {% endif %}
+    </div>
+    </div>
+
+        <hr>
+
+        <div class="row">
+<!--			<table class="table table-striped">
 				<thead>
 					<tr>
+						<th>Foto</th>
 						<th>Carro</th>
 						<th>Modelo</th>
 						<th>Cor</th>
@@ -28,6 +78,7 @@
 				<tbody>
 			    	{% for vehicle in object_list %}
 			    		<tr>
+							<td><img src="{{ vehicle.photo_vehicle.url }}" height="30px" width="50px"></td>
 							<td>{{ vehicle.vehicle }}</td>
 							<td>{{ vehicle.modell }}</td>
 							<td>{{ vehicle.color }}</td>
@@ -44,9 +95,9 @@
 			    	{% endfor %}
 				</tbody>
 			</table>
-	    {% else %}
+	     else 
 	        <p class="alert alert-warning">Sem itens na lista.</p>
-	    {% endif %}
+	     endif  -->
 	</div>
 
 {% endblock content %}

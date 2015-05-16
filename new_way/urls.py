@@ -1,4 +1,6 @@
+from django.conf import settings
 from django.conf.urls import patterns, include, url
+from django.conf.urls.static import static
 from new_way.core.views import *
 from django.contrib import admin
 
@@ -16,4 +18,4 @@ urlpatterns = patterns(
     # url(r'^about/$', 'about', name='about'),
     # url(r'^contact/$', 'contact', name='contact'),
     url(r'^admin/', include(admin.site.urls), name='admin'),
-)
+) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

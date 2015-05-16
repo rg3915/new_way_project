@@ -3,6 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.core.context_processors import csrf
 from django.core.urlresolvers import reverse_lazy
 from django.contrib.auth.decorators import login_required
+from django.db.models import Q
 from django.views.generic import CreateView, TemplateView, ListView, DetailView
 from .models import Customer, Dealership, Address, Brand, Modell, Vehicle, Store
 from .forms import CustomerForm
@@ -63,9 +64,10 @@ class StoreList(ListView):
 
     def get_queryset(self):
         stores = Store.objects.all()
-        var_get_search = self.request.GET.get('search_box')
-        if var_get_search is not None:
-            stores = stores.filter(store__icontains=var_get_search)
+        q = self.request.GET.get('search_box')
+        if q is not None:
+            stores = stores.filter(
+                Q(store__icontains=q) | Q(city__icontains=q))
         return stores
 
 
