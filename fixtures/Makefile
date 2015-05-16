@@ -40,6 +40,12 @@ store:
 load_store:
 	python ../manage.py loaddata fixtures/estabelecimentos_.csv.json
 
+kiosk:
+	python csv2json.py fixtures/quiosques_.csv core.Kiosk
+
+load_kiosk:
+	python ../manage.py loaddata fixtures/quiosques_.csv.json
+
 customer:
 	python gen_customers_csv.py
 	python csv2json.py fixtures/clientes.csv core.Customer
@@ -64,4 +70,4 @@ load_users:
 clear_json:
 	rm fixtures/*.json
 
-load_fixtures: dealership load_dealership occupation load_occupation users load_users employee load_employee customer load_customer brand load_brand modell load_modell kit load_kit vehicle load_vehicle store load_store
+load_fixtures: dealership load_dealership occupation load_occupation users load_users employee load_employee customer load_customer brand load_brand modell load_modell kit load_kit vehicle load_vehicle store load_store kiosk load_kiosk

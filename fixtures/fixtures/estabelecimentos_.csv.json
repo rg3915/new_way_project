@@ -1,2872 +1,2872 @@
 [
     {
-        "model": "core.Store",
         "pk": 1,
         "fields": {
-            "phone": "(18) 3622-2369",
             "uf": "SP",
+            "store": "Ara\u00e7atuba Shopping",
             "city": "Ara\u00e7atuba",
-            "store": "Ara\u00e7atuba Shopping"
-        }
+            "phone": "(18) 3622-2369"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 2,
         "fields": {
-            "phone": "(11) 4729-5398",
             "uf": "SP",
+            "store": "Aru\u00e3 Boulevard",
             "city": "Mogi Das Cruzes",
-            "store": "Aru\u00e3 Boulevard"
-        }
+            "phone": "(11) 4729-5398"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 3,
         "fields": {
-            "phone": "(11) 5547-6000",
             "uf": "SP",
+            "store": "Boavista Shopping",
             "city": "S\u00e3o Paulo",
-            "store": "Boavista Shopping"
-        }
+            "phone": "(11) 5547-6000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 4,
         "fields": {
-            "phone": "(11) 2165-8212",
             "uf": "SP",
+            "store": "Brascan Century Open Mall",
             "city": "S\u00e3o Paulo",
-            "store": "Brascan Century Open Mall"
-        }
+            "phone": "(11) 2165-8212"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 5,
         "fields": {
-            "phone": "(19) 3727-2300",
             "uf": "SP",
+            "store": "Campinas Shopping Center",
             "city": "Campinas",
-            "store": "Campinas Shopping Center"
-        }
+            "phone": "(19) 3727-2300"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 6,
         "fields": {
-            "phone": "(13) 3569-7900",
             "uf": "SP",
+            "store": "Carrefour Praia Shopping",
             "city": "S\u00e3o Vicente",
-            "store": "Carrefour Praia Shopping"
-        }
+            "phone": "(13) 3569-7900"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 7,
         "fields": {
-            "phone": "(12) 3924-3000",
             "uf": "SP",
+            "store": "Centervale Shopping",
             "city": "S\u00e3o Jos\u00e9 Dos Campos",
-            "store": "Centervale Shopping"
-        }
+            "phone": "(12) 3924-3000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 8,
         "fields": {
-            "phone": "(11) 2066-4422",
             "uf": "SP",
+            "store": "Central Plaza Shopping",
             "city": "S\u00e3o Paulo",
-            "store": "Central Plaza Shopping"
-        }
+            "phone": "(11) 2066-4422"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 9,
         "fields": {
-            "phone": "(11) 3444-2000",
             "uf": "SP",
+            "store": "Centro Comercial Aricanduva",
             "city": "S\u00e3o Paulo",
-            "store": "Centro Comercial Aricanduva"
-        }
+            "phone": "(11) 3444-2000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 10,
         "fields": {
-            "phone": "(11) 3471-8888",
             "uf": "SP",
+            "store": "Complexo Comercial Shopping Interlagos",
             "city": "S\u00e3o Paulo",
-            "store": "Complexo Comercial Shopping Interlagos"
-        }
+            "phone": "(11) 3471-8888"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 11,
         "fields": {
-            "phone": "(11) 3769-3769",
             "uf": "SP",
+            "store": "Continental Shopping Center",
             "city": "S\u00e3o Paulo",
-            "store": "Continental Shopping Center"
-        }
+            "phone": "(11) 3769-3769"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 12,
         "fields": {
-            "phone": "(16) 3712-9999",
             "uf": "SP",
+            "store": "Franca Shopping Center",
             "city": "Franca",
-            "store": "Franca Shopping Center"
-        }
+            "phone": "(16) 3712-9999"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 13,
         "fields": {
-            "phone": "(19) 3207-1333",
             "uf": "SP",
+            "store": "Galleria Shopping",
             "city": "Campinas",
-            "store": "Galleria Shopping"
-        }
+            "phone": "(19) 3207-1333"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 14,
         "fields": {
-            "phone": "(11) 4437-5000",
             "uf": "SP",
+            "store": "Grand Plaza Shopping",
             "city": "Santo Andre",
-            "store": "Grand Plaza Shopping"
-        }
+            "phone": "(11) 4437-5000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 15,
         "fields": {
-            "phone": "(11) 2414-5000",
             "uf": "SP",
+            "store": "Internacional Shopping Guarulhos",
             "city": "Guarulhos",
-            "store": "Internacional Shopping Guarulhos"
-        }
+            "phone": "(11) 2414-5000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 16,
         "fields": {
-            "phone": "(11) 2224-5900",
             "uf": "SP",
+            "store": "Lar Center",
             "city": "S\u00e3o Paulo",
-            "store": "Lar Center"
-        }
+            "phone": "(11) 2224-5900"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 17,
         "fields": {
-            "phone": "(13) 3476-2000",
             "uf": "SP",
+            "store": "Litoral Plaza Shopping",
             "city": "Praia Grande",
-            "store": "Litoral Plaza Shopping"
-        }
+            "phone": "(13) 3476-2000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 18,
         "fields": {
-            "phone": "(11) 5546-3000",
             "uf": "SP",
+            "store": "Mais Shopping Largo 13",
             "city": "S\u00e3o Paulo",
-            "store": "Mais Shopping Largo 13"
-        }
+            "phone": "(11) 5546-3000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 19,
         "fields": {
-            "phone": "(11) 3048-7000",
             "uf": "SP",
+            "store": "Market Place Shopping Center",
             "city": "S\u00e3o Paulo",
-            "store": "Market Place Shopping Center"
-        }
+            "phone": "(11) 3048-7000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 20,
         "fields": {
-            "phone": "(11) 4548-4000",
             "uf": "SP",
+            "store": "Mau\u00e1 Plaza Shopping",
             "city": "Mau\u00e1",
-            "store": "Mau\u00e1 Plaza Shopping"
-        }
+            "phone": "(11) 4548-4000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 21,
         "fields": {
-            "phone": "(11) 4523-3333",
             "uf": "SP",
+            "store": "Maxi Shopping Jundiai",
             "city": "Jundia\u00ed",
-            "store": "Maxi Shopping Jundiai"
-        }
+            "phone": "(11) 4523-3333"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 22,
         "fields": {
-            "phone": "(11) 3311-2800",
             "uf": "SP",
+            "store": "Mega Polo Moda",
             "city": "S\u00e3o Paulo",
-            "store": "Mega Polo Moda"
-        }
+            "phone": "(11) 3311-2800"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 23,
         "fields": {
-            "phone": "(13) 3285-4400",
             "uf": "SP",
+            "store": "Miramar Shopping Center",
             "city": "Santos",
-            "store": "Miramar Shopping Center"
-        }
+            "phone": "(13) 3285-4400"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 24,
         "fields": {
-            "phone": "(11) 4798-8800",
             "uf": "SP",
+            "store": "Mogishopping",
             "city": "Mogi Das Cruzes",
-            "store": "Mogishopping"
-        }
+            "phone": "(11) 4798-8800"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 25,
         "fields": {
-            "phone": "(11) 5189-4836",
             "uf": "SP",
+            "store": "Morumbishopping",
             "city": "S\u00e3o Paulo",
-            "store": "Morumbishopping"
-        }
+            "phone": "(11) 5189-4836"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 26,
         "fields": {
-            "phone": "(16) 3603-2400",
             "uf": "SP",
+            "store": "Novo Shopping Center Ribeir\u00e3o Preto",
             "city": "Ribeir\u00e3o Preto",
-            "store": "Novo Shopping Center Ribeir\u00e3o Preto"
-        }
+            "phone": "(16) 3603-2400"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 27,
         "fields": {
-            "phone": "(11) 3041-5232",
             "uf": "SP",
+            "store": "Open Mall Panamby",
             "city": "S\u00e3o Paulo",
-            "store": "Open Mall Panamby"
-        }
+            "phone": "(11) 3041-5232"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 28,
         "fields": {
-            "phone": "(11) 2117-2777",
             "uf": "SP",
+            "store": "Osasco Plaza Shopping",
             "city": "Osasco",
-            "store": "Osasco Plaza Shopping"
-        }
+            "phone": "(11) 2117-2777"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 29,
         "fields": {
-            "phone": "(19) 3756-7500",
             "uf": "SP",
+            "store": "Parque D.pedro Shopping",
             "city": "Campinas",
-            "store": "Parque D.pedro Shopping"
-        }
+            "phone": "(19) 3756-7500"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 30,
         "fields": {
-            "phone": "(17) 3355-0200",
             "uf": "SP",
+            "store": "Plaza Avenida Shopping",
             "city": "S\u00e3o Jos\u00e9 Rio Preto",
-            "store": "Plaza Avenida Shopping"
-        }
+            "phone": "(17) 3355-0200"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 31,
         "fields": {
-            "phone": "(11) 4022-3400",
             "uf": "SP",
+            "store": "Plaza Shopping Itu",
             "city": "Itu",
-            "store": "Plaza Shopping Itu"
-        }
+            "phone": "(11) 4022-3400"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 32,
         "fields": {
-            "phone": "(17) 2139-2900",
             "uf": "SP",
+            "store": "Pra\u00e7a Shopping",
             "city": "S.j Do Rio Preto",
-            "store": "Pra\u00e7a Shopping"
-        }
+            "phone": "(17) 2139-2900"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 33,
         "fields": {
-            "phone": "(13) 3279-2000",
             "uf": "SP",
+            "store": "Praiamar Shopping Center",
             "city": "Santos",
-            "store": "Praiamar Shopping Center"
-        }
+            "phone": "(13) 3279-2000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 34,
         "fields": {
-            "phone": "(11) 3735-0780",
             "uf": "SP",
+            "store": "Raposo Shopping",
             "city": "S\u00e3o Paulo",
-            "store": "Raposo Shopping"
-        }
+            "phone": "(11) 3735-0780"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 35,
         "fields": {
-            "phone": "(16) 3902-1000",
             "uf": "SP",
+            "store": "Ribeir\u00e3oshopping",
             "city": "Ribeir\u00e3o Preto",
-            "store": "Ribeir\u00e3oshopping"
-        }
+            "phone": "(16) 3902-1000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 36,
         "fields": {
-            "phone": "(17) 3216-9844",
             "uf": "SP",
+            "store": "Riopreto Shopping Center",
             "city": "S\u00e3o Jos\u00e9 Rio Preto",
-            "store": "Riopreto Shopping Center"
-        }
+            "phone": "(17) 3216-9844"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 37,
         "fields": {
-            "phone": "(13) 3316-6033",
             "uf": "SP",
+            "store": "Riviera Shopping Center",
             "city": "Bertioga",
-            "store": "Riviera Shopping Center"
-        }
+            "phone": "(13) 3316-6033"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 38,
         "fields": {
-            "phone": "(11) 2238-3002",
             "uf": "SP",
+            "store": "Santana Parque Shopping",
             "city": "S\u00e3o Paulo",
-            "store": "Santana Parque Shopping"
-        }
+            "phone": "(11) 2238-3002"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 39,
         "fields": {
-            "phone": "(11) 3437-7222",
             "uf": "SP",
+            "store": "Shopping Abc",
             "city": "Santo Andre",
-            "store": "Shopping Abc"
-        }
+            "phone": "(11) 3437-7222"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 40,
         "fields": {
-            "phone": "(11) 4003-4133",
             "uf": "SP",
+            "store": "Shopping Analia Franco",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Analia Franco"
-        }
+            "phone": "(11) 4003-4133"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 41,
         "fields": {
-            "phone": "(11) 6489-9690",
             "uf": "SP",
+            "store": "Shopping Bonsucesso",
             "city": "Guarulhos",
-            "store": "Shopping Bonsucesso"
-        }
+            "phone": "(11) 6489-9690"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 42,
         "fields": {
-            "phone": "(11) 3723-3900",
             "uf": "SP",
+            "store": "Shopping Butant\u00e3",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Butant\u00e3"
-        }
+            "phone": "(11) 3723-3900"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 43,
         "fields": {
-            "phone": "(11) 2144-3500",
             "uf": "SP",
+            "store": "Shopping Campo Limpo",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Campo Limpo"
-        }
+            "phone": "(11) 2144-3500"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 44,
         "fields": {
-            "phone": "(11) 3285-2458",
             "uf": "SP",
+            "store": "Shopping Center 3",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Center 3"
-        }
+            "phone": "(11) 3285-2458"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 45,
         "fields": {
-            "phone": "(19) 3131-4646",
             "uf": "SP",
+            "store": "Shopping Center Iguatemi Campinas",
             "city": "Campinas",
-            "store": "Shopping Center Iguatemi Campinas"
-        }
+            "phone": "(19) 3131-4646"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 46,
         "fields": {
-            "phone": "(11) 3816-6116",
             "uf": "SP",
+            "store": "Shopping Center Iguatemi S\u00e3o Paulo",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Center Iguatemi S\u00e3o Paulo"
-        }
+            "phone": "(11) 3816-6116"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 47,
         "fields": {
-            "phone": "(11) 3675-2011",
             "uf": "SP",
+            "store": "Shopping Center Lapa-sp",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Center Lapa-sp"
-        }
+            "phone": "(11) 3675-2011"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 48,
         "fields": {
-            "phone": "(11) 3758-2004",
             "uf": "SP",
+            "store": "Shopping Center M Boi Mirim",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Center M Boi Mirim"
-        }
+            "phone": "(11) 3758-2004"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 49,
         "fields": {
-            "phone": "(11) 2224-5900",
             "uf": "SP",
+            "store": "Shopping Center Norte",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Center Norte"
-        }
+            "phone": "(11) 2224-5900"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 50,
         "fields": {
-            "phone": "(11) 2095-8222",
             "uf": "SP",
+            "store": "Shopping Center Penha",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Center Penha"
-        }
+            "phone": "(11) 2095-8222"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 51,
         "fields": {
-            "phone": "(11) 3552-1000",
             "uf": "SP",
+            "store": "Shopping Cidade Jardim",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Cidade Jardim"
-        }
+            "phone": "(11) 3552-1000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 52,
         "fields": {
-            "phone": "(11) 3168-6454",
             "uf": "SP",
+            "store": "Shopping Cidade Morena",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Cidade Morena"
-        }
+            "phone": "(11) 3168-6454"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 53,
         "fields": {
-            "phone": "(12) 3924-4200",
             "uf": "SP",
+            "store": "Shopping Colinas",
             "city": "S\u00e3o Jos\u00e9 Dos Campos",
-            "store": "Shopping Colinas"
-        }
+            "phone": "(12) 3924-4200"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 54,
         "fields": {
-            "phone": "(11) 4506-6000",
             "uf": "SP",
+            "store": "Shopping D",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping D"
-        }
+            "phone": "(11) 4506-6000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 55,
         "fields": {
-            "phone": "(11) 2197-7800",
             "uf": "SP",
+            "store": "Shopping Eldorado",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Eldorado"
-        }
+            "phone": "(11) 2197-7800"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 56,
         "fields": {
-            "phone": "(11) 3472-2000",
             "uf": "SP",
+            "store": "Shopping Frei Caneca",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Frei Caneca"
-        }
+            "phone": "(11) 3472-2000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 57,
         "fields": {
-            "phone": "(11) 3041-5600",
             "uf": "SP",
+            "store": "Shopping Hortol\u00e2ndia",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Hortol\u00e2ndia"
-        }
+            "phone": "(11) 3041-5600"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 58,
         "fields": {
-            "phone": "(11) 5095-2300",
             "uf": "SP",
+            "store": "Shopping Ibirapuera",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Ibirapuera"
-        }
+            "phone": "(11) 5095-2300"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 59,
         "fields": {
-            "phone": "(16) 3335-7286",
             "uf": "SP",
+            "store": "Shopping Jaragua Araraquara",
             "city": "Araraquara",
-            "store": "Shopping Jaragua Araraquara"
-        }
+            "phone": "(16) 3335-7286"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 60,
         "fields": {
-            "phone": "(11) 3779-3900",
             "uf": "SP",
+            "store": "Shopping Jardim Sul",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Jardim Sul"
-        }
+            "phone": "(11) 3779-3900"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 61,
         "fields": {
-            "phone": "(13) 3386-6905",
             "uf": "SP",
+            "store": "Shopping La Plage",
             "city": "Guaruja",
-            "store": "Shopping La Plage"
-        }
+            "phone": "(13) 3386-6905"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 62,
         "fields": {
-            "phone": "(11) 2225-7000",
             "uf": "SP",
+            "store": "Shopping Metro Boulevard Tatuape",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Metro Boulevard Tatuape"
-        }
+            "phone": "(11) 2225-7000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 63,
         "fields": {
-            "phone": "(11) 6140-3640",
             "uf": "SP",
+            "store": "Shopping Metr\u00f4 Itaquera",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Metr\u00f4 Itaquera"
-        }
+            "phone": "(11) 6140-3640"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 64,
         "fields": {
-            "phone": "(11) 3471-8000",
             "uf": "SP",
+            "store": "Shopping Metr\u00f4 Santa Cruz",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Metr\u00f4 Santa Cruz"
-        }
+            "phone": "(11) 3471-8000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 65,
         "fields": {
-            "phone": "(11) 2090-7400",
             "uf": "SP",
+            "store": "Shopping Metr\u00f4 Tatuape",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Metr\u00f4 Tatuape"
-        }
+            "phone": "(11) 2090-7400"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 66,
         "fields": {
-            "phone": "(11) 3702-1900",
             "uf": "SP",
+            "store": "Shopping Metr\u00f4 Tucuruvi",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Metr\u00f4 Tucuruvi"
-        }
+            "phone": "(11) 3702-1900"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 67,
         "fields": {
-            "phone": "(11) 6842-9900",
             "uf": "SP",
+            "store": "Shopping Metropole",
             "city": "S.bernardo Do Campo",
-            "store": "Shopping Metropole"
-        }
+            "phone": "(11) 6842-9900"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 68,
         "fields": {
-            "phone": "(11) 5509-1434",
             "uf": "SP",
+            "store": "Shopping Nacoes Unidas",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Nacoes Unidas"
-        }
+            "phone": "(11) 5509-1434"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 69,
         "fields": {
-            "phone": "(11) 3823-2300",
             "uf": "SP",
+            "store": "Shopping P\u00e1tio Higien\u00f3polis",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping P\u00e1tio Higien\u00f3polis"
-        }
+            "phone": "(11) 3823-2300"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 70,
         "fields": {
-            "phone": "(11) 3191-1100",
             "uf": "SP",
+            "store": "Shopping P\u00e1tio Paulista",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping P\u00e1tio Paulista"
-        }
+            "phone": "(11) 3191-1100"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 71,
         "fields": {
-            "phone": "(19) 3403-3833",
             "uf": "SP",
+            "store": "Shopping Piracicaba",
             "city": "Piracicaba",
-            "store": "Shopping Piracicaba"
-        }
+            "phone": "(19) 3403-3833"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 72,
         "fields": {
-            "phone": "(11) 5077-7300",
             "uf": "SP",
+            "store": "Shopping Plaza Sul",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Plaza Sul"
-        }
+            "phone": "(11) 5077-7300"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 73,
         "fields": {
-            "phone": "(11) 5682-3666",
             "uf": "SP",
+            "store": "Shopping Sp Market",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Sp Market"
-        }
+            "phone": "(11) 5682-3666"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 74,
         "fields": {
-            "phone": "(11) 2699-4000",
             "uf": "SP",
+            "store": "Shopping Taboao",
             "city": "Tabo\u00e3o Da Serra",
-            "store": "Shopping Taboao"
-        }
+            "phone": "(11) 2699-4000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 75,
         "fields": {
-            "phone": "(11) 2166-9700",
             "uf": "SP",
+            "store": "Shopping Tambore",
             "city": "Barueri",
-            "store": "Shopping Tambore"
-        }
+            "phone": "(11) 2166-9700"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 76,
         "fields": {
-            "phone": "(19) 3829-4190",
             "uf": "SP",
+            "store": "Shopping Valinhos",
             "city": "Valinhos",
-            "store": "Shopping Valinhos"
-        }
+            "phone": "(19) 3829-4190"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 77,
         "fields": {
-            "phone": "(11) 3047-6001",
             "uf": "SP",
+            "store": "Shopping Vila Ol\u00edmpia",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Vila Ol\u00edmpia"
-        }
+            "phone": "(11) 3047-6001"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 78,
         "fields": {
-            "phone": "(11) 3024-4104",
             "uf": "SP",
+            "store": "Shopping Villa-lobos",
             "city": "S\u00e3o Paulo",
-            "store": "Shopping Villa-lobos"
-        }
+            "phone": "(11) 3024-4104"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 79,
         "fields": {
-            "phone": "(11) 3699-9400",
             "uf": "SP",
+            "store": "Supershopping Osasco",
             "city": "S\u00e3o Paulo",
-            "store": "Supershopping Osasco"
-        }
+            "phone": "(11) 3699-9400"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 80,
         "fields": {
-            "phone": "(12) 3622-1155",
             "uf": "SP",
+            "store": "Taubate Shopping Center",
             "city": "Taubate",
-            "store": "Taubate Shopping Center"
-        }
+            "phone": "(12) 3622-1155"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 81,
         "fields": {
-            "phone": "(19) 3457-9966",
             "uf": "SP",
+            "store": "Tivoli Shopping",
             "city": "Santa B\u00e1rbara D`oeste",
-            "store": "Tivoli Shopping"
-        }
+            "phone": "(19) 3457-9966"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 82,
         "fields": {
-            "phone": "(15) 3219-7000",
             "uf": "SP",
+            "store": "Vill\u00e0ggio Shopping",
             "city": "Sorocaba",
-            "store": "Vill\u00e0ggio Shopping"
-        }
+            "phone": "(15) 3219-7000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 83,
         "fields": {
-            "phone": "(11) 3677-4052",
             "uf": "SP",
+            "store": "West Plaza Shopping",
             "city": "S\u00e3o Paulo",
-            "store": "West Plaza Shopping"
-        }
+            "phone": "(11) 3677-4052"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 84,
         "fields": {
-            "phone": "(47) 3263-8444",
             "uf": "SC",
+            "store": "Balne\u00e1rio Cambori\u00fa Shopping",
             "city": "Cambori\u00fa",
-            "store": "Balne\u00e1rio Cambori\u00fa Shopping"
-        }
+            "phone": "(47) 3263-8444"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 85,
         "fields": {
-            "phone": "(49) 8402 9404",
             "uf": "SC",
+            "store": "Boulevard Lages Shopping Center",
             "city": "Lages",
-            "store": "Boulevard Lages Shopping Center"
-        }
+            "phone": "(49) 8402 9404"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 86,
         "fields": {
-            "phone": "(48) 3331-7000",
             "uf": "SC",
+            "store": "Floripa Shopping",
             "city": "Florian\u00f3polis",
-            "store": "Floripa Shopping"
-        }
+            "phone": "(48) 3331-7000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 87,
         "fields": {
-            "phone": "(48) 3239-8700",
             "uf": "SC",
+            "store": "Shopping Center Iguatemi Florian\u00f3polis",
             "city": "Florian\u00f3polis",
-            "store": "Shopping Center Iguatemi Florian\u00f3polis"
-        }
+            "phone": "(48) 3239-8700"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 88,
         "fields": {
-            "phone": "(47) 3326-5566",
             "uf": "SC",
+            "store": "Shopping Center Neumarkt Blumenau",
             "city": "Blumenau",
-            "store": "Shopping Center Neumarkt Blumenau"
-        }
+            "phone": "(47) 3326-5566"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 89,
         "fields": {
-            "phone": "(48) 4001-3131",
             "uf": "SC",
+            "store": "Shopping Itaguacu",
             "city": "S\u00e3o Jos\u00e9",
-            "store": "Shopping Itaguacu"
-        }
+            "phone": "(48) 4001-3131"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 90,
         "fields": {
-            "phone": "(47) 3903-3000",
             "uf": "SC",
+            "store": "Shopping Mueller Joinville",
             "city": "Joinville",
-            "store": "Shopping Mueller Joinville"
-        }
+            "phone": "(47) 3903-3000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 91,
         "fields": {
-            "phone": "(51) 3257-9657",
             "uf": "RS",
+            "store": "Barrashoppingsul",
             "city": "Porto Alegre",
-            "store": "Barrashoppingsul"
-        }
+            "phone": "(51) 3257-9657"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 92,
         "fields": {
-            "phone": "(54) 3317-1000",
             "uf": "RS",
+            "store": "Bella Citt\u00e1 Shopping Center",
             "city": "Passo Fundo",
-            "store": "Bella Citt\u00e1 Shopping Center"
-        }
+            "phone": "(54) 3317-1000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 93,
         "fields": {
-            "phone": "(51) 3415-5100",
             "uf": "RS",
+            "store": "Canoas Shopping",
             "city": "Canoas",
-            "store": "Canoas Shopping"
-        }
+            "phone": "(51) 3415-5100"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 94,
         "fields": {
-            "phone": "(54) 3227-1977",
             "uf": "RS",
+            "store": "Caxias Martcenter",
             "city": "Caxias Do Sul",
-            "store": "Caxias Martcenter"
-        }
+            "phone": "(54) 3227-1977"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 95,
         "fields": {
-            "phone": "(51) 3347-2888",
             "uf": "RS",
+            "store": "Lindoia Shopping",
             "city": "Porto Alegre",
-            "store": "Lindoia Shopping"
-        }
+            "phone": "(51) 3347-2888"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 96,
         "fields": {
-            "phone": "(51) 2106-2800",
             "uf": "RS",
+            "store": "Max Shopping Center",
             "city": "Santa Cruz Do Sul",
-            "store": "Max Shopping Center"
-        }
+            "phone": "(51) 2106-2800"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 97,
         "fields": {
-            "phone": "(51) 2123-2000",
             "uf": "RS",
+            "store": "Moinhos Shopping",
             "city": "Porto Alegre",
-            "store": "Moinhos Shopping"
-        }
+            "phone": "(51) 2123-2000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 98,
         "fields": {
-            "phone": "(51) 3131-1700",
             "uf": "RS",
+            "store": "Praia De Belas Shopping Center",
             "city": "Porto Alegre",
-            "store": "Praia De Belas Shopping Center"
-        }
+            "phone": "(51) 3131-1700"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 99,
         "fields": {
-            "phone": "(54) 3028-2029",
             "uf": "RS",
+            "store": "Prataviera Shopping",
             "city": "Caxias Do Sul",
-            "store": "Prataviera Shopping"
-        }
+            "phone": "(54) 3028-2029"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 100,
         "fields": {
-            "phone": "(51) 3211-6600",
             "uf": "RS",
+            "store": "Rua Da Praia Shopping",
             "city": "Porto Alegre",
-            "store": "Rua Da Praia Shopping"
-        }
+            "phone": "(51) 3211-6600"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 101,
         "fields": {
-            "phone": "(54) 3225-7000",
             "uf": "RS",
+            "store": "San Pelegrino Shopping Mall",
             "city": "Caxias Do Sul",
-            "store": "San Pelegrino Shopping Mall"
-        }
+            "phone": "(54) 3225-7000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 102,
         "fields": {
-            "phone": "(54) 3289-9292",
             "uf": "RS",
+            "store": "Shopping Center Iguatemi Caxia",
             "city": "Caxias Do Sul",
-            "store": "Shopping Center Iguatemi Caxia"
-        }
+            "phone": "(54) 3289-9292"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 103,
         "fields": {
-            "phone": "(51) 3131-2000",
             "uf": "RS",
+            "store": "Shopping Center Iguatemi Porto Alegre",
             "city": "Porto Alegre",
-            "store": "Shopping Center Iguatemi Porto Alegre"
-        }
+            "phone": "(51) 3131-2000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 104,
         "fields": {
-            "phone": "(51) 3333-1060",
             "uf": "RS",
+            "store": "Shopping Gravata\u00ed",
             "city": "Gravata\u00ed",
-            "store": "Shopping Gravata\u00ed"
-        }
+            "phone": "(51) 3333-1060"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 105,
         "fields": {
-            "phone": "(21) 2529-2233",
             "uf": "RS",
+            "store": "Shopping Pelotas",
             "city": "Pelotas",
-            "store": "Shopping Pelotas"
-        }
+            "phone": "(21) 2529-2233"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 106,
         "fields": {
-            "phone": "(51) 3018-7000",
             "uf": "RS",
+            "store": "Shopping Total",
             "city": "Porto Alegre",
-            "store": "Shopping Total"
-        }
+            "phone": "(51) 3018-7000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 107,
         "fields": {
-            "phone": "(84) 3422-7000",
             "uf": "RN",
+            "store": "Sossor\u00f3 West Shopping",
             "city": "Mossor\u00f3",
-            "store": "Sossor\u00f3 West Shopping"
-        }
+            "phone": "(84) 3422-7000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 108,
         "fields": {
-            "phone": "(84) 3209-8199",
             "uf": "RN",
+            "store": "Natal Shopping Center",
             "city": "Natal",
-            "store": "Natal Shopping Center"
-        }
+            "phone": "(84) 3209-8199"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 109,
         "fields": {
-            "phone": "(84) 4008-0800",
             "uf": "RN",
+            "store": "Praia Shopping",
             "city": "Natal",
-            "store": "Praia Shopping"
-        }
+            "phone": "(84) 4008-0800"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 110,
         "fields": {
-            "phone": "(84) 3217-1260",
             "uf": "RN",
+            "store": "Shopping Cidade Jardim",
             "city": "Natal",
-            "store": "Shopping Cidade Jardim"
-        }
+            "phone": "(84) 3217-1260"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 111,
         "fields": {
-            "phone": "(84) 3234-5252",
             "uf": "RN",
+            "store": "Via Direta Shopping Center",
             "city": "Natal",
-            "store": "Via Direta Shopping Center"
-        }
+            "phone": "(84) 3234-5252"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 112,
         "fields": {
-            "phone": "(21) 3423-9234",
             "uf": "RJ",
+            "store": "Bangu Shopping Center",
             "city": "Rio de Janeiro",
-            "store": "Bangu Shopping Center"
-        }
+            "phone": "(21) 3423-9234"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 113,
         "fields": {
-            "phone": "(21) 4003-4131",
             "uf": "RJ",
+            "store": "Barrashopping",
             "city": "rio de Janeiro",
-            "store": "Barrashopping"
-        }
+            "phone": "(21) 4003-4131"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 114,
         "fields": {
-            "phone": "(24) 2237-0312",
             "uf": "RJ",
+            "store": "Bauhaus Shopping Center",
             "city": "Petropolis",
-            "store": "Bauhaus Shopping Center"
-        }
+            "phone": "(24) 2237-0312"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 115,
         "fields": {
-            "phone": "(21) 2620-2330",
             "uf": "SP",
+            "store": "Bay Market Center",
             "city": "S\u00e3o Paulo",
-            "store": "Bay Market Center"
-        }
+            "phone": "(21) 2620-2330"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 116,
         "fields": {
-            "phone": "(21) 3171-9559",
             "uf": "RJ",
+            "store": "Botafogo Praia Shopping",
             "city": "Rio de Janeiro",
-            "store": "Botafogo Praia Shopping"
-        }
+            "phone": "(21) 3171-9559"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 117,
         "fields": {
-            "phone": "(22) 2732-6857",
             "uf": "RJ",
+            "store": "Boulevard Shopping Campos",
             "city": "Campos dos Goytacazes",
-            "store": "Boulevard Shopping Campos"
-        }
+            "phone": "(22) 2732-6857"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 118,
         "fields": {
-            "phone": "(21) 3611-7979",
             "uf": "RJ",
+            "store": "Boulevard Shopping S\u00e3o Gon\u00e7alo",
             "city": "Rio de Janeiro",
-            "store": "Boulevard Shopping S\u00e3o Gon\u00e7alo"
-        }
+            "phone": "(21) 3611-7979"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 119,
         "fields": {
-            "phone": "(22) 2643-3486",
             "uf": "RJ",
+            "store": "Cabo Frio Leste Shopping",
             "city": "Cabo Frio",
-            "store": "Cabo Frio Leste Shopping"
-        }
+            "phone": "(22) 2643-3486"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 120,
         "fields": {
-            "phone": "(21) 3688-2001",
             "uf": "RJ",
+            "store": "Carioca Shopping",
             "city": "Rio de Janeiro",
-            "store": "Carioca Shopping"
-        }
+            "phone": "(21) 3688-2001"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 121,
         "fields": {
-            "phone": "(21) 2108-8000",
             "uf": "RJ",
+            "store": "Casashopping",
             "city": "Rio de Janeiro",
-            "store": "Casashopping"
-        }
+            "phone": "(21) 2108-8000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 122,
         "fields": {
-            "phone": "(21) 3312-5001",
             "uf": "RJ",
+            "store": "Center Shopping Rio",
             "city": "Rio de Janeiro",
-            "store": "Center Shopping Rio"
-        }
+            "phone": "(21) 3312-5001"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 123,
         "fields": {
-            "phone": "(21) 2468-8100",
             "uf": "RJ",
+            "store": "Ilha Plaza Shopping",
             "city": "Rio de Janeiro",
-            "store": "Ilha Plaza Shopping"
-        }
+            "phone": "(21) 2468-8100"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 124,
         "fields": {
-            "phone": "(21) 2561-8868",
             "uf": "RJ",
+            "store": "Leopoldina Shopping",
             "city": "Rio de Janeiro",
-            "store": "Leopoldina Shopping"
-        }
+            "phone": "(21) 2561-8868"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 125,
         "fields": {
-            "phone": "(21) 2488-1342/11/82",
             "uf": "RJ",
+            "store": "Madureira Shopping",
             "city": "Rio de Janeiro",
-            "store": "Madureira Shopping"
-        }
+            "phone": "(21) 2488-1342/11/82"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 126,
         "fields": {
-            "phone": "(21) 2620-4904",
             "uf": "RJ",
+            "store": "Niteroishopping",
             "city": "Niteroi",
-            "store": "Niteroishopping"
-        }
+            "phone": "(21) 2620-4904"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 127,
         "fields": {
-            "phone": "(21) 2178-4444",
             "uf": "RJ",
+            "store": "Norteshopping",
             "city": "Rio de Janeiro",
-            "store": "Norteshopping"
-        }
+            "phone": "(21) 2178-4444"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 128,
         "fields": {
-            "phone": "(21) 2414-0003",
             "uf": "RJ",
+            "store": "Passeio Shopping",
             "city": "Rio de Janeiro",
-            "store": "Passeio Shopping"
-        }
+            "phone": "(21) 2414-0003"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 129,
         "fields": {
-            "phone": "(21) 2621-9400",
             "uf": "RJ",
+            "store": "Plaza Shopping",
             "city": "Niteroi",
-            "store": "Plaza Shopping"
-        }
+            "phone": "(21) 2621-9400"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 130,
         "fields": {
-            "phone": "(21) 2138-9888",
             "uf": "RJ",
+            "store": "Recreio Shopping Center",
             "city": "Rio de Janeiro",
-            "store": "Recreio Shopping Center"
-        }
+            "phone": "(21) 2138-9888"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 131,
         "fields": {
-            "phone": "(24) 3355-1151",
             "uf": "RJ",
+            "store": "Resende Shopping",
             "city": "Resende",
-            "store": "Resende Shopping"
-        }
+            "phone": "(24) 3355-1151"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 132,
         "fields": {
-            "phone": "(21) 3461-9999",
             "uf": "RJ",
+            "store": "Rio Design Barra",
             "city": "Rio de Janeiro",
-            "store": "Rio Design Barra"
-        }
+            "phone": "(21) 3461-9999"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 133,
         "fields": {
-            "phone": "(21) 3206-9100",
             "uf": "RJ",
+            "store": "Rio Design Leblon",
             "city": "Rio de Janeiro",
-            "store": "Rio Design Leblon"
-        }
+            "phone": "(21) 3206-9100"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 134,
         "fields": {
-            "phone": "(21) 2542-5693",
             "uf": "RJ",
+            "store": "Rio Plaza Shopping",
             "city": "Rio de Janeiro",
-            "store": "Rio Plaza Shopping"
-        }
+            "phone": "(21) 2542-5693"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 135,
         "fields": {
-            "phone": "(21) 2122-8070",
             "uf": "RJ",
+            "store": "Rio Sul Shopping Center",
             "city": "Rio de Janeiro",
-            "store": "Rio Sul Shopping Center"
-        }
+            "phone": "(21) 2122-8070"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 136,
         "fields": {
-            "phone": "(21) 2111-4444",
             "uf": "RJ",
+            "store": "S\u00e3o Conrado Fashion Mall",
             "city": "Rio de Janeiro",
-            "store": "S\u00e3o Conrado Fashion Mall"
-        }
+            "phone": "(21) 2111-4444"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 137,
         "fields": {
-            "phone": "(21) 3513-7200",
             "uf": "RJ",
+            "store": "S\u00e3o Gon\u00e7alo Shopping",
             "city": "Rio de Janeiro",
-            "store": "S\u00e3o Gon\u00e7alo Shopping"
-        }
+            "phone": "(21) 3513-7200"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 138,
         "fields": {
-            "phone": "(21) 2577-8777",
             "uf": "RJ",
+            "store": "Shopping Center Iguatemi Rio",
             "city": "Rio de Janeiro",
-            "store": "Shopping Center Iguatemi Rio"
-        }
+            "phone": "(21) 2577-8777"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 139,
         "fields": {
-            "phone": "(21) 2232-1304",
             "uf": "RJ",
+            "store": "Shopping Center Paco Do Ouvidor",
             "city": "Rio de Janeiro",
-            "store": "Shopping Center Paco Do Ouvidor"
-        }
+            "phone": "(21) 2232-1304"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 140,
         "fields": {
-            "phone": "(21) 2294-1096",
             "uf": "RJ",
+            "store": "Shopping Da G\u00e1vea",
             "city": "Rio de Janeiro",
-            "store": "Shopping Da G\u00e1vea"
-        }
+            "phone": "(21) 2294-1096"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 141,
         "fields": {
-            "phone": "(21) 2662-7222",
             "uf": "RJ",
+            "store": "Shopping Grande Rio",
             "city": "Rio de Janeiro",
-            "store": "Shopping Grande Rio"
-        }
+            "phone": "(21) 2662-7222"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 142,
         "fields": {
-            "phone": "(21) 3855-0078",
             "uf": "RJ",
+            "store": "Shopping Jardim Guadalupe",
             "city": "Rio de Janeiro",
-            "store": "Shopping Jardim Guadalupe"
-        }
+            "phone": "(21) 3855-0078"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 143,
         "fields": {
-            "phone": "(21) 3138-8000",
             "uf": "RJ",
+            "store": "Shopping Leblon",
             "city": "Rio de Janeiro",
-            "store": "Shopping Leblon"
-        }
+            "phone": "(21) 3138-8000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 144,
         "fields": {
-            "phone": "(21) 3083-1000",
             "uf": "RJ",
+            "store": "Shopping Nova America",
             "city": "Rio de Janeiro",
-            "store": "Shopping Nova America"
-        }
+            "phone": "(21) 3083-1000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 145,
         "fields": {
-            "phone": "(22) 3311-5454",
             "uf": "RJ",
+            "store": "Shopping Plaza Maca\u00e9",
             "city": "Maca\u00e9",
-            "store": "Shopping Plaza Maca\u00e9"
-        }
+            "phone": "(22) 3311-5454"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 146,
         "fields": {
-            "phone": "(21) 2176-6102",
             "uf": "RJ",
+            "store": "Shopping Tijuca",
             "city": "Rio de Janeiro",
-            "store": "Shopping Tijuca"
-        }
+            "phone": "(21) 2176-6102"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 147,
         "fields": {
-            "phone": "(24) 2107-0800",
             "uf": "RJ",
+            "store": "Sider Shopping Center",
             "city": "Volta Redonda",
-            "store": "Sider Shopping Center"
-        }
+            "phone": "(24) 2107-0800"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 148,
         "fields": {
-            "phone": "(21) 2643-3995",
             "uf": "RJ",
+            "store": "Teresopolis Shopping Center",
             "city": "Teresopolis",
-            "store": "Teresopolis Shopping Center"
-        }
+            "phone": "(21) 2643-3995"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 149,
         "fields": {
-            "phone": "(21) 2667-1787",
             "uf": "RJ",
+            "store": "Topshopping",
             "city": "Nova Igua\u00e7u",
-            "store": "Topshopping"
-        }
+            "phone": "(21) 2667-1787"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 150,
         "fields": {
-            "phone": "(21) 2421-9238",
             "uf": "RJ",
+            "store": "Via Parque Shopping Center",
             "city": "Rio de Janeiro",
-            "store": "Via Parque Shopping Center"
-        }
+            "phone": "(21) 2421-9238"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 151,
         "fields": {
-            "phone": "(21) 2176-9000",
             "uf": "RJ",
+            "store": "West Shopping Rio",
             "city": "Rio de Janeiro",
-            "store": "West Shopping Rio"
-        }
+            "phone": "(21) 2176-9000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 152,
         "fields": {
-            "phone": "(43) 3315-5000",
             "uf": "PR",
+            "store": "Catuai Shopping Center Londrina",
             "city": "Londrina",
-            "store": "Catuai Shopping Center Londrina"
-        }
+            "phone": "(43) 3315-5000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 153,
         "fields": {
-            "phone": "(44) 3123-5000",
             "uf": "PR",
+            "store": "Catua\u00ed Shopping Maring\u00e1",
             "city": "Maring\u00e1",
-            "store": "Catua\u00ed Shopping Maring\u00e1"
-        }
+            "phone": "(44) 3123-5000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 154,
         "fields": {
-            "phone": "(41) 3883-3000",
             "uf": "PR",
+            "store": "Crystal Plaza Shopping Center",
             "city": "Curitiba",
-            "store": "Crystal Plaza Shopping Center"
-        }
+            "phone": "(41) 3883-3000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 155,
         "fields": {
-            "phone": "(44) 3366-2000",
             "uf": "PR",
+            "store": "Maring\u00e1 Park Shopping Center",
             "city": "Maring\u00e1",
-            "store": "Maring\u00e1 Park Shopping Center"
-        }
+            "phone": "(44) 3366-2000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 156,
         "fields": {
-            "phone": "(41) 3074-1000",
             "uf": "PR",
+            "store": "Mueller Shopping Center De Curitiba",
             "city": "Curitiba",
-            "store": "Mueller Shopping Center De Curitiba"
-        }
+            "phone": "(41) 3074-1000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 157,
         "fields": {
-            "phone": "(41) 3212-3500",
             "uf": "PR",
+            "store": "Palladium Shopping Center",
             "city": "Curitiba",
-            "store": "Palladium Shopping Center"
-        }
+            "phone": "(41) 3212-3500"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 158,
         "fields": {
-            "phone": "(41) 3317-6600",
             "uf": "PR",
+            "store": "Parkshopping Barig\u00fci",
             "city": "Curitiba",
-            "store": "Parkshopping Barig\u00fci"
-        }
+            "phone": "(41) 3317-6600"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 159,
         "fields": {
-            "phone": "(41) 3015-2917",
             "uf": "PR",
+            "store": "Shopping Center Aguaverde",
             "city": "Curitiba",
-            "store": "Shopping Center Aguaverde"
-        }
+            "phone": "(41) 3015-2917"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 160,
         "fields": {
-            "phone": "(41) 3026-1000",
             "uf": "PR",
+            "store": "Shopping Curitiba",
             "city": "Curitiba",
-            "store": "Shopping Curitiba"
-        }
+            "phone": "(41) 3026-1000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 161,
         "fields": {
-            "phone": "(41) 2101-9000",
             "uf": "PR",
+            "store": "Shopping Estacao",
             "city": "Curitiba",
-            "store": "Shopping Estacao"
-        }
+            "phone": "(41) 2101-9000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 162,
         "fields": {
-            "phone": "(41) 3366-5885",
             "uf": "PR",
+            "store": "Shopping Jardim Das Am\u00e9ricas",
             "city": "Curitiba",
-            "store": "Shopping Jardim Das Am\u00e9ricas"
-        }
+            "phone": "(41) 3366-5885"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 163,
         "fields": {
-            "phone": "(32) 3214-1505",
             "uf": "MG",
+            "store": "Alameda Juiz de Fora",
             "city": "Juiz de Fora",
-            "store": "Alameda Juiz de Fora"
-        }
+            "phone": "(32) 3214-1505"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 164,
         "fields": {
-            "phone": "(31) 3228-4000",
             "uf": "MG",
+            "store": "BH Shopping",
             "city": "Belo Horizonte",
-            "store": "BH Shopping"
-        }
+            "phone": "(31) 3228-4000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 165,
         "fields": {
-            "phone": "(31) 2571-7500",
             "uf": "MG",
+            "store": "Boulevard Shopping Belo Horizonte",
             "city": "Belo Horizonte",
-            "store": "Boulevard Shopping Belo Horizonte"
-        }
+            "phone": "(31) 2571-7500"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 166,
         "fields": {
-            "phone": "(34) 3239-8400",
             "uf": "MG",
+            "store": "Center Shopping",
             "city": "Uberlandia",
-            "store": "Center Shopping"
-        }
+            "phone": "(34) 3239-8400"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 167,
         "fields": {
-            "phone": "(31) 3330-8600",
             "uf": "MG",
+            "store": "DiamondMall",
             "city": "Belo Horizonte",
-            "store": "DiamondMall"
-        }
+            "phone": "(31) 3330-8600"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 168,
         "fields": {
-            "phone": "(32) 3241-3600",
             "uf": "MG",
+            "store": "Independencia Shopping",
             "city": "Juiz de Fora",
-            "store": "Independencia Shopping"
-        }
+            "phone": "(32) 3241-3600"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 169,
         "fields": {
-            "phone": "(31) 3329-3000",
             "uf": "MG",
+            "store": "ItauPower Shopping",
             "city": "Contagem",
-            "store": "ItauPower Shopping"
-        }
+            "phone": "(31) 3329-3000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 170,
         "fields": {
-            "phone": "(32) 3215-3287",
             "uf": "MG",
+            "store": "Mister Shopping",
             "city": "Juiz de Fora",
-            "store": "Mister Shopping"
-        }
+            "phone": "(32) 3215-3287"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 171,
         "fields": {
-            "phone": "(31) 3429-3545",
             "uf": "MG",
+            "store": "Minas Shopping",
             "city": "Belo Horizonte",
-            "store": "Minas Shopping"
-        }
+            "phone": "(31) 3429-3545"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 172,
         "fields": {
-            "phone": "(31) 3286-8343",
             "uf": "MG",
+            "store": "Plaza Anchieta",
             "city": "Belo Horizonte",
-            "store": "Plaza Anchieta"
-        }
+            "phone": "(31) 3286-8343"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 173,
         "fields": {
-            "phone": "(31) 3503-2500",
             "uf": "MG",
+            "store": "Ponteio Lar Shopping",
             "city": "Belo Horizonte",
-            "store": "Ponteio Lar Shopping"
-        }
+            "phone": "(31) 3503-2500"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 174,
         "fields": {
-            "phone": "(34) 3334-5500",
             "uf": "MG",
+            "store": "Shopping Center Uberaba",
             "city": "Uberaba",
-            "store": "Shopping Center Uberaba"
-        }
+            "phone": "(34) 3334-5500"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 175,
         "fields": {
-            "phone": "(31) 3279-1200",
             "uf": "MG",
+            "store": "Shopping Cidade",
             "city": "Belo Horizonte",
-            "store": "Shopping Cidade"
-        }
+            "phone": "(31) 3279-1200"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 176,
         "fields": {
-            "phone": "(31) 3479-2000",
             "uf": "MG",
+            "store": "Shopping Del Rey",
             "city": "Belo Horizonte",
-            "store": "Shopping Del Rey"
-        }
+            "phone": "(31) 3479-2000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 177,
         "fields": {
-            "phone": "(31) 3451-8900",
             "uf": "MG",
+            "store": "Shopping Norte",
             "city": "Belo Horizonte",
-            "store": "Shopping Norte"
-        }
+            "phone": "(31) 3451-8900"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 178,
         "fields": {
-            "phone": "(31) 3263-8500",
             "uf": "MG",
+            "store": "Shopping Patio Savassi",
             "city": "Belo Horizonte",
-            "store": "Shopping Patio Savassi"
-        }
+            "phone": "(31) 3263-8500"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 179,
         "fields": {
-            "phone": "(31) 3271-2112",
             "uf": "MG",
+            "store": "UAI Shopping",
             "city": "Belo Horizonte",
-            "store": "UAI Shopping"
-        }
+            "phone": "(31) 3271-2112"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 180,
         "fields": {
-            "phone": "(31) 3271-2112",
             "uf": "MG",
+            "store": "UAI Shopping C\u00e9u Azul",
             "city": "Belo Horizonte",
-            "store": "UAI Shopping C\u00e9u Azul"
-        }
+            "phone": "(31) 3271-2112"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 181,
         "fields": {
-            "phone": "(21) 2529-2233",
             "uf": "MG",
+            "store": "Venda Nova Shopping",
             "city": "Belo Horizonte",
-            "store": "Venda Nova Shopping"
-        }
+            "phone": "(21) 2529-2233"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 182,
         "fields": {
-            "phone": "(31) 2126-3200",
             "uf": "MG",
+            "store": "Via Shopping Barreiro",
             "city": "Belo Horizonte",
-            "store": "Via Shopping Barreiro"
-        }
+            "phone": "(31) 2126-3200"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 183,
         "fields": {
-            "phone": "(32) 3214-1505",
             "uf": "MG",
+            "store": "Alameda Juiz de Fora",
             "city": "Juiz de Fora",
-            "store": "Alameda Juiz de Fora"
-        }
+            "phone": "(32) 3214-1505"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 184,
         "fields": {
-            "phone": "(31) 3228-4000",
             "uf": "MG",
+            "store": "BH Shopping",
             "city": "Belo Horizonte",
-            "store": "BH Shopping"
-        }
+            "phone": "(31) 3228-4000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 185,
         "fields": {
-            "phone": "(31) 2571-7500",
             "uf": "MG",
+            "store": "Boulevard Shopping Belo Horizonte",
             "city": "Belo Horizonte",
-            "store": "Boulevard Shopping Belo Horizonte"
-        }
+            "phone": "(31) 2571-7500"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 186,
         "fields": {
-            "phone": "(34) 3239-8400",
             "uf": "MG",
+            "store": "Center Shopping",
             "city": "Uberlandia",
-            "store": "Center Shopping"
-        }
+            "phone": "(34) 3239-8400"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 187,
         "fields": {
-            "phone": "(31) 3330-8600",
             "uf": "MG",
+            "store": "DiamondMall",
             "city": "Belo Horizonte",
-            "store": "DiamondMall"
-        }
+            "phone": "(31) 3330-8600"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 188,
         "fields": {
-            "phone": "(32) 3241-3600",
             "uf": "MG",
+            "store": "Independencia Shopping",
             "city": "Juiz de Fora",
-            "store": "Independencia Shopping"
-        }
+            "phone": "(32) 3241-3600"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 189,
         "fields": {
-            "phone": "(31) 3329-3000",
             "uf": "MG",
+            "store": "ItauPower Shopping",
             "city": "Contagem",
-            "store": "ItauPower Shopping"
-        }
+            "phone": "(31) 3329-3000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 190,
         "fields": {
-            "phone": "(32) 3215-3287",
             "uf": "MG",
+            "store": "Mister Shopping",
             "city": "Juiz de Fora",
-            "store": "Mister Shopping"
-        }
+            "phone": "(32) 3215-3287"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 191,
         "fields": {
-            "phone": "(31) 3429-3545",
             "uf": "MG",
+            "store": "Minas Shopping",
             "city": "Belo Horizonte",
-            "store": "Minas Shopping"
-        }
+            "phone": "(31) 3429-3545"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 192,
         "fields": {
-            "phone": "(31) 3286-8343",
             "uf": "MG",
+            "store": "Plaza Anchieta",
             "city": "Belo Horizonte",
-            "store": "Plaza Anchieta"
-        }
+            "phone": "(31) 3286-8343"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 193,
         "fields": {
-            "phone": "(31) 3503-2500",
             "uf": "MG",
+            "store": "Ponteio Lar Shopping",
             "city": "Belo Horizonte",
-            "store": "Ponteio Lar Shopping"
-        }
+            "phone": "(31) 3503-2500"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 194,
         "fields": {
-            "phone": "(34) 3334-5500",
             "uf": "MG",
+            "store": "Shopping Center Uberaba",
             "city": "Uberaba",
-            "store": "Shopping Center Uberaba"
-        }
+            "phone": "(34) 3334-5500"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 195,
         "fields": {
-            "phone": "(31) 3279-1200",
             "uf": "MG",
+            "store": "Shopping Cidade",
             "city": "Belo Horizonte",
-            "store": "Shopping Cidade"
-        }
+            "phone": "(31) 3279-1200"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 196,
         "fields": {
-            "phone": "(31) 3479-2000",
             "uf": "MG",
+            "store": "Shopping Del Rey",
             "city": "Belo Horizonte",
-            "store": "Shopping Del Rey"
-        }
+            "phone": "(31) 3479-2000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 197,
         "fields": {
-            "phone": "(31) 3451-8900",
             "uf": "MG",
+            "store": "Shopping Norte",
             "city": "Belo Horizonte",
-            "store": "Shopping Norte"
-        }
+            "phone": "(31) 3451-8900"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 198,
         "fields": {
-            "phone": "(31) 3263-8500",
             "uf": "MG",
+            "store": "Shopping Patio Savassi",
             "city": "Belo Horizonte",
-            "store": "Shopping Patio Savassi"
-        }
+            "phone": "(31) 3263-8500"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 199,
         "fields": {
-            "phone": "(31) 3271-2112",
             "uf": "MG",
+            "store": "UAI Shopping",
             "city": "Belo Horizonte",
-            "store": "UAI Shopping"
-        }
+            "phone": "(31) 3271-2112"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 200,
         "fields": {
-            "phone": "(31) 3271-2112",
             "uf": "MG",
+            "store": "UAI Shopping C\u00e9u Azul",
             "city": "Belo Horizonte",
-            "store": "UAI Shopping C\u00e9u Azul"
-        }
+            "phone": "(31) 3271-2112"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 201,
         "fields": {
-            "phone": "(31) 2529-2233",
             "uf": "MG",
+            "store": "Venda Nova Shopping",
             "city": "Belo Horizonte",
-            "store": "Venda Nova Shopping"
-        }
+            "phone": "(31) 2529-2233"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 202,
         "fields": {
-            "phone": "(31) 2126-3200",
             "uf": "MG",
+            "store": "Via Shopping Barreiro",
             "city": "Belo Horizonte",
-            "store": "Via Shopping Barreiro"
-        }
+            "phone": "(31) 2126-3200"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 203,
         "fields": {
-            "phone": "(62) 3243-4400",
             "uf": "GO",
+            "store": "Araguaia Shopping",
             "city": "Goi\u00e2nia",
-            "store": "Araguaia Shopping"
-        }
+            "phone": "(62) 3243-4400"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 204,
         "fields": {
-            "phone": "(62) 3097-9500",
             "uf": "GO",
+            "store": "Buriti Shopping",
             "city": "Aparecida de Goi\u00e2nia",
-            "store": "Buriti Shopping"
-        }
+            "phone": "(62) 3097-9500"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 205,
         "fields": {
-            "phone": "(62) 3546-2000",
             "uf": "GO",
+            "store": "Flamboyant Shopping Center",
             "city": "Goi\u00e2nia",
-            "store": "Flamboyant Shopping Center"
-        }
+            "phone": "(62) 3546-2000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 206,
         "fields": {
-            "phone": "(62) 3237-0500",
             "uf": "GO",
+            "store": "Goi\u00e2nia Shopping",
             "city": "Goi\u00e2nia",
-            "store": "Goi\u00e2nia Shopping"
-        }
+            "phone": "(62) 3237-0500"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 207,
         "fields": {
-            "phone": "(61) 3436-1600",
             "uf": "DF",
+            "store": "\u00c1guas Claras Shopping",
             "city": "Aguas Claras",
-            "store": "\u00c1guas Claras Shopping"
-        }
+            "phone": "(61) 3436-1600"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 208,
         "fields": {
-            "phone": "(61) 3328-8915",
             "uf": "DF",
+            "store": "Alameda Shopping",
             "city": "Bras\u00edlia",
-            "store": "Alameda Shopping"
-        }
+            "phone": "(61) 3328-8915"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 209,
         "fields": {
-            "phone": "(61) 3328-8915",
             "uf": "DF",
+            "store": "Liberty Mall",
             "city": "Bras\u00edlia",
-            "store": "Liberty Mall"
-        }
+            "phone": "(61) 3328-8915"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 210,
         "fields": {
-            "phone": "(61) 3328-8915",
             "uf": "DF",
+            "store": "Parkshopping",
             "city": "Bras\u00edlia",
-            "store": "Parkshopping"
-        }
+            "phone": "(61) 3328-8915"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 211,
         "fields": {
-            "phone": "(61) 2107-7400",
             "uf": "DF",
+            "store": "P\u00e1tio Brasil Shopping",
             "city": "Bras\u00edlia",
-            "store": "P\u00e1tio Brasil Shopping"
-        }
+            "phone": "(61) 2107-7400"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 212,
         "fields": {
-            "phone": "(61) 2106-9700",
             "uf": "DF",
+            "store": "Shopping Conjunto Nacional",
             "city": "Bras\u00edlia",
-            "store": "Shopping Conjunto Nacional"
-        }
+            "phone": "(61) 2106-9700"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 213,
         "fields": {
-            "phone": "(75) 3225-3000",
             "uf": "BA",
+            "store": "Boulevard Shopping Feira de Santana",
             "city": "Feira de Santana",
-            "store": "Boulevard Shopping Feira de Santana"
-        }
+            "phone": "(75) 3225-3000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 214,
         "fields": {
-            "phone": "(71) 3417-6509",
             "uf": "BA",
+            "store": "Salvador Norte Shopping AS",
             "city": "Salvador",
-            "store": "Salvador Norte Shopping AS"
-        }
+            "phone": "(71) 3417-6509"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 215,
         "fields": {
-            "phone": "(71) 3417-6000",
             "uf": "BA",
+            "store": "Salvador Shopping",
             "city": "Salvador",
-            "store": "Salvador Shopping"
-        }
+            "phone": "(71) 3417-6000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 216,
         "fields": {
-            "phone": "(71) 3310-5000",
             "uf": "BA",
+            "store": "Shopping Bahia Out Let Center",
             "city": "Salvador",
-            "store": "Shopping Bahia Out Let Center"
-        }
+            "phone": "(71) 3310-5000"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 217,
         "fields": {
-            "phone": "(71)2108-8222",
             "uf": "BA",
+            "store": "Shopping Barra",
             "city": "Salvador",
-            "store": "Shopping Barra"
-        }
+            "phone": "(71)2108-8222"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 218,
         "fields": {
-            "phone": "(71) 3415-8212",
             "uf": "BA",
+            "store": "Shopping Center Lapa BA",
             "city": "Salvador",
-            "store": "Shopping Center Lapa BA"
-        }
+            "phone": "(71) 3415-8212"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 219,
         "fields": {
-            "phone": "(71) 3555-7019",
             "uf": "BA",
+            "store": "Shopping Center Paralela",
             "city": "Salvador",
-            "store": "Shopping Center Paralela"
-        }
+            "phone": "(71) 3555-7019"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 220,
         "fields": {
-            "phone": "(71)3444-1555",
             "uf": "BA",
+            "store": "Shopping Center Piedade",
             "city": "Salvador",
-            "store": "Shopping Center Piedade"
-        }
+            "phone": "(71)3444-1555"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 221,
         "fields": {
-            "phone": "(71) 3350-5050",
             "uf": "BA",
+            "store": "Shopping Iguatemi Salvador",
             "city": "Salvador",
-            "store": "Shopping Iguatemi Salvador"
-        }
+            "phone": "(71) 3350-5050"
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 222,
         "fields": {
-            "phone": "",
             "uf": "BA",
+            "store": "Aeroporto de Barreiras (BRA/SBNR)",
             "city": "Barreiras",
-            "store": "Aeroporto de Barreiras (BRA/SBNR)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 223,
         "fields": {
-            "phone": "",
             "uf": "BA",
+            "store": "Aeroporto de Bom Jesus da Lapa (LAZ/SBLP)",
             "city": "Bom Jesus da Lapa",
-            "store": "Aeroporto de Bom Jesus da Lapa (LAZ/SBLP)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 224,
         "fields": {
-            "phone": "",
             "uf": "BA",
+            "store": "Aeroporto Governador Jo\u00e3o Durval Carneiro (FEC/SNJD)",
             "city": "Feira de Santana",
-            "store": "Aeroporto Governador Jo\u00e3o Durval Carneiro (FEC/SNJD)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 225,
         "fields": {
-            "phone": "",
             "uf": "BA",
+            "store": "Aeroporto Coronel Hor\u00e1cio de Matos (LEC/SBLE)",
             "city": "Len\u00e7\u00f3is",
-            "store": "Aeroporto Coronel Hor\u00e1cio de Matos (LEC/SBLE)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 226,
         "fields": {
-            "phone": "",
             "uf": "BA",
+            "store": "Aeroporto de Porto Seguro (BPS/SBPS)",
             "city": "Porto Seguro",
-            "store": "Aeroporto de Porto Seguro (BPS/SBPS)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 227,
         "fields": {
-            "phone": "",
             "uf": "BA",
+            "store": "Aeroporto de Valen\u00e7a (VAL/SNVB)",
             "city": "Valen\u00e7a",
-            "store": "Aeroporto de Valen\u00e7a (VAL/SNVB)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 228,
         "fields": {
-            "phone": "",
             "uf": "BA",
+            "store": "Aeroporto Pedro Otac\u00edlio Figueiredo (VDC/SBQV)",
             "city": "Vitoria da Conquista",
-            "store": "Aeroporto Pedro Otac\u00edlio Figueiredo (VDC/SBQV)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 229,
         "fields": {
-            "phone": "",
             "uf": "BA",
+            "store": "Aeroporto 9 de Maio (TXF/SNTF)",
             "city": "Teixeira de Freitas",
-            "store": "Aeroporto 9 de Maio (TXF/SNTF)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 230,
         "fields": {
-            "phone": "",
             "uf": "CE",
+            "store": "Aeroporto Internacional Pinto Martins (FOR/SBFZ)",
             "city": "Fortaleza",
-            "store": "Aeroporto Internacional Pinto Martins (FOR/SBFZ)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 231,
         "fields": {
-            "phone": "",
             "uf": "DF",
+            "store": "Cons\u00f3rcio Infram\u00e9rica Aeroportos",
             "city": "Bras\u00edlia",
-            "store": "Cons\u00f3rcio Infram\u00e9rica Aeroportos"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 232,
         "fields": {
-            "phone": "",
             "uf": "GO",
+            "store": "Aer\u00f3dromo Nacional de Avia\u00e7\u00e3o (SBGO)",
             "city": "Goi\u00e2nia",
-            "store": "Aer\u00f3dromo Nacional de Avia\u00e7\u00e3o (SBGO)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 233,
         "fields": {
-            "phone": "",
             "uf": "MT",
+            "store": "Aeroporto Internacional Marechal Rondon (CGB/SBCY)",
             "city": "V\u00e1rzea Grande/Cuiab\u00e1",
-            "store": "Aeroporto Internacional Marechal Rondon (CGB/SBCY)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 234,
         "fields": {
-            "phone": "",
             "uf": "MS",
+            "store": "Aeroporto Internacional de Campo Grande (CGR/SBCG)",
             "city": "Campo Grande",
-            "store": "Aeroporto Internacional de Campo Grande (CGR/SBCG)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 235,
         "fields": {
-            "phone": "",
             "uf": "MG",
+            "store": "Aeroporto Carlos Prates (SBPR)",
             "city": "Belo Horizonte",
-            "store": "Aeroporto Carlos Prates (SBPR)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 236,
         "fields": {
-            "phone": "",
             "uf": "PR",
+            "store": "Aeroporto Governador Jos\u00e9 Richa (LDB/SBLO)",
             "city": "Londrina",
-            "store": "Aeroporto Governador Jos\u00e9 Richa (LDB/SBLO)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 237,
         "fields": {
-            "phone": "",
             "uf": "PR",
+            "store": "Aeroporto Internacional Afonso Pena (CWB/SBCT)",
             "city": "S\u00e3o Jos\u00e9 dos Pinhais/Curitiba",
-            "store": "Aeroporto Internacional Afonso Pena (CWB/SBCT)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 238,
         "fields": {
-            "phone": "",
             "uf": "PR",
+            "store": "Aeroporto do Bacacheri (BFH/SBBI)",
             "city": "Curitiba",
-            "store": "Aeroporto do Bacacheri (BFH/SBBI)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 239,
         "fields": {
-            "phone": "",
             "uf": "PR",
+            "store": "Aeroporto Internacional Cataratas (IGU/SBFI)",
             "city": "Foz do Igua\u00e7u",
-            "store": "Aeroporto Internacional Cataratas (IGU/SBFI)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 240,
         "fields": {
-            "phone": "",
             "uf": "PR",
+            "store": "Aeroporto Regional Silvio Name Junior (MGF/SBMG)",
             "city": "Maring\u00e1",
-            "store": "Aeroporto Regional Silvio Name Junior (MGF/SBMG)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 241,
         "fields": {
-            "phone": "",
             "uf": "PE",
+            "store": "Aeroporto de Petrolina (PNZ/SBPL)",
             "city": "Petrolina",
-            "store": "Aeroporto de Petrolina (PNZ/SBPL)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 242,
         "fields": {
-            "phone": "",
             "uf": "PE",
+            "store": "Aeroporto Internacional dos Guararapes Gilberto Freyre (REC/SBRF)",
             "city": "Recife",
-            "store": "Aeroporto Internacional dos Guararapes Gilberto Freyre (REC/SBRF)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 243,
         "fields": {
-            "phone": "",
             "uf": "PE",
+            "store": "Aeroporto de Fernando de Noronha(FEN/SBFN)",
             "city": "Fernando de Noronha",
-            "store": "Aeroporto de Fernando de Noronha(FEN/SBFN)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 244,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroporto Internacional do Rio de Janeiro (GIG/SBGL)",
             "city": "Rio de Janeiro",
-            "store": "Aeroporto Internacional do Rio de Janeiro (GIG/SBGL)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 245,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroportos do Futuro S.A.",
             "city": "Rio de Janeiro",
-            "store": "Aeroportos do Futuro S.A."
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 246,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroporto de Campos dos Goytacazes Bartolomeu Lysandro (CAW/SBCP)",
             "city": "Campos dos Goytacazes",
-            "store": "Aeroporto de Campos dos Goytacazes Bartolomeu Lysandro (CAW/SBCP)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 247,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroporto de Maca\u00e9 (MEA/SBME)",
             "city": "Maca\u00e9",
-            "store": "Aeroporto de Maca\u00e9 (MEA/SBME)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 248,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroporto Santos Dumont (SDU/SBRJ)",
             "city": "Rio de Janeiro",
-            "store": "Aeroporto Santos Dumont (SDU/SBRJ)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 249,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroporto de Jacarepagu\u00e1 Roberto Marinho (***/SBJR)",
             "city": "Rio de Janeiro",
-            "store": "Aeroporto de Jacarepagu\u00e1 Roberto Marinho (***/SBJR)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 250,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroporto das Agulhas Negras (SDRS)",
             "city": "Resende",
-            "store": "Aeroporto das Agulhas Negras (SDRS)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 251,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroporto de Angra dos Reis (SDAG)",
             "city": "Angra dos Reis",
-            "store": "Aeroporto de Angra dos Reis (SDAG)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 252,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroporto de B\u00fazios Umberto Mediano (BZC/SBBZ)",
             "city": "Arma\u00e7\u00e3o dos B\u00fazios",
-            "store": "Aeroporto de B\u00fazios Umberto Mediano (BZC/SBBZ)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 253,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "ReisAeroporto de Itaperuna Ernani do Amaral Peixoto (ITP/SDUN)",
             "city": "Itaperuna",
-            "store": "ReisAeroporto de Itaperuna Ernani do Amaral Peixoto (ITP/SDUN)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 254,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroporto de Maric\u00e1 (SDMC)",
             "city": "Maric\u00e1",
-            "store": "Aeroporto de Maric\u00e1 (SDMC)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 255,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroporto de Nova Igua\u00e7u (QNV/SDNY)",
             "city": "Nova Igua\u00e7u",
-            "store": "Aeroporto de Nova Igua\u00e7u (QNV/SDNY)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 256,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroporto de Paraty (SDTK)",
             "city": "Paraty",
-            "store": "Aeroporto de Paraty (SDTK)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 257,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroporto de Saquarema (SDSK)",
             "city": "Saquarema",
-            "store": "Aeroporto de Saquarema (SDSK)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 258,
         "fields": {
-            "phone": "",
             "uf": "RJ",
+            "store": "Aeroporto de Cabo Frio (CFB/SBCB)",
             "city": "Cabo Frio",
-            "store": "Aeroporto de Cabo Frio (CFB/SBCB)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 259,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto Internacional Herc\u00edlio Luz (FLN/SBFL)",
             "city": "Florian\u00f3polis",
-            "store": "Aeroporto Internacional Herc\u00edlio Luz (FLN/SBFL)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 260,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto Internacional Ministro Victor Konder (NVT/SBNF)",
             "city": "Navegantes",
-            "store": "Aeroporto Internacional Ministro Victor Konder (NVT/SBNF)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 261,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Jaguaruna (Humberto Ghizzo Bortoluzzi) (JGR/SBJG)",
             "city": "Jaguaruna",
-            "store": "Aeroporto de Jaguaruna (Humberto Ghizzo Bortoluzzi) (JGR/SBJG)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 262,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto Lauro Carneiro de Loyola (JOI/SBJV)",
             "city": "Joinville",
-            "store": "Aeroporto Lauro Carneiro de Loyola (JOI/SBJV)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 263,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Crici\u00fama (Diom\u00edcio Freitas) (CCM/SBCM)",
             "city": "Crici\u00fama / Forquilhinha",
-            "store": "Aeroporto de Crici\u00fama (Diom\u00edcio Freitas) (CCM/SBCM)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 264,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Blumenau (BNU/SSBL)",
             "city": "Blumenau",
-            "store": "Aeroporto de Blumenau (BNU/SSBL)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 265,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Ca\u00e7ador (CFC/SBCD)",
             "city": "Ca\u00e7ador",
-            "store": "Aeroporto de Ca\u00e7ador (CFC/SBCD)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 266,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Chapec\u00f3 (XAP/SBCH)",
             "city": "Chapec\u00f3",
-            "store": "Aeroporto de Chapec\u00f3 (XAP/SBCH)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 267,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Conc\u00f3rdia (CCI/SSCK)",
             "city": "Conc\u00f3rdia",
-            "store": "Aeroporto de Conc\u00f3rdia (CCI/SSCK)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 268,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Curitibanos (SSKU)",
             "city": "Curitibanos",
-            "store": "Aeroporto de Curitibanos (SSKU)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 269,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Dion\u00edsio Cerqueira (SSDC)",
             "city": "Dion\u00edsio Cerqueira",
-            "store": "Aeroporto de Dion\u00edsio Cerqueira (SSDC)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 270,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Itapiranga (SSYT)",
             "city": "Itapiranga",
-            "store": "Aeroporto de Itapiranga (SSYT)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 271,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Joa\u00e7aba (JCB/SSJA)",
             "city": "Joa\u00e7aba",
-            "store": "Aeroporto de Joa\u00e7aba (JCB/SSJA)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 272,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Lages (LAJ/SBLJ)",
             "city": "Lages",
-            "store": "Aeroporto de Lages (LAJ/SBLJ)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 273,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Laguna (SSLA)",
             "city": "Laguna",
-            "store": "Aeroporto de Laguna (SSLA)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 274,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Lontras (LOI/SSLN)",
             "city": "Lontras",
-            "store": "Aeroporto de Lontras (LOI/SSLN)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 275,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Mafra (QMF/SSMF)",
             "city": "Mafra",
-            "store": "Aeroporto de Mafra (QMF/SSMF)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 276,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de S\u00e3o Francisco do Sul (SSSS)",
             "city": "S\u00e3o Francisco do Sul",
-            "store": "Aeroporto de S\u00e3o Francisco do Sul (SSSS)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 277,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de S\u00e3o Joaquim (SJQ/SSSQ)",
             "city": "S\u00e3o Joaquim",
-            "store": "Aeroporto de S\u00e3o Joaquim (SJQ/SSSQ)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 278,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de S\u00e3o Miguel do Oeste (SQX/SSOE)",
             "city": "S\u00e3o Miguel do Oeste",
-            "store": "Aeroporto de S\u00e3o Miguel do Oeste (SQX/SSOE)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 279,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de S\u00e3o Jos\u00e9 (SOO/SOO)",
             "city": "S\u00e3o Jos\u00e9",
-            "store": "Aeroporto de S\u00e3o Jos\u00e9 (SOO/SOO)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 280,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Tr\u00eas Barras (SSTB)",
             "city": "Tr\u00eas Barras",
-            "store": "Aeroporto de Tr\u00eas Barras (SSTB)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 281,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Videira (VIA/SSVI)",
             "city": "Videira",
-            "store": "Aeroporto de Videira (VIA/SSVI)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 282,
         "fields": {
-            "phone": "",
             "uf": "SC",
+            "store": "Aeroporto de Xanxer\u00ea (AXE/SSXX)",
             "city": "Xanxer\u00ea",
-            "store": "Aeroporto de Xanxer\u00ea (AXE/SSXX)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 283,
         "fields": {
-            "phone": "",
             "uf": "SP",
+            "store": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos (GRU/SBGR)",
             "city": "Guarulhos",
-            "store": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos (GRU/SBGR)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 284,
         "fields": {
-            "phone": "",
             "uf": "SP",
+            "store": "Aeroporto Internacional de Viracopos-Campinas (VCP/SBKP)",
             "city": "Campinas",
-            "store": "Aeroporto Internacional de Viracopos-Campinas (VCP/SBKP)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 285,
         "fields": {
-            "phone": "",
             "uf": "SP",
+            "store": "Aeroporto Campo de Marte (MAE/SBMT)",
             "city": "S\u00e3o Paulo",
-            "store": "Aeroporto Campo de Marte (MAE/SBMT)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 286,
         "fields": {
-            "phone": "",
             "uf": "SP",
+            "store": "Aeroporto de Congonhas/S\u00e3o Paulo (CGH/SBSP)",
             "city": "S\u00e3o Paulo",
-            "store": "Aeroporto de Congonhas/S\u00e3o Paulo (CGH/SBSP)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     },
     {
-        "model": "core.Store",
         "pk": 287,
         "fields": {
-            "phone": "",
             "uf": "SP",
+            "store": "Aeroporto de S\u00e3o Jos\u00e9 dos Campos (SJK/SBSJ)",
             "city": "S\u00e3o Jos\u00e9 dos Campos",
-            "store": "Aeroporto de S\u00e3o Jos\u00e9 dos Campos (SJK/SBSJ)"
-        }
+            "phone": ""
+        },
+        "model": "core.Store"
     }
 ]
