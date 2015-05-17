@@ -33,7 +33,7 @@ class DealershipAdmin(admin.ModelAdmin):
 
 class BrandAdmin(admin.ModelAdmin):
     ordering = ['brand']
-    list_display = ('brand', 'photo')
+    list_display = ('brand', 'thumb')
 
 
 class ModellAdmin(admin.ModelAdmin):
@@ -47,8 +47,9 @@ class ModellAdmin(admin.ModelAdmin):
 class VehicleAdmin(admin.ModelAdmin):
 
     ordering = ['vehicle']
+    readonly_fields = ('image',)
     list_display = (
-        'vehicle', 'photo_vehicle', 'color', 'year_of_manufacture', 'price', 'kit_fabric')
+        'thumb', 'vehicle',  'color', 'year_of_manufacture', 'price', 'kit_fabric')
     search_fields = ('vehicle',)
     list_filter = (
         'modell', 'color', 'year_of_manufacture', 'fueltype', 'transmissiontype')
@@ -72,11 +73,13 @@ class KioskAdmin(admin.ModelAdmin):
 class OrderedAdmin(admin.ModelAdmin):
 
     ordering = ['-created_at']
-    list_display = (
-        'customer', 'vehicle', 'dealership', 'kiosk', 'employee', 'status')
+    list_display = ('id', 'customer', 'vehicle', 'dealership',
+                    'kiosk', 'employee', 'status', 'created_at')
     date_hierarchy = 'created_at'
-    search_fields = ('customer', 'vehicle', 'dealership', 'kiosk')
-    list_filter = ('dealership', 'kiosk', 'status')
+    readonly_fields = ('created_at',)
+    search_fields = ('id', 'customer__first_name', 'customer__last_name', 'vehicle__vehicle',
+                     'dealership__dealership', 'kiosk__kiosk')
+    list_filter = ('status',)
 
 
 admin.site.register(Customer, CustomerAdmin)
