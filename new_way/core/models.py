@@ -156,6 +156,10 @@ class Brand(models.Model):
     def __str__(self):
         return self.brand
 
+    def thumb(self):
+        return '<img src="%s"/ width="70px">' % self.photo.url
+    thumb.allow_tags = True
+
 
 class Modell(models.Model):
     modell = models.CharField(_('modelo'), max_length=50, unique=True)
@@ -184,7 +188,6 @@ class Vehicle(models.Model):
     transmissiontype = models.CharField(
         _(u'tipo de câmbio'), max_length=1, choices=transmissiontype_list)
     wheel = models.CharField(_('freio'), max_length=30)
-    tire = models.CharField(_('roda'), max_length=30, default='-')
     performance = models.CharField(_('desempenho'), max_length=30, default='-')
     trunk = models.CharField(_('porta malas'), max_length=30, default='-')
     price = models.DecimalField(_(u'preço'), max_digits=8, decimal_places=2)
@@ -200,6 +203,14 @@ class Vehicle(models.Model):
 
     def __str__(self):
         return self.vehicle
+
+    def thumb(self):
+        return '<img src="%s"/ width="70px">' % self.photo_vehicle.url
+    thumb.allow_tags = True
+
+    def image(self):
+        return '<img src="%s"/ width="500px">' % self.photo_vehicle.url
+    image.allow_tags = True
 
 
 class Accessory(models.Model):

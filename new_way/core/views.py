@@ -7,6 +7,7 @@ from django.db.models import Q
 from django.views.generic import CreateView, TemplateView, ListView, DetailView
 from .models import Customer, Dealership, Address, Brand, Modell, Vehicle, Store
 from .forms import CustomerForm
+from .managers import VehicleAgeMixin
 
 
 def home(request):
@@ -70,6 +71,9 @@ class StoreList(ListView):
                 Q(store__icontains=q) | Q(city__icontains=q))
         return stores
 
+
+class Reports(VehicleAgeMixin, TemplateView):
+    template_name = 'core/reports.html'
 
 # @login_required
 # def user_profile(request):

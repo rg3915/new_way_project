@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<div class="col-lg-6">
+		<table class="table table-striped">	
+			<thead>
+				<tr>
+					<th>Veículos</th>
+					<th>Consultados</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for item in vehicles_age|slice:":10" %}
+					<tr>
+						<td>{{ item.vehicle__vehicle }}</td>
+						<td>{{ item.consultados }}</td>
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+{% endblock content %}
