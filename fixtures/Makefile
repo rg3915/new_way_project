@@ -67,7 +67,14 @@ users:
 load_users:
 	python ../manage.py loaddata fixtures/usuarios.csv.json
 
+ordered:
+	python gen_ordered_csv.py
+	python csv2json.py fixtures/pedidos.csv core.Ordered
+
+load_ordered:
+	python ../manage.py loaddata fixtures/pedidos.csv.json
+
 clear_json:
 	rm fixtures/*.json
 
-load_fixtures: dealership load_dealership occupation load_occupation users load_users employee load_employee customer load_customer brand load_brand modell load_modell kit load_kit vehicle load_vehicle store load_store kiosk load_kiosk
+load_fixtures: dealership load_dealership occupation load_occupation ordered load_users employee load_employee customer load_customer brand load_brand modell load_modell kit load_kit vehicle load_vehicle store load_store kiosk load_kiosk ordered load_ordered

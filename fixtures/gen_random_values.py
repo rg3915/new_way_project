@@ -6,7 +6,7 @@ from decimal import Decimal
 
 
 def gen_age():
-    return random.randint(5, 70)
+    return random.randint(18, 100)
 
 
 def gen_doc(length=11):
@@ -21,7 +21,7 @@ def gen_phone():
         rstr.rstr('1234567890', 4))
 
 
-def gen_date(min_year=1945, max_year=2011):
+def gen_date(min_year=1915, max_year=1997):
     # gera um date no formato yyyy-mm-dd
     year = random.randint(min_year, max_year)
     month = random.randint(1, 12)
@@ -30,7 +30,7 @@ def gen_date(min_year=1945, max_year=2011):
     return date
 
 
-def gen_timestamp(min_year=1945, max_year=2011):
+def gen_timestamp(min_year=1915, max_year=1997):
     # gera um datetime no formato yyyy-mm-dd hh:mm:ss.000000
     year = random.randint(min_year, max_year)
     month = random.randint(1, 12)
