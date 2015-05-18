@@ -187,9 +187,7 @@ class Vehicle(models.Model):
         _(u'tipo de combustível'), max_length=1, choices=fueltype_list)
     transmissiontype = models.CharField(
         _(u'tipo de câmbio'), max_length=1, choices=transmissiontype_list)
-    wheel = models.CharField(_('freio'), max_length=30)
     performance = models.CharField(_('desempenho'), max_length=30, default='-')
-    trunk = models.CharField(_('porta malas'), max_length=30, default='-')
     price = models.DecimalField(_(u'preço'), max_digits=8, decimal_places=2)
     kit_fabric = models.ForeignKey(
         "Kit", verbose_name=u'kit de fábrica', related_name='vehicle_kit')
