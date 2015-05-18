@@ -70,5 +70,13 @@
         },
         "model": "core.Modell",
         "pk": 9
+    },
+    {
+        "fields": {
+            "modell": "A4",
+            "brand": 1
+        },
+        "model": "core.Modell",
+        "pk": 10
     }
 ]

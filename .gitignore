@@ -61,7 +61,4 @@ docs/_build/
 .DS_Store
 .env
 migrations/
-fixtures/fixtures/clientes.csv
-fixtures/fixtures/clientes.csv.json
-fixtures/fixtures/funcionarios.csv
-fixtures/fixtures/funcionarios.csv.json
+fixtures/

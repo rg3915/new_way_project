@@ -6,52 +6,40 @@
         <h2>Carros</h2>
     </div>
 
-	<div>
-
     <div class="container initial-p">
-	    {% if object_list %}
-			{% for vehicle in object_list %}
-
         <div class="row">
+		    {% if object_list %}
+				{% for vehicle in object_list %}
 
-            <div class="col-lg-7 col-md-7">
-                <a href="#">
-                    <img class="img-responsive" src="{{ vehicle.photo_vehicle.url }}" alt="" width="700px">
-                </a>
-                <div class="ratings">
-                	<p></p>
-                    <!-- <p class="pull-right">45 reviews</p> -->
-                    <!-- <p>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star-empty"></span>
-                        4.0 stars
-                    </p> -->
-                </div>
-            </div>
+		            <div class="col-md-4 portfolio-item">
+		                <a href="#project-link">
+		                    <img class="img-responsive" src="{{ vehicle.photo_vehicle.url }}" height="50px">
+		                </a>
+		                <!-- <div class="ratings">
+		                    <p class="pull-right">3 reviews</p>
+		                    <p>
+		                        <span class="glyphicon glyphicon-star"></span>
+		                        <span class="glyphicon glyphicon-star"></span>
+		                        <span class="glyphicon glyphicon-star"></span>
+		                        <span class="glyphicon glyphicon-star"></span>
+		                        <span class="glyphicon glyphicon-star-empty"></span>
+		                        4.0 stars
+		                    </p>
+		                </div> -->
+		                <h3><a href="#project-link">{{ vehicle.vehicle }}</a>
+		                </h3>
+		                <div class="pull-right">
+			                <a class="btn btn-primary" href="#">Monte seu carro <span class="glyphicon glyphicon-plus"></span></a>
+		                </div>
+		                <p>A partir de</p>
+		                <h4 class="highlight">R$ {{ vehicle.price }}</h4>
+		            </div>
 
-            <div class="col-lg-2 col-md-2">
-                <h3>{{ vehicle.vehicle }}</h3>
-                <h4>{{ vehicle.engine_power }}</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et.</p>
-                <a class="btn btn-primary" href="#">Monte seu carro <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-
-            <div class="col-lg-2 col-md-2">
-                <p>A partir de</p>
-                <h4>R$ {{ vehicle.price }}</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At illum ea non incidunt illo minima omnis tenetur nisi ad atque voluptate facere deleniti aspernatur doloremque accusamus quasi, odit eum explicabo.</p>
-            </div>
-
-        </div>
-
-        {% endfor %}
-        {% else %}
-	        <p class="alert alert-warning">Sem itens na lista.</p>
-	    {% endif %}
-    </div>
+	        {% endfor %}
+	        {% else %}
+		        <p class="alert alert-warning">Sem itens na lista.</p>
+		    {% endif %}
+	    </div>
     </div>
 
         <hr>

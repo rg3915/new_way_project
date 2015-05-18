@@ -2,200 +2,200 @@
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/audi.png",
-            "brand": "Audi"
+            "brand": "Audi",
+            "photo": "brands/audi.png"
         },
         "pk": 1
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/bmw.png",
-            "brand": "BMW"
+            "brand": "BMW",
+            "photo": "brands/bmw.png"
         },
         "pk": 2
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/chevrolet.png",
-            "brand": "Chevrolet"
+            "brand": "Chevrolet",
+            "photo": "brands/chevrolet.png"
         },
         "pk": 3
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/chrysler.png",
-            "brand": "Chrysler"
+            "brand": "Chrysler",
+            "photo": "brands/chrysler.png"
         },
         "pk": 4
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/citroen.png",
-            "brand": "Citroen"
+            "brand": "Citroen",
+            "photo": "brands/citroen.png"
         },
         "pk": 5
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/dodge.png",
-            "brand": "Dodge"
+            "brand": "Dodge",
+            "photo": "brands/dodge.png"
         },
         "pk": 6
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/fiat.png",
-            "brand": "Fiat"
+            "brand": "Fiat",
+            "photo": "brands/fiat.png"
         },
         "pk": 7
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/ford.png",
-            "brand": "Ford"
+            "brand": "Ford",
+            "photo": "brands/ford.png"
         },
         "pk": 8
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/honda.png",
-            "brand": "Honda"
+            "brand": "Honda",
+            "photo": "brands/honda.png"
         },
         "pk": 9
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/hyundai.png",
-            "brand": "Hyundai"
+            "brand": "Hyundai",
+            "photo": "brands/hyundai.png"
         },
         "pk": 10
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/jac.png",
-            "brand": "JAC Motors"
+            "brand": "JAC Motors",
+            "photo": "brands/jac.png"
         },
         "pk": 11
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/jaguar.png",
-            "brand": "Jaguar"
+            "brand": "Jaguar",
+            "photo": "brands/jaguar.png"
         },
         "pk": 12
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/jeep.png",
-            "brand": "Jeep"
+            "brand": "Jeep",
+            "photo": "brands/jeep.png"
         },
         "pk": 13
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/land-rover.png",
-            "brand": "Land-Rover"
+            "brand": "Land-Rover",
+            "photo": "brands/land-rover.png"
         },
         "pk": 14
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/mercedez.png",
-            "brand": "Mercedez"
+            "brand": "Mercedez",
+            "photo": "brands/mercedez.png"
         },
         "pk": 15
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/mini.png",
-            "brand": "Mini"
+            "brand": "Mini",
+            "photo": "brands/mini.png"
         },
         "pk": 16
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/mitsubishi.png",
-            "brand": "Mitsubishi"
+            "brand": "Mitsubishi",
+            "photo": "brands/mitsubishi.png"
         },
         "pk": 17
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/nissan.png",
-            "brand": "Nissan"
+            "brand": "Nissan",
+            "photo": "brands/nissan.png"
         },
         "pk": 18
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/peugeot.png",
-            "brand": "Peugeot"
+            "brand": "Peugeot",
+            "photo": "brands/peugeot.png"
         },
         "pk": 19
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/porsche.png",
-            "brand": "Porsche"
+            "brand": "Porsche",
+            "photo": "brands/porsche.png"
         },
         "pk": 20
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/renault.png",
-            "brand": "Renault"
+            "brand": "Renault",
+            "photo": "brands/renault.png"
         },
         "pk": 21
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/suzuki.png",
-            "brand": "Suzuki"
+            "brand": "Suzuki",
+            "photo": "brands/suzuki.png"
         },
         "pk": 22
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/toyota.png",
-            "brand": "Toyota"
+            "brand": "Toyota",
+            "photo": "brands/toyota.png"
         },
         "pk": 23
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/volkswagen.png",
-            "brand": "Volkswagen"
+            "brand": "Volkswagen",
+            "photo": "brands/volkswagen.png"
         },
         "pk": 24
     },
     {
         "model": "core.Brand",
         "fields": {
-            "photo": "brands/volvo.png",
-            "brand": "Volvo"
+            "brand": "Volvo",
+            "photo": "brands/volvo.png"
         },
         "pk": 25
     }
