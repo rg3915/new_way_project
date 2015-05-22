@@ -72,8 +72,8 @@ class StoreList(ListView):
         return stores
 
 
-class Reports(VehicleAgeMixin, TemplateView):
-    template_name = 'core/reports.html'
+class Dashboard(VehicleAgeMixin, TemplateView):
+    template_name = 'core/dashboard.html'
 
 # @login_required
 # def user_profile(request):

@@ -16,7 +16,7 @@ urlpatterns = patterns(
 
     url(r'^customer/add/$', CustomerCreate.as_view(), name='customer_add'),
 
-    url(r'^reports/$', Reports.as_view(), name='reports'),
+    url(r'^dashboard/$', Dashboard.as_view(), name='dashboard'),
 
     # url(r'^about/$', 'about', name='about'),
     # url(r'^contact/$', 'contact', name='contact'),
