@@ -10,8 +10,7 @@ class CustomerTest(TestCase):
 
     def setUp(self):
         self.address = Address.objects.create(
-            address=u'Avenida Engenheiro Eusébio Stevaux',
-            address_number=100,
+            address=u'Avenida Engenheiro Eusébio Stevaux, 100',
             complement='Bloco A',
             district='Jurubatuba',
             city=u'São Paulo',
@@ -51,8 +50,7 @@ class CustomerUniqueTest(TestCase):
 
     def setUp(self):
         self.address = Address.objects.create(
-            address=u'Avenida Engenheiro Eusébio Stevaux',
-            address_number=100,
+            address=u'Avenida Engenheiro Eusébio Stevaux, 100',
             complement='Bloco A',
             district='Jurubatuba',
             city=u'São Paulo',
@@ -90,8 +88,7 @@ class EmployeeTest(TestCase):
 
     def setUp(self):
         self.address = Address.objects.create(
-            address=u'Avenida Engenheiro Eusébio Stevaux',
-            address_number=100,
+            address=u'Avenida Engenheiro Eusébio Stevaux, 100',
             complement='Bloco A',
             district='Jurubatuba',
             city=u'São Paulo',
