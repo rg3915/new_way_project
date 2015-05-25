@@ -20,7 +20,7 @@ with open('fixtures/enderecos_.csv', 'r') as f:
 
 with io.open('fixtures/clientes.csv', 'wt') as f:
     f.write(
-        u'id,gender,first_name,last_name,cpf,birthday,email,phone,cell,address,address_number,district,city,uf,cep,created_at,modified_at\n')
+        u'id,gender,first_name,last_name,cpf,birthday,email,phone,cell,address,district,city,uf,cep,created_at,modified_at\n')
     for i in range(repeat):
         g = random.choice(['M', 'F'])
         if g == 'M':
@@ -35,21 +35,19 @@ with io.open('fixtures/clientes.csv', 'wt') as f:
         phone = gen_phone()
         cell = gen_phone()
         n = random.randint(1, 5)  # escolhe um id de enderecos_.csv
-        address = address_list[n]['address']
-        address_number = address_list[n]['address_number']
+        address = '"' + address_list[n]['address'] + '"'
         district = address_list[n]['district']
         city = address_list[n]['city']
         uf = address_list[n]['uf']
         cep = address_list[n]['cep']
         date = datetime.datetime.now().isoformat(" ") + "+00"
         person_list.append(
-            (i + 1, g, first_name, last_name, cpf, birthday, email, phone, cell, address, address_number, district, city, uf, cep, date, date))
+            (i + 1, g, first_name, last_name, cpf, birthday, email, phone, cell, address, district, city, uf, cep, date, date))
     for l in person_list:
         s = str(l[0]) + "," + str(l[1]) + "," + str(l[2]) + \
             "," + str(l[3]) + "," + str(l[4]) + "," + str(l[5]) + \
             "," + str(l[6]) + "," + str(l[7]) + "," + str(l[8]) + \
             "," + str(l[9]) + "," + str(l[10]) + "," + str(l[11]) + \
             "," + str(l[12]) + "," + str(l[13]) + "," + str(l[14]) + \
-            "," + str(l[15]) + \
-            "," + str(l[16]) + "\n"
+            "," + str(l[15]) + "\n"
         f.write(str(s))

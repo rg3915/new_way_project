@@ -1,206 +1,206 @@
 [
     {
-        "model": "core.Vehicle",
+        "pk": 1,
         "fields": {
-            "year_of_manufacture": 2015,
             "photo_vehicle": "vehicles/honda_civic_branco.jpg",
-            "color": "Branco",
+            "year_of_manufacture": 2015,
+            "fueltype": "f",
+            "power": 180,
+            "kit_fabric": 1,
+            "vehicle": "Honda Civic 1.8 LXS",
+            "transmissiontype": "m",
+            "engine_power": "1.8",
             "price": 64900,
-            "kit_fabric": 1,
-            "performance": 180,
-            "fueltype": "f",
-            "transmissiontype": "m",
-            "modell": 4,
-            "engine_power": "1.8",
-            "vehicle": "Honda Civic 1.8 LXS"
+            "color": "Branco",
+            "modell": 4
         },
-        "pk": 1
+        "model": "core.Vehicle"
     },
     {
-        "model": "core.Vehicle",
+        "pk": 2,
         "fields": {
-            "year_of_manufacture": 2015,
             "photo_vehicle": "vehicles/honda_civic_cinza.jpg",
-            "color": "Cinza",
-            "price": 52600,
-            "kit_fabric": 1,
-            "performance": 180,
+            "year_of_manufacture": 2015,
             "fueltype": "f",
+            "power": 180,
+            "kit_fabric": 1,
+            "vehicle": "Honda Civic 1.4 LXS",
             "transmissiontype": "m",
-            "modell": 4,
             "engine_power": "1.4",
-            "vehicle": "Honda Civic 1.4 LXS"
+            "price": 52600,
+            "color": "Cinza",
+            "modell": 4
         },
-        "pk": 2
+        "model": "core.Vehicle"
     },
     {
-        "model": "core.Vehicle",
+        "pk": 3,
         "fields": {
-            "year_of_manufacture": 2015,
             "photo_vehicle": "vehicles/hb20_branco.png",
-            "color": "Branco",
-            "price": 44780,
-            "kit_fabric": 1,
-            "performance": 200,
+            "year_of_manufacture": 2015,
             "fueltype": "f",
+            "power": 200,
+            "kit_fabric": 1,
+            "vehicle": "Hyundai HB20 1.6",
             "transmissiontype": "a",
-            "modell": 6,
             "engine_power": "1.6",
-            "vehicle": "Hyundai HB20 1.6"
+            "price": 44780,
+            "color": "Branco",
+            "modell": 6
         },
-        "pk": 3
+        "model": "core.Vehicle"
     },
     {
-        "model": "core.Vehicle",
+        "pk": 4,
         "fields": {
-            "year_of_manufacture": 2015,
             "photo_vehicle": "vehicles/hb20_branco.png",
-            "color": "Branco",
+            "year_of_manufacture": 2015,
+            "fueltype": "f",
+            "power": 200,
+            "kit_fabric": 1,
+            "vehicle": "Hyundai HB20 1.0",
+            "transmissiontype": "a",
+            "engine_power": "1.0",
             "price": 32500,
-            "kit_fabric": 1,
-            "performance": 200,
-            "fueltype": "f",
-            "transmissiontype": "a",
-            "modell": 6,
-            "engine_power": "1.0",
-            "vehicle": "Hyundai HB20 1.0"
-        },
-        "pk": 4
-    },
-    {
-        "model": "core.Vehicle",
-        "fields": {
-            "year_of_manufacture": 2015,
-            "photo_vehicle": "vehicles/fiesta_cinza.jpg",
-            "color": "Cinza",
-            "price": 18000,
-            "kit_fabric": 1,
-            "performance": 75,
-            "fueltype": "f",
-            "transmissiontype": "a",
-            "modell": 2,
-            "engine_power": "1.0",
-            "vehicle": "Fiesta"
-        },
-        "pk": 5
-    },
-    {
-        "model": "core.Vehicle",
-        "fields": {
-            "year_of_manufacture": 2015,
-            "photo_vehicle": "vehicles/ecosport_vermelho.jpg",
-            "color": "Vermelho",
-            "price": 32000,
-            "kit_fabric": 1,
-            "performance": 100,
-            "fueltype": "f",
-            "transmissiontype": "a",
-            "modell": 3,
-            "engine_power": "1.0",
-            "vehicle": "Ecosport"
-        },
-        "pk": 6
-    },
-    {
-        "model": "core.Vehicle",
-        "fields": {
-            "year_of_manufacture": 2015,
-            "photo_vehicle": "vehicles/fit_amarelo.jpg",
-            "color": "Amarelo",
-            "price": 20000,
-            "kit_fabric": 1,
-            "performance": 80,
-            "fueltype": "f",
-            "transmissiontype": "a",
-            "modell": 5,
-            "engine_power": "1.0",
-            "vehicle": "Honda Fit"
-        },
-        "pk": 7
-    },
-    {
-        "model": "core.Vehicle",
-        "fields": {
-            "year_of_manufacture": 2015,
-            "photo_vehicle": "vehicles/corolla.png",
-            "color": "Cinza",
-            "price": 45000,
-            "kit_fabric": 1,
-            "performance": 60,
-            "fueltype": "f",
-            "transmissiontype": "a",
-            "modell": 7,
-            "engine_power": "1.0",
-            "vehicle": "Corolla"
-        },
-        "pk": 8
-    },
-    {
-        "model": "core.Vehicle",
-        "fields": {
-            "year_of_manufacture": 2015,
-            "photo_vehicle": "vehicles/fox_azul.jpg",
-            "color": "Azul",
-            "price": 31000,
-            "kit_fabric": 1,
-            "performance": 120,
-            "fueltype": "f",
-            "transmissiontype": "a",
-            "modell": 8,
-            "engine_power": "1.0",
-            "vehicle": "Fox"
-        },
-        "pk": 9
-    },
-    {
-        "model": "core.Vehicle",
-        "fields": {
-            "year_of_manufacture": 2015,
-            "photo_vehicle": "vehicles/golf_preto.png",
-            "color": "Preto",
-            "price": 21000,
-            "kit_fabric": 1,
-            "performance": 80,
-            "fueltype": "f",
-            "transmissiontype": "a",
-            "modell": 9,
-            "engine_power": "1.0",
-            "vehicle": "Golf"
-        },
-        "pk": 10
-    },
-    {
-        "model": "core.Vehicle",
-        "fields": {
-            "year_of_manufacture": 2015,
-            "photo_vehicle": "vehicles/palio_preto.png",
-            "color": "Preto",
-            "price": 20000,
-            "kit_fabric": 1,
-            "performance": 78,
-            "fueltype": "f",
-            "transmissiontype": "a",
-            "modell": 1,
-            "engine_power": "1.0",
-            "vehicle": "Palio"
-        },
-        "pk": 11
-    },
-    {
-        "model": "core.Vehicle",
-        "fields": {
-            "year_of_manufacture": 2015,
-            "photo_vehicle": "vehicles/audi_a4.jpg",
             "color": "Branco",
-            "price": 48500,
-            "kit_fabric": 1,
-            "performance": 120,
-            "fueltype": "f",
-            "transmissiontype": "a",
-            "modell": 10,
-            "engine_power": "1.8",
-            "vehicle": "Audi A4"
+            "modell": 6
         },
-        "pk": 12
+        "model": "core.Vehicle"
+    },
+    {
+        "pk": 5,
+        "fields": {
+            "photo_vehicle": "vehicles/fiesta_cinza.jpg",
+            "year_of_manufacture": 2015,
+            "fueltype": "f",
+            "power": 75,
+            "kit_fabric": 1,
+            "vehicle": "Fiesta",
+            "transmissiontype": "a",
+            "engine_power": "1.0",
+            "price": 18000,
+            "color": "Cinza",
+            "modell": 2
+        },
+        "model": "core.Vehicle"
+    },
+    {
+        "pk": 6,
+        "fields": {
+            "photo_vehicle": "vehicles/ecosport_vermelho.jpg",
+            "year_of_manufacture": 2015,
+            "fueltype": "f",
+            "power": 100,
+            "kit_fabric": 1,
+            "vehicle": "Ecosport",
+            "transmissiontype": "a",
+            "engine_power": "1.0",
+            "price": 32000,
+            "color": "Vermelho",
+            "modell": 3
+        },
+        "model": "core.Vehicle"
+    },
+    {
+        "pk": 7,
+        "fields": {
+            "photo_vehicle": "vehicles/fit_amarelo.jpg",
+            "year_of_manufacture": 2015,
+            "fueltype": "f",
+            "power": 80,
+            "kit_fabric": 1,
+            "vehicle": "Honda Fit",
+            "transmissiontype": "a",
+            "engine_power": "1.0",
+            "price": 20000,
+            "color": "Amarelo",
+            "modell": 5
+        },
+        "model": "core.Vehicle"
+    },
+    {
+        "pk": 8,
+        "fields": {
+            "photo_vehicle": "vehicles/corolla.png",
+            "year_of_manufacture": 2015,
+            "fueltype": "f",
+            "power": 60,
+            "kit_fabric": 1,
+            "vehicle": "Corolla",
+            "transmissiontype": "a",
+            "engine_power": "1.0",
+            "price": 45000,
+            "color": "Cinza",
+            "modell": 7
+        },
+        "model": "core.Vehicle"
+    },
+    {
+        "pk": 9,
+        "fields": {
+            "photo_vehicle": "vehicles/fox_azul.jpg",
+            "year_of_manufacture": 2015,
+            "fueltype": "f",
+            "power": 120,
+            "kit_fabric": 1,
+            "vehicle": "Fox",
+            "transmissiontype": "a",
+            "engine_power": "1.0",
+            "price": 31000,
+            "color": "Azul",
+            "modell": 8
+        },
+        "model": "core.Vehicle"
+    },
+    {
+        "pk": 10,
+        "fields": {
+            "photo_vehicle": "vehicles/golf_preto.png",
+            "year_of_manufacture": 2015,
+            "fueltype": "f",
+            "power": 80,
+            "kit_fabric": 1,
+            "vehicle": "Golf",
+            "transmissiontype": "a",
+            "engine_power": "1.0",
+            "price": 21000,
+            "color": "Preto",
+            "modell": 9
+        },
+        "model": "core.Vehicle"
+    },
+    {
+        "pk": 11,
+        "fields": {
+            "photo_vehicle": "vehicles/palio_preto.png",
+            "year_of_manufacture": 2015,
+            "fueltype": "f",
+            "power": 78,
+            "kit_fabric": 1,
+            "vehicle": "Palio",
+            "transmissiontype": "a",
+            "engine_power": "1.0",
+            "price": 20000,
+            "color": "Preto",
+            "modell": 1
+        },
+        "model": "core.Vehicle"
+    },
+    {
+        "pk": 12,
+        "fields": {
+            "photo_vehicle": "vehicles/audi_a4.jpg",
+            "year_of_manufacture": 2015,
+            "fueltype": "f",
+            "power": 120,
+            "kit_fabric": 1,
+            "vehicle": "Audi A4",
+            "transmissiontype": "a",
+            "engine_power": "1.8",
+            "price": 48500,
+            "color": "Branco",
+            "modell": 10
+        },
+        "model": "core.Vehicle"
     }
 ]

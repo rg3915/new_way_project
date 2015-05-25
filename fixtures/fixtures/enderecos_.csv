@@ -1,7 +1,7 @@
-id,address,address_number,complement,district,city,uf,cep
-1,Rua Coelho Lisboa,574,,Tatuapé,São Paulo,SP,03323-040
-2,Av. Indianópolis,100,,Indianópolis,São Paulo,SP,04062-000
-3,Av. Pacaembú,380,,Barra Funda,São Paulo,SP,01155-000
-4,Av. Ulisses Reis de Matos,100,,Morumbi,São Paulo,SP,00568-602
-5,Av. Moreira Guimarães,367,,Moema,São Paulo,SP,04074-030
-6,Rua Padre Machado,68,,Vila Mariana,São Paulo,SP,04127-001
+id,address,complement,district,city,uf,cep
+1,"Rua Coelho Lisboa, 574",,Tatuapé,São Paulo,SP,03323-040
+2,"Av. Indianópolis, 100",,Indianópolis,São Paulo,SP,04062-000
+3,"Av. Pacaembú, 380",,Barra Funda,São Paulo,SP,01155-000
+4,"Av. Ulisses Reis de Matos, 100",,Morumbi,São Paulo,SP,00568-602
+5,"Av. Moreira Guimarães, 367",,Moema,São Paulo,SP,04074-030
+6,"Rua Padre Machado, 68",,Vila Mariana,São Paulo,SP,04127-001

@@ -1,23 +1,23 @@
 [
     {
-        "model": "core.Kit",
         "pk": 1,
         "fields": {
             "kit": "F\u00e1brica"
-        }
+        },
+        "model": "core.Kit"
     },
     {
-        "model": "core.Kit",
         "pk": 2,
         "fields": {
             "kit": "Esportivo"
-        }
+        },
+        "model": "core.Kit"
     },
     {
-        "model": "core.Kit",
         "pk": 3,
         "fields": {
             "kit": "Classic"
-        }
+        },
+        "model": "core.Kit"
     }
 ]

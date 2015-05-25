@@ -28,8 +28,8 @@ with open('fixtures/usuarios.csv', 'r') as f:
 
 with io.open('fixtures/funcionarios.csv', 'wt') as f:
     f.write(
-        u'id,user,gender,first_name,last_name,cpf,birthday,email,phone,cell,address,address_number,district,city,uf,cep,occupation,dealership,comissioned,comission,created_at,modified_at\n')
-    for i in range(1, repeat):
+        u'id,user,gender,first_name,last_name,cpf,birthday,email,phone,cell,address,district,city,uf,cep,occupation,dealership,comissioned,comission,created_at,modified_at\n')
+    for i in range(repeat):
         g = random.choice(['M', 'F'])
         user = user_list[i]['id']
         first_name = user_list[i]['first_name']
@@ -41,8 +41,7 @@ with io.open('fixtures/funcionarios.csv', 'wt') as f:
         phone = gen_phone()
         cell = gen_phone()
         n = random.randint(1, 5)  # escolhe um id de enderecos_.csv
-        address = address_list[n]['address']
-        address_number = address_list[n]['address_number']
+        address = '"' + address_list[n]['address'] + '"'
         district = address_list[n]['district']
         city = address_list[n]['city']
         uf = address_list[n]['uf']
@@ -64,10 +63,10 @@ with io.open('fixtures/funcionarios.csv', 'wt') as f:
             comissioned = False
             comission = 0
 
-        dealership = random.randint(1, 6)
+        dealership = random.randint(1, 146)
         date = datetime.datetime.now().isoformat(" ") + "+00"
         person_list.append(
-            (i + 1, user, g, first_name, last_name, cpf, birthday, email, phone, cell, address, address_number, district, city, uf, cep, occupation, dealership, comissioned, comission, date, date))
+            (i + 1, user, g, first_name, last_name, cpf, birthday, email, phone, cell, address, district, city, uf, cep, occupation, dealership, comissioned, comission, date, date))
     for l in person_list:
         s = str(l[0]) + "," + str(l[1]) + "," + str(l[2]) + \
             "," + str(l[3]) + "," + str(l[4]) + "," + str(l[5]) + \
@@ -75,6 +74,6 @@ with io.open('fixtures/funcionarios.csv', 'wt') as f:
             "," + str(l[9]) + "," + str(l[10]) + "," + str(l[11]) + \
             "," + str(l[12]) + "," + str(l[13]) + "," + str(l[14]) + \
             "," + str(l[15]) + "," + str(l[16]) + "," + str(l[17]) + \
-            "," + str(l[18]) + "," + str(l[19]) + "," + str(l[20]) + \
-            "," + str(l[21]) + "\n"
+            "," + str(l[18]) + "," + str(l[19]) + \
+            "," + str(l[20]) + "\n"
         f.write(str(s))
