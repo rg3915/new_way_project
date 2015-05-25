@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}
+	<title>Ordered List</title>
+{% endblock title %}
+
+{% block content %}
+	<div>
+		<div class="row">
+		{% if object_list %}
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Número</th>
+						<th>Veículo</th>
+						<th>Kit</th>
+						<th>Concessionária</th>
+						<th>Data</th>
+					</tr>
+				</thead>
+				<tbody>
+			    	{% for ordered in object_list %}
+			    		<tr>
+							<!-- <td><img src=" vehicle.photo_vehicle.url " height="30px" width="50px"></td> -->
+							<td>{{ ordered.id }}</td>
+							<td>{{ ordered.vehicle }}</td>
+							<td>{{ ordered.kit }}</td>
+							<td>{{ ordered.dealership }}</td>
+							<td>{{ ordered.created_at|date:"d/m/Y" }}</td>
+			    		</tr>
+			    	{% endfor %}
+				</tbody>
+			</table>
+	    {% else %}
+	        <p class="alert alert-warning">Sem itens na lista.</p>
+	    {% endif %}
+		</div>
+	</div>
+
+<!-- pagination -->
+{% include "pagination.html" %}
+
+{% endblock content %}
