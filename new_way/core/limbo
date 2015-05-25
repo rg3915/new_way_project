@@ -1,0 +1,28 @@
+'''
+# only for Python 2.7
+gender_list = [('M', 'masculino'), ('F', 'feminino')]
+
+uf_list = (
+    ('RJ', 'Rio de Janeiro'),
+    ('SP', u'São Paulo'),
+)
+
+fueltype_list = (
+    ('g', 'gasolina'),
+    ('a', 'álcool'),
+    ('d', 'diesel'),
+    ('f', 'flex'),
+    ('e', 'elétrico'),
+)
+
+transmissiontype_list = (
+    ('a', 'automático'),
+    ('m', 'manual'),
+)
+
+status_list = (
+    ('c', 'cancelado'),
+    ('p', 'pendente'),
+    ('a', 'aprovado'),
+)
+'''
