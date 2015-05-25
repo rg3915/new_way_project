@@ -5,7 +5,7 @@ from django.core.urlresolvers import reverse_lazy
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.views.generic import CreateView, TemplateView, ListView, DetailView
-from .models import Customer, Dealership, Address, Brand, Modell, Vehicle, Store
+from .models import Customer, Dealership, Address, Brand, Modell, Vehicle, Store, Ordered
 from .forms import CustomerForm
 from .managers import VehicleAgeMixin
 
@@ -45,6 +45,17 @@ class ModelList(ListView):
 class VehicleList(ListView):
     template_name = 'core/vehicle/vehicle_list.html'
     model = Vehicle
+    paginate_by = 15
+
+
+class VehicleDetail(DetailView):
+    template_name = 'core/vehicle/vehicle_detail.html'
+    model = Vehicle
+
+    def get_context_data(self, **kwargs):
+        context = super(VehicleDetail, self).get_context_data(**kwargs)
+        vehicle = Vehicle.objects.get(pk=self.kwargs['pk'])
+        return context
 
 
 class DealershipList(ListView):
@@ -74,6 +85,20 @@ class StoreList(ListView):
 
 class Dashboard(VehicleAgeMixin, TemplateView):
     template_name = 'core/dashboard.html'
+
+
+# @login_required
+class OrderedCreate(CreateView):
+    template_name = 'core/ordered/ordered_create_form.html'
+    model = Ordered
+    success_url = reverse_lazy('home')  # 'ordered_list'
+
+
+class OrderedList(ListView):
+    template_name = 'core/ordered/ordered_list.html'
+    model = Ordered
+    paginate_by = 10
+
 
 # @login_required
 # def user_profile(request):
