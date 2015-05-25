@@ -3,37 +3,8 @@ from django.db import models
 from django.utils.translation import ugettext_lazy as _
 from django.contrib.auth.models import User
 # List of values for use in choices
-from .applib.lists import gender_list, treatment_list, type_address_list, uf_list, \
+from .lists import gender_list, treatment_list, type_address_list, uf_list, \
     type_phone_list, fueltype_list, transmissiontype_list, status_list
-
-'''
-# only for Python 2.7
-gender_list = [('M', 'masculino'), ('F', 'feminino')]
-
-uf_list = (
-    ('RJ', 'Rio de Janeiro'),
-    ('SP', u'São Paulo'),
-)
-
-fueltype_list = (
-    ('g', 'gasolina'),
-    ('a', 'álcool'),
-    ('d', 'diesel'),
-    ('f', 'flex'),
-    ('e', 'elétrico'),
-)
-
-transmissiontype_list = (
-    ('a', 'automático'),
-    ('m', 'manual'),
-)
-
-status_list = (
-    ('c', 'cancelado'),
-    ('p', 'pendente'),
-    ('a', 'aprovado'),
-)
-'''
 
 
 class TimeStampedModel(models.Model):
@@ -48,7 +19,6 @@ class TimeStampedModel(models.Model):
 
 class Address(models.Model):
     address = models.CharField(_(u'endereço'), max_length=80)
-    address_number = models.PositiveIntegerField(_(u'número'))
     complement = models.CharField(
         _('complemento'), max_length=80, blank=True, null=True)
     district = models.CharField(_('bairro'), max_length=80)
@@ -67,8 +37,9 @@ class Person(TimeStampedModel, Address):
     cpf = models.CharField(_('CPF'), max_length=11, unique=True)
     birthday = models.DateField(_('data de nascimento'))
     email = models.EmailField(_('email'), blank=True)
-    phone = models.CharField(_('telefone'), max_length=15, blank=True)
-    cell = models.CharField(_('celular'), max_length=15, blank=True)
+    phone = models.CharField(
+        _('telefone'), max_length=15, null=True, blank=True)
+    cell = models.CharField(_('celular'), max_length=15, null=True, blank=True)
 
     class Meta:
         abstract = True
@@ -179,15 +150,16 @@ class Vehicle(models.Model):
     modell = models.ForeignKey(
         "Modell", verbose_name=u'modelo', related_name='vehicle_model')
     vehicle = models.CharField(_('veículo'), max_length=50, unique=True)
+    # slug = models.SlugField(_('slug'))
     color = models.CharField(_('cor'), max_length=50)
     year_of_manufacture = models.PositiveIntegerField(_(u'ano de fabricação'))
     engine_power = models.DecimalField(
-        _(u'potência do motor'), max_digits=6, decimal_places=2)
+        _('motor'), max_digits=6, decimal_places=2)
     fueltype = models.CharField(
         _(u'tipo de combustível'), max_length=1, choices=fueltype_list)
     transmissiontype = models.CharField(
         _(u'tipo de câmbio'), max_length=1, choices=transmissiontype_list)
-    performance = models.CharField(_('desempenho'), max_length=30, default='-')
+    power = models.CharField(_(u'potência'), max_length=30, default='-')
     price = models.DecimalField(_(u'preço'), max_digits=8, decimal_places=2)
     kit_fabric = models.ForeignKey(
         "Kit", verbose_name=u'kit de fábrica', related_name='vehicle_kit')
@@ -201,6 +173,14 @@ class Vehicle(models.Model):
 
     def __str__(self):
         return self.vehicle
+
+    # @models.permalink
+    # def get_absolute_url(self):
+        # return ('core:speaker_detail', (), {'slug': self.slug})
+
+    # clica no carro e retorna os detalhes dele
+    def get_vehicle_url(self):
+        return u"/vehicles/%i" % self.id
 
     def thumb(self):
         return '<img src="%s"/ width="70px">' % self.photo_vehicle.url
