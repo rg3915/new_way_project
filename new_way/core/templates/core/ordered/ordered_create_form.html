@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% load bootstrap3 %}
+
+{% block title %}
+	<title>Ordered Form</title>
+{% endblock title %}
+
+{% block content %}
+	
+	<div class="page-header">
+		<h2>Cadastrar {{ name }}</h2>
+	</div>
+	<form class="form col-sm-4" method="POST">
+		{% csrf_token %}
+		{% bootstrap_form form %}
+		{% buttons %}
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        {% endbuttons %}
+	</form>
+
+{% endblock content %}
