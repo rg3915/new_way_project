@@ -12,7 +12,7 @@
 				{% for vehicle in object_list %}
 
 		            <div class="col-md-4 portfolio-item">
-		                <a href="#project-link">
+		                <a href="{{ vehicle.get_vehicle_url }}">
 		                    <img class="img-responsive" src="{{ vehicle.photo_vehicle.url }}" height="50px">
 		                </a>
 		                <!-- <div class="ratings">
@@ -26,7 +26,7 @@
 		                        4.0 stars
 		                    </p>
 		                </div> -->
-		                <h3><a href="#project-link">{{ vehicle.vehicle }}</a>
+		                <h3><a href="{{ vehicle.get_vehicle_url }}">{{ vehicle.vehicle }}</a>
 		                </h3>
 		                <div class="pull-right">
 			                <a class="btn btn-primary" href="#">Monte seu carro <span class="glyphicon glyphicon-plus"></span></a>
@@ -88,5 +88,7 @@
 	     endif  -->
 	</div>
 
-{% endblock content %}
+<!-- pagination -->
+{% include "pagination.html" %}
 
+{% endblock content %}
