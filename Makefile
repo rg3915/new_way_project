@@ -10,6 +10,12 @@ migrate_all:
 	./manage.py migrate
 	./manage.py createsuperuser --username='admin' --email=''
 
+fixtures:
+	./manage.py loaddata fixtures.json
+
+backup:
+	./manage.py dumpdata --format=json --indent=2 core > fixtures.json
+
 mer:
 	./manage.py graph_models -e -g -l dot -o modelagem/new_way.png core
 
