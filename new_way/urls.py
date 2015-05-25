@@ -11,10 +11,15 @@ urlpatterns = patterns(
     url(r'^brands/$', BrandList.as_view(), name='brand_list'),
     url(r'^models/$', ModelList.as_view(), name='model_list'),
     url(r'^vehicles/$', VehicleList.as_view(), name='vehicle_list'),
+    url(r'^vehicles/(?P<pk>\d+)/$',
+        VehicleDetail.as_view(), name='vehicle_detail'),
+
     url(r'^dealerships/$', DealershipList.as_view(), name='dealership_list'),
     url(r'^stores/$', StoreList.as_view(), name='store_list'),
+    url(r'^ordereds/$', OrderedList.as_view(), name='ordered_list'),
 
     url(r'^customer/add/$', CustomerCreate.as_view(), name='customer_add'),
+    url(r'^ordered/add/$', OrderedCreate.as_view(), name='ordered_add'),
 
     url(r'^dashboard/$', Dashboard.as_view(), name='dashboard'),
 
