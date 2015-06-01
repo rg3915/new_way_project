@@ -47,6 +47,13 @@ class VehicleList(ListView):
     model = Vehicle
     paginate_by = 15
 
+    def get_queryset(self):
+        cars = Vehicle.objects.all()
+        q = self.request.GET.get('search_box')
+        if q is not None:
+            cars = cars.filter(Q(vehicle__icontains=q))
+        return cars
+
 
 class VehicleDetail(DetailView):
     template_name = 'core/vehicle/vehicle_detail.html'
@@ -61,8 +68,14 @@ class VehicleDetail(DetailView):
 class DealershipList(ListView):
     template_name = 'core/dealership/dealership_list.html'
     model = Dealership
+    paginate_by = 10
 
-# todo search
+    def get_queryset(self):
+        dealerships = Dealership.objects.all()
+        q = self.request.GET.get('search_box')
+        if q is not None:
+            dealerships = dealerships.filter(Q(dealership__icontains=q))
+        return dealerships
 
 
 class StoreList(ListView):

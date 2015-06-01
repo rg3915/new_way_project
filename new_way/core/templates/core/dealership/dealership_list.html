@@ -2,7 +2,12 @@
 
 {% block content %}
 
-    <div class="jumbotron">
+    <form class="navbar-form navbar-right" action="." method="get">
+        <input id="search_box" name="search_box" type="text" placeholder="Localizar..." class="form-control">
+        <button type="submit" class="btn btn-success form-control"><span class="glyphicon glyphicon-search"></span></button>
+    </form>
+	
+    <div class="page-header">
         <h2>Escolha uma concessionária</h2>
     </div>
 
@@ -13,13 +18,18 @@
 	            <h4>{{ dealership.dealership }}</h4>
 	            <p>Endereço: {{ dealership.address }}, {{ dealership.address_number }} - {{ dealership.district }}</p>
 	            <p>{{ dealership.city }} - {{ dealership.uf }} - CEP: {{ dealership.cep }}</p>
-	            <p>Telefone: {{ dealership.phone1 }}, {{ dealership.phone2 }}, {{ dealership.phone3 }}</p>
-	            <p>Site: <a href="{{ dealership.site }}" target="_blank">{{ dealership.site }}</a></p>
+	            {% if dealership.phone1 %}
+	            	<p>Telefone: {{ dealership.phone1 }}, {{ dealership.phone2 }}, {{ dealership.phone3 }}</p>
+	            {% endif %}
+	            {% if dealership.site %}
+	            	<p>Site: <a href="{{ dealership.site }}" target="_blank">{{ dealership.site }}</a></p>
+	            {% endif %}
 	        </div>
 		{% endfor %}
 
     </div>
 
-    <br>
+<!-- pagination -->
+{% include "pagination.html" %}
 
 {% endblock content %}
