@@ -8,16 +8,18 @@
   
   {% load staticfiles %}
 
-  {% block js %}
-    <!-- Latest JQuery -->
-    <script src="{{ STATIC_URL }}js/jquery.js"></script>
+  {% block css %}
+    <link rel="stylesheet" href="{% static "css/morris.css" %}">
+  {% endblock css %}
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
-    
-    <script src="http://code.jquery.com/jquery-git1.min.js"></script>
-    <script src="http://code.highcharts.com/highcharts.js"></script>
-    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+  {% block js %}
+    <script src="{% static "js/jquery.js" %}"></script>
+    <script src="{% static "js/bootstrap.min.js" %}"></script>
+    <script src="{% static "js/jquery-git1.min.js" %}"></script>
+    <script src="{% static "js/highcharts.js" %}"></script>
+    <script src="{% static "js/exporting.js" %}"></script>
+    <script src="{% static "js/raphael-min.js" %}"></script>
+    <script src="{% static "js/morris.js" %}"></script>
 
   {% endblock js %}
 
@@ -27,10 +29,10 @@
 
 {% block extrastyle %}{% endblock %}
 
-  <link rel="icon" href="{{ STATIC_URL }}img/cart.png">
+  <link rel="icon" href="{% static "img/cart.png" %}">
 
-  <link href="{{ STATIC_URL }}font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="{{ STATIC_URL }}css/base.css" rel="stylesheet">
+  <link href="{% static "font-awesome/css/font-awesome.min.css" %}" rel="stylesheet" type="text/css">
+  <link href="{% static "css/base.css" %}" rel="stylesheet">
     {% block title %}
         <title>New Way</title>
     {% endblock title %}
@@ -58,18 +60,12 @@
 {% block myscript %}{% endblock myscript %}
 
   {% block javascript %}
-    <!-- Latest JQuery -->
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-    <script src="{{ STATIC_URL }}js/jquery.js"></script>
+    <script src="{% static "js/jquery.js" %}"></script>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
-    <script src="{{ STATIC_URL }}js/bootstrap.js"></script>
+    <script src="{% static "js/bootstrap.js" %}"></script>
 
-    <!-- <script src="{{ STATIC_URL }}js/jquery.dataTables.js"></script> -->
+    <!-- <script src="{% static "js/jquery.dataTables.js" %}"></script> -->
   {% endblock javascript %}
-
-
 
 </body>
 </html>
