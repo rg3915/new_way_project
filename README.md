@@ -9,7 +9,7 @@ Desenvolver uma aplicação web que faça pesquisa de veículos e gere um pedido
 
 # Ferramentas de desenvolvimento
 
-| ![Python](fig/python100.png) | ![Django](fig/django100.png) | ![SQLite](fig/sqlite100.png) | ![PostgreSQL](fig/postgresql.png)  |
+| ![Python](fig/python100.png) | ![Django](fig/django100.png) | ![SQLite](fig/sqlite100.png) | ![PostgreSQL](fig/postgresql100.png)  |
 |------------------------------|------------------------------|------------------------------|-----------------------------|
 | [Python][2] [(en)][3] 	   | [Django][0]                  | [SQLite3][5]                 | [PostgreSQL][7]                  |
 
