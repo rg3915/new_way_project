@@ -36,9 +36,9 @@ class ModelList(ListView):
 
     def get_queryset(self):
         models = Modell.objects.all()
-        var_get_search = self.request.GET.get('search_box')
-        if var_get_search is not None:
-            models = models.filter(modell__icontains=var_get_search)
+        q = self.request.GET.get('search_box')
+        if q is not None:
+            models = models.filter(modell__istartswith=q)
         return models
 
 
@@ -51,7 +51,7 @@ class VehicleList(ListView):
         cars = Vehicle.objects.all()
         q = self.request.GET.get('search_box')
         if q is not None:
-            cars = cars.filter(Q(vehicle__icontains=q))
+            cars = cars.filter(vehicle__icontains=q)
         return cars
 
 
@@ -74,7 +74,7 @@ class DealershipList(ListView):
         dealerships = Dealership.objects.all()
         q = self.request.GET.get('search_box')
         if q is not None:
-            dealerships = dealerships.filter(Q(dealership__icontains=q))
+            dealerships = dealerships.filter(dealership__istartswith=q)
         return dealerships
 
 
@@ -112,6 +112,9 @@ class OrderedList(ListView):
     model = Ordered
     paginate_by = 10
 
+
+class UnderConstruction(TemplateView):
+    template_name = "core/under_construction.html"
 
 # @login_required
 # def user_profile(request):
