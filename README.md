@@ -9,9 +9,9 @@ Desenvolver uma aplicação web que faça pesquisa de veículos e gere um pedido
 
 # Ferramentas de desenvolvimento
 
-| ![Python](fig/python100.png) | ![Django](fig/django100.png) | ![SQLite](fig/sqlite100.png) | ![MySQL](fig/mysql100.png)  |
+| ![Python](fig/python100.png) | ![Django](fig/django100.png) | ![SQLite](fig/sqlite100.png) | ![PostgreSQL](fig/postgresql.png)  |
 |------------------------------|------------------------------|------------------------------|-----------------------------|
-| [Python][2] [(en)][3] 	   | [Django][0]                  | [SQLite3][5]                 | [MySQL][6]                  |
+| [Python][2] [(en)][3] 	   | [Django][0]                  | [SQLite3][5]                 | [PostgreSQL][7]                  |
 
 # Convenções
 
@@ -66,3 +66,4 @@ Abra um navegador e acesse http://127.0.0.1:8000/
 [4]: http://www.python.org.br/wiki/GuiaDeEstilo
 [5]: http://www.sqlite.org/
 [6]: http://www.mysql.com/
+[7]: http://www.postgresql.org/
