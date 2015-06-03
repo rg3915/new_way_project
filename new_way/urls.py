@@ -25,5 +25,7 @@ urlpatterns = patterns(
 
     # url(r'^about/$', 'about', name='about'),
     # url(r'^contact/$', 'contact', name='contact'),
+    url(r'^underconstruction/$', UnderConstruction.as_view(),
+        name='under_construction'),
     url(r'^admin/', include(admin.site.urls), name='admin'),
 ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
