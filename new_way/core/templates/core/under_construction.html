@@ -1,0 +1,18 @@
+{% extends "base_initial.html" %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-template">
+                <h1>
+                    Oops!</h1>
+                <div class="error-details">
+                    Desculpe, página em construção!
+                </div>
+                <div class="error-actions">
+                    <a href="{% url 'home' %}" class="btn btn-primary btn-lg"><i class="fa fa-car"></i> Home </a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
