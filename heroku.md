@@ -2,8 +2,8 @@
 
 heroku login
 echo "python-3.4.0" > runtime.txt
-heroku create new-way
-echo "web: gunicorn new-way.wsgi" > Procfile
+heroku create new_way
+echo "web: gunicorn new_way.wsgi" > Procfile
 git push heroku master --force
 heroku ps:scale web=1
 heroku pg
