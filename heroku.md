@@ -14,6 +14,6 @@ heroku run python manage.py migrate
 heroku run python manage.py loaddata fixtures.json
 heroku open
 
-
+heroku pg:reset DATABASE
 
 [1]: https://toolbelt.heroku.com/debian
