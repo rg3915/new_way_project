@@ -12550,7 +12550,7 @@
   "fields": {
     "city": "Recife",
     "phone": "",
-    "store": "Aeroporto Internacional dos Guararapes Gilberto Freyre (REC/SBRF)",
+    "store": "Aeroporto Internacional Guararapes Gilberto Freyre",
     "uf": "PE"
   },
   "model": "core.store",
@@ -12570,7 +12570,7 @@
   "fields": {
     "city": "Rio de Janeiro",
     "phone": "",
-    "store": "Aeroporto Internacional do Rio de Janeiro (GIG/SBGL)",
+    "store": "Aeroporto Internacional Rio de Janeiro (GIG/SBGL)",
     "uf": "RJ"
   },
   "model": "core.store",
@@ -12590,7 +12590,7 @@
   "fields": {
     "city": "Campos dos Goytacazes",
     "phone": "",
-    "store": "Aeroporto de Campos dos Goytacazes Bartolomeu Lysandro (CAW/SBCP)",
+    "store": "Aeroporto de Campos Goytacazes Bartolomeu Lysandro",
     "uf": "RJ"
   },
   "model": "core.store",
@@ -12620,7 +12620,7 @@
   "fields": {
     "city": "Rio de Janeiro",
     "phone": "",
-    "store": "Aeroporto de Jacarepagu\u00e1 Roberto Marinho (***/SBJR)",
+    "store": "Aeroporto de Jacarepagu\u00e1 Roberto Marinho SBJR",
     "uf": "RJ"
   },
   "model": "core.store",
@@ -12650,7 +12650,7 @@
   "fields": {
     "city": "Arma\u00e7\u00e3o dos B\u00fazios",
     "phone": "",
-    "store": "Aeroporto de B\u00fazios Umberto Mediano (BZC/SBBZ)",
+    "store": "Aeroporto B\u00fazios Umberto Mediano (BZC/SBBZ)",
     "uf": "RJ"
   },
   "model": "core.store",
@@ -12660,7 +12660,7 @@
   "fields": {
     "city": "Itaperuna",
     "phone": "",
-    "store": "ReisAeroporto de Itaperuna Ernani do Amaral Peixoto (ITP/SDUN)",
+    "store": "Aeroporto de Itaperuna Ernani do Amaral Peixoto",
     "uf": "RJ"
   },
   "model": "core.store",
@@ -12720,7 +12720,7 @@
   "fields": {
     "city": "Florian\u00f3polis",
     "phone": "",
-    "store": "Aeroporto Internacional Herc\u00edlio Luz (FLN/SBFL)",
+    "store": "Aeroporto Internacional Herc\u00edlio Luz FLN/SBFL",
     "uf": "SC"
   },
   "model": "core.store",
@@ -12730,7 +12730,7 @@
   "fields": {
     "city": "Navegantes",
     "phone": "",
-    "store": "Aeroporto Internacional Ministro Victor Konder (NVT/SBNF)",
+    "store": "Aeroporto Internacional Ministro Victor Konder",
     "uf": "SC"
   },
   "model": "core.store",
