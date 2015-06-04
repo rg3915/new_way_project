@@ -12740,7 +12740,7 @@
   "fields": {
     "city": "Jaguaruna",
     "phone": "",
-    "store": "Aeroporto de Jaguaruna (Humberto Ghizzo Bortoluzzi) (JGR/SBJG)",
+    "store": "Aeroporto de Jaguaruna (Humberto Ghizzo Bortoluzzi",
     "uf": "SC"
   },
   "model": "core.store",
@@ -12760,7 +12760,7 @@
   "fields": {
     "city": "Crici\u00fama / Forquilhinha",
     "phone": "",
-    "store": "Aeroporto de Crici\u00fama (Diom\u00edcio Freitas) (CCM/SBCM)",
+    "store": "Aeroporto de Crici\u00fama (Diom\u00edcio Freitas)",
     "uf": "SC"
   },
   "model": "core.store",
@@ -12960,7 +12960,7 @@
   "fields": {
     "city": "Guarulhos",
     "phone": "",
-    "store": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos (GRU/SBGR)",
+    "store": "Aeroporto Internacional de Guarulhos (GRU/SBGR)",
     "uf": "SP"
   },
   "model": "core.store",
@@ -12970,7 +12970,7 @@
   "fields": {
     "city": "Campinas",
     "phone": "",
-    "store": "Aeroporto Internacional de Viracopos-Campinas (VCP/SBKP)",
+    "store": "Aeroporto Internacional de Viracopos-Campinas (VCP",
     "uf": "SP"
   },
   "model": "core.store",
