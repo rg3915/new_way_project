@@ -1,1 +1,1 @@
-web: gunicorn new_way.wsgi
+web: gunicorn new-way.wsgi
