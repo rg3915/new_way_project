@@ -11,6 +11,7 @@ heroku labs:enable user-env-compile
 heroku pg
 heroku run python manage.py makemigrations
 heroku run python manage.py migrate
+heroku run python manage.py loaddata fixtures.json
 heroku open
 
 
