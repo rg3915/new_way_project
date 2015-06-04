@@ -12370,7 +12370,7 @@
   "fields": {
     "city": "Feira de Santana",
     "phone": "",
-    "store": "Aeroporto Governador Jo\u00e3o Durval Carneiro (FEC/SNJD)",
+    "store": "Aeroporto Gov. Jo\u00e3o Durval Carneiro(FEC/SNJD)",
     "uf": "BA"
   },
   "model": "core.store",
@@ -12410,7 +12410,7 @@
   "fields": {
     "city": "Vitoria da Conquista",
     "phone": "",
-    "store": "Aeroporto Pedro Otac\u00edlio Figueiredo (VDC/SBQV)",
+    "store": "Aeroporto Pedro Otac\u00edlio Figueiredo(VDC/SBQV)",
     "uf": "BA"
   },
   "model": "core.store",
