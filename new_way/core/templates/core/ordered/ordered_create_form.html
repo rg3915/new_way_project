@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% load bootstrap3 %}
+{% load bootstrap %}
 
 {% block title %}
 	<title>Ordered Form</title>
@@ -8,15 +8,22 @@
 
 {% block content %}
 	
-	<div class="page-header">
-		<h2>Cadastrar {{ name }}</h2>
-	</div>
-	<form class="form col-sm-4" method="POST">
-		{% csrf_token %}
-		{% bootstrap_form form %}
-		{% buttons %}
-            <button type="submit" class="btn btn-primary">Salvar</button>
-        {% endbuttons %}
-	</form>
+<form class="form-horizontal" action="." method="POST">
+    <legend>Faça seu pedido</legend>
+    {% csrf_token %}
+	{{ form.customer|bootstrap_horizontal }}
+	{{ form.employee|bootstrap_horizontal }}
+	{{ form.vehicle|bootstrap_horizontal }}
+	{{ form.kit_optional|bootstrap_horizontal }}
+	{{ form.dealership|bootstrap_horizontal }}
+	{{ form.kiosk|bootstrap_horizontal }}
+	{{ form.status|bootstrap_horizontal }}
+
+	<div class="form-group">
+      <div class="col-sm-10 col-sm-offset-2">
+        <button type="submit" class="btn btn-primary">Salvar</button>
+      </div>
+    </div>
+</form>
 
 {% endblock content %}
