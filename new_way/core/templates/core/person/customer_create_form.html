@@ -1,87 +1,36 @@
 {% extends "base.html" %}
 
-<!-- {% load bootstrap3 %} -->
+{% load bootstrap %}
 
 {% block title %}
 	<title>Customer Form</title>
 {% endblock title %}
 
 {% block content %}
-	
-	<div class="page-header">
-		<h2>Cadastrar {{ name }}</h2>
-	</div>
-	<form class="form col-sm-4" method="POST">
-		{% csrf_token %}
-		<div class="form-group">
-			<label for="id_gender">Sexo</label>
-			<input type="text" id="id_gender" name="gender" placeholder="M ou F" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="id_firstname">Nome</label>
-			<input type="text" id="id_firstname" name="first_name" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="id_lastname">Sobrenome</label>
-			<input type="text" id="id_lastname" name="last_name" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="id_cpf">CPF</label>
-			<input type="text" id="id_cpf" name="cpf" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="id_address">Endereço</label>
-			<input type="text" id="id_address" name="address" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="id_complement">Complemento</label>
-			<input type="text" id="id_complement" name="complement" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="id_district">Bairro</label>
-			<input type="text" id="id_district" name="district" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="id_city">Cidade</label>
-			<input type="text" id="id_city" name="city" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="id_uf">UF</label>
-			<input type="text" id="id_uf" name="uf" placeholder="sp" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="id_cep">CEP</label>
-			<input type="text" id="id_cep" name="cep" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="id_phone">Telefone</label>
-			<input type="text" id="id_phone" name="phone" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="id_cell">Celular</label>
-			<input type="text" id="id_cell" name="cell" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="id_email">e-mail</label>
-			<input type="text" id="id_email" name="email" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="id_birthday">Data de nascimento</label>
-			<input type="text" id="id_birthday" name="birthday" class="form-control">
-		</div>
-		<input class="btn btn-primary" type="submit" value="Salvar">
-	</form>
 
-<!--
-Sexo
-Nome
-Sobrenome
-CPF
-Endereço
-CEP
-Telefone
-e-mail
-Nascimento
--->
+<form class="form-horizontal" action="." method="POST">
+    <legend>Cadastre-se</legend>
+    {% csrf_token %}
+	{{ form.gender|bootstrap_horizontal }}
+	{{ form.first_name|bootstrap_horizontal }}
+	{{ form.last_name|bootstrap_horizontal }}
+	{{ form.cpf|bootstrap_horizontal }}
+	{{ form.address|bootstrap_horizontal }}
+	{{ form.complement|bootstrap_horizontal }}
+	{{ form.district|bootstrap_horizontal }}
+	{{ form.city|bootstrap_horizontal }}
+	{{ form.uf|bootstrap_horizontal }}
+	{{ form.cep|bootstrap_horizontal }}
+	{{ form.phone|bootstrap_horizontal }}
+	{{ form.cell|bootstrap_horizontal }}
+	{{ form.email|bootstrap_horizontal }}
+	{{ form.birthday|bootstrap_horizontal }}
+
+	<div class="form-group">
+      <div class="col-sm-10 col-sm-offset-2">
+        <button type="submit" class="btn btn-primary">Salvar</button>
+      </div>
+    </div>
+</form>
 
 {% endblock content %}
