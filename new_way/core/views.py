@@ -17,7 +17,7 @@ def home(request):
 class CustomerCreate(CreateView):
     template_name = 'core/person/customer_create_form.html'
     form_class = CustomerForm
-    success_url = reverse_lazy('home')  # 'customer_list'
+    success_url = reverse_lazy('home')
 
 
 class BrandList(ListView):
@@ -104,7 +104,7 @@ class Dashboard(VehicleAgeMixin, TemplateView):
 class OrderedCreate(CreateView):
     template_name = 'core/ordered/ordered_create_form.html'
     model = Ordered
-    success_url = reverse_lazy('home')  # 'ordered_list'
+    success_url = reverse_lazy('vehicle_list')  # 'ordered_list'
 
 
 class OrderedList(ListView):
@@ -115,6 +115,10 @@ class OrderedList(ListView):
 
 class UnderConstruction(TemplateView):
     template_name = "core/under_construction.html"
+
+'''
+https://www.technovelty.org/web/skipping-pages-with-djangocorepaginator.html
+'''
 
 # @login_required
 # def user_profile(request):
