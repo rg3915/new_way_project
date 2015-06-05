@@ -15,10 +15,9 @@
         <li><a href="{% url 'vehicle_list' %}"><span class="fa fa-car"></span> Carros</a></li>
         <li><a href="{% url 'brand_list' %}"><span class="fa fa-car"></span> Marcas</a></li>
         <!-- <li><a href="#"><span class="fa fa-cogs"></span> Monte seu Carro</a></li> -->
-        <li><form class="navbar-form"><button class="btn btn-success btn-info"><a href="{% url 'under_construction' %}"><strike> Monte seu Carro</strike></a></button></form></li>
+        <li><form class="navbar-form"><button class="btn btn-success btn-info"><a href="{% url 'ordered_add' %}"> Monte seu Carro</a></button></form></li>
         <li><a href="{% url 'dealership_list' %}"><span class="glyphicon glyphicon-map-marker"></span> Concessionárias</a></li>
         <!-- <li><a href="#"><span class="fa fa-users"></span> Quem Somos</a></li> -->
-        <li><a href="{% url 'under_construction' %}"><span class="fa fa-comment"></span><strike> Fale Conosco</strike></a></li>
         <li><a href="{% url 'dashboard' %}"><span class="fa fa-dashboard"></span> Dashboard</a></li>
         <!-- Cadastrar -->
 <!--         <li class="dropdown">
@@ -40,7 +39,7 @@
         <!-- <li><a href="#"><span class="glyphicon glyphicon-search"></span> Buscar</a></li> -->
         <!-- <li><a href="#"><span class="glyphicon glyphicon-download-alt"></span> Download</a></li> -->
         <!-- <li><a href="#"><span class="glyphicon glyphicon-exclamation-sign"></span> Sobre</a></li> -->
-        <li><a href="{% url 'under_construction' %}"><span class="glyphicon glyphicon-user"></span><strike> Cadastre-se</strike></a></li>
+        <li><a href="{% url 'customer_add' %}"><span class="glyphicon glyphicon-user"></span> Cadastre-se</a></li>
         <form class="navbar-form navbar-right">
           <button class="btn btn-success"><a href="{% url 'admin:index' %}">Login</a></button>
         </form>
