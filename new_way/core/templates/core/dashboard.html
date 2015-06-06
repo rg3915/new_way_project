@@ -1,10 +1,165 @@
-{% extends "base.html" %}
+{% extends "base_initial.html" %}
+
+{% block menu %}
+  {% include "menu.html" %}
+{% endblock menu %}
 
 {% block content %}
 
-    <p class="alert alert-warning">Em construção.</p>
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Dashboard</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-car fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge">485</div>
+                    </div>
+                </div>
+            </div>
+            <a href="#">
+                <div class="panel-footer">
+                    <span class="pull-left">Carro:</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="panel panel-green">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-flag fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge">102</div>
+                    </div>
+                </div>
+            </div>
+            <a href="#">
+                <div class="panel-footer">
+                    <span class="pull-left">Concessionária:</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-map-marker fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge">236</div>
+                    </div>
+                </div>
+            </div>
+            <a href="#">
+                <div class="panel-footer">
+                    <span class="pull-left">Bairro:</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- <div class="col-lg-4 col-md-6">
+        <div class="panel panel-red">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-support fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge">13</div>
+                    </div>
+                </div>
+            </div>
+            <a href="#">
+                <div class="panel-footer">
+                    <span class="pull-left">View Details</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div> -->
+</div>
 
-    <div id="donutchart" class="col-lg-6" style="height: 250px;"></div>
+<div class="row">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <i class="fa fa-bar-chart-o fa-fw"></i> Veículos mais consultados por sexo
+        </div>
+        <div class="panel-body">
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <i class="fa fa-bar-chart-o fa-fw"></i> Veículos mais consultados pelas mulheres
+                    </div>
+                    <div class="panel-body">
+                        <div id="barchartF"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <i class="fa fa-bar-chart-o fa-fw"></i> Veículos mais consultados pelos homens
+                    </div>
+                    <div class="panel-body">
+                        <div id="barchartM"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row-clearfix">
+    <div class="col-lg-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-bar-chart-o fa-fw"></i> Veículos mais consultados por bairro
+            </div>
+            <div class="panel-body">
+                <div id="barchartD"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-bar-chart-o fa-fw"></i> concessionárias que mais venderam
+            </div>
+            <div class="panel-body">
+                <div id="barchartC"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-bar-chart-o fa-fw"></i> veículos mais vendidos
+            </div>
+            <div class="panel-body">
+                <div id="barchartQ"></div>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% endblock content %}
 
@@ -12,34 +167,92 @@
 
     <script type="text/javascript">
         Morris.Bar({
-            element: 'barchart',
+            element: 'barchartF',
             data: [
-                {% for item in itens %}
-                    { uf: '{{ item.uf }}', quant:  {{ item.quant }} },
+                {% for item in genderF %}
+                    { vehicle: '{{ item.vehicle__vehicle }}', quant:  {{ item.quant }} },
                 {% endfor %}
             ],
-            xkey: 'uf',
+            xkey: 'vehicle',
             ykeys: ['quant'],
             labels: ['quant'],
             hideHover: 'auto',
             resize: true,
+            barColors: ['#FF00FF', // magenta
+            ],
+            xLabelAngle: 60,
         });
     </script>
 
     <script type="text/javascript">
-        Morris.Donut({
-            element: 'donutchart',
+        Morris.Bar({
+            element: 'barchartM',
             data: [
-                {% for gender in genders %}
-                    { label: '{{ gender.gender }}', value:  {{ gender.value }}},
+                {% for item in genderM %}
+                    { vehicle: '{{ item.vehicle__vehicle }}', quant:  {{ item.quant }} },
                 {% endfor %}
             ],
-            colors: [
-              '#FF00FF', // magenta
-              '#0000CD', // azul
-            ],
-            formatter: function (x) { return x + "%"}
+            xkey: 'vehicle',
+            ykeys: ['quant'],
+            labels: ['quant'],
+            hideHover: 'auto',
+            resize: true,
+            xLabelAngle: 60,
         });
     </script>
+
+    <script type="text/javascript">
+        Morris.Bar({
+            element: 'barchartD',
+            data: [
+                {% for item in vehicleD %}
+                    { district: '{{ item.dealership__district }}', quant:  {{ item.quant }} },
+                {% endfor %}
+            ],
+            xkey: 'district',
+            ykeys: ['quant'],
+            labels: ['quant'],
+            hideHover: 'auto',
+            barColors: ['#D9534F'],
+            resize: true,
+            xLabelAngle: 60,
+        });
+    </script>
+
+    <script type="text/javascript">
+        Morris.Bar({
+            element: 'barchartC',
+            data: [
+                {% for item in vehicleC %}
+                    { dealership: '{{ item.dealership__dealership }}', quant:  {{ item.quant }} },
+                {% endfor %}
+            ],
+            xkey: 'dealership',
+            ykeys: ['quant'],
+            labels: ['quant'],
+            hideHover: 'auto',
+            resize: true,
+            xLabelAngle: 60,
+        });
+    </script>
+
+    <script type="text/javascript">
+        Morris.Bar({
+            element: 'barchartQ',
+            data: [
+                {% for item in saleds %}
+                    { vehicle: '{{ item.vehicle__vehicle }}', quant:  {{ item.quant }} },
+                {% endfor %}
+            ],
+            xkey: 'vehicle',
+            ykeys: ['quant'],
+            labels: ['quant'],
+            hideHover: 'auto',
+            resize: true,
+            barColors: ['#F0AD4E'],
+            xLabelAngle: 60,
+        });
+    </script>
+
 {% endblock myscript %}
 

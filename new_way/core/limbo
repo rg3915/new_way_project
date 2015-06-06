@@ -120,3 +120,20 @@ $(function () {
 });
 </script>
  endblock myscript -->
+
+
+    <script type="text/javascript">
+        Morris.Donut({
+            element: 'donutchart',
+            data: [
+                {% for gender in genders %}
+                    { label: '{{ gender.gender }}', value:  {{ gender.value }}},
+                {% endfor %}
+            ],
+            colors: [
+              '#FF00FF', // magenta
+              '#0000CD', // azul
+            ],
+            formatter: function (x) { return x + "%"}
+        });
+    </script>

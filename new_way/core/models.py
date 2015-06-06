@@ -267,7 +267,7 @@ class Ordered(TimeStampedModel):
     status = models.CharField(max_length=2, choices=status_list, default='p')
 
     class Meta:
-        ordering = ['-created_at']
+        ordering = ['-id']
         verbose_name = u'pedido'
         verbose_name_plural = u'pedidos'
 

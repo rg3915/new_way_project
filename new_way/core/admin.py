@@ -26,7 +26,7 @@ class EmployeeAdmin(admin.ModelAdmin):
 class DealershipAdmin(admin.ModelAdmin):
 
     ordering = ['dealership']
-    list_display = ('dealership', 'phone1', 'phone2', 'phone3')
+    list_display = ('dealership', 'phone1', 'phone2', 'district')
     search_fields = ('dealership',)
     # list_filter = ('city',)
 
@@ -72,14 +72,15 @@ class KioskAdmin(admin.ModelAdmin):
 
 class OrderedAdmin(admin.ModelAdmin):
 
-    ordering = ['-created_at']
+    ordering = ['-id']
     list_display = ('id', 'customer', 'vehicle', 'dealership',
                     'kiosk', 'employee', 'status', 'created_at')
     date_hierarchy = 'created_at'
     readonly_fields = ('created_at',)
     search_fields = ('id', 'customer__first_name', 'customer__last_name', 'vehicle__vehicle',
                      'dealership__dealership', 'kiosk__kiosk')
-    list_filter = ('status',)
+    list_filter = (
+        'status', 'customer__gender', 'dealership__district', 'dealership')
 
 
 admin.site.register(Customer, CustomerAdmin)
