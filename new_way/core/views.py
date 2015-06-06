@@ -7,7 +7,7 @@ from django.db.models import Q
 from django.views.generic import CreateView, TemplateView, ListView, DetailView
 from .models import Customer, Dealership, Address, Brand, Modell, Vehicle, Store, Ordered
 from .forms import CustomerForm
-from .managers import VehicleMixin, CountMixin
+from new_way.core.managers import VehicleMixin, CountMixin
 
 
 def home(request):

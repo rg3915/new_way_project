@@ -2,21 +2,62 @@ from new_way.core.models import Ordered, Customer
 from django.db.models import Count
 
 
-class VehicleAgeMixin(object):
+class VehicleMixin(object):
 
     def get_context_data(self, **kwargs):
         ''' Veiculos mais consultados por faixa de idade '''
-        context = super(VehicleAgeMixin, self).get_context_data(**kwargs)
-        v = Ordered.objects.values('vehicle__vehicle').annotate(
-            consultados=Count('vehicle')).order_by('-consultados')
+        context = super(VehicleMixin, self).get_context_data(**kwargs)
+        # v = Ordered.objects.values('vehicle__vehicle').annotate(
+        # consultados=Count('vehicle')).order_by('-consultados')
 
         ''' veículos mais consultados por sexo '''
-        genders = Customer.objects.values('gender').annotate(
-            quant=Count('gender')).order_by('gender')
-        total_items = Customer.objects.count()
-        genders = [
-            {'gender': g['gender'], 'value': int(g['quant'] * 100 / total_items)} for g in genders]
+        genderF = Ordered.objects.values('vehicle') \
+            .filter(customer__gender='F') \
+            .annotate(quant=Count('vehicle')) \
+            .order_by('-quant') \
+            .values('vehicle__vehicle', 'quant')[:5]
+        genderM = Ordered.objects.values('vehicle') \
+            .filter(customer__gender='M') \
+            .annotate(quant=Count('vehicle')) \
+            .order_by('-quant') \
+            .values('vehicle__vehicle', 'quant')[:5]
 
-        context['vehicles_age'] = v
-        context['genders'] = genders
+        ''' veículos mais consultados por bairro '''
+        d = Ordered.objects.values('dealership__district') \
+            .annotate(quant=Count('vehicle')) \
+            .order_by('-quant') \
+            .values('dealership__district', 'quant')[:5]
+
+        ''' concessionárias que mais venderam '''
+        c = Ordered.objects.values('dealership__dealership') \
+            .annotate(quant=Count('vehicle')) \
+            .order_by('-quant') \
+            .values('dealership__dealership', 'quant')[:5]
+
+        ''' veículos mais vendidos '''
+        q = Ordered.objects.values('vehicle__vehicle') \
+            .annotate(quant=Count('vehicle')) \
+            .order_by('-quant') \
+            .values('vehicle__vehicle', 'quant')[:7]
+
+        # context['vehicles_age'] = v
+        context['genderF'] = genderF
+        context['genderM'] = genderM
+        context['vehicleD'] = d
+        context['vehicleC'] = c
+        context['saleds'] = q
+        return context
+
+
+class CountMixin(object):
+
+    def get_context_data(self, **kwargs):
+        context = super(CountMixin, self).get_context_data(**kwargs)
+        ''' veículos mais consultados por bairro '''
+        d = Ordered.objects.values('dealership__district') \
+            .annotate(quant=Count('vehicle')) \
+            .order_by('-quant') \
+            .values('dealership__district', 'quant')[:1]
+
+        context['vehicleD'] = d
         return context
