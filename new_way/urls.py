@@ -16,6 +16,8 @@ urlpatterns = patterns(
 
     url(r'^dealerships/$', DealershipList.as_view(), name='dealership_list'),
     url(r'^stores/$', StoreList.as_view(), name='store_list'),
+    url(r'^ordered/(?P<pk>\d+)/$',
+        OrderedDetail.as_view(), name='ordered_detail'),
     url(r'^ordereds/$', OrderedList.as_view(), name='ordered_list'),
 
     url(r'^customer/add/$', CustomerCreate.as_view(), name='customer_add'),
