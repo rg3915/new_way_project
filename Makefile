@@ -14,7 +14,7 @@ fixtures:
 	./manage.py loaddata fixtures.json
 
 backup:
-	./manage.py dumpdata --format=json --indent=2 core > fixtures.json
+	./manage.py dumpdata --format=json --indent=2 > fixtures.json
 
 mer:
 	./manage.py graph_models -e -g -l dot -o modelagem/new_way.png core
