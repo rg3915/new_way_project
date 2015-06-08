@@ -1,4 +1,4 @@
-from new_way.core.models import Ordered, Customer
+from new_way.core.models import Ordered, Customer, KitDetail
 from django.db.models import Count
 
 ''' veículos mais consultados por sexo '''
@@ -48,7 +48,21 @@ print('\n')
 q = Ordered.objects.values('dealership__district') \
     .annotate(quant=Count('vehicle')) \
     .order_by('-quant') \
-    .values_list('dealership__district', 'quant')[:1]
+    .values('dealership__district', 'quant')[:1]
 q
 for i in q:
     print(i.quant)
+
+''' último pedido '''
+q = Ordered.objects.order_by('id').last()
+q.vehicle
+q.dealership
+
+
+print('\n')
+q = Ordered.objects.select_related('kit').all()[:5]
+for i in q:
+    print(i.id, i.vehicle, i.kit)
+
+
+print('\n')
