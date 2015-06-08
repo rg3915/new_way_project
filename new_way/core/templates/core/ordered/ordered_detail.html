@@ -1,0 +1,93 @@
+{% extends "base_initial.html" %}
+
+{% block content %}
+
+	<div class="row clearfix jumbotron">
+		<div class="col-md-12 column">
+			<h1>Pedido: {{ object.id }}
+			<span class="pull-right">Data: {{ object.created_at|date:"d/m/Y"}}</span></h1>
+		</div>
+	</div>
+
+	<h2 class="page-header">Dados Pessoais</h2>
+	<div class="row clearfix">
+		<div class="col-md-6 column">
+			<h3 class="huge">{{ object.customer.full_name }}</h3>
+			<p>CPF: {{ object.customer.cpf }}</p>
+			<p>Data de nascimento: {{ object.customer.birthday }}</p>
+			<p>e-mail: <a href="#">{{ object.customer.email }}</a></p>
+			<p>Telefone: {{ object.customer.phone }}</p>
+			<p>Celular: {{ object.customer.cell }}</p>
+		</div>
+		<div class="col-md-6 column text-right">
+			<h3>Endereço</h3>
+			<p>Endereço: {{ object.customer.address }}</p>
+			<p>Bairro: {{ object.customer.district }}</p>
+			<p>Cidade: {{ object.customer.city }}</p>
+			<p>UF: {{ object.customer.uf }}</p>
+			<p>CEP: {{ object.customer.cep }}</p>
+		</div>
+	</div>
+
+	<h2 class="page-header">Veículo</h2>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+				<p class="huge">{{ object.vehicle }}<span class="huge pull-right label label-info">R$ {{ object.vehicle.price }}</span></p>
+			<ul class="list-group">
+				<li class="list-group-item">Marca/Modelo: {{ object.vehicle.modell.brand }} {{ object.vehicle.modell }}</li>
+				<li class="list-group-item">Cor: {{ object.vehicle.color }}</li>
+				<li class="list-group-item">Motor: {{ object.vehicle.engine_power }}</li>
+				<li class="list-group-item">Tipo de combustível: {{ object.vehicle.get_fueltype_display }}</li>
+				<li class="list-group-item">Tipo de câmbio: {{ object.vehicle.get_transmissiontype_display }}</li>
+				<li class="list-group-item">Potência: {{ object.vehicle.power }} cv</li>
+			</ul>
+		</div>
+	</div>
+
+	<h2 class="page-header">Kit</h2>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<ul class="list-group">
+				<li class="list-group-item">Kit: {{ object.kit_optional }}</li>
+			</ul>
+		</div>
+	</div>
+
+	<h2 class="page-header">Resumo</h2>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<table class="table lead">
+				<tbody>
+		    		<tr>
+						<td>{{ object.vehicle }}</td>
+						<td class="text-right">R$ {{ object.vehicle.price }}</td>
+		    		</tr>
+		    		<tr>
+						<td>{{ object.kit_optional }}</td>
+						<td class="text-right">R$ 0000,00</td>
+		    		</tr>
+		    		<tr class="large">
+						<td>Total</td>
+						<td class="text-right">R$ {{ object.vehicle.price }}</td>
+		    		</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<h2 class="page-header">Concessionária</h2>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<ul class="list-group">
+				<li class="list-group-item">
+					<h3>{{ object.dealership }}</h3>
+					<address><br /> {{ object.dealership.address }}<br />
+					{{ object.dealership.district }}, {{ object.dealership.city }}, {{ object.dealership.uf }} - {{ object.dealership.cep }}<br />
+					{{ object.dealership.phone1 }}<br />
+					<a href="#">{{ object.dealership.site }}</a></address>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+{% endblock content %}
