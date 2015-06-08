@@ -6,13 +6,13 @@
 
 {% block content %}
 
-<div class="row">
+<div class="row clearfix">
     <div class="col-lg-12">
         <h1 class="page-header">Dashboard</h1>
     </div>
 </div>
-<div class="row">
-    <div class="col-lg-4 col-md-6">
+<div class="row clearfix">
+    <div class="col-lg-3 col-md-6 column">
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <div class="row">
@@ -20,41 +20,49 @@
                         <i class="fa fa-car fa-5x"></i>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge">485</div>
+                        {% for i in vq %}
+                            <span class="huge">{{ i.quant }}</span>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
             <a href="#">
                 <div class="panel-footer">
-                    <span class="pull-left">Carro:</span>
+                    {% for i in vq %}
+                        <span class="pull-left">Carro mais vendido:<br>{{ i.vehicle__vehicle }}</span>
+                    {% endfor %}
                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                     <div class="clearfix"></div>
                 </div>
             </a>
         </div>
     </div>
-    <div class="col-lg-4 col-md-6">
+    <div class="col-lg-3 col-md-6">
         <div class="panel panel-green">
             <div class="panel-heading">
                 <div class="row">
                     <div class="col-xs-3">
-                        <i class="fa fa-flag fa-5x"></i>
+                        <i class="fa fa-map-marker fa-5x"></i>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge">102</div>
+                        {% for i in vc %}
+                            <span class="huge">{{ i.quant }}</span>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
             <a href="#">
                 <div class="panel-footer">
-                    <span class="pull-left">Concessionária:</span>
+                    {% for i in vc %}
+                        <span class="pull-left">Concessionária:<br>{{ i.dealership__dealership }}</span>
+                    {% endfor %}
                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                     <div class="clearfix"></div>
                 </div>
             </a>
         </div>
     </div>
-    <div class="col-lg-4 col-md-6">
+    <div class="col-lg-3 col-md-6">
         <div class="panel panel-yellow">
             <div class="panel-heading">
                 <div class="row">
@@ -62,100 +70,128 @@
                         <i class="fa fa-map-marker fa-5x"></i>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge">236</div>
+                        <span class="huge">{{ vd.quant }}</span>
                     </div>
                 </div>
             </div>
             <a href="#">
                 <div class="panel-footer">
-                    <span class="pull-left">Bairro:</span>
+                    <span class="pull-left">Bairro:<br>{{ vd.dealership__district }}</span>
                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                     <div class="clearfix"></div>
                 </div>
             </a>
         </div>
     </div>
-    <!-- <div class="col-lg-4 col-md-6">
+    <div class="col-lg-3 col-md-6">
         <div class="panel panel-red">
             <div class="panel-heading">
                 <div class="row">
                     <div class="col-xs-3">
-                        <i class="fa fa-support fa-5x"></i>
+                        <i class="fa fa-shopping-cart fa-5x"></i>
                     </div>
                     <div class="col-xs-9 text-right">
-                        <div class="huge">13</div>
+                        <span class="huge">{{ last_order.id }}</span>
                     </div>
                 </div>
             </div>
             <a href="#">
                 <div class="panel-footer">
-                    <span class="pull-left">View Details</span>
+                    <span class="pull-left">Pedido: {{ last_order.vehicle }}<br>{{ last_order.dealership }}</span>
                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                     <div class="clearfix"></div>
                 </div>
             </a>
         </div>
-    </div> -->
+    </div>
 </div>
 
-<div class="row">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <i class="fa fa-bar-chart-o fa-fw"></i> Veículos mais consultados por sexo
-        </div>
-        <div class="panel-body">
-            <div class="col-lg-6">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <i class="fa fa-bar-chart-o fa-fw"></i> Veículos mais consultados pelas mulheres
+<div class="row clearfix">
+    <div class="col-lg-8 column">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-bar-chart-o fa-fw"></i> Veículos mais consultados por sexo
+            </div>
+            <div class="panel-body">
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-bar-chart-o fa-fw"></i> Veículos mais consultados pelas mulheres
+                        </div>
+                        <div class="panel-body">
+                            <div id="barchartF"></div>
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        <div id="barchartF"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-bar-chart-o fa-fw"></i> Veículos mais consultados pelos homens
+                        </div>
+                        <div class="panel-body">
+                            <div id="barchartM"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <i class="fa fa-bar-chart-o fa-fw"></i> Veículos mais consultados pelos homens
-                    </div>
-                    <div class="panel-body">
-                        <div id="barchartM"></div>
-                    </div>
-                </div>
-            </div>
         </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-shopping-cart fa-fw"></i> {{ last_ordereds.count }} últimos pedidos
+            </div>
+            <div class="panel-body">
+                <div class="list-group">
+                    {% for i in last_ordereds %}
+                        <a href="#" class="list-group-item">
+                            {{ i.id }} {{ i.customer }}<br>
+                            {{ i.vehicle }}<br>
+                            {{ i.dealership }}
+                            <span class="pull-right text-muted small"><em>{{ i.created_at|date:"d/m/y-H:i" }}</em>
+                            </span>
+                        </a>
+                    {% endfor %}
+                </div>
+                <!-- /.list-group -->
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
     </div>
 </div>
 
 <div class="row-clearfix">
-    <div class="col-lg-4">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <i class="fa fa-bar-chart-o fa-fw"></i> Veículos mais consultados por bairro
-            </div>
-            <div class="panel-body">
-                <div id="barchartD"></div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-4">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <i class="fa fa-bar-chart-o fa-fw"></i> concessionárias que mais venderam
-            </div>
-            <div class="panel-body">
-                <div id="barchartC"></div>
+    <div class="col-lg-12">
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="fa fa-map-marker fa-fw"></i> Veículos mais consultados por bairro
+                </div>
+                <div class="panel-body">
+                    <div id="barchartD"></div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-lg-4">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <i class="fa fa-bar-chart-o fa-fw"></i> veículos mais vendidos
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="fa fa-flag fa-fw"></i> concessionárias que mais venderam
+                </div>
+                <div class="panel-body">
+                    <div id="barchartC"></div>
+                </div>
             </div>
-            <div class="panel-body">
-                <div id="barchartQ"></div>
+        </div>
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="fa fa-car fa-fw"></i> veículos mais vendidos
+                </div>
+                <div class="panel-body">
+                    <div id="barchartQ"></div>
+                </div>
             </div>
         </div>
     </div>

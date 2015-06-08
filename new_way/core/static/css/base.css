@@ -64,3 +64,7 @@ p.center {
 	color: #900;
 	font-weight: bold;
 }
+
+.large {
+    font-size: 30px;
+}
