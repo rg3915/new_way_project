@@ -22,9 +22,9 @@
 			    	{% for ordered in object_list %}
 			    		<tr>
 							<!-- <td><img src=" vehicle.photo_vehicle.url " height="30px" width="50px"></td> -->
-							<td>{{ ordered.id }}</td>
+							<td><a href="{{ ordered.get_detalhe }}">{{ ordered.id }}</a></td>
 							<td>{{ ordered.vehicle }}</td>
-							<td>{{ ordered.kit }}</td>
+							<td>{{ ordered.kit_optional }}</td>
 							<td>{{ ordered.dealership }}</td>
 							<td>{{ ordered.created_at|date:"d/m/Y" }}</td>
 			    		</tr>
