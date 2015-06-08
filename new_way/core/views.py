@@ -113,28 +113,19 @@ class OrderedList(ListView):
     paginate_by = 10
 
 
+class OrderedDetail(DetailView):
+    template_name = 'core/ordered/ordered_detail.html'
+    model = Ordered
+
+    def get_context_data(self, **kwargs):
+        context = super(OrderedDetail, self).get_context_data(**kwargs)
+        ordered = Ordered.objects.get(pk=self.kwargs['pk'])
+        return context
+
+
 class UnderConstruction(TemplateView):
     template_name = "core/under_construction.html"
 
 '''
 https://www.technovelty.org/web/skipping-pages-with-djangocorepaginator.html
 '''
-
-# @login_required
-# def user_profile(request):
-#     if request.method == 'POST':
-#         form = UserProfileForm(request.POST, instance=request.user.profile)
-#         if form.is_valid():
-#             form.save()
-#             return HttpResponseRedirect('/accounts/loggedin')
-#     else:
-#         user = request.user
-#         profile = user.profile
-#         form = UserProfileForm(instance=profile)
-
-#     args = {}
-#     args.update(csrf(request))
-
-#     args['form'] = form
-
-#     return render_to_response('core/person/profile.html', args)
