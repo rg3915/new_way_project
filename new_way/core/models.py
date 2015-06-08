@@ -174,10 +174,6 @@ class Vehicle(models.Model):
     def __str__(self):
         return self.vehicle
 
-    # @models.permalink
-    # def get_absolute_url(self):
-        # return ('core:speaker_detail', (), {'slug': self.slug})
-
     # clica no carro e retorna os detalhes dele
     def get_vehicle_url(self):
         return u"/vehicles/%i" % self.id
@@ -195,6 +191,8 @@ class Accessory(models.Model):
     accessory = models.CharField(_(u'accessório'), max_length=50)
     price_accessory = models.DecimalField(
         _(u'preço'), max_digits=8, decimal_places=2)
+    photo_accessory = models.ImageField(
+        upload_to='accessorys', blank=True, null=True)
 
     class Meta:
         ordering = ['accessory']
@@ -203,6 +201,14 @@ class Accessory(models.Model):
 
     def __str__(self):
         return self.accessory
+
+    def thumb(self):
+        return '<img src="%s"/ width="70px">' % self.photo_accessory.url
+    thumb.allow_tags = True
+
+    def image(self):
+        return '<img src="%s"/ width="500px">' % self.photo_accessory.url
+    image.allow_tags = True
 
 
 class Kit(models.Model):
@@ -224,7 +230,7 @@ class KitDetail(models.Model):
     quantity_accessory = models.PositiveIntegerField(_('quantidade'))
 
     def __str__(self):
-        return self.kit
+        return str(self.kit)
 
 
 class Store(models.Model):
@@ -273,3 +279,6 @@ class Ordered(TimeStampedModel):
 
     def __str__(self):
         return str(self.id)
+
+    def get_detalhe(self):
+        return u"/ordered/%i" % self.id
