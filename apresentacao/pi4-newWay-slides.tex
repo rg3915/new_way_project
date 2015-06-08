@@ -1,0 +1,160 @@
+\documentclass{fancyslides}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{times}
+\graphicspath{{figuras/}}
+
+\usetheme{default} 
+\setbeamertemplate{navigation symbols}{}
+\setbeamercolor{structure}{fg=cyan} % Define the color of titles and fixed text elements (e.g. bullet points)
+% \setbeamercolor{normal text}{fg=\yourowntexcol} % Define the color of text in the presentation
+\setbeamercolor{normal text}{fg=\yourowntexcol} % Define the color of text in the presentation
+
+% Define your own color as follows:
+%\definecolor{pink}{rgb}{156,0,151}
+
+\newcommand{\structureopacity}{0.75}
+
+\newcommand{\strcolor}{blue}
+\newcommand{\yourowntexcol}{white}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SLIDE
+%----------------------------------------------------------------------------------------
+
+\newcommand{\titlephrase}{NEW WAY}
+\newcommand{\subtitulo}{new-way.herokuapp.com} % Novos caminhos, novos horizontes
+\newcommand{\name}{Régis da Silva\\ José Aciole\\ Gustavo Rodrigues\\ Rafael Carneo\\ Luiz Sousa Dias}
+%Régis da Silva \& José Aciole}
+\newcommand{\disciplina}{PI 4\textordmasculine Semestre}
+\newcommand{\affil}{SENAC 2015}
+
+\begin{document}
+
+\fbckg[width=\paperwidth]{newway.jpg} % Slide background image
+\startingslide % This command inserts the title slide as the first slide
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+% \fbckg{05.jpg} % Slide background image
+\begin{frame}
+\tableofcontents
+%\pointedsl{main point}
+\end{frame}
+
+%------------------------------------------------
+\section{Planejamento do Projeto}
+\fbckg{0005.jpg} % Slide background image
+\begin{frame}\frametitle{Planejamento do Projeto}
+
+\itemized{
+	\item Régis: dba e desenvolvedor
+	\item José: web design (layouts) e funcionalidades operacionais
+	\item Gustavo: documentação
+	\item Rafael: Testes e usabilidade
+	\item Luiz: documentação
+}
+
+\end{frame}
+
+%------------------------------------------------
+\fbckg{05.jpg}
+\begin{frame}\frametitle{Planejamento do Projeto}
+\itemized{
+	\item a partir dos requisitos montamos os mockups
+	\item o \emph{modelo entidade-relacionamento}
+	\item e as regras de negócio
+}
+\end{frame}
+
+
+%------------------------------------------------
+\fbckg[height=\paperheight]{new_way.png}
+\begin{frame}\frametitle{\color{black}{Modelo Entidade-Relacionamento}}
+
+\end{frame}
+
+%------------------------------------------------
+\section{Documentação Funcional Elaborada}
+\fbckg{005.jpg}
+\begin{frame}\frametitle{Documentação Funcional Elaborada}
+\itemized{
+	\item padrão de metodologia
+	\item apresentação de estratégias de desenvolvimento
+	\item produtividade
+	\item manutenção
+}
+\end{frame}
+
+%------------------------------------------------
+\section{Modelo MTV}
+\fbckg[height=\paperheight]{mtv.png}
+\begin{frame}\frametitle{Modelo MVC}
+	
+\end{frame}
+
+%------------------------------------------------
+\section{Controle de Qualidade}
+\fbckg{qualitycontrol.png}
+\begin{frame}\frametitle{Controle de Qualidade}
+\itemized{
+	\item mostrar as não conformidades que foram corrigidas
+}
+\end{frame}
+
+%------------------------------------------------
+\section{Aplicação das práticas ITIL}
+\fbckg{08.jpg}
+\begin{frame}\frametitle{Aplicação das práticas ITIL}
+
+\misc{O que precisa para que a aplicação funcione:
+\begin{center}
+	\begin{tabular}{r|l}
+		Equipamentos	& Quiosque touch screen \\
+		Arquitetura		& conexão com a internet \\
+		Arquitetura		& servidor de rede \\
+		SGBD			& PostgreSql \\
+		Navegador		& Google Chrome \\
+	\end{tabular}
+\end{center}
+}
+\end{frame}
+
+%------------------------------------------------
+\section{Aplicação das práticas ITIL}
+\fbckg{app.png}
+\begin{frame}\frametitle{Aplicação das práticas ITIL}
+
+\begin{center}
+\color{blue}{O que foi usado na aplicação:
+
+\
+
+	\begin{tabular}{r|l}
+		Linguagem		& Python 3.4.0 \\
+		Framework		& Django 1.7.8 \\
+		SGBD			& PostgreSql \\
+		Front-end		& Html + Bootstrap \\
+		Repository		& GitHub \\
+		Deploy			& Heroku \\
+	\end{tabular}
+}
+\end{center}
+\end{frame}
+
+%------------------------------------------------
+\section{O Projeto}
+\fbckg{05.jpg}
+\begin{frame}\frametitle{O Projeto}
+	\centering
+	\vspace{-3cm}
+	{\color{blue}{\LARGE NEW WAY}}
+
+	\color{blue}{new-way.herokuapp.com}
+\end{frame}
+
+\end{document}
