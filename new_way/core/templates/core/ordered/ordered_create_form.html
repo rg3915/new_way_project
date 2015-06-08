@@ -12,7 +12,6 @@
     <legend>Faça seu pedido</legend>
     {% csrf_token %}
 	{{ form.customer|bootstrap_horizontal }}
-	{{ form.employee|bootstrap_horizontal }}
 	{{ form.vehicle|bootstrap_horizontal }}
 	{{ form.kit_optional|bootstrap_horizontal }}
 	{{ form.dealership|bootstrap_horizontal }}

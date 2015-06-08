@@ -264,7 +264,7 @@ class Kiosk(models.Model):
 
 class Ordered(TimeStampedModel):
     customer = models.ForeignKey("Customer", verbose_name='cliente')
-    employee = models.ForeignKey("Employee", verbose_name=u'funcionário')
+    # employee = models.ForeignKey("Employee", verbose_name=u'funcionário')
     vehicle = models.ForeignKey("Vehicle", verbose_name=u'veículo')
     kit_optional = models.ForeignKey("Kit", verbose_name='kit opcional')
     dealership = models.ForeignKey(
