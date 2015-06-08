@@ -1,23 +1,23 @@
-id,accessory,photo_accessory,price_accessory
-1,52.9,farol_de_milha.jpg,Faról de milha
-2,359,dvd.jpg,DVD Player
-3,127.3,vidro_eletrico.jpg,Vidro elétrico automático
-4,52.5,porta_copos.jpg,Porta copos
+id,price_accessory,photo_accessory,accessory
+1,52.9,accessorys/farol_de_milha.jpg,Faról de milha
+2,359,accessorys/dvd.jpg,DVD Player
+3,127.3,accessorys/vidro_eletrico.jpg,Vidro elétrico automático
+4,52.5,accessorys/porta_copos.jpg,Porta copos
 5,28.99,suporte_para_cameras,Suporte para câmeras
-6,680,banco_ajustavel.jpg,Banco ajustável
-7,18,entrada_usb.jpg,Entrada USB
-8,1280,banco_couro.jpg,Banco de couro
-9,25,apoio_de_braco.jpg,Apoio de braço
-10,78,sensor_estacionamento.jpg,Sensor de estacionamento
-11,40,engate.jpg,Engate
-12,479,rack.jpg,Rack
-13,48,calha_de_chuva.jpg,Calha de chuva
-14,99,tapete_person.jpg,Tapete personalizado
-15,128,estribo.jpg,Estribo
-16,1299,roda_esportiva.jpg,Roda esportiva
-17,166.94,insulfilm.jpg,Insulfilm
-18,74.9,xenon.jpg,Xenon
-19,169.9,encosto_de_cabeca_com_dvd.jpg,Encosto de cabeça com DVD
-20,122.19,aerofolio.jpg,Aerofólio
-21,97.9,escapamento_esportivo.jpg,Escapamento esportivo
-22,189.9,cadeira_para_crianca.jpg,Cadeira para auto
+6,680,accessorys/banco_ajustavel.jpg,Banco ajustável
+7,18,accessorys/entrada_usb.jpg,Entrada USB
+8,1280,accessorys/banco_couro.jpg,Banco de couro
+9,25,accessorys/apoio_de_braco.jpg,Apoio de braço
+10,78,accessorys/sensor_estacionamento.jpg,Sensor de estacionamento
+11,40,accessorys/engate.jpg,Engate
+12,479,accessorys/rack.jpg,Rack
+13,48,accessorys/calha_de_chuva.jpg,Calha de chuva
+14,99,accessorys/tapete_person.jpg,Tapete personalizado
+15,128,accessorys/estribo.jpg,Estribo
+16,1299,accessorys/roda_esportiva.jpg,Roda esportiva
+17,166.94,accessorys/insulfilm.jpg,Insulfilm
+18,74.9,accessorys/xenon.jpg,Xenon
+19,169.9,accessorys/encosto_de_cabeca_com_dvd.jpg,Encosto de cabeça com DVD
+20,122.19,accessorys/aerofolio.jpg,Aerofólio
+21,97.9,accessorys/escapamento_esportivo.jpg,Escapamento esportivo
+22,189.9,accessorys/cadeira_para_crianca.jpg,Cadeira para auto

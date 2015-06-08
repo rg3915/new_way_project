@@ -7,7 +7,7 @@ import csv
 from gen_random_values import *
 
 ordered_list = []
-repeat = 5000
+repeat = random.randint(5000, 6000)
 
 with io.open('fixtures/pedidos.csv', 'wt') as f:
     f.write(

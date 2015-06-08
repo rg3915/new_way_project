@@ -1,2298 +1,2298 @@
 [
     {
-        "model": "core.Kiosk",
+        "pk": 1,
         "fields": {
-            "kiosk": "Ara\u00e7atuba Shopping",
-            "store": 1
+            "store": 1,
+            "kiosk": "Ara\u00e7atuba Shopping"
         },
-        "pk": 1
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 2,
         "fields": {
-            "kiosk": "Aru\u00e3 Boulevard",
-            "store": 2
+            "store": 2,
+            "kiosk": "Aru\u00e3 Boulevard"
         },
-        "pk": 2
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 3,
         "fields": {
-            "kiosk": "Boavista Shopping",
-            "store": 3
+            "store": 3,
+            "kiosk": "Boavista Shopping"
         },
-        "pk": 3
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 4,
         "fields": {
-            "kiosk": "Brascan Century Open Mall",
-            "store": 4
+            "store": 4,
+            "kiosk": "Brascan Century Open Mall"
         },
-        "pk": 4
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 5,
         "fields": {
-            "kiosk": "Campinas Shopping Center",
-            "store": 5
+            "store": 5,
+            "kiosk": "Campinas Shopping Center"
         },
-        "pk": 5
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 6,
         "fields": {
-            "kiosk": "Carrefour Praia Shopping",
-            "store": 6
+            "store": 6,
+            "kiosk": "Carrefour Praia Shopping"
         },
-        "pk": 6
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 7,
         "fields": {
-            "kiosk": "Centervale Shopping",
-            "store": 7
+            "store": 7,
+            "kiosk": "Centervale Shopping"
         },
-        "pk": 7
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 8,
         "fields": {
-            "kiosk": "Central Plaza Shopping",
-            "store": 8
+            "store": 8,
+            "kiosk": "Central Plaza Shopping"
         },
-        "pk": 8
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 9,
         "fields": {
-            "kiosk": "Centro Comercial Aricanduva",
-            "store": 9
+            "store": 9,
+            "kiosk": "Centro Comercial Aricanduva"
         },
-        "pk": 9
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 10,
         "fields": {
-            "kiosk": "Complexo Comercial Shopping Interlagos",
-            "store": 10
+            "store": 10,
+            "kiosk": "Complexo Comercial Shopping Interlagos"
         },
-        "pk": 10
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 11,
         "fields": {
-            "kiosk": "Continental Shopping Center",
-            "store": 11
+            "store": 11,
+            "kiosk": "Continental Shopping Center"
         },
-        "pk": 11
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 12,
         "fields": {
-            "kiosk": "Franca Shopping Center",
-            "store": 12
+            "store": 12,
+            "kiosk": "Franca Shopping Center"
         },
-        "pk": 12
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 13,
         "fields": {
-            "kiosk": "Galleria Shopping",
-            "store": 13
+            "store": 13,
+            "kiosk": "Galleria Shopping"
         },
-        "pk": 13
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 14,
         "fields": {
-            "kiosk": "Grand Plaza Shopping",
-            "store": 14
+            "store": 14,
+            "kiosk": "Grand Plaza Shopping"
         },
-        "pk": 14
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 15,
         "fields": {
-            "kiosk": "Internacional Shopping Guarulhos",
-            "store": 15
+            "store": 15,
+            "kiosk": "Internacional Shopping Guarulhos"
         },
-        "pk": 15
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 16,
         "fields": {
-            "kiosk": "Lar Center",
-            "store": 16
+            "store": 16,
+            "kiosk": "Lar Center"
         },
-        "pk": 16
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 17,
         "fields": {
-            "kiosk": "Litoral Plaza Shopping",
-            "store": 17
+            "store": 17,
+            "kiosk": "Litoral Plaza Shopping"
         },
-        "pk": 17
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 18,
         "fields": {
-            "kiosk": "Mais Shopping Largo 13",
-            "store": 18
+            "store": 18,
+            "kiosk": "Mais Shopping Largo 13"
         },
-        "pk": 18
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 19,
         "fields": {
-            "kiosk": "Market Place Shopping Center",
-            "store": 19
+            "store": 19,
+            "kiosk": "Market Place Shopping Center"
         },
-        "pk": 19
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 20,
         "fields": {
-            "kiosk": "Mau\u00e1 Plaza Shopping",
-            "store": 20
+            "store": 20,
+            "kiosk": "Mau\u00e1 Plaza Shopping"
         },
-        "pk": 20
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 21,
         "fields": {
-            "kiosk": "Maxi Shopping Jundiai",
-            "store": 21
+            "store": 21,
+            "kiosk": "Maxi Shopping Jundiai"
         },
-        "pk": 21
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 22,
         "fields": {
-            "kiosk": "Mega Polo Moda",
-            "store": 22
+            "store": 22,
+            "kiosk": "Mega Polo Moda"
         },
-        "pk": 22
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 23,
         "fields": {
-            "kiosk": "Miramar Shopping Center",
-            "store": 23
+            "store": 23,
+            "kiosk": "Miramar Shopping Center"
         },
-        "pk": 23
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 24,
         "fields": {
-            "kiosk": "Mogishopping",
-            "store": 24
+            "store": 24,
+            "kiosk": "Mogishopping"
         },
-        "pk": 24
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 25,
         "fields": {
-            "kiosk": "Morumbishopping",
-            "store": 25
+            "store": 25,
+            "kiosk": "Morumbishopping"
         },
-        "pk": 25
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 26,
         "fields": {
-            "kiosk": "Novo Shopping Center Ribeir\u00e3o Preto",
-            "store": 26
+            "store": 26,
+            "kiosk": "Novo Shopping Center Ribeir\u00e3o Preto"
         },
-        "pk": 26
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 27,
         "fields": {
-            "kiosk": "Open Mall Panamby",
-            "store": 27
+            "store": 27,
+            "kiosk": "Open Mall Panamby"
         },
-        "pk": 27
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 28,
         "fields": {
-            "kiosk": "Osasco Plaza Shopping",
-            "store": 28
+            "store": 28,
+            "kiosk": "Osasco Plaza Shopping"
         },
-        "pk": 28
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 29,
         "fields": {
-            "kiosk": "Parque D.pedro Shopping",
-            "store": 29
+            "store": 29,
+            "kiosk": "Parque D.pedro Shopping"
         },
-        "pk": 29
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 30,
         "fields": {
-            "kiosk": "Plaza Avenida Shopping",
-            "store": 30
+            "store": 30,
+            "kiosk": "Plaza Avenida Shopping"
         },
-        "pk": 30
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 31,
         "fields": {
-            "kiosk": "Plaza Shopping Itu",
-            "store": 31
+            "store": 31,
+            "kiosk": "Plaza Shopping Itu"
         },
-        "pk": 31
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 32,
         "fields": {
-            "kiosk": "Pra\u00e7a Shopping",
-            "store": 32
+            "store": 32,
+            "kiosk": "Pra\u00e7a Shopping"
         },
-        "pk": 32
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 33,
         "fields": {
-            "kiosk": "Praiamar Shopping Center",
-            "store": 33
+            "store": 33,
+            "kiosk": "Praiamar Shopping Center"
         },
-        "pk": 33
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 34,
         "fields": {
-            "kiosk": "Raposo Shopping",
-            "store": 34
+            "store": 34,
+            "kiosk": "Raposo Shopping"
         },
-        "pk": 34
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 35,
         "fields": {
-            "kiosk": "Ribeir\u00e3oshopping",
-            "store": 35
+            "store": 35,
+            "kiosk": "Ribeir\u00e3oshopping"
         },
-        "pk": 35
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 36,
         "fields": {
-            "kiosk": "Riopreto Shopping Center",
-            "store": 36
+            "store": 36,
+            "kiosk": "Riopreto Shopping Center"
         },
-        "pk": 36
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 37,
         "fields": {
-            "kiosk": "Riviera Shopping Center",
-            "store": 37
+            "store": 37,
+            "kiosk": "Riviera Shopping Center"
         },
-        "pk": 37
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 38,
         "fields": {
-            "kiosk": "Santana Parque Shopping",
-            "store": 38
+            "store": 38,
+            "kiosk": "Santana Parque Shopping"
         },
-        "pk": 38
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 39,
         "fields": {
-            "kiosk": "Shopping Abc",
-            "store": 39
+            "store": 39,
+            "kiosk": "Shopping Abc"
         },
-        "pk": 39
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 40,
         "fields": {
-            "kiosk": "Shopping Analia Franco",
-            "store": 40
+            "store": 40,
+            "kiosk": "Shopping Analia Franco"
         },
-        "pk": 40
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 41,
         "fields": {
-            "kiosk": "Shopping Bonsucesso",
-            "store": 41
+            "store": 41,
+            "kiosk": "Shopping Bonsucesso"
         },
-        "pk": 41
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 42,
         "fields": {
-            "kiosk": "Shopping Butant\u00e3",
-            "store": 42
+            "store": 42,
+            "kiosk": "Shopping Butant\u00e3"
         },
-        "pk": 42
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 43,
         "fields": {
-            "kiosk": "Shopping Campo Limpo",
-            "store": 43
+            "store": 43,
+            "kiosk": "Shopping Campo Limpo"
         },
-        "pk": 43
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 44,
         "fields": {
-            "kiosk": "Shopping Center 3",
-            "store": 44
+            "store": 44,
+            "kiosk": "Shopping Center 3"
         },
-        "pk": 44
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 45,
         "fields": {
-            "kiosk": "Shopping Center Iguatemi Campinas",
-            "store": 45
+            "store": 45,
+            "kiosk": "Shopping Center Iguatemi Campinas"
         },
-        "pk": 45
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 46,
         "fields": {
-            "kiosk": "Shopping Center Iguatemi S\u00e3o Paulo",
-            "store": 46
+            "store": 46,
+            "kiosk": "Shopping Center Iguatemi S\u00e3o Paulo"
         },
-        "pk": 46
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 47,
         "fields": {
-            "kiosk": "Shopping Center Lapa-sp",
-            "store": 47
+            "store": 47,
+            "kiosk": "Shopping Center Lapa-sp"
         },
-        "pk": 47
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 48,
         "fields": {
-            "kiosk": "Shopping Center M Boi Mirim",
-            "store": 48
+            "store": 48,
+            "kiosk": "Shopping Center M Boi Mirim"
         },
-        "pk": 48
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 49,
         "fields": {
-            "kiosk": "Shopping Center Norte",
-            "store": 49
+            "store": 49,
+            "kiosk": "Shopping Center Norte"
         },
-        "pk": 49
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 50,
         "fields": {
-            "kiosk": "Shopping Center Penha",
-            "store": 50
+            "store": 50,
+            "kiosk": "Shopping Center Penha"
         },
-        "pk": 50
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 51,
         "fields": {
-            "kiosk": "Shopping Cidade Jardim",
-            "store": 51
+            "store": 51,
+            "kiosk": "Shopping Cidade Jardim"
         },
-        "pk": 51
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 52,
         "fields": {
-            "kiosk": "Shopping Cidade Morena",
-            "store": 52
+            "store": 52,
+            "kiosk": "Shopping Cidade Morena"
         },
-        "pk": 52
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 53,
         "fields": {
-            "kiosk": "Shopping Colinas",
-            "store": 53
+            "store": 53,
+            "kiosk": "Shopping Colinas"
         },
-        "pk": 53
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 54,
         "fields": {
-            "kiosk": "Shopping D",
-            "store": 54
+            "store": 54,
+            "kiosk": "Shopping D"
         },
-        "pk": 54
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 55,
         "fields": {
-            "kiosk": "Shopping Eldorado",
-            "store": 55
+            "store": 55,
+            "kiosk": "Shopping Eldorado"
         },
-        "pk": 55
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 56,
         "fields": {
-            "kiosk": "Shopping Frei Caneca",
-            "store": 56
+            "store": 56,
+            "kiosk": "Shopping Frei Caneca"
         },
-        "pk": 56
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 57,
         "fields": {
-            "kiosk": "Shopping Hortol\u00e2ndia",
-            "store": 57
+            "store": 57,
+            "kiosk": "Shopping Hortol\u00e2ndia"
         },
-        "pk": 57
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 58,
         "fields": {
-            "kiosk": "Shopping Ibirapuera",
-            "store": 58
+            "store": 58,
+            "kiosk": "Shopping Ibirapuera"
         },
-        "pk": 58
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 59,
         "fields": {
-            "kiosk": "Shopping Jaragua Araraquara",
-            "store": 59
+            "store": 59,
+            "kiosk": "Shopping Jaragua Araraquara"
         },
-        "pk": 59
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 60,
         "fields": {
-            "kiosk": "Shopping Jardim Sul",
-            "store": 60
+            "store": 60,
+            "kiosk": "Shopping Jardim Sul"
         },
-        "pk": 60
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 61,
         "fields": {
-            "kiosk": "Shopping La Plage",
-            "store": 61
+            "store": 61,
+            "kiosk": "Shopping La Plage"
         },
-        "pk": 61
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 62,
         "fields": {
-            "kiosk": "Shopping Metro Boulevard Tatuape",
-            "store": 62
+            "store": 62,
+            "kiosk": "Shopping Metro Boulevard Tatuape"
         },
-        "pk": 62
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 63,
         "fields": {
-            "kiosk": "Shopping Metr\u00f4 Itaquera",
-            "store": 63
+            "store": 63,
+            "kiosk": "Shopping Metr\u00f4 Itaquera"
         },
-        "pk": 63
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 64,
         "fields": {
-            "kiosk": "Shopping Metr\u00f4 Santa Cruz",
-            "store": 64
+            "store": 64,
+            "kiosk": "Shopping Metr\u00f4 Santa Cruz"
         },
-        "pk": 64
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 65,
         "fields": {
-            "kiosk": "Shopping Metr\u00f4 Tatuape",
-            "store": 65
+            "store": 65,
+            "kiosk": "Shopping Metr\u00f4 Tatuape"
         },
-        "pk": 65
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 66,
         "fields": {
-            "kiosk": "Shopping Metr\u00f4 Tucuruvi",
-            "store": 66
+            "store": 66,
+            "kiosk": "Shopping Metr\u00f4 Tucuruvi"
         },
-        "pk": 66
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 67,
         "fields": {
-            "kiosk": "Shopping Metropole",
-            "store": 67
+            "store": 67,
+            "kiosk": "Shopping Metropole"
         },
-        "pk": 67
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 68,
         "fields": {
-            "kiosk": "Shopping Nacoes Unidas",
-            "store": 68
+            "store": 68,
+            "kiosk": "Shopping Nacoes Unidas"
         },
-        "pk": 68
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 69,
         "fields": {
-            "kiosk": "Shopping P\u00e1tio Higien\u00f3polis",
-            "store": 69
+            "store": 69,
+            "kiosk": "Shopping P\u00e1tio Higien\u00f3polis"
         },
-        "pk": 69
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 70,
         "fields": {
-            "kiosk": "Shopping P\u00e1tio Paulista",
-            "store": 70
+            "store": 70,
+            "kiosk": "Shopping P\u00e1tio Paulista"
         },
-        "pk": 70
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 71,
         "fields": {
-            "kiosk": "Shopping Piracicaba",
-            "store": 71
+            "store": 71,
+            "kiosk": "Shopping Piracicaba"
         },
-        "pk": 71
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 72,
         "fields": {
-            "kiosk": "Shopping Plaza Sul",
-            "store": 72
+            "store": 72,
+            "kiosk": "Shopping Plaza Sul"
         },
-        "pk": 72
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 73,
         "fields": {
-            "kiosk": "Shopping Sp Market",
-            "store": 73
+            "store": 73,
+            "kiosk": "Shopping Sp Market"
         },
-        "pk": 73
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 74,
         "fields": {
-            "kiosk": "Shopping Taboao",
-            "store": 74
+            "store": 74,
+            "kiosk": "Shopping Taboao"
         },
-        "pk": 74
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 75,
         "fields": {
-            "kiosk": "Shopping Tambore",
-            "store": 75
+            "store": 75,
+            "kiosk": "Shopping Tambore"
         },
-        "pk": 75
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 76,
         "fields": {
-            "kiosk": "Shopping Valinhos",
-            "store": 76
+            "store": 76,
+            "kiosk": "Shopping Valinhos"
         },
-        "pk": 76
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 77,
         "fields": {
-            "kiosk": "Shopping Vila Ol\u00edmpia",
-            "store": 77
+            "store": 77,
+            "kiosk": "Shopping Vila Ol\u00edmpia"
         },
-        "pk": 77
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 78,
         "fields": {
-            "kiosk": "Shopping Villa-lobos",
-            "store": 78
+            "store": 78,
+            "kiosk": "Shopping Villa-lobos"
         },
-        "pk": 78
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 79,
         "fields": {
-            "kiosk": "Supershopping Osasco",
-            "store": 79
+            "store": 79,
+            "kiosk": "Supershopping Osasco"
         },
-        "pk": 79
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 80,
         "fields": {
-            "kiosk": "Taubate Shopping Center",
-            "store": 80
+            "store": 80,
+            "kiosk": "Taubate Shopping Center"
         },
-        "pk": 80
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 81,
         "fields": {
-            "kiosk": "Tivoli Shopping",
-            "store": 81
+            "store": 81,
+            "kiosk": "Tivoli Shopping"
         },
-        "pk": 81
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 82,
         "fields": {
-            "kiosk": "Vill\u00e0ggio Shopping",
-            "store": 82
+            "store": 82,
+            "kiosk": "Vill\u00e0ggio Shopping"
         },
-        "pk": 82
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 83,
         "fields": {
-            "kiosk": "West Plaza Shopping",
-            "store": 83
+            "store": 83,
+            "kiosk": "West Plaza Shopping"
         },
-        "pk": 83
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 84,
         "fields": {
-            "kiosk": "Balne\u00e1rio Cambori\u00fa Shopping",
-            "store": 84
+            "store": 84,
+            "kiosk": "Balne\u00e1rio Cambori\u00fa Shopping"
         },
-        "pk": 84
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 85,
         "fields": {
-            "kiosk": "Boulevard Lages Shopping Center",
-            "store": 85
+            "store": 85,
+            "kiosk": "Boulevard Lages Shopping Center"
         },
-        "pk": 85
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 86,
         "fields": {
-            "kiosk": "Floripa Shopping",
-            "store": 86
+            "store": 86,
+            "kiosk": "Floripa Shopping"
         },
-        "pk": 86
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 87,
         "fields": {
-            "kiosk": "Shopping Center Iguatemi Florian\u00f3polis",
-            "store": 87
+            "store": 87,
+            "kiosk": "Shopping Center Iguatemi Florian\u00f3polis"
         },
-        "pk": 87
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 88,
         "fields": {
-            "kiosk": "Shopping Center Neumarkt Blumenau",
-            "store": 88
+            "store": 88,
+            "kiosk": "Shopping Center Neumarkt Blumenau"
         },
-        "pk": 88
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 89,
         "fields": {
-            "kiosk": "Shopping Itaguacu",
-            "store": 89
+            "store": 89,
+            "kiosk": "Shopping Itaguacu"
         },
-        "pk": 89
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 90,
         "fields": {
-            "kiosk": "Shopping Mueller Joinville",
-            "store": 90
+            "store": 90,
+            "kiosk": "Shopping Mueller Joinville"
         },
-        "pk": 90
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 91,
         "fields": {
-            "kiosk": "Barrashoppingsul",
-            "store": 91
+            "store": 91,
+            "kiosk": "Barrashoppingsul"
         },
-        "pk": 91
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 92,
         "fields": {
-            "kiosk": "Bella Citt\u00e1 Shopping Center",
-            "store": 92
+            "store": 92,
+            "kiosk": "Bella Citt\u00e1 Shopping Center"
         },
-        "pk": 92
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 93,
         "fields": {
-            "kiosk": "Canoas Shopping",
-            "store": 93
+            "store": 93,
+            "kiosk": "Canoas Shopping"
         },
-        "pk": 93
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 94,
         "fields": {
-            "kiosk": "Caxias Martcenter",
-            "store": 94
+            "store": 94,
+            "kiosk": "Caxias Martcenter"
         },
-        "pk": 94
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 95,
         "fields": {
-            "kiosk": "Lindoia Shopping",
-            "store": 95
+            "store": 95,
+            "kiosk": "Lindoia Shopping"
         },
-        "pk": 95
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 96,
         "fields": {
-            "kiosk": "Max Shopping Center",
-            "store": 96
+            "store": 96,
+            "kiosk": "Max Shopping Center"
         },
-        "pk": 96
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 97,
         "fields": {
-            "kiosk": "Moinhos Shopping",
-            "store": 97
+            "store": 97,
+            "kiosk": "Moinhos Shopping"
         },
-        "pk": 97
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 98,
         "fields": {
-            "kiosk": "Praia De Belas Shopping Center",
-            "store": 98
+            "store": 98,
+            "kiosk": "Praia De Belas Shopping Center"
         },
-        "pk": 98
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 99,
         "fields": {
-            "kiosk": "Prataviera Shopping",
-            "store": 99
+            "store": 99,
+            "kiosk": "Prataviera Shopping"
         },
-        "pk": 99
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 100,
         "fields": {
-            "kiosk": "Rua Da Praia Shopping",
-            "store": 100
+            "store": 100,
+            "kiosk": "Rua Da Praia Shopping"
         },
-        "pk": 100
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 101,
         "fields": {
-            "kiosk": "San Pelegrino Shopping Mall",
-            "store": 101
+            "store": 101,
+            "kiosk": "San Pelegrino Shopping Mall"
         },
-        "pk": 101
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 102,
         "fields": {
-            "kiosk": "Shopping Center Iguatemi Caxia",
-            "store": 102
+            "store": 102,
+            "kiosk": "Shopping Center Iguatemi Caxia"
         },
-        "pk": 102
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 103,
         "fields": {
-            "kiosk": "Shopping Center Iguatemi Porto Alegre",
-            "store": 103
+            "store": 103,
+            "kiosk": "Shopping Center Iguatemi Porto Alegre"
         },
-        "pk": 103
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 104,
         "fields": {
-            "kiosk": "Shopping Gravata\u00ed",
-            "store": 104
+            "store": 104,
+            "kiosk": "Shopping Gravata\u00ed"
         },
-        "pk": 104
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 105,
         "fields": {
-            "kiosk": "Shopping Pelotas",
-            "store": 105
+            "store": 105,
+            "kiosk": "Shopping Pelotas"
         },
-        "pk": 105
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 106,
         "fields": {
-            "kiosk": "Shopping Total",
-            "store": 106
+            "store": 106,
+            "kiosk": "Shopping Total"
         },
-        "pk": 106
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 107,
         "fields": {
-            "kiosk": "Sossor\u00f3 West Shopping",
-            "store": 107
+            "store": 107,
+            "kiosk": "Sossor\u00f3 West Shopping"
         },
-        "pk": 107
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 108,
         "fields": {
-            "kiosk": "Natal Shopping Center",
-            "store": 108
+            "store": 108,
+            "kiosk": "Natal Shopping Center"
         },
-        "pk": 108
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 109,
         "fields": {
-            "kiosk": "Praia Shopping",
-            "store": 109
+            "store": 109,
+            "kiosk": "Praia Shopping"
         },
-        "pk": 109
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 110,
         "fields": {
-            "kiosk": "Shopping Cidade Jardim",
-            "store": 110
+            "store": 110,
+            "kiosk": "Shopping Cidade Jardim"
         },
-        "pk": 110
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 111,
         "fields": {
-            "kiosk": "Via Direta Shopping Center",
-            "store": 111
+            "store": 111,
+            "kiosk": "Via Direta Shopping Center"
         },
-        "pk": 111
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 112,
         "fields": {
-            "kiosk": "Bangu Shopping Center",
-            "store": 112
+            "store": 112,
+            "kiosk": "Bangu Shopping Center"
         },
-        "pk": 112
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 113,
         "fields": {
-            "kiosk": "Barrashopping",
-            "store": 113
+            "store": 113,
+            "kiosk": "Barrashopping"
         },
-        "pk": 113
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 114,
         "fields": {
-            "kiosk": "Bauhaus Shopping Center",
-            "store": 114
+            "store": 114,
+            "kiosk": "Bauhaus Shopping Center"
         },
-        "pk": 114
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 115,
         "fields": {
-            "kiosk": "Bay Market Center",
-            "store": 115
+            "store": 115,
+            "kiosk": "Bay Market Center"
         },
-        "pk": 115
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 116,
         "fields": {
-            "kiosk": "Botafogo Praia Shopping",
-            "store": 116
+            "store": 116,
+            "kiosk": "Botafogo Praia Shopping"
         },
-        "pk": 116
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 117,
         "fields": {
-            "kiosk": "Boulevard Shopping Campos",
-            "store": 117
+            "store": 117,
+            "kiosk": "Boulevard Shopping Campos"
         },
-        "pk": 117
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 118,
         "fields": {
-            "kiosk": "Boulevard Shopping S\u00e3o Gon\u00e7alo",
-            "store": 118
+            "store": 118,
+            "kiosk": "Boulevard Shopping S\u00e3o Gon\u00e7alo"
         },
-        "pk": 118
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 119,
         "fields": {
-            "kiosk": "Cabo Frio Leste Shopping",
-            "store": 119
+            "store": 119,
+            "kiosk": "Cabo Frio Leste Shopping"
         },
-        "pk": 119
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 120,
         "fields": {
-            "kiosk": "Carioca Shopping",
-            "store": 120
+            "store": 120,
+            "kiosk": "Carioca Shopping"
         },
-        "pk": 120
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 121,
         "fields": {
-            "kiosk": "Casashopping",
-            "store": 121
+            "store": 121,
+            "kiosk": "Casashopping"
         },
-        "pk": 121
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 122,
         "fields": {
-            "kiosk": "Center Shopping Rio",
-            "store": 122
+            "store": 122,
+            "kiosk": "Center Shopping Rio"
         },
-        "pk": 122
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 123,
         "fields": {
-            "kiosk": "Ilha Plaza Shopping",
-            "store": 123
+            "store": 123,
+            "kiosk": "Ilha Plaza Shopping"
         },
-        "pk": 123
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 124,
         "fields": {
-            "kiosk": "Leopoldina Shopping",
-            "store": 124
+            "store": 124,
+            "kiosk": "Leopoldina Shopping"
         },
-        "pk": 124
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 125,
         "fields": {
-            "kiosk": "Madureira Shopping",
-            "store": 125
+            "store": 125,
+            "kiosk": "Madureira Shopping"
         },
-        "pk": 125
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 126,
         "fields": {
-            "kiosk": "Niteroishopping",
-            "store": 126
+            "store": 126,
+            "kiosk": "Niteroishopping"
         },
-        "pk": 126
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 127,
         "fields": {
-            "kiosk": "Norteshopping",
-            "store": 127
+            "store": 127,
+            "kiosk": "Norteshopping"
         },
-        "pk": 127
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 128,
         "fields": {
-            "kiosk": "Passeio Shopping",
-            "store": 128
+            "store": 128,
+            "kiosk": "Passeio Shopping"
         },
-        "pk": 128
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 129,
         "fields": {
-            "kiosk": "Plaza Shopping",
-            "store": 129
+            "store": 129,
+            "kiosk": "Plaza Shopping"
         },
-        "pk": 129
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 130,
         "fields": {
-            "kiosk": "Recreio Shopping Center",
-            "store": 130
+            "store": 130,
+            "kiosk": "Recreio Shopping Center"
         },
-        "pk": 130
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 131,
         "fields": {
-            "kiosk": "Resende Shopping",
-            "store": 131
+            "store": 131,
+            "kiosk": "Resende Shopping"
         },
-        "pk": 131
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 132,
         "fields": {
-            "kiosk": "Rio Design Barra",
-            "store": 132
+            "store": 132,
+            "kiosk": "Rio Design Barra"
         },
-        "pk": 132
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 133,
         "fields": {
-            "kiosk": "Rio Design Leblon",
-            "store": 133
+            "store": 133,
+            "kiosk": "Rio Design Leblon"
         },
-        "pk": 133
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 134,
         "fields": {
-            "kiosk": "Rio Plaza Shopping",
-            "store": 134
+            "store": 134,
+            "kiosk": "Rio Plaza Shopping"
         },
-        "pk": 134
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 135,
         "fields": {
-            "kiosk": "Rio Sul Shopping Center",
-            "store": 135
+            "store": 135,
+            "kiosk": "Rio Sul Shopping Center"
         },
-        "pk": 135
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 136,
         "fields": {
-            "kiosk": "S\u00e3o Conrado Fashion Mall",
-            "store": 136
+            "store": 136,
+            "kiosk": "S\u00e3o Conrado Fashion Mall"
         },
-        "pk": 136
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 137,
         "fields": {
-            "kiosk": "S\u00e3o Gon\u00e7alo Shopping",
-            "store": 137
+            "store": 137,
+            "kiosk": "S\u00e3o Gon\u00e7alo Shopping"
         },
-        "pk": 137
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 138,
         "fields": {
-            "kiosk": "Shopping Center Iguatemi Rio",
-            "store": 138
+            "store": 138,
+            "kiosk": "Shopping Center Iguatemi Rio"
         },
-        "pk": 138
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 139,
         "fields": {
-            "kiosk": "Shopping Center Paco Do Ouvidor",
-            "store": 139
+            "store": 139,
+            "kiosk": "Shopping Center Paco Do Ouvidor"
         },
-        "pk": 139
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 140,
         "fields": {
-            "kiosk": "Shopping Da G\u00e1vea",
-            "store": 140
+            "store": 140,
+            "kiosk": "Shopping Da G\u00e1vea"
         },
-        "pk": 140
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 141,
         "fields": {
-            "kiosk": "Shopping Grande Rio",
-            "store": 141
+            "store": 141,
+            "kiosk": "Shopping Grande Rio"
         },
-        "pk": 141
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 142,
         "fields": {
-            "kiosk": "Shopping Jardim Guadalupe",
-            "store": 142
+            "store": 142,
+            "kiosk": "Shopping Jardim Guadalupe"
         },
-        "pk": 142
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 143,
         "fields": {
-            "kiosk": "Shopping Leblon",
-            "store": 143
+            "store": 143,
+            "kiosk": "Shopping Leblon"
         },
-        "pk": 143
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 144,
         "fields": {
-            "kiosk": "Shopping Nova America",
-            "store": 144
+            "store": 144,
+            "kiosk": "Shopping Nova America"
         },
-        "pk": 144
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 145,
         "fields": {
-            "kiosk": "Shopping Plaza Maca\u00e9",
-            "store": 145
+            "store": 145,
+            "kiosk": "Shopping Plaza Maca\u00e9"
         },
-        "pk": 145
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 146,
         "fields": {
-            "kiosk": "Shopping Tijuca",
-            "store": 146
+            "store": 146,
+            "kiosk": "Shopping Tijuca"
         },
-        "pk": 146
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 147,
         "fields": {
-            "kiosk": "Sider Shopping Center",
-            "store": 147
+            "store": 147,
+            "kiosk": "Sider Shopping Center"
         },
-        "pk": 147
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 148,
         "fields": {
-            "kiosk": "Teresopolis Shopping Center",
-            "store": 148
+            "store": 148,
+            "kiosk": "Teresopolis Shopping Center"
         },
-        "pk": 148
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 149,
         "fields": {
-            "kiosk": "Topshopping",
-            "store": 149
+            "store": 149,
+            "kiosk": "Topshopping"
         },
-        "pk": 149
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 150,
         "fields": {
-            "kiosk": "Via Parque Shopping Center",
-            "store": 150
+            "store": 150,
+            "kiosk": "Via Parque Shopping Center"
         },
-        "pk": 150
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 151,
         "fields": {
-            "kiosk": "West Shopping Rio",
-            "store": 151
+            "store": 151,
+            "kiosk": "West Shopping Rio"
         },
-        "pk": 151
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 152,
         "fields": {
-            "kiosk": "Catuai Shopping Center Londrina",
-            "store": 152
+            "store": 152,
+            "kiosk": "Catuai Shopping Center Londrina"
         },
-        "pk": 152
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 153,
         "fields": {
-            "kiosk": "Catua\u00ed Shopping Maring\u00e1",
-            "store": 153
+            "store": 153,
+            "kiosk": "Catua\u00ed Shopping Maring\u00e1"
         },
-        "pk": 153
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 154,
         "fields": {
-            "kiosk": "Crystal Plaza Shopping Center",
-            "store": 154
+            "store": 154,
+            "kiosk": "Crystal Plaza Shopping Center"
         },
-        "pk": 154
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 155,
         "fields": {
-            "kiosk": "Maring\u00e1 Park Shopping Center",
-            "store": 155
+            "store": 155,
+            "kiosk": "Maring\u00e1 Park Shopping Center"
         },
-        "pk": 155
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 156,
         "fields": {
-            "kiosk": "Mueller Shopping Center De Curitiba",
-            "store": 156
+            "store": 156,
+            "kiosk": "Mueller Shopping Center De Curitiba"
         },
-        "pk": 156
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 157,
         "fields": {
-            "kiosk": "Palladium Shopping Center",
-            "store": 157
+            "store": 157,
+            "kiosk": "Palladium Shopping Center"
         },
-        "pk": 157
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 158,
         "fields": {
-            "kiosk": "Parkshopping Barig\u00fci",
-            "store": 158
+            "store": 158,
+            "kiosk": "Parkshopping Barig\u00fci"
         },
-        "pk": 158
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 159,
         "fields": {
-            "kiosk": "Shopping Center Aguaverde",
-            "store": 159
+            "store": 159,
+            "kiosk": "Shopping Center Aguaverde"
         },
-        "pk": 159
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 160,
         "fields": {
-            "kiosk": "Shopping Curitiba",
-            "store": 160
+            "store": 160,
+            "kiosk": "Shopping Curitiba"
         },
-        "pk": 160
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 161,
         "fields": {
-            "kiosk": "Shopping Estacao",
-            "store": 161
+            "store": 161,
+            "kiosk": "Shopping Estacao"
         },
-        "pk": 161
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 162,
         "fields": {
-            "kiosk": "Shopping Jardim Das Am\u00e9ricas",
-            "store": 162
+            "store": 162,
+            "kiosk": "Shopping Jardim Das Am\u00e9ricas"
         },
-        "pk": 162
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 163,
         "fields": {
-            "kiosk": "Alameda Juiz de Fora",
-            "store": 163
+            "store": 163,
+            "kiosk": "Alameda Juiz de Fora"
         },
-        "pk": 163
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 164,
         "fields": {
-            "kiosk": "BH Shopping",
-            "store": 164
+            "store": 164,
+            "kiosk": "BH Shopping"
         },
-        "pk": 164
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 165,
         "fields": {
-            "kiosk": "Boulevard Shopping Belo Horizonte",
-            "store": 165
+            "store": 165,
+            "kiosk": "Boulevard Shopping Belo Horizonte"
         },
-        "pk": 165
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 166,
         "fields": {
-            "kiosk": "Center Shopping",
-            "store": 166
+            "store": 166,
+            "kiosk": "Center Shopping"
         },
-        "pk": 166
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 167,
         "fields": {
-            "kiosk": "DiamondMall",
-            "store": 167
+            "store": 167,
+            "kiosk": "DiamondMall"
         },
-        "pk": 167
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 168,
         "fields": {
-            "kiosk": "Independencia Shopping",
-            "store": 168
+            "store": 168,
+            "kiosk": "Independencia Shopping"
         },
-        "pk": 168
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 169,
         "fields": {
-            "kiosk": "ItauPower Shopping",
-            "store": 169
+            "store": 169,
+            "kiosk": "ItauPower Shopping"
         },
-        "pk": 169
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 170,
         "fields": {
-            "kiosk": "Mister Shopping",
-            "store": 170
+            "store": 170,
+            "kiosk": "Mister Shopping"
         },
-        "pk": 170
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 171,
         "fields": {
-            "kiosk": "Minas Shopping",
-            "store": 171
+            "store": 171,
+            "kiosk": "Minas Shopping"
         },
-        "pk": 171
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 172,
         "fields": {
-            "kiosk": "Plaza Anchieta",
-            "store": 172
+            "store": 172,
+            "kiosk": "Plaza Anchieta"
         },
-        "pk": 172
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 173,
         "fields": {
-            "kiosk": "Ponteio Lar Shopping",
-            "store": 173
+            "store": 173,
+            "kiosk": "Ponteio Lar Shopping"
         },
-        "pk": 173
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 174,
         "fields": {
-            "kiosk": "Shopping Center Uberaba",
-            "store": 174
+            "store": 174,
+            "kiosk": "Shopping Center Uberaba"
         },
-        "pk": 174
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 175,
         "fields": {
-            "kiosk": "Shopping Cidade",
-            "store": 175
+            "store": 175,
+            "kiosk": "Shopping Cidade"
         },
-        "pk": 175
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 176,
         "fields": {
-            "kiosk": "Shopping Del Rey",
-            "store": 176
+            "store": 176,
+            "kiosk": "Shopping Del Rey"
         },
-        "pk": 176
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 177,
         "fields": {
-            "kiosk": "Shopping Norte",
-            "store": 177
+            "store": 177,
+            "kiosk": "Shopping Norte"
         },
-        "pk": 177
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 178,
         "fields": {
-            "kiosk": "Shopping Patio Savassi",
-            "store": 178
+            "store": 178,
+            "kiosk": "Shopping Patio Savassi"
         },
-        "pk": 178
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 179,
         "fields": {
-            "kiosk": "UAI Shopping",
-            "store": 179
+            "store": 179,
+            "kiosk": "UAI Shopping"
         },
-        "pk": 179
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 180,
         "fields": {
-            "kiosk": "UAI Shopping C\u00e9u Azul",
-            "store": 180
+            "store": 180,
+            "kiosk": "UAI Shopping C\u00e9u Azul"
         },
-        "pk": 180
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 181,
         "fields": {
-            "kiosk": "Venda Nova Shopping",
-            "store": 181
+            "store": 181,
+            "kiosk": "Venda Nova Shopping"
         },
-        "pk": 181
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 182,
         "fields": {
-            "kiosk": "Via Shopping Barreiro",
-            "store": 182
+            "store": 182,
+            "kiosk": "Via Shopping Barreiro"
         },
-        "pk": 182
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 183,
         "fields": {
-            "kiosk": "Alameda Juiz de Fora",
-            "store": 183
+            "store": 183,
+            "kiosk": "Alameda Juiz de Fora"
         },
-        "pk": 183
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 184,
         "fields": {
-            "kiosk": "BH Shopping",
-            "store": 184
+            "store": 184,
+            "kiosk": "BH Shopping"
         },
-        "pk": 184
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 185,
         "fields": {
-            "kiosk": "Boulevard Shopping Belo Horizonte",
-            "store": 185
+            "store": 185,
+            "kiosk": "Boulevard Shopping Belo Horizonte"
         },
-        "pk": 185
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 186,
         "fields": {
-            "kiosk": "Center Shopping",
-            "store": 186
+            "store": 186,
+            "kiosk": "Center Shopping"
         },
-        "pk": 186
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 187,
         "fields": {
-            "kiosk": "DiamondMall",
-            "store": 187
+            "store": 187,
+            "kiosk": "DiamondMall"
         },
-        "pk": 187
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 188,
         "fields": {
-            "kiosk": "Independencia Shopping",
-            "store": 188
+            "store": 188,
+            "kiosk": "Independencia Shopping"
         },
-        "pk": 188
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 189,
         "fields": {
-            "kiosk": "ItauPower Shopping",
-            "store": 189
+            "store": 189,
+            "kiosk": "ItauPower Shopping"
         },
-        "pk": 189
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 190,
         "fields": {
-            "kiosk": "Mister Shopping",
-            "store": 190
+            "store": 190,
+            "kiosk": "Mister Shopping"
         },
-        "pk": 190
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 191,
         "fields": {
-            "kiosk": "Minas Shopping",
-            "store": 191
+            "store": 191,
+            "kiosk": "Minas Shopping"
         },
-        "pk": 191
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 192,
         "fields": {
-            "kiosk": "Plaza Anchieta",
-            "store": 192
+            "store": 192,
+            "kiosk": "Plaza Anchieta"
         },
-        "pk": 192
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 193,
         "fields": {
-            "kiosk": "Ponteio Lar Shopping",
-            "store": 193
+            "store": 193,
+            "kiosk": "Ponteio Lar Shopping"
         },
-        "pk": 193
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 194,
         "fields": {
-            "kiosk": "Shopping Center Uberaba",
-            "store": 194
+            "store": 194,
+            "kiosk": "Shopping Center Uberaba"
         },
-        "pk": 194
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 195,
         "fields": {
-            "kiosk": "Shopping Cidade",
-            "store": 195
+            "store": 195,
+            "kiosk": "Shopping Cidade"
         },
-        "pk": 195
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 196,
         "fields": {
-            "kiosk": "Shopping Del Rey",
-            "store": 196
+            "store": 196,
+            "kiosk": "Shopping Del Rey"
         },
-        "pk": 196
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 197,
         "fields": {
-            "kiosk": "Shopping Norte",
-            "store": 197
+            "store": 197,
+            "kiosk": "Shopping Norte"
         },
-        "pk": 197
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 198,
         "fields": {
-            "kiosk": "Shopping Patio Savassi",
-            "store": 198
+            "store": 198,
+            "kiosk": "Shopping Patio Savassi"
         },
-        "pk": 198
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 199,
         "fields": {
-            "kiosk": "UAI Shopping",
-            "store": 199
+            "store": 199,
+            "kiosk": "UAI Shopping"
         },
-        "pk": 199
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 200,
         "fields": {
-            "kiosk": "UAI Shopping C\u00e9u Azul",
-            "store": 200
+            "store": 200,
+            "kiosk": "UAI Shopping C\u00e9u Azul"
         },
-        "pk": 200
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 201,
         "fields": {
-            "kiosk": "Venda Nova Shopping",
-            "store": 201
+            "store": 201,
+            "kiosk": "Venda Nova Shopping"
         },
-        "pk": 201
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 202,
         "fields": {
-            "kiosk": "Via Shopping Barreiro",
-            "store": 202
+            "store": 202,
+            "kiosk": "Via Shopping Barreiro"
         },
-        "pk": 202
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 203,
         "fields": {
-            "kiosk": "Araguaia Shopping",
-            "store": 203
+            "store": 203,
+            "kiosk": "Araguaia Shopping"
         },
-        "pk": 203
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 204,
         "fields": {
-            "kiosk": "Buriti Shopping",
-            "store": 204
+            "store": 204,
+            "kiosk": "Buriti Shopping"
         },
-        "pk": 204
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 205,
         "fields": {
-            "kiosk": "Flamboyant Shopping Center",
-            "store": 205
+            "store": 205,
+            "kiosk": "Flamboyant Shopping Center"
         },
-        "pk": 205
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 206,
         "fields": {
-            "kiosk": "Goi\u00e2nia Shopping",
-            "store": 206
+            "store": 206,
+            "kiosk": "Goi\u00e2nia Shopping"
         },
-        "pk": 206
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 207,
         "fields": {
-            "kiosk": "\u00c1guas Claras Shopping",
-            "store": 207
+            "store": 207,
+            "kiosk": "\u00c1guas Claras Shopping"
         },
-        "pk": 207
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 208,
         "fields": {
-            "kiosk": "Alameda Shopping",
-            "store": 208
+            "store": 208,
+            "kiosk": "Alameda Shopping"
         },
-        "pk": 208
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 209,
         "fields": {
-            "kiosk": "Liberty Mall",
-            "store": 209
+            "store": 209,
+            "kiosk": "Liberty Mall"
         },
-        "pk": 209
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 210,
         "fields": {
-            "kiosk": "Parkshopping",
-            "store": 210
+            "store": 210,
+            "kiosk": "Parkshopping"
         },
-        "pk": 210
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 211,
         "fields": {
-            "kiosk": "P\u00e1tio Brasil Shopping",
-            "store": 211
+            "store": 211,
+            "kiosk": "P\u00e1tio Brasil Shopping"
         },
-        "pk": 211
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 212,
         "fields": {
-            "kiosk": "Shopping Conjunto Nacional",
-            "store": 212
+            "store": 212,
+            "kiosk": "Shopping Conjunto Nacional"
         },
-        "pk": 212
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 213,
         "fields": {
-            "kiosk": "Boulevard Shopping Feira de Santana",
-            "store": 213
+            "store": 213,
+            "kiosk": "Boulevard Shopping Feira de Santana"
         },
-        "pk": 213
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 214,
         "fields": {
-            "kiosk": "Salvador Norte Shopping AS",
-            "store": 214
+            "store": 214,
+            "kiosk": "Salvador Norte Shopping AS"
         },
-        "pk": 214
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 215,
         "fields": {
-            "kiosk": "Salvador Shopping",
-            "store": 215
+            "store": 215,
+            "kiosk": "Salvador Shopping"
         },
-        "pk": 215
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 216,
         "fields": {
-            "kiosk": "Shopping Bahia Out Let Center",
-            "store": 216
+            "store": 216,
+            "kiosk": "Shopping Bahia Out Let Center"
         },
-        "pk": 216
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 217,
         "fields": {
-            "kiosk": "Shopping Barra",
-            "store": 217
+            "store": 217,
+            "kiosk": "Shopping Barra"
         },
-        "pk": 217
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 218,
         "fields": {
-            "kiosk": "Shopping Center Lapa BA",
-            "store": 218
+            "store": 218,
+            "kiosk": "Shopping Center Lapa BA"
         },
-        "pk": 218
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 219,
         "fields": {
-            "kiosk": "Shopping Center Paralela",
-            "store": 219
+            "store": 219,
+            "kiosk": "Shopping Center Paralela"
         },
-        "pk": 219
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 220,
         "fields": {
-            "kiosk": "Shopping Center Piedade",
-            "store": 220
+            "store": 220,
+            "kiosk": "Shopping Center Piedade"
         },
-        "pk": 220
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 221,
         "fields": {
-            "kiosk": "Shopping Iguatemi Salvador",
-            "store": 221
+            "store": 221,
+            "kiosk": "Shopping Iguatemi Salvador"
         },
-        "pk": 221
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 222,
         "fields": {
-            "kiosk": "BRA/SBNR",
-            "store": 222
+            "store": 222,
+            "kiosk": "BRA/SBNR"
         },
-        "pk": 222
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 223,
         "fields": {
-            "kiosk": "LAZ/SBLP",
-            "store": 223
+            "store": 223,
+            "kiosk": "LAZ/SBLP"
         },
-        "pk": 223
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 224,
         "fields": {
-            "kiosk": "FEC/SNJD",
-            "store": 224
+            "store": 224,
+            "kiosk": "FEC/SNJD"
         },
-        "pk": 224
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 225,
         "fields": {
-            "kiosk": "LEC/SBLE",
-            "store": 225
+            "store": 225,
+            "kiosk": "LEC/SBLE"
         },
-        "pk": 225
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 226,
         "fields": {
-            "kiosk": "BPS/SBPS",
-            "store": 226
+            "store": 226,
+            "kiosk": "BPS/SBPS"
         },
-        "pk": 226
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 227,
         "fields": {
-            "kiosk": "VAL/SNVB",
-            "store": 227
+            "store": 227,
+            "kiosk": "VAL/SNVB"
         },
-        "pk": 227
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 228,
         "fields": {
-            "kiosk": "VDC/SBQV",
-            "store": 228
+            "store": 228,
+            "kiosk": "VDC/SBQV"
         },
-        "pk": 228
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 229,
         "fields": {
-            "kiosk": "TXF/SNTF",
-            "store": 229
+            "store": 229,
+            "kiosk": "TXF/SNTF"
         },
-        "pk": 229
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 230,
         "fields": {
-            "kiosk": "FOR/SBFZ",
-            "store": 230
+            "store": 230,
+            "kiosk": "FOR/SBFZ"
         },
-        "pk": 230
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 231,
         "fields": {
-            "kiosk": "Infram\u00e9rica",
-            "store": 231
+            "store": 231,
+            "kiosk": "Infram\u00e9rica"
         },
-        "pk": 231
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 232,
         "fields": {
-            "kiosk": "SBGO",
-            "store": 232
+            "store": 232,
+            "kiosk": "SBGO"
         },
-        "pk": 232
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 233,
         "fields": {
-            "kiosk": "CGB/SBCY",
-            "store": 233
+            "store": 233,
+            "kiosk": "CGB/SBCY"
         },
-        "pk": 233
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 234,
         "fields": {
-            "kiosk": "CGR/SBCG",
-            "store": 234
+            "store": 234,
+            "kiosk": "CGR/SBCG"
         },
-        "pk": 234
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 235,
         "fields": {
-            "kiosk": "SBPR",
-            "store": 235
+            "store": 235,
+            "kiosk": "SBPR"
         },
-        "pk": 235
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 236,
         "fields": {
-            "kiosk": "LDB/SBLO",
-            "store": 236
+            "store": 236,
+            "kiosk": "LDB/SBLO"
         },
-        "pk": 236
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 237,
         "fields": {
-            "kiosk": "CWB/SBCT",
-            "store": 237
+            "store": 237,
+            "kiosk": "CWB/SBCT"
         },
-        "pk": 237
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 238,
         "fields": {
-            "kiosk": "BFH/SBBI",
-            "store": 238
+            "store": 238,
+            "kiosk": "BFH/SBBI"
         },
-        "pk": 238
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 239,
         "fields": {
-            "kiosk": "IGU/SBFI",
-            "store": 239
+            "store": 239,
+            "kiosk": "IGU/SBFI"
         },
-        "pk": 239
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 240,
         "fields": {
-            "kiosk": "MGF/SBMG",
-            "store": 240
+            "store": 240,
+            "kiosk": "MGF/SBMG"
         },
-        "pk": 240
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 241,
         "fields": {
-            "kiosk": "PNZ/SBPL",
-            "store": 241
+            "store": 241,
+            "kiosk": "PNZ/SBPL"
         },
-        "pk": 241
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 242,
         "fields": {
-            "kiosk": "REC/SBRF",
-            "store": 242
+            "store": 242,
+            "kiosk": "REC/SBRF"
         },
-        "pk": 242
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 243,
         "fields": {
-            "kiosk": "FEN/SBFN",
-            "store": 243
+            "store": 243,
+            "kiosk": "FEN/SBFN"
         },
-        "pk": 243
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 244,
         "fields": {
-            "kiosk": "GIG/SBGL",
-            "store": 244
+            "store": 244,
+            "kiosk": "GIG/SBGL"
         },
-        "pk": 244
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 245,
         "fields": {
-            "kiosk": "Futuro",
-            "store": 245
+            "store": 245,
+            "kiosk": "Futuro"
         },
-        "pk": 245
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 246,
         "fields": {
-            "kiosk": "CAW/SBCP",
-            "store": 246
+            "store": 246,
+            "kiosk": "CAW/SBCP"
         },
-        "pk": 246
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 247,
         "fields": {
-            "kiosk": "MEA/SBME",
-            "store": 247
+            "store": 247,
+            "kiosk": "MEA/SBME"
         },
-        "pk": 247
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 248,
         "fields": {
-            "kiosk": "SDU/SBRJ",
-            "store": 248
+            "store": 248,
+            "kiosk": "SDU/SBRJ"
         },
-        "pk": 248
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 249,
         "fields": {
-            "kiosk": "SBJR",
-            "store": 249
+            "store": 249,
+            "kiosk": "SBJR"
         },
-        "pk": 249
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 250,
         "fields": {
-            "kiosk": "SDRS",
-            "store": 250
+            "store": 250,
+            "kiosk": "SDRS"
         },
-        "pk": 250
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 251,
         "fields": {
-            "kiosk": "SDAG",
-            "store": 251
+            "store": 251,
+            "kiosk": "SDAG"
         },
-        "pk": 251
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 252,
         "fields": {
-            "kiosk": "BZC/SBBZ",
-            "store": 252
+            "store": 252,
+            "kiosk": "BZC/SBBZ"
         },
-        "pk": 252
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 253,
         "fields": {
-            "kiosk": "ITP/SDUN",
-            "store": 253
+            "store": 253,
+            "kiosk": "ITP/SDUN"
         },
-        "pk": 253
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 254,
         "fields": {
-            "kiosk": "SDMC",
-            "store": 254
+            "store": 254,
+            "kiosk": "SDMC"
         },
-        "pk": 254
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 255,
         "fields": {
-            "kiosk": "QNV/SDNY",
-            "store": 255
+            "store": 255,
+            "kiosk": "QNV/SDNY"
         },
-        "pk": 255
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 256,
         "fields": {
-            "kiosk": "SDTK",
-            "store": 256
+            "store": 256,
+            "kiosk": "SDTK"
         },
-        "pk": 256
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 257,
         "fields": {
-            "kiosk": "SDSK",
-            "store": 257
+            "store": 257,
+            "kiosk": "SDSK"
         },
-        "pk": 257
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 258,
         "fields": {
-            "kiosk": "CFB/SBCB",
-            "store": 258
+            "store": 258,
+            "kiosk": "CFB/SBCB"
         },
-        "pk": 258
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 259,
         "fields": {
-            "kiosk": "FLN/SBFL",
-            "store": 259
+            "store": 259,
+            "kiosk": "FLN/SBFL"
         },
-        "pk": 259
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 260,
         "fields": {
-            "kiosk": "NVT/SBNF",
-            "store": 260
+            "store": 260,
+            "kiosk": "NVT/SBNF"
         },
-        "pk": 260
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 261,
         "fields": {
-            "kiosk": "JGR/SBJG",
-            "store": 261
+            "store": 261,
+            "kiosk": "JGR/SBJG"
         },
-        "pk": 261
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 262,
         "fields": {
-            "kiosk": "JOI/SBJV",
-            "store": 262
+            "store": 262,
+            "kiosk": "JOI/SBJV"
         },
-        "pk": 262
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 263,
         "fields": {
-            "kiosk": "CCM/SBCM",
-            "store": 263
+            "store": 263,
+            "kiosk": "CCM/SBCM"
         },
-        "pk": 263
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 264,
         "fields": {
-            "kiosk": "BNU/SSBL",
-            "store": 264
+            "store": 264,
+            "kiosk": "BNU/SSBL"
         },
-        "pk": 264
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 265,
         "fields": {
-            "kiosk": "CFC/SBCD",
-            "store": 265
+            "store": 265,
+            "kiosk": "CFC/SBCD"
         },
-        "pk": 265
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 266,
         "fields": {
-            "kiosk": "XAP/SBCH",
-            "store": 266
+            "store": 266,
+            "kiosk": "XAP/SBCH"
         },
-        "pk": 266
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 267,
         "fields": {
-            "kiosk": "CCI/SSCK",
-            "store": 267
+            "store": 267,
+            "kiosk": "CCI/SSCK"
         },
-        "pk": 267
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 268,
         "fields": {
-            "kiosk": "SSKU",
-            "store": 268
+            "store": 268,
+            "kiosk": "SSKU"
         },
-        "pk": 268
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 269,
         "fields": {
-            "kiosk": "SSDC",
-            "store": 269
+            "store": 269,
+            "kiosk": "SSDC"
         },
-        "pk": 269
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 270,
         "fields": {
-            "kiosk": "SSYT",
-            "store": 270
+            "store": 270,
+            "kiosk": "SSYT"
         },
-        "pk": 270
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 271,
         "fields": {
-            "kiosk": "JCB/SSJA",
-            "store": 271
+            "store": 271,
+            "kiosk": "JCB/SSJA"
         },
-        "pk": 271
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 272,
         "fields": {
-            "kiosk": "LAJ/SBLJ",
-            "store": 272
+            "store": 272,
+            "kiosk": "LAJ/SBLJ"
         },
-        "pk": 272
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 273,
         "fields": {
-            "kiosk": "SSLA",
-            "store": 273
+            "store": 273,
+            "kiosk": "SSLA"
         },
-        "pk": 273
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 274,
         "fields": {
-            "kiosk": "LOI/SSLN",
-            "store": 274
+            "store": 274,
+            "kiosk": "LOI/SSLN"
         },
-        "pk": 274
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 275,
         "fields": {
-            "kiosk": "QMF/SSMF",
-            "store": 275
+            "store": 275,
+            "kiosk": "QMF/SSMF"
         },
-        "pk": 275
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 276,
         "fields": {
-            "kiosk": "SSSS",
-            "store": 276
+            "store": 276,
+            "kiosk": "SSSS"
         },
-        "pk": 276
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 277,
         "fields": {
-            "kiosk": "SJQ/SSSQ",
-            "store": 277
+            "store": 277,
+            "kiosk": "SJQ/SSSQ"
         },
-        "pk": 277
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 278,
         "fields": {
-            "kiosk": "SQX/SSOE",
-            "store": 278
+            "store": 278,
+            "kiosk": "SQX/SSOE"
         },
-        "pk": 278
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 279,
         "fields": {
-            "kiosk": "SOO/SOO",
-            "store": 279
+            "store": 279,
+            "kiosk": "SOO/SOO"
         },
-        "pk": 279
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 280,
         "fields": {
-            "kiosk": "SSTB",
-            "store": 280
+            "store": 280,
+            "kiosk": "SSTB"
         },
-        "pk": 280
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 281,
         "fields": {
-            "kiosk": "VIA/SSVI",
-            "store": 281
+            "store": 281,
+            "kiosk": "VIA/SSVI"
         },
-        "pk": 281
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 282,
         "fields": {
-            "kiosk": "AXE/SSXX",
-            "store": 282
+            "store": 282,
+            "kiosk": "AXE/SSXX"
         },
-        "pk": 282
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 283,
         "fields": {
-            "kiosk": "GRU/SBGR",
-            "store": 283
+            "store": 283,
+            "kiosk": "GRU/SBGR"
         },
-        "pk": 283
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 284,
         "fields": {
-            "kiosk": "VCP/SBKP",
-            "store": 284
+            "store": 284,
+            "kiosk": "VCP/SBKP"
         },
-        "pk": 284
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 285,
         "fields": {
-            "kiosk": "MAE/SBMT",
-            "store": 285
+            "store": 285,
+            "kiosk": "MAE/SBMT"
         },
-        "pk": 285
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 286,
         "fields": {
-            "kiosk": "CGH/SBSP",
-            "store": 286
+            "store": 286,
+            "kiosk": "CGH/SBSP"
         },
-        "pk": 286
+        "model": "core.Kiosk"
     },
     {
-        "model": "core.Kiosk",
+        "pk": 287,
         "fields": {
-            "kiosk": "SJK/SBSJ",
-            "store": 287
+            "store": 287,
+            "kiosk": "SJK/SBSJ"
         },
-        "pk": 287
+        "model": "core.Kiosk"
     }
 ]

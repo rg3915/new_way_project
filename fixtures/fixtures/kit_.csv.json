@@ -1,23 +1,37 @@
 [
     {
-        "pk": 1,
         "fields": {
-            "kit": "F\u00e1brica"
+            "kit": "Fam\u00edlia"
         },
+        "pk": 1,
         "model": "core.Kit"
     },
     {
-        "pk": 2,
         "fields": {
             "kit": "Esportivo"
         },
+        "pk": 2,
         "model": "core.Kit"
     },
     {
-        "pk": 3,
         "fields": {
-            "kit": "Classic"
+            "kit": "Executivo"
         },
+        "pk": 3,
+        "model": "core.Kit"
+    },
+    {
+        "fields": {
+            "kit": "Infantil"
+        },
+        "pk": 4,
+        "model": "core.Kit"
+    },
+    {
+        "fields": {
+            "kit": "Especial"
+        },
+        "pk": 5,
         "model": "core.Kit"
     }
 ]

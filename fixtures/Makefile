@@ -16,11 +16,23 @@ modell:
 load_modell:
 	python ../manage.py loaddata fixtures/modelos_.csv.json
 
+accessory:
+	python csv2json.py fixtures/acessorios_.csv core.Accessory
+
+load_accessory:
+	python ../manage.py loaddata fixtures/acessorios_.csv.json
+
 kit:
 	python csv2json.py fixtures/kit_.csv core.Kit
 
 load_kit:
 	python ../manage.py loaddata fixtures/kit_.csv.json
+
+kitdetail:
+	python csv2json.py fixtures/kitdetail_.csv core.KitDetail
+
+load_kitdetail:
+	python ../manage.py loaddata fixtures/kitdetail_.csv.json
 
 vehicle:
 	python csv2json.py fixtures/veiculos_.csv core.Vehicle
@@ -68,6 +80,7 @@ load_users:
 	python ../manage.py loaddata fixtures/usuarios.csv.json
 
 ordered:
+	sqlite3 ../new_way/db.sqlite3 < delete_ordered.sql
 	python gen_ordered_csv.py
 	python csv2json.py fixtures/pedidos.csv core.Ordered
 
@@ -77,4 +90,4 @@ load_ordered:
 clear_json:
 	rm fixtures/*.json
 
-load_fixtures: dealership load_dealership occupation load_occupation ordered load_users employee load_employee customer load_customer brand load_brand modell load_modell kit load_kit vehicle load_vehicle store load_store kiosk load_kiosk ordered load_ordered
+load_fixtures: dealership load_dealership occupation load_occupation load_users employee load_employee customer load_customer brand load_brand modell load_modell accessory load_accessory kit load_kit kitdetail load_kitdetail vehicle load_vehicle store load_store kiosk load_kiosk ordered load_ordered

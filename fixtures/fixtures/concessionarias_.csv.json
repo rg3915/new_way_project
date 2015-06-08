@@ -1,2482 +1,2482 @@
 [
     {
         "fields": {
+            "phone1": "(11) 7522-3631",
             "complement": "",
             "dealership": "Auto Green",
+            "phone2": "(11) 1681-9170",
+            "site": "www.greenautomoveis.com.br",
             "district": "Tatuap\u00e9",
+            "cep": "03323-040",
             "phone3": "(11) 2055-1367",
             "city": "S\u00e3o Paulo",
-            "cep": "03323-040",
-            "address": "Rua Coelho Lisboa, 574",
-            "phone1": "(11) 7522-3631",
             "uf": "SP",
-            "site": "http://www.greenautomoveis.com.br/",
-            "phone2": "(11) 1681-9170"
+            "address": "Rua Coelho Lisboa, 574"
         },
         "pk": 1,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9611-9796",
             "complement": "",
             "dealership": "Biscayne",
+            "phone2": "(11) 4158-1979",
+            "site": "www.biscayne.com.br",
             "district": "Indian\u00f3polis",
+            "cep": "04062-000",
             "phone3": "(11) 4563-0780",
             "city": "S\u00e3o Paulo",
-            "cep": "04062-000",
-            "address": "Av. Indian\u00f3polis, 100",
-            "phone1": "(11) 9611-9796",
             "uf": "SP",
-            "site": "http://www.biscayne.com.br",
-            "phone2": "(11) 4158-1979"
+            "address": "Av. Indian\u00f3polis, 100"
         },
         "pk": 2,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7201-9247",
             "complement": "",
             "dealership": "Caltabiano",
+            "phone2": "(11) 7237-8194",
+            "site": "www.caltabiano.com.br",
             "district": "Barra Funda",
+            "cep": "01155-000",
             "phone3": "(11) 9053-0131",
             "city": "S\u00e3o Paulo",
-            "cep": "01155-000",
-            "address": "Av. Pacaemb\u00fa, 380",
-            "phone1": "(11) 7201-9247",
             "uf": "SP",
-            "site": "http://www.caltabiano.com.br",
-            "phone2": "(11) 7237-8194"
+            "address": "Av. Pacaemb\u00fa, 380"
         },
         "pk": 3,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9559-5934",
             "complement": "",
             "dealership": "Caraig\u00e1",
+            "phone2": "(11) 2495-5671",
+            "site": "www.caraiga.com.br",
             "district": "Morumbi",
+            "cep": "00568-602",
             "phone3": "(11) 8299-0334",
             "city": "S\u00e3o Paulo",
-            "cep": "00568-602",
-            "address": "Av. Ulisses Reis de Matos, 100",
-            "phone1": "(11) 9559-5934",
             "uf": "SP",
-            "site": "http://www.caraiga.com.br",
-            "phone2": "(11) 2495-5671"
+            "address": "Av. Ulisses Reis de Matos, 100"
         },
         "pk": 4,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4143-2009",
             "complement": "",
             "dealership": "Itavema",
+            "phone2": "(11) 5710-6474",
+            "site": "www.itavema.com.br",
             "district": "Moema",
+            "cep": "04074-030",
             "phone3": "(11) 5978-7070",
             "city": "S\u00e3o Paulo",
-            "cep": "04074-030",
-            "address": "Av. Moreira Guimar\u00e3es, 367",
-            "phone1": "(11) 4143-2009",
             "uf": "SP",
-            "site": "http://www.itavema.com.br",
-            "phone2": "(11) 5710-6474"
+            "address": "Av. Moreira Guimar\u00e3es, 367"
         },
         "pk": 5,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7730-2797",
             "complement": "",
             "dealership": "Santa Luiza",
+            "phone2": "(11) 1343-6036",
+            "site": "www.santaluiza.com.br",
             "district": "Vila Mariana",
+            "cep": "04127-001",
             "phone3": "(11) 6737-4899",
             "city": "S\u00e3o Paulo",
-            "cep": "04127-001",
-            "address": "Rua Padre Machado, 68",
-            "phone1": "(11) 7730-2797",
             "uf": "SP",
-            "site": "http://www.santaluiza.com.br",
-            "phone2": "(11) 1343-6036"
+            "address": "Rua Padre Machado, 68"
         },
         "pk": 6,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4926-2777",
             "complement": "",
             "dealership": "Aurovel",
-            "district": "",
+            "phone2": "",
+            "site": "www.example.com",
+            "district": "Centro",
+            "cep": "05835-005",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05835-005",
-            "address": "Est Itapecerica, 2925",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Est Itapecerica, 2925"
         },
         "pk": 7,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7416-4083",
             "complement": "",
             "dealership": "Agulhas Negras Vila Mariana",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Mariana",
+            "cep": "04008-090",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04008-090",
-            "address": "Av 23 de Maio, 3041",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av 23 de Maio, 3041"
         },
         "pk": 8,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 3580-5929",
             "complement": "",
             "dealership": "Autostar Jardim Europa",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Am\u00e9rica",
+            "cep": "01438-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "01438-001",
-            "address": "Rua Col\u00f4mbia, 810",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Col\u00f4mbia, 810"
         },
         "pk": 9,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1219-2283",
             "complement": "",
             "dealership": "Audi Center Pinheiros",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Pinheiros",
+            "cep": "05420-002",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05420-002",
-            "address": "Av Pedroso de Morais, 1552",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Pedroso de Morais, 1552"
         },
         "pk": 10,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 6650-4130",
             "complement": "",
             "dealership": "Audi Center Vila Olimpia",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Ol\u00edmpia",
+            "cep": "04553-010",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04553-010",
-            "address": "Av Dos Bandeirantes, 1729",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av dos Bandeirantes, 1729"
         },
         "pk": 11,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 6609-3167",
             "complement": "",
             "dealership": "Alricar Autom\u00f3veis",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila R\u00e9",
+            "cep": "03658-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03658-000",
-            "address": "Rua Itingu\u00e7u, 1288",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Itingu\u00e7u, 1288"
         },
         "pk": 12,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2509-2261",
             "complement": "",
             "dealership": "Autostar Morumbi",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Santo Amaro",
+            "cep": "04703-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04703-000",
-            "address": "Av Morumbi, 7600",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Morumbi, 7600"
         },
         "pk": 13,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 3739-8266",
             "complement": "",
             "dealership": "Autostar Morumbi",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Morumbi",
+            "cep": "05650-002",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05650-002",
-            "address": "Av Morumbi, 6989",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Morumbi, 6989"
         },
         "pk": 14,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 5926-8345",
             "complement": "",
             "dealership": "Autostar Butant\u00e3",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Butant\u00e3",
+            "cep": "05512-200",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05512-200",
-            "address": "Av Prof Francisco Morato, 1706",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Prof Francisco Morato, 1706"
         },
         "pk": 15,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 8220-4871",
             "complement": "",
             "dealership": "Autostar Morumbi",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Morumbi",
+            "cep": "05651-002",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05651-002",
-            "address": "Av Giovanni Gronchi, 2911",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Giovanni Gronchi, 2911"
         },
         "pk": 16,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1951-3839",
             "complement": "",
             "dealership": "Autostar Europa",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Europa",
+            "cep": "01449-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "01449-000",
-            "address": "Av Europa, 725",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Europa, 725"
         },
         "pk": 17,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7782-4217",
             "complement": "",
             "dealership": "Audi Center Jardins",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Am\u00e9rica",
+            "cep": "01438-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "01438-001",
-            "address": "Rua Col\u00f4mbia, 659",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Col\u00f4mbia, 659"
         },
         "pk": 18,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1788-1159",
             "complement": "",
             "dealership": "AZ Com\u00e9rcio de Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Petr\u00f3polis",
+            "cep": "04636-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04636-000",
-            "address": "Av Prof Vicente R\u00e1o, 915",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Prof Vicente R\u00e1o, 915"
         },
         "pk": 19,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0170-2221",
             "complement": "",
             "dealership": "Audi Center SP Norte",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Casa Verde",
+            "cep": "02511-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02511-000",
-            "address": "Av Braz Leme, 268",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Braz Leme, 268"
         },
         "pk": 20,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 3795-7474",
             "complement": "",
             "dealership": "Autostar Vila Ol\u00edmpia",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Ol\u00edmpia",
+            "cep": "04547-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04547-001",
-            "address": "Rua Gomes de Carvalho, 421",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Gomes de Carvalho, 421"
         },
         "pk": 21,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4728-6285",
             "complement": "",
             "dealership": "Autostar",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Marajoara",
+            "cep": "04660-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04660-001",
-            "address": "InterlagosAv Interlagos, 1550",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "InterlagosAv Interlagos, 1550"
         },
         "pk": 22,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2825-1143",
             "complement": "",
             "dealership": "Audi Center Morumbi",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Real Parque",
+            "cep": "05686-020",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05686-020",
-            "address": "Rua Ulysses Reis de Mattos, 100",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Ulysses Reis de Mattos, 100"
         },
         "pk": 23,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4428-8912",
             "complement": "",
             "dealership": "Autostar Santo Amaro",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Almeida",
+            "cep": "04795-100",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04795-100",
-            "address": "Av das Na\u00e7\u00f5es Unidas, 17471",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av das Na\u00e7\u00f5es Unidas, 17471"
         },
         "pk": 24,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0004-3677",
             "complement": "",
             "dealership": "A Alves Sa Ind\u00fastria e Com\u00e9rcio",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim S\u00e3o Lu\u00eds",
+            "cep": "05804-925",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05804-925",
-            "address": "Avenida Maria Coelho Aguiar, 215",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Maria Coelho Aguiar, 215"
         },
         "pk": 25,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0863-5804",
             "complement": "lj 26",
             "dealership": "A B Bortoloti Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Alto de Pinheiros",
+            "cep": "05307-085",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05307-085",
-            "address": "Avenida das Na\u00e7\u00f5es Unidas, 22540",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida das Na\u00e7\u00f5es Unidas, 22540"
         },
         "pk": 26,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2849-0695",
             "complement": "",
             "dealership": "A Casa do Escolar Com\u00e9rcio de Vans e Mic",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Ivone",
+            "cep": "03282-035",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03282-035",
-            "address": "Rua Manoel Jos\u00e9 Viana, 94",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Manoel Jos\u00e9 Viana, 94"
         },
         "pk": 27,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 5759-4886",
             "complement": "",
             "dealership": "A Cruz Comercial",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Santa Terezinha",
+            "cep": "02460-070",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02460-070",
-            "address": "Rua Dona Maria Cust\u00f3dia, 319",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Dona Maria Cust\u00f3dia, 319"
         },
         "pk": 28,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4516-6900",
             "complement": "",
             "dealership": "A F C Com\u00e9rcio de Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Socorro",
+            "cep": "04768-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04768-000",
-            "address": "Avenida Robert Kennedy, 188",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Robert Kennedy, 188"
         },
         "pk": 29,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9170-6725",
             "complement": "",
             "dealership": "Primo's Car",
-            "district": "",
+            "phone2": "",
+            "site": "www.example.com",
+            "district": "Lim\u00e3o",
+            "cep": "00000-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "00000-000",
-            "address": "Av Eng Caetano Alvares, 3916",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Eng Caetano Alvares, 3916"
         },
         "pk": 30,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 5772-0874",
             "complement": "",
             "dealership": "FIAT Amazonas Mor V",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Santo Amaro",
+            "cep": "04703-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04703-000",
-            "address": "Av Morumbi, 7766",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Morumbi, 7766"
         },
         "pk": 31,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 3489-2094",
             "complement": "",
             "dealership": "JB Autom\u00f3veis",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Brasil",
+            "cep": "00000-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "00000-000",
-            "address": "Av Roland Garros, 1853",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Roland Garros, 1853"
         },
         "pk": 32,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 8469-0719",
             "complement": "",
             "dealership": "FIAT Amazonas Nazar\u00e9",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Ipiranga",
+            "cep": "04262-200",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04262-200",
-            "address": "Av Nazar\u00e9, 1070",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Nazar\u00e9, 1070"
         },
         "pk": 33,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0295-1236",
             "complement": "",
             "dealership": "Rakki Com\u00e9rcio Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Almeida",
+            "cep": "04795-100",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04795-100",
-            "address": "Avenida das Nacoes Unidas, 19667",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida das Nacoes Unidas, 19667"
         },
         "pk": 34,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2235-6102",
             "complement": "",
             "dealership": "Kia Kivel Showroom",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Guilherme",
+            "cep": "02170-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02170-000",
-            "address": "Av Morvan Dias de Figueiredo, 1175",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Morvan Dias de Figueiredo, 1175"
         },
         "pk": 35,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 5020-4525",
             "complement": "",
             "dealership": "Hyundai CAOA Anhaia Mello",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Avelino",
+            "cep": "03154-100",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03154-100",
-            "address": "Av Prof Luiz Ign\u00e1cio Anhaia Mello, 2560",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Prof Luiz Ign\u00e1cio Anhaia Mello, 2560"
         },
         "pk": 36,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1468-9651",
             "complement": "",
             "dealership": "Hyundai CAOA Jabaquara",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Mirand\u00f3polis",
+            "cep": "04045-003",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04045-003",
-            "address": "Av Jabaquara, 2177",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Jabaquara, 2177"
         },
         "pk": 37,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 3759-7865",
             "complement": "",
             "dealership": "Hyundai CAOA Radial Leste",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Belenzinho",
+            "cep": "03163-050",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03163-050",
-            "address": "P\u00e7 Br de Tiet\u00ea, 115",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "P\u00e7 Br de Tiet\u00ea, 115"
         },
         "pk": 38,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7158-3830",
             "complement": "",
             "dealership": "Kia Kivel Oficina",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Nossa Senhora do \u00d3",
+            "cep": "02901-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02901-000",
-            "address": "Av Otaviano Alves de Lima, 3972",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Otaviano Alves de Lima, 3972"
         },
         "pk": 39,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 8009-4404",
             "complement": "",
-            "dealership": "Caltabiano",
+            "dealership": "Caltabiano Centro",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Barra Funda",
+            "cep": "01155-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "01155-000",
-            "address": "Av Pacaembu, 380",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Pacaembu, 380"
         },
         "pk": 40,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0640-8351",
             "complement": "",
             "dealership": "Divena Concession\u00e1ria",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Firmiano Pinto",
+            "cep": "04123-030",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04123-030",
-            "address": "Av Dr Ricardo Jafet, 2419",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Dr Ricardo Jafet, 2419"
         },
         "pk": 41,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0860-4961",
             "complement": "",
             "dealership": "Peugeot Paris Santa Cec\u00edlia",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Campos El\u00edseos",
+            "cep": "01205-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "01205-001",
-            "address": "Av Rio Branco, 1457",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Rio Branco, 1457"
         },
         "pk": 42,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7775-6586",
             "complement": "",
             "dealership": "Gep\u00ea Automoveis Ltda. Matriz",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Idepend\u00eancia",
+            "cep": "03294-100",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03294-100",
-            "address": "Av Prof\u00ba Luiz Ignacio Anhaia Mello, 4470",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Prof\u00ba Luiz Ignacio Anhaia Mello, 4470"
         },
         "pk": 43,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1626-0705",
             "complement": "",
             "dealership": "Caltabiano Alameda Olga",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Barra Funda",
+            "cep": "01155-040",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "01155-040",
-            "address": "Al Olga, 259",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Al Olga, 259"
         },
         "pk": 44,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4275-0870",
             "complement": "",
             "dealership": "Hyundai CAOA Ceasa",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Leopoldina",
+            "cep": "05314-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05314-000",
-            "address": "Av Dr Gast\u00e3o Vidigal, 1595",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Dr Gast\u00e3o Vidigal, 1595"
         },
         "pk": 45,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 6674-0839",
             "complement": "",
             "dealership": "Hyundai CAOA Cl\u00e9lia",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "\u00c1gua Branca",
+            "cep": "05042-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05042-000",
-            "address": "Rua Cl\u00e9lia, 1000",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Cl\u00e9lia, 1000"
         },
         "pk": 46,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0813-4997",
             "complement": "",
             "dealership": "Peugeot Pavillon Lapa",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "\u00c1gua Branca",
+            "cep": "05038-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05038-000",
-            "address": "Av Ermano Marchetti, 596",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Ermano Marchetti, 596"
         },
         "pk": 47,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 8229-0266",
             "complement": "",
             "dealership": "Concession\u00e1ria Citroen Itavema",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Carr\u00e3o",
+            "cep": "03402-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03402-001",
-            "address": "Av Conselheiro Carr\u00e3o, 1306",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Conselheiro Carr\u00e3o, 1306"
         },
         "pk": 48,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 6466-2684",
             "complement": "",
             "dealership": "Itavema France Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Leopoldina",
+            "cep": "05314-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05314-000",
-            "address": "Avenida Doutor Gast\u00e3o Vidigal, 300",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Doutor Gast\u00e3o Vidigal, 300"
         },
         "pk": 49,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2166-8654",
             "complement": "",
             "dealership": "Kia Stern Jardins",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Am\u00e9rica",
+            "cep": "01438-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "01438-000",
-            "address": "Rua Col\u00f4mbia, 368",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Col\u00f4mbia, 368"
         },
         "pk": 50,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0349-6483",
             "complement": "",
             "dealership": "Ford Sonnervig --- Concession\u00e1ria Ford",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Santana",
+            "cep": "02029-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02029-001",
-            "address": "SpR Zaki Narchi, 1185",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "SpR Zaki Narchi, 1185"
         },
         "pk": 51,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1103-6365",
             "complement": "",
             "dealership": "AZ Com\u00e9rcio de Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Petr\u00f3polis",
+            "cep": "04636-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04636-000",
-            "address": "Av Prof Vicente R\u00e1o, 915",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Prof Vicente R\u00e1o, 915"
         },
         "pk": 52,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1491-2914",
             "complement": "",
             "dealership": "Dalila Autom\u00f3veis",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Santo Elias",
+            "cep": "05110-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05110-000",
-            "address": "Avenida Mutinga, 5654",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Mutinga, 5654"
         },
         "pk": 53,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7270-4712",
             "complement": "",
             "dealership": "Divena Concession\u00e1ria",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Firmiano Pinto",
+            "cep": "04123-030",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04123-030",
-            "address": "Av Dr Ricardo Jafet, 2419",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Dr Ricardo Jafet, 2419"
         },
         "pk": 54,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9403-3224",
             "complement": "S 005",
             "dealership": "Dafra Motos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Aricanduva",
+            "cep": "03527-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03527-000",
-            "address": "Av Aricanduva, 5555",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Aricanduva, 5555"
         },
         "pk": 55,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4504-3280",
             "complement": "",
             "dealership": "Divena Ipiranga",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Firmiano Pinto",
+            "cep": "04123-030",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04123-030",
-            "address": "Av Dr Ricardo Jafet, 2419",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Dr Ricardo Jafet, 2419"
         },
         "pk": 56,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 5060-4382",
             "complement": "",
             "dealership": "Divena Chrysler Concession\u00e1ria Chrysler",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Firmiano Pinto",
+            "cep": "04123-030",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04123-030",
-            "address": "Av Dr Ricardo Jafet, 2419",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Dr Ricardo Jafet, 2419"
         },
         "pk": 57,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 8732-5525",
             "complement": "lj 12",
             "dealership": "Diadel Comercial e Locadora de Ve\u00edculo",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Mariana",
+            "cep": "04102-002",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04102-002",
-            "address": "Rua Vergueiro, 5002",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Vergueiro, 5002"
         },
         "pk": 58,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 8491-2786",
             "complement": "",
             "dealership": "Divena Mercedes Concession\u00e1ria Mercedes-benz",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Ipiranga",
+            "cep": "00000-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "00000-000",
-            "address": "Av Dr Ricardo Jafet, 2419",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Dr Ricardo Jafet, 2419"
         },
         "pk": 59,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9439-7988",
             "complement": "",
             "dealership": "Divena Oficina Mo\u00eamia Indian\u00f3polis",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Indian\u00f3polis",
+            "cep": "04086-011",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04086-011",
-            "address": "Av das Carinas, 656",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av das Carinas, 656"
         },
         "pk": 60,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7315-1907",
             "complement": "",
             "dealership": "Diesel Vans e Utilitarios",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Graciosa",
+            "cep": "03295-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03295-000",
-            "address": "Av Prof Luiz Ign\u00e1cio Anhaia Mello, 4215",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Prof Luiz Ign\u00e1cio Anhaia Mello, 4215"
         },
         "pk": 61,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0404-8568",
             "complement": "",
             "dealership": "Divena 23 de Maio Vila Mariana",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Mariana",
+            "cep": "04008-010",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04008-010",
-            "address": "Rua Joinville, 399",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Joinville, 399"
         },
         "pk": 62,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 6407-6506",
             "complement": "",
             "dealership": "Devin Autom\u00f3veis Ltda Me",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Esperan\u00e7a",
+            "cep": "03649-040",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03649-040",
-            "address": "R Cumai, 122",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "R Cumai, 122"
         },
         "pk": 63,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4582-1854",
             "complement": "",
             "dealership": "Discovel",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Cotia",
+            "cep": "00000-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "00000-000",
-            "address": "Rod Raposo Tavares, 1",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rod Raposo Tavares, 1"
         },
         "pk": 64,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1353-3450",
             "complement": "",
             "dealership": "D F Com\u00e9rcio de Autom\u00f3veis",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Ivone",
+            "cep": "03282-010",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03282-010",
-            "address": "Rua Joaquim Pinheiro, 109",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Joaquim Pinheiro, 109"
         },
         "pk": 65,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2888-3467",
             "complement": "",
             "dealership": "D P G Autom\u00f3veis Com\u00e9rcio e Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Socorro",
+            "cep": "04768-200",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04768-200",
-            "address": "Avenida Robert Kennedy, 1685",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Robert Kennedy, 1685"
         },
         "pk": 66,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0779-6002",
             "complement": "",
             "dealership": "D R D Car Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Belenzinho",
+            "cep": "03302-020",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03302-020",
-            "address": "Viaduto Pires do Rio, 2666",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Viaduto Pires do Rio, 2666"
         },
         "pk": 67,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 5172-0353",
             "complement": "",
             "dealership": "D&J Com\u00e9rcio de Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "S\u00e3o Miguel Paulista",
+            "cep": "08022-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "08022-000",
-            "address": "Avenida Marechal Tito, 2788",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Marechal Tito, 2788"
         },
         "pk": 68,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 8779-5563",
             "complement": "qd B lt 25",
             "dealership": "D0mavel Multi Marcas C0merci0 de Veicul0",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Norma",
+            "cep": "08070-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "08070-000",
-            "address": "Avenida S\u00e3o Miguel, 9129",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida S\u00e3o Miguel, 9129"
         },
         "pk": 69,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2656-2861",
             "complement": "",
             "dealership": "D2 Multimarcas",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Engenheiro Goulart",
+            "cep": "03717-004",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03717-004",
-            "address": "Avenida Doutor Assis Ribeiro, 3668",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Doutor Assis Ribeiro, 3668"
         },
         "pk": 70,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9528-4125",
             "complement": "",
             "dealership": "Da Luz Ve\u00edculos Multimarca",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Maracan\u00e3",
+            "cep": "05835-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05835-001",
-            "address": "Estrada Velha de Itapecerica, 2533",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Estrada Velha de Itapecerica, 2533"
         },
         "pk": 71,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 5881-1457",
             "complement": "",
             "dealership": "Dahruj Motors",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Ponte Pequena",
+            "cep": "02012-010",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02012-010",
-            "address": "Avenida Santos Dumont, 2260",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Santos Dumont, 2260"
         },
         "pk": 72,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 8183-3744",
             "complement": "",
             "dealership": "Dahruj Motors",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim S\u00e3o Lu\u00eds",
+            "cep": "05804-925",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05804-925",
-            "address": "Avenida Maria Coelho Aguiar, 215",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Maria Coelho Aguiar, 215"
         },
         "pk": 73,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9653-9584",
             "complement": "",
             "dealership": "Daisy Cruz da Silva Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Central",
+            "cep": "03263-080",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03263-080",
-            "address": "Rua Sert\u00e3o do Cariri, 215",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Sert\u00e3o do Cariri, 215"
         },
         "pk": 74,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 5101-9547",
             "complement": "",
             "dealership": "Daitan Com\u00e9rcio de Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Ipiranga",
+            "cep": "04206-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04206-000",
-            "address": "Rua Agostinho Gomes, 314",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Agostinho Gomes, 314"
         },
         "pk": 75,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 8454-7709",
             "complement": "",
             "dealership": "Daitan Com\u00e9rcio de Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "\u00c1gua Branca",
+            "cep": "05033-070",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05033-070",
-            "address": "Rua Carlos Vicari, 154",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Carlos Vicari, 154"
         },
         "pk": 76,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1011-6833",
             "complement": "",
             "dealership": "Hyundai CAOA Anhaia Mello",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Avelino",
+            "cep": "03154-100",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03154-100",
-            "address": "Av Prof Luiz Ign\u00e1cio Anhaia Mello, 2560",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Prof Luiz Ign\u00e1cio Anhaia Mello, 2560"
         },
         "pk": 77,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 5079-6439",
             "complement": "",
             "dealership": "Hyundai CAOA Jabaquara",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Mirand\u00f3polis",
+            "cep": "04045-003",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04045-003",
-            "address": "Av Jabaquara, 2177",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Jabaquara, 2177"
         },
         "pk": 78,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2934-5938",
             "complement": "",
             "dealership": "Hyundai CAOA Radial Leste",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Belenzinho",
+            "cep": "03163-050",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03163-050",
-            "address": "P\u00e7 Br de Tiet\u00ea, 115",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "P\u00e7 Br de Tiet\u00ea, 115"
         },
         "pk": 79,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 3948-4272",
             "complement": "",
             "dealership": "Hyundai CAOA Fac\u00f3",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Arc\u00e1dia",
+            "cep": "02924-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02924-000",
-            "address": "Av Gal Edgar Faco, 836",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Gal Edgar Faco, 836"
         },
         "pk": 80,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4440-1103",
             "complement": "",
             "dealership": "Hyundai CAOA Tatuap\u00e9",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Gomes Cardim",
+            "cep": "03309-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03309-001",
-            "address": "Rua Serra do Japi, 1249",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Serra do Japi, 1249"
         },
         "pk": 81,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2160-3570",
             "complement": "",
             "dealership": "Hyundai CAOA Morumbi",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Londrina",
+            "cep": "05640-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05640-000",
-            "address": "Av Dr Guilherme Dumont Villares, 249",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Dr Guilherme Dumont Villares, 249"
         },
         "pk": 82,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 3161-5070",
             "complement": "",
             "dealership": "Hyundai CAOA Ibirapuera",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Indian\u00f3polis",
+            "cep": "04028-002",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04028-002",
-            "address": "Av Ibirapuera, 2822",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Ibirapuera, 2822"
         },
         "pk": 83,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4759-2228",
             "complement": "",
             "dealership": "Honda Daitan Pomp\u00e9ia",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Perdizes",
+            "cep": "05016-110",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05016-110",
-            "address": "Av Sumar\u00e9, 1421",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Sumar\u00e9, 1421"
         },
         "pk": 84,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 3195-3902",
             "complement": "",
             "dealership": "Honda Japauto Vila Maria",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Maria",
+            "cep": "02121-020",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02121-020",
-            "address": "Rua Da G\u00e1vea, 921",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Da G\u00e1vea, 921"
         },
         "pk": 85,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9817-8438",
             "complement": "",
             "dealership": "Honda Daitan Ibirapuera",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Indian\u00e1polis",
+            "cep": "04028-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04028-000",
-            "address": "Av Ibirapuera, 2771",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Ibirapuera, 2771"
         },
         "pk": 86,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7029-2328",
             "complement": "",
             "dealership": "Honda Motos Projeto H",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Aricanduva",
+            "cep": "03527-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03527-000",
-            "address": "Av Aricanduva, 5555",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Aricanduva, 5555"
         },
         "pk": 87,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1233-8445",
             "complement": "",
             "dealership": "Honda Japauto Pirituba",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Barreto",
+            "cep": "02937-040",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02937-040",
-            "address": "Rua Guerino Giovani Leardini, 346",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Guerino Giovani Leardini, 346"
         },
         "pk": 88,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7168-3064",
             "complement": "",
             "dealership": "Honda Japauto Santo Amaro",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Santo Amaro",
+            "cep": "04723-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04723-001",
-            "address": "Av Jo\u00e3o Dias, 1313",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Jo\u00e3o Dias, 1313"
         },
         "pk": 89,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 6439-9995",
             "complement": "",
             "dealership": "Hyundai CAOA Norte",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Santana",
+            "cep": "02013-020",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02013-020",
-            "address": "Rua Fernando Sandreschi, 137",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Fernando Sandreschi, 137"
         },
         "pk": 90,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4134-4487",
             "complement": "",
             "dealership": "Honda Delaer Berrini",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Brooklin Novo",
+            "cep": "04571-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04571-000",
-            "address": "Av Eng Lu\u00eds Carlos Berrini, 1919",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Eng Lu\u00eds Carlos Berrini, 1919"
         },
         "pk": 91,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2312-8020",
             "complement": "",
             "dealership": "Hyundai CAOA Braz Leme",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Casa Verde",
+            "cep": "02511-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02511-000",
-            "address": "Av Braz Leme, 410",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Braz Leme, 410"
         },
         "pk": 92,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1672-4092",
             "complement": "",
             "dealership": "Hyundai CAOA Berrini",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Santo Amaro",
+            "cep": "04703-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04703-000",
-            "address": "Av Morumbi, 7554",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Morumbi, 7554"
         },
         "pk": 93,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 8911-8086",
             "complement": "",
             "dealership": "Hyundai CAOA JK",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Nova Concei\u00e7\u00e3o",
+            "cep": "04543-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04543-000",
-            "address": "Av Pres Juscelino Kubitschek, 1593",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Pres Juscelino Kubitschek, 1593"
         },
         "pk": 94,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1707-3050",
             "complement": "",
             "dealership": "Honda Andr\u00e9 Ribeiro",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Aricanduva",
+            "cep": "03527-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03527-000",
-            "address": "Av Aricanduva, 5555",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Aricanduva, 5555"
         },
         "pk": 95,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 3373-4820",
             "complement": "Loja 2",
             "dealership": "Hyundai CAOA Jo\u00e3o Dias",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Santo Amaro",
+            "cep": "04723-003",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04723-003",
-            "address": "Av Jo\u00e3o Dias, 2137",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Jo\u00e3o Dias, 2137"
         },
         "pk": 96,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0701-5590",
             "complement": "",
             "dealership": "Hyundai CAOA Raposo",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Adhemar de Barros",
+            "cep": "05577-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05577-000",
-            "address": "Rod Raposo Tavares, 1",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rod Raposo Tavares, 1"
         },
         "pk": 97,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 8217-5118",
             "complement": "",
             "dealership": "Honda Japauto Itaim Paulista",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Itaim Paulista",
+            "cep": "08115-100",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "08115-100",
-            "address": "Av Mal Tito, 7003",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Mal Tito, 7003"
         },
         "pk": 98,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 6124-3050",
             "complement": "",
             "dealership": "Hyundai CAOA Interlagos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Socorro",
+            "cep": "04768-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04768-000",
-            "address": "Rua Atl\u00e2ntica, 179",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Atl\u00e2ntica, 179"
         },
         "pk": 99,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 5485-6360",
             "complement": "",
             "dealership": "Hyundai CAOA Colombia",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Am\u00e9rica",
+            "cep": "01438-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "01438-001",
-            "address": "Rua Col\u00f4mbia, 652",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Col\u00f4mbia, 652"
         },
         "pk": 100,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 6567-7868",
             "complement": "S 014/7",
             "dealership": "Peugeot Aquitaine",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Aricanduva",
+            "cep": "03527-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03527-000",
-            "address": "Av Aricanduva, 5555",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Aricanduva, 5555"
         },
         "pk": 101,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4718-7475",
             "complement": "",
             "dealership": "Proauto Concessionaria Suzuki",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Perdizes",
+            "cep": "05016-090",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05016-090",
-            "address": "Av Sumar\u00e9, 741",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Sumar\u00e9, 741"
         },
         "pk": 102,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2372-2030",
             "complement": "",
             "dealership": "Prime Brooklin",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Morumbi",
+            "cep": "05650-002",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05650-002",
-            "address": "Av Morumbi, 6843",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Morumbi, 6843"
         },
         "pk": 103,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 8113-0712",
             "complement": "",
             "dealership": "Paulista Automoveis",
-            "district": "",
+            "phone2": "",
+            "site": "www.example.com",
+            "district": "Tatuap\u00e9",
+            "cep": "03063-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03063-000",
-            "address": "Av Celso Garcia, 3721",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Celso Garcia, 3721"
         },
         "pk": 104,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 8486-5574",
             "complement": "",
             "dealership": "Peugeot Aquitaine Morumbi",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Morumbi",
+            "cep": "05512-100",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05512-100",
-            "address": "Av Prof Francisco Morato, 1092",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Prof Francisco Morato, 1092"
         },
         "pk": 105,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2423-2316",
             "complement": "",
             "dealership": "Paulinvel Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Indian\u00e1polis",
+            "cep": "04028-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04028-000",
-            "address": "Avenida Ibirapuera, 2400",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Ibirapuera, 2400"
         },
         "pk": 106,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 6576-9140",
             "complement": "",
             "dealership": "Peugeot Paris Vila Leopoldina",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Leopoldina",
+            "cep": "05314-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05314-000",
-            "address": "Av Dr Gast\u00e3o Vidigal, 741",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Dr Gast\u00e3o Vidigal, 741"
         },
         "pk": 107,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2040-0589",
             "complement": "",
             "dealership": "Peugeot Aquitaine Morumbi",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Instituto de Previd\u00eancia",
+            "cep": "05514-010",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05514-010",
-            "address": "P\u00e7 Paula Moreira, 106",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "P\u00e7 Paula Moreira, 106"
         },
         "pk": 108,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2887-9726",
             "complement": "",
             "dealership": "Prime Tatuap\u00e9",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim An\u00e1lia Franco",
+            "cep": "03337-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03337-000",
-            "address": "Rua Eleonora Cintra, 530",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Eleonora Cintra, 530"
         },
         "pk": 109,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2858-6439",
             "complement": "",
             "dealership": "Pequim Veiculos Edgar Fac\u00f3",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Arc\u00e1dia",
+            "cep": "02924-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02924-000",
-            "address": "Avenida General Edgar Faco, 1137",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida General Edgar Faco, 1137"
         },
         "pk": 110,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4885-8673",
             "complement": "",
             "dealership": "Peugeot Pavillon Mirim",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Imirim",
+            "cep": "02413-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02413-000",
-            "address": "Av Eng Caetano \u00c1lvares, 3891",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Eng Caetano \u00c1lvares, 3891"
         },
         "pk": 111,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9388-3337",
             "complement": "",
             "dealership": "Peugeot Pavillon Lapa",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "\u00c1gua Branca",
+            "cep": "05038-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05038-000",
-            "address": "Av Ermano Marchetti, 596",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Ermano Marchetti, 596"
         },
         "pk": 112,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 6354-7909",
             "complement": "",
             "dealership": "Peugeot Paris Santa Cec\u00edlia",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Campos El\u00edseos",
+            "cep": "01205-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "01205-001",
-            "address": "Av Rio Branco, 1457",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Rio Branco, 1457"
         },
         "pk": 113,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7196-8439",
             "complement": "",
             "dealership": "Peugeot-citroen do Brasil Automoveis Ltda",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Campo Belo",
+            "cep": "04615-002",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04615-002",
-            "address": "R Dr Jesu\u00edno Maciel, 1050",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "R Dr Jesu\u00edno Maciel, 1050"
         },
         "pk": 114,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4789-9216",
             "complement": "",
             "dealership": "Peugeot Pavillon Casa Verde",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Casa Verde",
+            "cep": "02511-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02511-000",
-            "address": "Av Braz Leme, 410",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Braz Leme, 410"
         },
         "pk": 115,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9045-0307",
             "complement": "",
             "dealership": "Peugeot Paris Shopping Uni\u00e3o Osasco",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Yara",
+            "cep": "06020-010",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "06020-010",
-            "address": "Av Dos Autonomistas, 1400",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av dos Autonomistas, 1400"
         },
         "pk": 116,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9243-0919",
             "complement": "",
             "dealership": "Playauto Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Prudente",
+            "cep": "03154-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03154-000",
-            "address": "Av Prof. Luiz Ign\u00e1cio de Anhaia Mello, 846",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Prof. Luiz Ign\u00e1cio de Anhaia Mello, 846"
         },
         "pk": 117,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2966-1281",
             "complement": "",
             "dealership": "Pequin Ve\u00edculos Dumont Villares",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Conjunto Hab Bri Faria Lima",
+            "cep": "02085-100",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02085-100",
-            "address": "Av Luiz Dumont Villares, 650",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Luiz Dumont Villares, 650"
         },
         "pk": 118,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7357-7990",
             "complement": "",
             "dealership": "Peugeot Aquitaine Morumbi",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Morumbi",
+            "cep": "05512-100",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05512-100",
-            "address": "Av Prof. Francisco Morato, 1098",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Prof. Francisco Morato, 1098"
         },
         "pk": 119,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7548-4392",
             "complement": "",
             "dealership": "Peugeot Superfrance Vila Guilherme",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Guilherme",
+            "cep": "02052-010",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02052-010",
-            "address": "Rua dos Machados, 38",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua dos Machados, 38"
         },
         "pk": 120,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 6780-3432",
             "complement": "",
             "dealership": "Peugeot Superfrance Moema",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Indian\u00f3polis",
+            "cep": "04082-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04082-001",
-            "address": "Av Ira\u00ed, 407",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Ira\u00ed, 407"
         },
         "pk": 121,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 7559-3607",
             "complement": "",
             "dealership": "T-Drive SP",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Gomes Cardim",
+            "cep": "03322-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03322-001",
-            "address": "Rua Azevedo Soares, 1245",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Azevedo Soares, 1245"
         },
         "pk": 122,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9061-2420",
             "complement": "",
             "dealership": "T Line Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Santo Amaro",
+            "cep": "04603-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04603-000",
-            "address": "Av Ver Jos\u00e9 Diniz, 3500",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Ver Jos\u00e9 Diniz, 3500"
         },
         "pk": 123,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 3275-6526",
             "complement": "",
             "dealership": "Temacar Com\u00e9rcio de Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Ch\u00e1cara Calif\u00f3rnia",
+            "cep": "03417-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03417-000",
-            "address": "Rua Serra de Botucatu, 2775",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Serra de Botucatu, 2775"
         },
         "pk": 124,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 5730-9881",
             "complement": "",
             "dealership": "TGV",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Cruzeiro",
+            "cep": "04727-002",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04727-002",
-            "address": "Rua Bragan\u00e7a Paulista, 1336",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Bragan\u00e7a Paulista, 1336"
         },
         "pk": 125,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1207-5164",
             "complement": "",
             "dealership": "Thomit\u00e3o e Valente Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Instituto de Previd\u00eancia",
+            "cep": "05533-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05533-000",
-            "address": "Av Eliseu de Almeida, 346",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Eliseu de Almeida, 346"
         },
         "pk": 126,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0589-8400",
             "complement": "",
             "dealership": "Toriba Ve\u00edculos Freguesia",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Pereira Cerca",
+            "cep": "02924-400",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02924-400",
-            "address": "Av General Edgar Fac\u00f3, 848",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av General Edgar Fac\u00f3, 848"
         },
         "pk": 127,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 3268-4522",
             "complement": "",
             "dealership": "Toriba Volkswagen Pomp\u00e9ia",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "\u00c1gua Branca",
+            "cep": "05001-200",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05001-200",
-            "address": "Av Francisco Matarazzo, 2000",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Francisco Matarazzo, 2000"
         },
         "pk": 128,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9774-1229",
             "complement": "",
             "dealership": "Toyota Industries Mercosur",
-            "district": "",
+            "phone2": "",
+            "site": "www.example.com",
+            "district": "Vila Firmiano Pinto",
+            "cep": "99999-999",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "99999-999",
-            "address": "Rua R Vergueiro, 5276",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua R Vergueiro, 5276"
         },
         "pk": 129,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1368-7126",
             "complement": "",
             "dealership": "Trans-AM",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Santana",
+            "cep": "00000-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "00000-000",
-            "address": "R Eng Caetano \u00c1lvares, 5113",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "R Eng Caetano \u00c1lvares, 5113"
         },
         "pk": 130,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2796-7367",
             "complement": "",
             "dealership": "Trianon Agua Branca",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "\u00c1gua Branca",
+            "cep": "05033-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05033-000",
-            "address": "Rua Guaicurus, 175",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Guaicurus, 175"
         },
         "pk": 131,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 4704-7804",
             "complement": "",
             "dealership": "Tsusho Sa\u00fade",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Sa\u00fade",
+            "cep": "04123-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04123-001",
-            "address": "Av Prof Abra\u00e3o de Morais, 2250",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Prof Abra\u00e3o de Morais, 2250"
         },
         "pk": 132,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2332-3688",
             "complement": "",
             "dealership": "Turbo Anhanguera",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Aricanduva",
+            "cep": "03527-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "03527-000",
-            "address": "Av Aricanduva, 5555",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Aricanduva, 5555"
         },
         "pk": 133,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 5291-0094",
             "complement": "",
             "dealership": "T J J Autom\u00f3veis",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Carandiru",
+            "cep": "02071-010",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02071-010",
-            "address": "Rua Maria C\u00e2ndida, 1195",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Maria C\u00e2ndida, 1195"
         },
         "pk": 134,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0826-4056",
             "complement": "",
             "dealership": "T Line Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Alto da Boa Vista",
+            "cep": "04603-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04603-000",
-            "address": "Avenida Vereador Jos\u00e9 Diniz, 3500",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Vereador Jos\u00e9 Diniz, 3500"
         },
         "pk": 135,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 1518-7791",
             "complement": "",
             "dealership": "Taguti Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Leonor",
+            "cep": "05622-001",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05622-001",
-            "address": "Rua Doutor Jos\u00e9 Maria Whitaker, 521",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Doutor Jos\u00e9 Maria Whitaker, 521"
         },
         "pk": 136,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 2029-7954",
             "complement": "",
             "dealership": "Tani Moto Shop",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Santo Amaro",
+            "cep": "04701-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04701-000",
-            "address": "Avenida Santo Amaro, 5327",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Santo Amaro, 5327"
         },
         "pk": 137,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0539-3133",
             "complement": "",
             "dealership": "Tanvel Comercial de Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Dom Pedro I",
+            "cep": "04278-080",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04278-080",
-            "address": "Avenida Doutor Gentil de Moura, 474",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Doutor Gentil de Moura, 474"
         },
         "pk": 138,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 3751-7198",
             "complement": "",
             "dealership": "TC Flex Multimarcas Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Leonor",
+            "cep": "05724-005",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05724-005",
-            "address": "Avenida Giovanni Gronchi, 6761",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Giovanni Gronchi, 6761"
         },
         "pk": 139,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 6332-6305",
             "complement": "",
             "dealership": "Tchele S Com\u00e9rcio de Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Carandiru",
+            "cep": "02067-002",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02067-002",
-            "address": "Rua Chico Pontes, 827",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Chico Pontes, 827"
         },
         "pk": 140,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9179-1590",
             "complement": "",
             "dealership": "TD Greg Multimarcas Com de Autom\u00f3veis",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Maria Baixa",
+            "cep": "02120-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "02120-000",
-            "address": "Rua Curu\u00e7\u00e1, 480",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Curu\u00e7\u00e1, 480"
         },
         "pk": 141,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 0318-9091",
             "complement": "",
             "dealership": "X4 Com\u00e9rcio de Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Ademar",
+            "cep": "05531-040",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "05531-040",
-            "address": "Rua Ipangua\u00e7u, 23",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Ipangua\u00e7u, 23"
         },
         "pk": 142,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9275-1835",
             "complement": "",
             "dealership": "Xavier Autom\u00f3veis Com\u00e9rcio de Ve\u00edculos L",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Jardim Novo Pantanal",
+            "cep": "04472-060",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04472-060",
-            "address": "Rua Miguel, 337",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Rua Miguel, 337"
         },
         "pk": 143,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 9073-1300",
             "complement": "",
             "dealership": "Xefcar Ve\u00edculos",
+            "phone2": "",
+            "site": "www.example.com",
             "district": "Vila Dom Pedro I",
+            "cep": "04278-080",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "04278-080",
-            "address": "Avenida Doutor Gentil de Moura, 367",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Avenida Doutor Gentil de Moura, 367"
         },
         "pk": 144,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 3122-5136",
             "complement": "",
             "dealership": "Tiet\u00ea Ve\u00edculos",
-            "district": "",
+            "phone2": "",
+            "site": "www.example.com",
+            "district": "Tiet\u00ea",
+            "cep": "99999-999",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "99999-999",
-            "address": "Av Marginal Direita do Rio Tiet\u00ea, 700",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Marginal Direita do Rio Tiet\u00ea, 700"
         },
         "pk": 145,
         "model": "core.Dealership"
     },
     {
         "fields": {
+            "phone1": "(11) 5157-7323",
             "complement": "",
             "dealership": "Honda Sampa Motors Concession\u00e1ria Honda",
-            "district": "",
+            "phone2": "",
+            "site": "www.example.com",
+            "district": "Vila Arc\u00e1dia",
+            "cep": "00000-000",
             "phone3": "",
             "city": "S\u00e3o Paulo",
-            "cep": "00000-000",
-            "address": "Av Gal Edgar Faco, 441",
-            "phone1": "",
             "uf": "SP",
-            "site": "",
-            "phone2": ""
+            "address": "Av Gal Edgar Faco, 441"
         },
         "pk": 146,
         "model": "core.Dealership"

@@ -31,12 +31,12 @@ class DealershipAdmin(admin.ModelAdmin):
 
 class BrandAdmin(admin.ModelAdmin):
     ordering = ['brand']
-    list_display = ('brand', 'thumb')
+    list_display = ('id', 'brand', 'thumb')
 
 
 class ModellAdmin(admin.ModelAdmin):
     ordering = ['modell']
-    list_display = ('modell', 'brand')
+    list_display = ('id', 'modell', 'brand')
     search_fields = ('modell',)
     list_filter = ('brand',)
 
@@ -83,7 +83,7 @@ class KioskAdmin(admin.ModelAdmin):
 class OrderedAdmin(admin.ModelAdmin):
     ordering = ['-id']
     list_display = ('id', 'customer', 'vehicle', 'dealership',
-                    'kiosk', 'employee', 'status', 'created_at')
+                    'kiosk', 'status', 'created_at')
     date_hierarchy = 'created_at'
     readonly_fields = ('created_at',)
     search_fields = ('id', 'customer__first_name', 'customer__last_name', 'vehicle__vehicle',
