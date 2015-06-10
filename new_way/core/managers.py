@@ -78,7 +78,8 @@ class CountMixin(object):
         ''' último pedido '''
         l = Ordered.objects.order_by('id').last()
 
-        context['vd'] = d[0]
+        if d:
+            context['vd'] = d[0]
         context['vc'] = c
         context['vq'] = q
         context['last_order'] = l

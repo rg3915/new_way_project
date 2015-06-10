@@ -82,7 +82,7 @@ class KioskAdmin(admin.ModelAdmin):
 
 class OrderedAdmin(admin.ModelAdmin):
     ordering = ['-id']
-    list_display = ('id', 'customer', 'vehicle', 'dealership',
+    list_display = ('id', 'customer', 'vehicle',
                     'kiosk', 'status', 'created_at')
     date_hierarchy = 'created_at'
     readonly_fields = ('created_at',)

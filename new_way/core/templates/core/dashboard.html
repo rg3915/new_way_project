@@ -11,6 +11,9 @@
         <h1 class="page-header">Dashboard</h1>
     </div>
 </div>
+
+{% if vd.dealership__district %}
+
 <div class="row clearfix">
     <div class="col-lg-3 col-md-6 column">
         <div class="panel panel-primary">
@@ -116,7 +119,7 @@
                 <div class="col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Veículos mais consultados pelas mulheres
+                            <i class="fa fa-venus fa-fw"></i> Veículos mais consultados pelas mulheres
                         </div>
                         <div class="panel-body">
                             <div id="barchartF"></div>
@@ -126,7 +129,7 @@
                 <div class="col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Veículos mais consultados pelos homens
+                            <i class="fa fa-mars fa-fw"></i> Veículos mais consultados pelos homens
                         </div>
                         <div class="panel-body">
                             <div id="barchartM"></div>
@@ -196,6 +199,10 @@
         </div>
     </div>
 </div>
+
+{% else %}
+    <p class="alert alert-warning">Não há registros.</p>
+{% endif %}
 
 {% endblock content %}
 
