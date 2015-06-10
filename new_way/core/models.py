@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
+from django.utils.formats import number_format
 from django.contrib.auth.models import User
 # List of values for use in choices
 from .lists import gender_list, treatment_list, type_address_list, uf_list, \
@@ -178,6 +179,9 @@ class Vehicle(models.Model):
     def get_vehicle_url(self):
         return u"/vehicles/%i" % self.id
 
+    def get_price(self):
+        return u"R$ %s" % number_format(self.price, 2)
+
     def thumb(self):
         return '<img src="%s"/ width="70px">' % self.photo_vehicle.url
     thumb.allow_tags = True
@@ -201,6 +205,9 @@ class Accessory(models.Model):
 
     def __str__(self):
         return self.accessory
+
+    def get_price(self):
+        return u"R$ %s" % number_format(self.price_accessory, 2)
 
     def thumb(self):
         return '<img src="%s"/ width="70px">' % self.photo_accessory.url
@@ -267,8 +274,8 @@ class Ordered(TimeStampedModel):
     # employee = models.ForeignKey("Employee", verbose_name=u'funcionário')
     vehicle = models.ForeignKey("Vehicle", verbose_name=u'veículo')
     kit_optional = models.ForeignKey("Kit", verbose_name='kit opcional')
-    dealership = models.ForeignKey(
-        "Dealership", verbose_name=u'concessionária')
+    # dealership = models.ForeignKey("Dealership", verbose_name=u'concessionária')
+    dealership = models.ManyToManyField("Dealership")
     kiosk = models.ForeignKey("Kiosk", verbose_name='quiosque')
     status = models.CharField(max_length=2, choices=status_list, default='p')
 
