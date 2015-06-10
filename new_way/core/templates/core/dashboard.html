@@ -145,7 +145,7 @@
             <div class="panel-body">
                 <div class="list-group">
                     {% for i in last_ordereds %}
-                        <a href="#" class="list-group-item">
+                        <a href="{{ i.get_detalhe }}" class="list-group-item">
                             {{ i.id }} {{ i.customer }}<br>
                             {{ i.vehicle }}<br>
                             {{ i.dealership }}
