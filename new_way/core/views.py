@@ -5,7 +5,7 @@ from django.core.urlresolvers import reverse_lazy
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.views.generic import CreateView, TemplateView, ListView, DetailView
-from .models import Customer, Dealership, Address, Brand, Modell, Vehicle, Store, Ordered
+from .models import Customer, Dealership, Address, Brand, Modell, Vehicle, Store, Ordered, Accessory
 from .forms import CustomerForm
 from new_way.core.managers import VehicleMixin, CountMixin
 
@@ -63,6 +63,19 @@ class VehicleDetail(DetailView):
         context = super(VehicleDetail, self).get_context_data(**kwargs)
         vehicle = Vehicle.objects.get(pk=self.kwargs['pk'])
         return context
+
+
+class AccessoryList(ListView):
+    template_name = 'core/vehicle/accessory_list.html'
+    model = Accessory
+    paginate_by = 12
+
+    def get_queryset(self):
+        accessorys = Accessory.objects.all()
+        q = self.request.GET.get('search_box')
+        if q is not None:
+            accessorys = accessorys.filter(accessory__istartswith=q)
+        return accessorys
 
 
 class DealershipList(ListView):
