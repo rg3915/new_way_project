@@ -37,7 +37,7 @@
 			                <a class="btn btn-primary" href="{% url 'ordered_add' %}">Monte seu carro <span class="glyphicon glyphicon-plus"></span></a>
 		                </div>
 		                <p>A partir de</p>
-		                <h4 class="highlight">R$ {{ vehicle.price }}</h4>
+		                <h4 class="highlight">{{ vehicle.get_price }}</h4>
 		            </div>
 
 	        {% endfor %}

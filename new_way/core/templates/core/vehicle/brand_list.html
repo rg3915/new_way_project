@@ -7,14 +7,18 @@
     </div>
 
 	<div class="row">
-        {% for brand in object_list %}
-        	<div class="col-md-25 portfolio-item">
-            <a href="#">
-                <img class="img-responsive center" src="{{ brand.photo.url }}">
-                <p class="center">{{ brand.brand }}</p>
-            </a>
-        </div>
-        {% endfor %}
+        {% if object_list %}
+            {% for brand in object_list %}
+                <div class="col-md-25 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive center" src="{{ brand.photo.url }}">
+                    <p class="center">{{ brand.brand }}</p>
+                </a>
+            </div>
+            {% endfor %}
+        {% else %}
+            <p class="alert alert-warning">Sem itens na lista.</p>
+        {% endif %}
     </div>
 
 

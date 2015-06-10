@@ -12,21 +12,23 @@
     </div>
 
     <div class="row">
-
-		{% for dealership in dealership_list %}
-	        <div class="col-lg-6">
-	            <h4>{{ dealership.dealership }}</h4>
-	            <p>Endereço: {{ dealership.address }}, {{ dealership.address_number }} - {{ dealership.district }}</p>
-	            <p>{{ dealership.city }} - {{ dealership.uf }} - CEP: {{ dealership.cep }}</p>
-	            {% if dealership.phone1 %}
-	            	<p>Telefone: {{ dealership.phone1 }}, {{ dealership.phone2 }}, {{ dealership.phone3 }}</p>
-	            {% endif %}
-	            {% if dealership.site %}
-	            	<p>Site: <a href="{{ dealership.site }}" target="_blank">{{ dealership.site }}</a></p>
-	            {% endif %}
-	        </div>
-		{% endfor %}
-
+		{% if dealership_list %}
+			{% for dealership in dealership_list %}
+		        <div class="col-lg-6">
+		            <h4>{{ dealership.dealership }}</h4>
+		            <p>Endereço: {{ dealership.address }}, {{ dealership.address_number }} - {{ dealership.district }}</p>
+		            <p>{{ dealership.city }} - {{ dealership.uf }} - CEP: {{ dealership.cep }}</p>
+		            {% if dealership.phone1 %}
+		            	<p>Telefone: {{ dealership.phone1 }}, {{ dealership.phone2 }}, {{ dealership.phone3 }}</p>
+		            {% endif %}
+		            {% if dealership.site %}
+		            	<p>Site: <a href="{{ dealership.site }}" target="_blank">{{ dealership.site }}</a></p>
+		            {% endif %}
+		        </div>
+			{% endfor %}
+		{% else %}
+			<p class="alert alert-warning">Sem itens na lista.</p>
+		{% endif %}
     </div>
 
 <!-- pagination -->

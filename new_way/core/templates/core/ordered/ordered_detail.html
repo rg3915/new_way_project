@@ -32,7 +32,7 @@
 	<h2 class="page-header">Veículo</h2>
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-				<p class="huge">{{ object.vehicle }}<span class="huge pull-right label label-info">R$ {{ object.vehicle.price }}</span></p>
+				<p class="huge">{{ object.vehicle }}<span class="huge pull-right label label-info">{{ object.vehicle.get_price }}</span></p>
 			<ul class="list-group">
 				<li class="list-group-item">Marca/Modelo: {{ object.vehicle.modell.brand }} {{ object.vehicle.modell }}</li>
 				<li class="list-group-item">Cor: {{ object.vehicle.color }}</li>
@@ -60,7 +60,7 @@
 				<tbody>
 		    		<tr>
 						<td>{{ object.vehicle }}</td>
-						<td class="text-right">R$ {{ object.vehicle.price }}</td>
+						<td class="text-right">{{ object.vehicle.get_price }}</td>
 		    		</tr>
 		    		<tr>
 						<td>{{ object.kit_optional }}</td>
@@ -68,7 +68,7 @@
 		    		</tr>
 		    		<tr class="large">
 						<td>Total</td>
-						<td class="text-right">R$ {{ object.vehicle.price }}</td>
+						<td class="text-right">{{ object.vehicle.get_price }}</td>
 		    		</tr>
 				</tbody>
 			</table>

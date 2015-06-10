@@ -19,7 +19,7 @@
 		            <div class="col-md-4 portfolio-item">
 		                    <img class="img-responsive" src="{{ accessory.photo_accessory.url }}" height="50px">
 		                <h3>{{ accessory.accessory }}</h3>
-		                <h4 class="highlight">R$ {{ accessory.price_accessory }}</h4>
+		                <h4 class="highlight">{{ accessory.get_price }}</h4>
 		            </div>
 
 	        {% endfor %}
