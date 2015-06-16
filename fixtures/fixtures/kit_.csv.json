@@ -3,35 +3,35 @@
         "fields": {
             "kit": "Fam\u00edlia"
         },
-        "pk": 1,
-        "model": "core.Kit"
+        "model": "core.Kit",
+        "pk": 1
     },
     {
         "fields": {
             "kit": "Esportivo"
         },
-        "pk": 2,
-        "model": "core.Kit"
+        "model": "core.Kit",
+        "pk": 2
     },
     {
         "fields": {
             "kit": "Executivo"
         },
-        "pk": 3,
-        "model": "core.Kit"
+        "model": "core.Kit",
+        "pk": 3
     },
     {
         "fields": {
             "kit": "Infantil"
         },
-        "pk": 4,
-        "model": "core.Kit"
+        "model": "core.Kit",
+        "pk": 4
     },
     {
         "fields": {
             "kit": "Especial"
         },
-        "pk": 5,
-        "model": "core.Kit"
+        "model": "core.Kit",
+        "pk": 5
     }
 ]
