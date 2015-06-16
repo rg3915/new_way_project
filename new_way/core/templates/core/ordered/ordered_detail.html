@@ -78,15 +78,19 @@
 	<h2 class="page-header">Concessionária</h2>
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<ul class="list-group">
-				<li class="list-group-item">
-					<h3>{{ object.dealership }}</h3>
-					<address><br /> {{ object.dealership.address }}<br />
-					{{ object.dealership.district }}, {{ object.dealership.city }}, {{ object.dealership.uf }} - {{ object.dealership.cep }}<br />
-					{{ object.dealership.phone1 }}<br />
-					<a href="#">{{ object.dealership.site }}</a></address>
-				</li>
-			</ul>
+			{% for o in ordered.dealership.all %}
+				<div class="col-md-4 column">
+					<ul class="list-group">
+						<li class="list-group-item">
+							<h3>{{ o.dealership }}</h3>
+							<address><br /> {{ o.address }}<br />
+							{{ o.district }}, {{ o.city }}, {{ o.uf }} - {{ o.cep }}<br />
+							{{ o.phone1 }}<br />
+							<a href="#">{{ o.site }}</a></address>
+						</li>
+					</ul>
+				</div>
+			{% endfor %}
 		</div>
 	</div>
 

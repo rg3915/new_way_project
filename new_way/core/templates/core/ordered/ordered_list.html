@@ -14,7 +14,7 @@
 						<th>Número</th>
 						<th>Veículo</th>
 						<th>Kit</th>
-						<th>Concessionária</th>
+						<th>Concessionárias</th>
 						<th>Data</th>
 					</tr>
 				</thead>
@@ -25,7 +25,9 @@
 							<td><a href="{{ ordered.get_detalhe }}">{{ ordered.id }}</a></td>
 							<td>{{ ordered.vehicle }}</td>
 							<td>{{ ordered.kit_optional }}</td>
-							<td>{{ ordered.dealership }}</td>
+							<td>{% for o in ordered.dealership.all|slice:":1" %}
+								{{ o.dealership }} + 2
+							{% endfor %}</td>
 							<td>{{ ordered.created_at|date:"d/m/Y" }}</td>
 			    		</tr>
 			    	{% endfor %}
