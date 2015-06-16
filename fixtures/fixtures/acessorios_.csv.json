@@ -1,0 +1,200 @@
+[
+    {
+        "pk": 1,
+        "fields": {
+            "price_accessory": "52.9",
+            "accessory": "Far\u00f3l de milha",
+            "photo_accessory": "accessorys/farol_de_milha.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 2,
+        "fields": {
+            "price_accessory": 359,
+            "accessory": "DVD Player",
+            "photo_accessory": "accessorys/dvd.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 3,
+        "fields": {
+            "price_accessory": "127.3",
+            "accessory": "Vidro el\u00e9trico autom\u00e1tico",
+            "photo_accessory": "accessorys/vidro_eletrico.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 4,
+        "fields": {
+            "price_accessory": "52.5",
+            "accessory": "Porta copos",
+            "photo_accessory": "accessorys/porta_copos.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 5,
+        "fields": {
+            "price_accessory": "28.99",
+            "accessory": "Suporte para c\u00e2meras",
+            "photo_accessory": "accessorys/suporte_para_cameras.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 6,
+        "fields": {
+            "price_accessory": 680,
+            "accessory": "Banco ajust\u00e1vel",
+            "photo_accessory": "accessorys/banco_ajustavel.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 7,
+        "fields": {
+            "price_accessory": 18,
+            "accessory": "Entrada USB",
+            "photo_accessory": "accessorys/entrada_usb.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 8,
+        "fields": {
+            "price_accessory": 1280,
+            "accessory": "Banco de couro",
+            "photo_accessory": "accessorys/banco_couro.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 9,
+        "fields": {
+            "price_accessory": 25,
+            "accessory": "Apoio de bra\u00e7o",
+            "photo_accessory": "accessorys/apoio_de_braco.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 10,
+        "fields": {
+            "price_accessory": 78,
+            "accessory": "Sensor de estacionamento",
+            "photo_accessory": "accessorys/sensor_estacionamento.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 11,
+        "fields": {
+            "price_accessory": 40,
+            "accessory": "Engate",
+            "photo_accessory": "accessorys/engate.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 12,
+        "fields": {
+            "price_accessory": 479,
+            "accessory": "Rack",
+            "photo_accessory": "accessorys/rack.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 13,
+        "fields": {
+            "price_accessory": 48,
+            "accessory": "Calha de chuva",
+            "photo_accessory": "accessorys/calha_de_chuva.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 14,
+        "fields": {
+            "price_accessory": 99,
+            "accessory": "Tapete personalizado",
+            "photo_accessory": "accessorys/tapete_person.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 15,
+        "fields": {
+            "price_accessory": 128,
+            "accessory": "Estribo",
+            "photo_accessory": "accessorys/estribo.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 16,
+        "fields": {
+            "price_accessory": 1299,
+            "accessory": "Roda esportiva",
+            "photo_accessory": "accessorys/roda_esportiva.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 17,
+        "fields": {
+            "price_accessory": "166.94",
+            "accessory": "Insulfilm",
+            "photo_accessory": "accessorys/insulfilm.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 18,
+        "fields": {
+            "price_accessory": "74.9",
+            "accessory": "Xenon",
+            "photo_accessory": "accessorys/xenon.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 19,
+        "fields": {
+            "price_accessory": "169.9",
+            "accessory": "Encosto de cabe\u00e7a com DVD",
+            "photo_accessory": "accessorys/encosto_de_cabeca_com_dvd.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 20,
+        "fields": {
+            "price_accessory": "122.19",
+            "accessory": "Aerof\u00f3lio",
+            "photo_accessory": "accessorys/aerofolio.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 21,
+        "fields": {
+            "price_accessory": "97.9",
+            "accessory": "Escapamento esportivo",
+            "photo_accessory": "accessorys/escapamento_esportivo.jpg"
+        },
+        "model": "core.Accessory"
+    },
+    {
+        "pk": 22,
+        "fields": {
+            "price_accessory": "189.9",
+            "accessory": "Cadeira para auto",
+            "photo_accessory": "accessorys/cadeira_para_crianca.jpg"
+        },
+        "model": "core.Accessory"
+    }
+]

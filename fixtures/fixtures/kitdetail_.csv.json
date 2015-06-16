@@ -1,0 +1,191 @@
+[
+    {
+        "fields": {
+            "kit": 3,
+            "quantity_accessory": 1,
+            "accessory": 8
+        },
+        "model": "core.KitDetail",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "kit": 3,
+            "quantity_accessory": 2,
+            "accessory": 9
+        },
+        "model": "core.KitDetail",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "kit": 3,
+            "quantity_accessory": 1,
+            "accessory": 10
+        },
+        "model": "core.KitDetail",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "kit": 3,
+            "quantity_accessory": 1,
+            "accessory": 5
+        },
+        "model": "core.KitDetail",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "kit": 2,
+            "quantity_accessory": 1,
+            "accessory": 14
+        },
+        "model": "core.KitDetail",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "kit": 2,
+            "quantity_accessory": 4,
+            "accessory": 16
+        },
+        "model": "core.KitDetail",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "kit": 2,
+            "quantity_accessory": 1,
+            "accessory": 18
+        },
+        "model": "core.KitDetail",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "kit": 2,
+            "quantity_accessory": 1,
+            "accessory": 20
+        },
+        "model": "core.KitDetail",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "kit": 2,
+            "quantity_accessory": 1,
+            "accessory": 21
+        },
+        "model": "core.KitDetail",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "kit": 1,
+            "quantity_accessory": 1,
+            "accessory": 3
+        },
+        "model": "core.KitDetail",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "kit": 1,
+            "quantity_accessory": 4,
+            "accessory": 4
+        },
+        "model": "core.KitDetail",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "kit": 1,
+            "quantity_accessory": 2,
+            "accessory": 6
+        },
+        "model": "core.KitDetail",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "kit": 1,
+            "quantity_accessory": 1,
+            "accessory": 11
+        },
+        "model": "core.KitDetail",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "kit": 1,
+            "quantity_accessory": 1,
+            "accessory": 12
+        },
+        "model": "core.KitDetail",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "kit": 4,
+            "quantity_accessory": 1,
+            "accessory": 19
+        },
+        "model": "core.KitDetail",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "kit": 4,
+            "quantity_accessory": 1,
+            "accessory": 22
+        },
+        "model": "core.KitDetail",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "kit": 5,
+            "quantity_accessory": 1,
+            "accessory": 2
+        },
+        "model": "core.KitDetail",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "kit": 5,
+            "quantity_accessory": 4,
+            "accessory": 17
+        },
+        "model": "core.KitDetail",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "kit": 5,
+            "quantity_accessory": 2,
+            "accessory": 15
+        },
+        "model": "core.KitDetail",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "kit": 5,
+            "quantity_accessory": 2,
+            "accessory": 13
+        },
+        "model": "core.KitDetail",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "kit": 5,
+            "quantity_accessory": 1,
+            "accessory": 7
+        },
+        "model": "core.KitDetail",
+        "pk": 2
+    }
+]
