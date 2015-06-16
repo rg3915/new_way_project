@@ -81,13 +81,20 @@ load_users:
 
 ordered:
 	sqlite3 ../new_way/db.sqlite3 < delete_ordered.sql
-	python gen_ordered_csv.py
-	python csv2json.py fixtures/pedidos.csv core.Ordered
+	python gen_ordered_json.py
 
 load_ordered:
 	python ../manage.py loaddata fixtures/pedidos.csv.json
 
+ordered_dealership:
+	sqlite3 ../new_way/db.sqlite3 < delete_ordered_dealership.sql
+	python gen_ordered_dealership_csv.py
+	python csv2json.py fixtures/ordered_dealership.csv core.Ordered
+
+load_ordered_dealership:
+	python ../manage.py loaddata fixtures/ordered_dealership.csv.json
+
 clear_json:
 	rm fixtures/*.json
 
-load_fixtures: dealership load_dealership occupation load_occupation load_users employee load_employee customer load_customer brand load_brand modell load_modell accessory load_accessory kit load_kit kitdetail load_kitdetail vehicle load_vehicle store load_store kiosk load_kiosk ordered load_ordered
+loadAll: dealership load_dealership occupation load_occupation load_users employee load_employee customer load_customer brand load_brand modell load_modell accessory load_accessory kit load_kit kitdetail load_kitdetail vehicle load_vehicle store load_store kiosk load_kiosk ordered load_ordered

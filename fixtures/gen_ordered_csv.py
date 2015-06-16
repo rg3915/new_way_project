@@ -7,7 +7,8 @@ import csv
 from gen_random_values import *
 
 ordered_list = []
-repeat = random.randint(5000, 6000)
+dealership_list = []
+repeat = 5000
 
 with io.open('fixtures/pedidos.csv', 'wt') as f:
     f.write(
@@ -16,7 +17,10 @@ with io.open('fixtures/pedidos.csv', 'wt') as f:
         customer = random.randint(1, 200)
         vehicle = random.randint(1, 11)
         kit_optional = random.randint(1, 3)
+        # dealership_list = []
+        # for j in range(3):
         dealership = random.randint(1, 146)
+        # dealership_list.append((dealership))
         kiosk = random.randint(1, 287)
         status = random.choice(['c', 'p', 'a'])
         created_at = gen_timestamp(2015, 2015) + "+00"
@@ -26,6 +30,5 @@ with io.open('fixtures/pedidos.csv', 'wt') as f:
     for l in ordered_list:
         s = str(l[0]) + "," + str(l[1]) + "," + str(l[2]) + \
             "," + str(l[3]) + "," + str(l[4]) + "," + str(l[5]) + \
-            "," + str(l[6]) + "," + str(l[7]) + "," + \
-            str(l[8]) + "\n"
+            "," + str(l[6]) + "," + str(l[7]) + "," + str(l[8]) + "\n"
         f.write(str(s))
