@@ -274,8 +274,8 @@ class Ordered(TimeStampedModel):
     # employee = models.ForeignKey("Employee", verbose_name=u'funcionário')
     vehicle = models.ForeignKey("Vehicle", verbose_name=u'veículo')
     kit_optional = models.ForeignKey("Kit", verbose_name='kit opcional')
-    # dealership = models.ForeignKey("Dealership", verbose_name=u'concessionária')
-    dealership = models.ManyToManyField("Dealership")
+    dealership = models.ManyToManyField(
+        "Dealership", verbose_name=u'concessionária')
     kiosk = models.ForeignKey("Kiosk", verbose_name='quiosque')
     status = models.CharField(max_length=2, choices=status_list, default='p')
 
