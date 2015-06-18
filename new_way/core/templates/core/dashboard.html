@@ -100,7 +100,11 @@
             </div>
             <a href="#">
                 <div class="panel-footer">
-                    <span class="pull-left">Pedido: {{ last_order.vehicle }}<br>{{ last_order.dealership }}</span>
+                    <span class="pull-left">Pedido: {{ last_order.vehicle }}<br>
+                    {% for o in last_order.dealership.all|slice:":1" %}
+                        {{ o.dealership }}
+                    {% endfor %}
+                    </span>
                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                     <div class="clearfix"></div>
                 </div>
@@ -151,7 +155,9 @@
                         <a href="{{ i.get_detalhe }}" class="list-group-item">
                             {{ i.id }} {{ i.customer }}<br>
                             {{ i.vehicle }}<br>
-                            {{ i.dealership }}
+                            {% for o in i.dealership.all|slice:":1" %}
+                                {{ o.dealership }}
+                            {% endfor %}
                             <span class="pull-right text-muted small"><em>{{ i.created_at|date:"d/m/y-H:i" }}</em>
                             </span>
                         </a>
