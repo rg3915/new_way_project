@@ -53,6 +53,10 @@ Abra um navegador e acesse http://127.0.0.1:8000/
 
 	$ python manage.py test new_way.subscriptions
 
+## Screenshots
+
+Veja os [screenshots][8].
+
 ## Referências:
 
 [Django Project][0]
@@ -67,3 +71,4 @@ Abra um navegador e acesse http://127.0.0.1:8000/
 [5]: http://www.sqlite.org/
 [6]: http://www.mysql.com/
 [7]: http://www.postgresql.org/
+[8]: https://github.com/rg3915/new_way_project/blob/master/screenshots.md
